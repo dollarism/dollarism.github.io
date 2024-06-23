@@ -2,68 +2,75 @@
 # This file is distributed under the same license as the Themes - Twenty Twenty-Two package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-05-15 16:41:35+0000\n"
+"PO-Revision-Date: 2023-04-24 13:16:08+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"X-Generator: GlotPress/4.0.1\n"
 "Language: fa\n"
 "Project-Id-Version: Themes - Twenty Twenty-Two\n"
 
+#. Description of the theme
+#: style.css
+#, gp-priority: high
+msgid "Built on a solidly designed foundation, Twenty Twenty-Two embraces the idea that everyone deserves a truly unique website. The theme’s subtle styles are inspired by the diversity and versatility of birds: its typography is lightweight yet strong, its color palette is drawn from nature, and its layout elements sit gently on the page. The true richness of Twenty Twenty-Two lies in its opportunity for customization. The theme is built to take advantage of the Site Editor features introduced in WordPress 5.9, which means that colors, typography, and the layout of every single page on your site can be customized to suit your vision. It also includes dozens of block patterns, opening the door to a wide range of professionally designed layouts in just a few clicks. Whether you’re building a single-page website, a blog, a business website, or a portfolio, Twenty Twenty-Two will help you create a site that is uniquely yours."
+msgstr "با استفاده از پایه‌های قدرتمند طراحی، دو هزار و بیست و دو اندیشه ارائه وب‌سایت خاص برای همه افراد را ترویج می‌دهد. سبک‌های ظریف پوسته از تنوع و تطبیق‌پذیری پرندگان الهام گرفته شده است: اصول نگراش پویا و قدرتمند، طیف رنگ‌های الهام گرفته شده از طبیعت و چیدمان اصولی صفحات. قدرت اصلی دو هزار و بیست و دو در شخصی‌سازی قدرتمند آن نهفته است. این پوسته برای بهره‌مندی از امکانات ویرایشگر سایت که از وردپرس 5.9 معرفی شده، طراحی شده است. این بدین معنی است که رنگ‌ها، اصول نگارش و چیدمان همه بخش‌های پوسته قابل شخصی‌سازی است. همچنین می‌توانید از ده‌ها الگوی بلوک بهره بگیرید تا به سادگی امکان طراحی پیشرفته وب‌سایتتان را داشته باشید. دو هزار و بیست و دو به شما کمک خواهد کرد تا وب‌سایتی مطابق با سلیقه خود طراحی کنید."
+
 #. Theme Name of the theme
+#: style.css
 #, gp-priority: high
 msgid "Twenty Twenty-Two"
 msgstr "دو هزار و بیست و دو"
 
-#. Description of the theme
-#, gp-priority: high
-msgid "Built on a solidly designed foundation, Twenty Twenty-Two embraces the idea that everyone deserves a truly unique website. The theme’s subtle styles are inspired by the diversity and versatility of birds: its typography is lightweight yet strong, its color palette is drawn from nature, and its layout elements sit gently on the page. The true richness of Twenty Twenty-Two lies in its opportunity for customization. The theme is built to take advantage of the Full Site Editing features introduced in WordPress 5.9, which means that colors, typography, and the layout of every single page on your site can be customized to suit your vision. It also includes dozens of block patterns, opening the door to a wide range of professionally designed layouts in just a few clicks. Whether you’re building a single-page website, a blog, a business website, or a portfolio, Twenty Twenty-Two will help you create a site that is uniquely yours."
-msgstr "با استفاده از پایه‌های قدرتمند طراحی، دو هزار و بیست و دو اندیشه ارائه وب‌سایت خاص برای همه افراد را ترویج می‌دهد. سبک‌های ظریف پوسته از تنوع و تطبیق‌پذیری پرندگان الهام گرفته شده است: اصول نگراش پویا و قدرتمند، طیف رنگ‌های الهام گرفته شده از طبیعت و چیدمان اصولی صفحات. قدرت اصلی دو هزار و بیست و دو در شخصی‌سازی قدرتمند آن نهفته است. این پوسته برای بهره‌مندی از امکانات صفحه‌ساز کامل وب‌سایت که از وردپرس 5.9 معرفی شده، طراحی شده است. این بدین معنی است که رنگ‌ها، اصول نگارش و چیدمان همه بخش‌های پوسته قابل شخصی‌سازی است. همچنین می‌توانید از ده‌ها الگوی بلوک بهره بگیرید تا به سادگی امکان طراحی پیشرفته وب‌سایتتان را داشته باشید. دو هزار و بیست و دو به شما کمک خواهد کرد تا وب‌سایتی مطابق با سلیقه خود طراحی کنید."
+#: styles/swiss.json
+msgctxt "Duotone name"
+msgid "Default filter"
+msgstr "صافی پیش‌فرض"
+
+#: styles/swiss.json
+msgctxt "Font family name"
+msgid "Inter"
+msgstr "اینتر"
+
+#: styles/swiss.json
+msgctxt "Style variation name"
+msgid "Swiss"
+msgstr "سوئیس"
+
+#: styles/pink.json
+msgctxt "Font family name"
+msgid "IBM Plex Mono"
+msgstr "IBM Plex Mono"
+
+#: styles/pink.json
+msgctxt "Font family name"
+msgid "IBM Plex Sans"
+msgstr "IBM Plex Sans"
+
+#: styles/pink.json
+msgctxt "Style variation name"
+msgid "Pink"
+msgstr "صورتی"
+
+#: styles/blue.json
+msgctxt "Font family name"
+msgid "DM Sans"
+msgstr "DM Sans"
+
+#: styles/blue.json
+msgctxt "Style variation name"
+msgid "Blue"
+msgstr "آبی"
+
+#: inc/patterns/hidden-404.php:14
+msgid "Search"
+msgstr "جستجو"
 
 #: inc/patterns/hidden-404.php:14
 msgctxt "label"
 msgid "Search"
 msgstr "جستجو"
-
-#: inc/patterns/hidden-404.php:14
-msgid "Search"
-msgstr "جستجو"
-
-#: theme.json
-msgctxt "Template part name"
-msgid "Header"
-msgstr "سربرگ"
-
-#: theme.json
-msgctxt "Duotone name"
-msgid "Primary and tertiary"
-msgstr "اولیه و ثالثیه"
-
-#: theme.json
-msgctxt "Duotone name"
-msgid "Primary and secondary"
-msgstr "اولیه و ثانویه"
-
-#: theme.json styles/blue.json styles/pink.json styles/swiss.json
-msgctxt "Color name"
-msgid "Foreground"
-msgstr "پیش‌زمینه"
-
-#: theme.json styles/blue.json styles/pink.json styles/swiss.json
-msgctxt "Color name"
-msgid "Primary"
-msgstr "اولیه"
-
-#: theme.json styles/blue.json styles/pink.json styles/swiss.json
-msgctxt "Color name"
-msgid "Secondary"
-msgstr "ثانویه"
-
-#: theme.json
-msgctxt "Font family name"
-msgid "Source Serif Pro"
-msgstr "منبع Serif Pro"
 
 #: theme.json
 msgctxt "Template part name"
@@ -79,6 +86,11 @@ msgstr "سربرگ (تیره، کوچک)"
 msgctxt "Template part name"
 msgid "Header (Dark, large)"
 msgstr "سربرگ (تیره، بزرگ)"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr "سربرگ"
 
 #: theme.json
 msgctxt "Custom template name"
@@ -102,18 +114,28 @@ msgstr "خالی"
 
 #: theme.json
 msgctxt "Duotone name"
+msgid "Primary and tertiary"
+msgstr "اولیه و ثالثیه"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Primary and secondary"
+msgstr "اولیه و ثانویه"
+
+#: theme.json
+msgctxt "Duotone name"
 msgid "Primary and background"
 msgstr "اولیه و پس‌زمینه"
 
 #: theme.json
 msgctxt "Duotone name"
-msgid "Foreground and secondary"
-msgstr "پیش‌زمینه و ثانویه"
+msgid "Foreground and tertiary"
+msgstr "پیش‌زمینه و ثالثیه"
 
 #: theme.json
 msgctxt "Duotone name"
-msgid "Foreground and tertiary"
-msgstr "پیش‌زمینه و ثالثیه"
+msgid "Foreground and secondary"
+msgstr "پیش‌زمینه و ثانویه"
 
 #: theme.json
 msgctxt "Duotone name"
@@ -160,157 +182,116 @@ msgctxt "Gradient name"
 msgid "Vertical secondary to tertiary"
 msgstr "عمودی ثانویه به ثالثیه"
 
-#: theme.json styles/blue.json styles/pink.json styles/swiss.json
+#: styles/blue.json styles/pink.json styles/swiss.json theme.json
 msgctxt "Color name"
 msgid "Tertiary"
 msgstr "ثالثیه"
 
-#: theme.json styles/blue.json styles/pink.json styles/swiss.json
+#: styles/blue.json styles/pink.json styles/swiss.json theme.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr "ثانویه"
+
+#: styles/blue.json styles/pink.json styles/swiss.json theme.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr "اولیه"
+
+#: styles/blue.json styles/pink.json styles/swiss.json theme.json
 msgctxt "Color name"
 msgid "Background"
 msgstr "پس‌زمینه"
+
+#: styles/blue.json styles/pink.json styles/swiss.json theme.json
+msgctxt "Color name"
+msgid "Foreground"
+msgstr "پیش‌زمینه"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Source Serif Pro"
+msgstr "منبع Serif Pro"
 
 #: theme.json
 msgctxt "Font family name"
 msgid "System Font"
 msgstr "فونت سیستم"
 
-#: inc/block-patterns.php:19
-msgid "Headers"
-msgstr "سربرگ‌ها"
+#: inc/patterns/query-text-grid.php:6
+msgid "Text-based grid of posts"
+msgstr "شبکه نوشته‌ها براساس متن"
 
-#: inc/patterns/footer-navigation-copyright.php:20
-#: inc/patterns/footer-social-copyright.php:24
-msgid "© Site Title"
-msgstr "© عنوان سایت"
+#: inc/patterns/query-simple-blog.php:6
+msgid "Simple blog posts"
+msgstr "نوشته ساده وب‌لاگ"
 
-#: inc/patterns/header-default.php:6
-msgid "Default header"
-msgstr "سربرگ پیش‌فرض"
+#: inc/patterns/query-large-titles.php:6
+msgid "Large post titles"
+msgstr "عنوان نوشته‌های بزرگ"
 
-#: inc/patterns/page-layout-two-columns.php:21
-msgid "WELCOME"
-msgstr "خوش آمدید"
-
-#: inc/patterns/page-layout-two-columns.php:58
-msgid "POSTS"
-msgstr "نوشته‌ها"
-
-#: inc/patterns/page-sidebar-blog-posts-right.php:6
-msgid "Blog posts with right sidebar"
-msgstr "نوشته‌های بلاگ با نوار کناری راست"
-
-#: inc/patterns/page-sidebar-blog-posts-right.php:80
-msgid "Tags"
-msgstr "برچسب‌ها"
-
-#: inc/patterns/page-sidebar-blog-posts.php:6
-msgid "Blog posts with left sidebar"
-msgstr "نوشته‌های بلاگ با نوار کناری چپ"
-
-#: inc/patterns/page-sidebar-grid-posts.php:6
-msgid "Grid of posts with left sidebar"
-msgstr "شبکه‌ای از نوشته‌ها با نوار کناری چپ"
-
-#: inc/patterns/page-sidebar-poster.php:6
-msgid "Poster with right sidebar"
-msgstr "پوستر با نوار کناری راست"
-
-#: inc/patterns/page-sidebar-poster.php:40
-msgid "Date"
-msgstr "تاریخ"
-
-#: inc/patterns/page-sidebar-poster.php:52
-msgid "Location"
-msgstr "مکان"
-
-#: inc/patterns/query-default.php:6
-msgid "Default posts"
-msgstr "نوشته‌های پیش‌فرض"
-
-#: inc/patterns/query-grid.php:6
-msgid "Grid of posts"
-msgstr "شبکه‌ای از نوشته‌ها"
+#: inc/patterns/query-irregular-grid.php:6
+msgid "Irregular grid of posts"
+msgstr "شبکه غیرمعمول نوشته‌ها"
 
 #: inc/patterns/query-image-grid.php:6
 msgid "Grid of image posts"
 msgstr "شبکه‌ای از تصاویر نوشته‌ها"
 
-#: inc/patterns/hidden-404.php:9
-msgctxt "Error code for a webpage that is not found."
-msgid "404"
-msgstr "404"
+#: inc/patterns/query-grid.php:6
+msgid "Grid of posts"
+msgstr "شبکه‌ای از نوشته‌ها"
 
-#: inc/patterns/hidden-404.php:6
-msgid "404 content"
-msgstr "محتوا 404"
+#: inc/patterns/query-default.php:6
+msgid "Default posts"
+msgstr "نوشته‌های پیش‌فرض"
 
-#: inc/patterns/general-wide-image-intro-buttons.php:31
-msgid "Learn More"
-msgstr "بیشتر بدانید"
+#: inc/patterns/page-sidebar-poster.php:56
+msgid "The Grand Theater<br>154 Eastern Avenue<br>Maryland NY, 12345"
+msgstr "The Grand Theater<br>154 Eastern Avenue<br>Maryland NY, 12345"
 
-#: inc/patterns/general-pricing-table.php:84
-msgid "$150"
-msgstr "$150"
+#: inc/patterns/page-sidebar-poster.php:52
+msgid "Location"
+msgstr "مکان"
 
-#: inc/patterns/general-pricing-table.php:56
-msgid "$75"
-msgstr "$75"
+#: inc/patterns/page-sidebar-poster.php:44
+msgid "February, 12 2021"
+msgstr "24 بهمن 1399"
 
-#: inc/patterns/general-pricing-table.php:43
-msgctxt "Second item in a numbered list."
-msgid "2"
-msgstr "2"
+#: inc/patterns/page-sidebar-poster.php:40
+msgid "Date"
+msgstr "تاریخ"
 
-#: inc/patterns/general-pricing-table.php:28
-msgid "$25"
-msgstr "$25"
+#: inc/patterns/page-sidebar-poster.php:14
+msgid "<em>Flutter</em>, a collection of bird-related ephemera"
+msgstr "<em>فلاتر</em>، مجموعه‌ای از گذر زمان‌های مرتبط با پرندگان"
 
-#: inc/patterns/general-pricing-table.php:15
-msgctxt "First item in a numbered list."
-msgid "1"
-msgstr "1"
+#: inc/patterns/page-sidebar-poster.php:6
+msgid "Poster with right sidebar"
+msgstr "پوستر با نوار کناری راست"
 
-#: inc/block-patterns.php:17
-msgid "Featured"
-msgstr "ویژه"
+#: inc/patterns/page-sidebar-grid-posts.php:6
+msgid "Grid of posts with left sidebar"
+msgstr "شبکه‌ای از نوشته‌ها با نوار کناری چپ"
 
-#: inc/patterns/footer-blog.php:50 inc/patterns/footer-dark.php:18
-#: inc/patterns/footer-default.php:18 inc/patterns/footer-logo.php:18
-#: inc/patterns/footer-navigation.php:20
-#: inc/patterns/footer-query-images-title-citation.php:35
-#: inc/patterns/footer-query-title-citation.php:33
-msgid "https://wordpress.org"
-msgstr "https://wordpress.org"
+#: inc/patterns/page-sidebar-blog-posts.php:6
+msgid "Blog posts with left sidebar"
+msgstr "نوشته‌های بلاگ با نوار کناری چپ"
 
-#: inc/patterns/general-list-events.php:6
-msgid "List of events"
-msgstr "فهرست رویدادها"
+#: inc/patterns/page-sidebar-blog-posts-right.php:80
+msgid "Tags"
+msgstr "برچسب‌ها"
 
-#: inc/patterns/general-pricing-table.php:19
-msgid "Pigeon"
-msgstr "کبوتر"
+#: inc/patterns/page-sidebar-blog-posts-right.php:6
+msgid "Blog posts with right sidebar"
+msgstr "نوشته‌های بلاگ با نوار کناری راست"
 
-#: inc/patterns/general-large-list-names.php:30
-msgid "Read more"
-msgstr "بیشتر بخوانید"
+#: inc/patterns/page-layout-two-columns.php:58
+msgid "POSTS"
+msgstr "نوشته‌ها"
 
-#: inc/patterns/general-large-list-names.php:6
-msgid "Large list of names"
-msgstr "فهرست بزرگی از نام‌ها"
-
-#: inc/patterns/footer-blog.php:31
-#: inc/patterns/page-sidebar-blog-posts-right.php:74
-msgid "Categories"
-msgstr "دسته‌ها"
-
-#: inc/patterns/footer-blog.php:6
-msgid "Blog footer"
-msgstr "پاورقی بلاگ"
-
-#: inc/patterns/footer-blog.php:23 inc/patterns/general-featured-posts.php:10
-msgid "Latest posts"
-msgstr "تازه‌ترین نوشته‌ها"
+#: inc/patterns/page-layout-two-columns.php:21
+msgid "WELCOME"
+msgstr "خوش آمدید"
 
 #: inc/patterns/page-layout-two-columns.php:10
 msgid "<em>Goldfinch </em><br><em>&amp; Sparrow</em>"
@@ -336,6 +317,11 @@ msgstr "صفحه نمایش"
 msgid "Page layout with image, text and video"
 msgstr "چیدمان برگه با تصویر، متن و ویدیو"
 
+#: inc/patterns/page-layout-image-and-text.php:27
+#: inc/patterns/page-layout-two-columns.php:36
+msgid "Oh hello. My name’s Angelo, and I operate this blog. I was born in Portland, but I currently live in upstate New York. You may recognize me from publications with names like <a href=\"#\">Eagle Beagle</a> and <a href=\"#\">Mourning Dive</a>. I write for a living.<br><br>I usually use this blog to catalog extensive lists of birds and other things that I find interesting. If you find an error with one of my lists, please keep it to yourself.<br><br>If that’s not your cup of tea, <a href=\"#\">I definitely recommend this tea</a>. It’s my favorite."
+msgstr "سلام. نام من آنجلو است و من اداره کننده این وبلاگ هستم. من در پورتلند متولد شده‌ام، اما در حال حاضر در شمال ایالت نیویورک زندگی می‌کنم. شاید مرا از نام انتشاراتی مانند <a href=\"#\">Eagle Beagle</a> و <a href=\"#\">Mourning Dive</a> بشناسید. برای زندگی کردن، می‌نویسم.<br><br>معمولا از این وبلاگ درباره فهرست گسترده‌ای از پرندگان و چیزهایی که به نظرم جالب هستند، می‌نویسم. اگر اشتباهی در هر یک از فهرست‌های من دیدید، لطفا نزد خوداتن نگه‌دارید.<br><br>اگر این فنجان چای شما نیست، <a href=\"#\">من اون رو به شما پیشنهاد می‌کنم</a>. این مورد علاقه من است."
+
 #: inc/patterns/page-layout-image-and-text.php:15
 msgctxt "Short for to be determined"
 msgid "TBD"
@@ -349,6 +335,10 @@ msgstr "<em>تماشای پرندگان </em><br><em>در باغ</em>"
 msgid "Page layout with image and text"
 msgstr "چیدمان برگه با تصویر و متن"
 
+#: inc/patterns/page-about-solid-color.php:22
+msgid "Oh hello. My name’s Edvard, and you’ve found your way to my website. I’m an avid bird watcher, and I also broadcast my own radio show every Tuesday evening at 11PM EDT. Listen in sometime!"
+msgstr "سلام. نام من ادوارد است و شما راه خود را به وب‌سایت من پیدا کرده‌اید. من مشتاق تماشای پرنده هستم، و هم‌چنین برنامه رادیویی خود را هر سه شنبه عصر ساعت ۱۱ شب به وقت EDT پخش می‌کنم. گاهی گوش کن!"
+
 #: inc/patterns/page-about-solid-color.php:14
 msgid "Edvard<br>Smith"
 msgstr "ادوارد<br>اسمیت"
@@ -356,6 +346,59 @@ msgstr "ادوارد<br>اسمیت"
 #: inc/patterns/page-about-solid-color.php:6
 msgid "About page on solid color background"
 msgstr "برگه درباره‌ما با پیش‌زمینه رنگی"
+
+#: inc/patterns/page-about-simple-dark.php:22
+msgid "Oh hello. My name’s Jesús, and you’ve found your way to my website. I’m an avid bird watcher, and I also broadcast my own radio show on Tuesday evenings at 11PM EDT."
+msgstr "سلام. نام من ژسوس است و شما راه خود را به وب‌سایت من پیدا کرده‌اید. من مشتاق تماشای پرنده هستم، و هم‌چنین برنامه رادیویی خود را هر سه شنبه عصر ساعت ۱۱ شب به وقت EDT پخش می‌کنم."
+
+#: inc/patterns/page-about-simple-dark.php:18
+msgid "Jesús<br>Rodriguez"
+msgstr "Jesús<br>Rodriguez"
+
+#: inc/patterns/page-about-simple-dark.php:6
+msgid "Simple dark about page"
+msgstr "برگه ساده و تیره درباره‌ما"
+
+#: inc/patterns/page-about-media-right.php:20
+msgid "Oh hello. My name’s Emery, and you’ve found your way to my website. I’m an avid bird watcher, and I also broadcast my own radio show on Tuesday evenings at 11PM EDT."
+msgstr "سلام. نام من امری است و شما راه خود را به وب‌سایت من پیدا کرده‌اید. من مشتاق تماشای پرنده هستم، و هم‌چنین برنامه رادیویی خود را هر سه شنبه عصر ساعت ۱۱ شب به وقت EDT پخش می‌کنم."
+
+#: inc/patterns/page-about-media-right.php:16
+msgid "Emery<br>Driscoll"
+msgstr "Emery<br>Driscoll"
+
+#: inc/patterns/page-about-media-right.php:9
+msgid "An image of a bird flying"
+msgstr "تصویر پرنده‌ای درحال پرواز"
+
+#: inc/patterns/page-about-media-right.php:6
+msgid "About page with media on the right"
+msgstr "برگه درباره‌ما با رسانه در سمت راست"
+
+#: inc/patterns/page-about-media-left.php:21
+msgid "Oh hello. My name’s Doug, and you’ve found your way to my website. I’m an avid bird watcher, and I also broadcast my own radio show on Tuesday evenings at 11PM EDT."
+msgstr "سلام. نام من داگ است و شما راه خود را به وب‌سایت من پیدا کرده‌اید. من مشتاق تماشای پرنده هستم، و هم‌چنین برنامه رادیویی خود را هر سه شنبه عصر ساعت ۱۱ شب به وقت EDT پخش می‌کنم."
+
+#: inc/patterns/page-about-media-left.php:17
+msgid "Stilton"
+msgstr "ستیلیتون"
+
+#: inc/patterns/page-about-media-left.php:17
+msgid "Doug"
+msgstr "خمیر"
+
+#: inc/patterns/page-about-media-left.php:9
+#: inc/patterns/page-sidebar-poster.php:26
+msgid "Image of a bird on a branch"
+msgstr "تصویر پرنده روی شاخه درخت"
+
+#: inc/patterns/page-about-media-left.php:6
+msgid "About page with media on the left"
+msgstr "صفحه درباره‌ما با تصویر در سمت چپ"
+
+#: inc/patterns/page-about-links.php:21
+msgid "A podcast about birds"
+msgstr "پادکست درمورد پرنده‌ها"
 
 #: inc/patterns/page-about-links.php:17
 msgid "Swoop"
@@ -411,6 +454,10 @@ msgstr "برگه درباره‌ما با تصاویر بزرگ و دکمه‌ه
 msgid "Join my mailing list"
 msgstr "اشتراک در خبر‌نامه"
 
+#: inc/patterns/page-about-large-image-and-buttons.php:51
+msgid "Learn about my process"
+msgstr "درباره عملکرد من"
+
 #: inc/patterns/page-about-large-image-and-buttons.php:43
 msgid "Read about me"
 msgstr "درمورد من بیش‌تر بدانید"
@@ -419,9 +466,71 @@ msgstr "درمورد من بیش‌تر بدانید"
 msgid "Take a class"
 msgstr "شرکت در دوره"
 
-#: inc/patterns/page-about-large-image-and-buttons.php:51
-msgid "Learn about my process"
-msgstr "درباره عملکرد من"
+#: inc/patterns/page-about-large-image-and-buttons.php:25
+msgid "Support my studio"
+msgstr "حمایت از استودیو من"
+
+#: inc/patterns/page-about-large-image-and-buttons.php:17
+msgid "Purchase my work"
+msgstr "خرید کار‌های من"
+
+#: inc/patterns/hidden-bird.php:9 inc/patterns/hidden-heading-and-bird.php:10
+msgid "Heading and bird image"
+msgstr "عنوان و تصویر پرنده"
+
+#: inc/patterns/hidden-404.php:12
+msgid "This page could not be found. Maybe try a search?"
+msgstr "این برگه پیدا نشد. می‌خواهید جستجو کنید؟"
+
+#: inc/patterns/hidden-404.php:9
+msgctxt "Error code for a webpage that is not found."
+msgid "404"
+msgstr "404"
+
+#: inc/patterns/hidden-404.php:6
+msgid "404 content"
+msgstr "محتوا 404"
+
+#: inc/patterns/header-with-tagline.php:6
+msgid "Header with tagline"
+msgstr "سربرگ با معرفی کوتاه"
+
+#: inc/patterns/header-title-navigation-social.php:6
+msgid "Title, navigation, and social links header"
+msgstr "عنوان، ناوبری و سربرگ پیوند‌های شبکه‌های اجتماعی"
+
+#: inc/patterns/header-title-and-button.php:6
+msgid "Title and button header"
+msgstr "عنوان و سربرگ دکمه"
+
+#: inc/patterns/header-text-only-with-tagline-black-background.php:6
+msgid "Text-only header with tagline and background"
+msgstr "سربرگ فقط متنی با معرفی کوتاه و پس‌زمینه"
+
+#: inc/patterns/header-text-only-green-background.php:6
+#: inc/patterns/header-text-only-salmon-background.php:6
+msgid "Text-only header with background"
+msgstr "سربرگ فقط متنی با پس‌زمینه"
+
+#: inc/patterns/header-stacked.php:6
+msgid "Logo and navigation header"
+msgstr "لوگو و سربرگ ناوبری"
+
+#: inc/patterns/header-small-dark.php:6
+msgid "Small header with dark background"
+msgstr "سربرگ کوچک با پس‌زمینه تیره"
+
+#: inc/patterns/header-logo-navigation-social-black-background.php:6
+msgid "Logo, navigation, and social links header with background"
+msgstr "لوگو، ناوبری و سربرگ پیوندهای اجتماعی با پس‌زمینه"
+
+#: inc/patterns/header-logo-navigation-offset-tagline.php:6
+msgid "Logo, navigation, and offset tagline Header"
+msgstr "لوگو، ناوبری و سربرگ آفست معرفی کوتاه"
+
+#: inc/patterns/header-logo-navigation-gray-background.php:6
+msgid "Logo and navigation header with background"
+msgstr "لوگو و سربرگ ناوبری با پس‌زمینه"
 
 #: inc/patterns/header-large-dark.php:24
 #: inc/patterns/hidden-heading-and-bird.php:14
@@ -444,13 +553,25 @@ msgstr "سربرگ با پس‌زمینه تصویر"
 msgid "Header with image background and overlay"
 msgstr "سربرگ با پس‌زمینه تصویر و روکش"
 
+#: inc/patterns/header-default.php:6
+msgid "Default header"
+msgstr "سربرگ پیش‌فرض"
+
 #: inc/patterns/header-centered-title-navigation-social.php:6
-msgid "Centered header with navigation, social links, and salmon background"
-msgstr "سربرگ وسط‌چین با ناوبری، لینک شبکه‌های اجتماعی و پس‌زمینه سالمون"
+msgid "Centered header with navigation, social links, and background"
+msgstr "سربرگ وسط با پیمایش، پیوندهای اجتماعی و پس‌زمینه"
+
+#: inc/patterns/header-centered-logo.php:6
+msgid "Header with centered logo"
+msgstr "سربرگ با لوگو وسط‌"
 
 #: inc/patterns/header-centered-logo-black-background.php:6
-msgid "Header with centered logo and black background"
-msgstr "سربرگ با آرم وسط‌چین و پس‌زمینه تیره"
+msgid "Header with centered logo and background"
+msgstr "سربرگ با لوگو وسط و پس‌زمینه"
+
+#: inc/patterns/general-wide-image-intro-buttons.php:31
+msgid "Learn More"
+msgstr "بیشتر بدانید"
 
 #: inc/patterns/general-wide-image-intro-buttons.php:16
 msgid "Welcome to<br>the Aviary"
@@ -459,6 +580,11 @@ msgstr "به پرنده‌گاه<br>خوش آمدید"
 #: inc/patterns/general-wide-image-intro-buttons.php:6
 msgid "Wide image with introduction and buttons"
 msgstr "تصویر عریض با مقدمه و دکمه‌ها"
+
+#: inc/patterns/general-video-trailer.php:16
+#: inc/patterns/general-wide-image-intro-buttons.php:22
+msgid "A film about hobbyist bird watchers, a catalog of different birds, paired with the noises they make. Each bird is listed by their scientific name so things seem more official."
+msgstr "فیلمی درباره سرگرمی تماشای پرنده، یک کاتالوگ از پرنده‌های متفاوت، با صداهای که می‌سازند. هر پرنده با نام علمی خودش فهرست شده تا همه چی رسمی به نظر بیاید."
 
 #: inc/patterns/general-video-trailer.php:12
 #: inc/patterns/page-layout-image-text-and-video.php:49
@@ -469,13 +595,76 @@ msgstr "پیش‌نمایش کامل"
 msgid "Video trailer"
 msgstr "ویدیو پیش‌نمایش"
 
+#: inc/patterns/general-video-header-details.php:41
+msgid "Angelo Tso<br>Edward Stilton<br>Amy Jensen<br>Boston Bell<br>Shay Ford"
+msgstr "آنجلو تسو<br>ادوارد استیلتون<br>ایمی جنسن<br>بوستن بل<br>شای فورد"
+
+#: inc/patterns/general-video-header-details.php:35
+msgid "Jesús Rodriguez<br>Doug Stilton<br>Emery Driscoll<br>Megan Perry<br>Rowan Price"
+msgstr "Jesús Rodriguez<br>Doug Stilton<br>Emery Driscoll<br>Megan Perry<br>Rowan Price"
+
 #: inc/patterns/general-video-header-details.php:29
 msgid "Featuring"
 msgstr "شامل"
 
-#: inc/patterns/general-pricing-table.php:6
-msgid "Pricing table"
-msgstr "جدول قیمت"
+#: inc/patterns/general-video-header-details.php:11
+#: inc/patterns/page-layout-image-text-and-video.php:11
+msgid "<em>Warble</em>, a film about <br>hobbyist bird watchers."
+msgstr "<em>واربل</em>, فیلمی در مورد <br>تماشاگران پرنده سرگرمی."
+
+#: inc/patterns/general-video-header-details.php:6
+msgid "Video with header and details"
+msgstr "ویدیو با سربرگ و جزئیات"
+
+#: inc/patterns/general-two-images-text.php:42
+#: inc/patterns/general-wide-image-intro-buttons.php:35
+#: inc/patterns/page-layout-image-text-and-video.php:30
+msgid "Buy Tickets"
+msgstr "خرید بلیط"
+
+#: inc/patterns/general-two-images-text.php:29
+#: inc/patterns/page-layout-image-text-and-video.php:25
+msgid "May 14th, 2022 @ 7:00PM<br>The Vintagé Theater,<br>245 Arden Rd.<br>Gardenville, NH"
+msgstr "۲۴ اردیبهشت ۱۴۰۱ @ ٧:۰۰عصر<br>The Vintagé Theater,<br>245 Arden Rd.<br>Gardenville, NH"
+
+#: inc/patterns/general-two-images-text.php:25
+msgid "SCREENING"
+msgstr "صفحه نمایش"
+
+#: inc/patterns/general-two-images-text.php:17
+#: inc/patterns/general-wide-image-intro-buttons.php:10
+#: inc/patterns/header-large-dark.php:29 inc/patterns/header-small-dark.php:25
+#: inc/patterns/hidden-bird.php:12 inc/patterns/hidden-heading-and-bird.php:19
+msgid "Illustration of a bird flying."
+msgstr "تصویر پرنده‌ای درحال پرواز"
+
+#: inc/patterns/general-two-images-text.php:11
+msgid "Illustration of a bird sitting on a branch."
+msgstr "تصویر پرنده روی شاخه درخت"
+
+#: inc/patterns/general-two-images-text.php:6
+msgid "Two images with text"
+msgstr "دو تصویر با متن"
+
+#: inc/patterns/general-subscribe.php:16
+msgid "Join our mailing list"
+msgstr "در خبرنامه ما عضو شوید"
+
+#: inc/patterns/general-subscribe.php:11
+msgid "Watch birds<br>from your inbox"
+msgstr "تماشای پرندگان<br>از صندوق ورودی شما"
+
+#: inc/patterns/general-subscribe.php:6
+msgid "Subscribe callout"
+msgstr "فراخوانی اشتراک"
+
+#: inc/patterns/general-pricing-table.php:84
+msgid "$150"
+msgstr "$150"
+
+#: inc/patterns/general-pricing-table.php:79
+msgid "Play a leading role for our community by joining at the Falcon level. This level earns you a seat on our board, where you can help plan future birdwatching expeditions."
+msgstr "با عضویت در سطح فالکون نقشی پیشرو برای جامعه ما بازی کنید. این سطح به شما یک صندلی در هیئت مدیره ما می دهد، جایی که می توانید در برنامه ریزی آینده سفر تماشای پرندگان کمک کنید."
 
 #: inc/patterns/general-pricing-table.php:75
 msgid "Falcon"
@@ -486,9 +675,128 @@ msgctxt "Third item in a numbered list."
 msgid "3"
 msgstr "3"
 
+#: inc/patterns/general-pricing-table.php:56
+msgid "$75"
+msgstr "$75"
+
+#: inc/patterns/general-pricing-table.php:51
+msgid "Join at the Sparrow level and become a member of our flock! You’ll receive our newsletter, plus a bird pin that you can wear with pride when you’re out in nature."
+msgstr "در سطح اسپارو بپیوندید و عضو ما شوید! شما خبرنامه ما را دریافت خواهید کرد، به علاوه یک سنجاق پرنده که می توانید با افتخار زمانی که در طبیعت هستید آن را بپوشید."
+
 #: inc/patterns/general-pricing-table.php:47
 msgid "Sparrow"
 msgstr "گنجشک"
+
+#: inc/patterns/general-pricing-table.php:43
+msgctxt "Second item in a numbered list."
+msgid "2"
+msgstr "2"
+
+#: inc/patterns/general-pricing-table.php:28
+msgid "$25"
+msgstr "$25"
+
+#: inc/patterns/general-pricing-table.php:23
+msgid "Help support our growing community by joining at the Pigeon level. Your support will help pay our writers, and you’ll get access to our exclusive newsletter."
+msgstr "با عضویت در سطح کبوتر به حمایت از جامعه رو به رشد ما کمک کنید. حمایت شما به نویسندگان ما کمک خواهد کرد و به خبرنامه انحصاری ما دسترسی خواهید داشت."
+
+#: inc/patterns/general-pricing-table.php:19
+msgid "Pigeon"
+msgstr "کبوتر"
+
+#: inc/patterns/general-pricing-table.php:15
+msgctxt "First item in a numbered list."
+msgid "1"
+msgstr "1"
+
+#: inc/patterns/general-pricing-table.php:6
+msgid "Pricing table"
+msgstr "جدول قیمت"
+
+#: inc/patterns/general-list-events.php:103
+msgid "Emery Driscoll"
+msgstr "Emery Driscoll"
+
+#: inc/patterns/general-list-events.php:97
+msgid "May 20th, 2022, 6 PM"
+msgstr "30 اردیبهشت 1400 ساعت 6 ب.ظ"
+
+#: inc/patterns/general-list-events.php:79
+msgid "Amy Jensen"
+msgstr "Amy Jensen"
+
+#: inc/patterns/general-list-events.php:73
+msgid "May 18th, 2022, 7 PM"
+msgstr "28 اردیبهشت 1400 ساعت 7 ب.ظ"
+
+#: inc/patterns/general-list-events.php:61
+#: inc/patterns/general-list-events.php:109
+msgid "The Swell Theater<br>120 River Rd.<br>Rainfall, NH"
+msgstr "The Swell Theater<br>120 River Rd.<br>Rainfall, NH"
+
+#: inc/patterns/general-list-events.php:55
+msgid "Doug Stilton"
+msgstr "Doug Stilton"
+
+#: inc/patterns/general-list-events.php:49
+msgid "May 16th, 2022, 6 PM"
+msgstr "26 اردیبهشت 1400 ساعت 6 ب.ظ"
+
+#: inc/patterns/general-list-events.php:37
+#: inc/patterns/general-list-events.php:85
+msgid "The Vintagé Theater<br>245 Arden Rd.<br>Gardenville, NH"
+msgstr "The Vintagé Theater<br>245 Arden Rd.<br>Gardenville, NH"
+
+#: inc/patterns/general-list-events.php:31
+msgid "Jesús Rodriguez"
+msgstr "Jesús Rodriguez"
+
+#: inc/patterns/general-list-events.php:25
+msgid "May 14th, 2022, 6 PM"
+msgstr "24 اردیبهشت 1400 ساعت 6 ب.ظ"
+
+#: inc/patterns/general-list-events.php:11
+msgid "Speaker Series"
+msgstr "سری بلندگو"
+
+#: inc/patterns/general-list-events.php:6
+msgid "List of events"
+msgstr "فهرست رویدادها"
+
+#: inc/patterns/general-layered-images-with-duotone.php:10
+#: inc/patterns/page-sidebar-blog-posts-right.php:58
+msgid "Illustration of a flying bird."
+msgstr "تصویر پرنده‌ای درحال پرواز"
+
+#: inc/patterns/general-layered-images-with-duotone.php:9
+#: inc/patterns/header-image-background-overlay.php:11
+msgid "Painting of ducks in the water."
+msgstr "نقاشی اردک‌ها در آب."
+
+#: inc/patterns/general-layered-images-with-duotone.php:6
+msgid "Layered images with duotone"
+msgstr "تصاویر لایه‌بندی شده با duotone"
+
+#: inc/patterns/general-large-list-names.php:30
+msgid "Read more"
+msgstr "بیشتر بخوانید"
+
+#: inc/patterns/general-large-list-names.php:21
+msgid "Jesús Rodriguez, Doug Stilton, Emery Driscoll, Megan Perry, Rowan Price, Angelo Tso, Edward Stilton, Amy Jensen, Boston Bell, Shay Ford, Lee Cunningham, Evelynn Ray, Landen Reese, Ewan Hart, Jenna Chan, Phoenix Murray, Mel Saunders, Aldo Davidson, Zain Hall."
+msgstr "Jesús Rodriguez, Doug Stilton, Emery Driscoll, Megan Perry, Rowan Price, Angelo Tso, Edward Stilton, Amy Jensen, Boston Bell, Shay Ford, Lee Cunningham, Evelynn Ray, Landen Reese, Ewan Hart, Jenna Chan, Phoenix Murray, Mel Saunders, Aldo Davidson, Zain Hall."
+
+#: inc/patterns/general-large-list-names.php:11
+#: inc/patterns/page-sidebar-poster.php:32
+msgid "An icon representing binoculars."
+msgstr "آیکون دوربین دوچشمی"
+
+#: inc/patterns/general-large-list-names.php:6
+msgid "Large list of names"
+msgstr "فهرست بزرگی از نام‌ها"
+
+#: inc/patterns/general-image-with-caption.php:15
+msgid "A beautiful bird featuring a surprising set of color feathers."
+msgstr "پرنده‌ای زیبا با پر‌های رنگین"
 
 #: inc/patterns/general-image-with-caption.php:11
 msgid "Hummingbird"
@@ -510,6 +818,10 @@ msgstr "نوشته ویژه"
 msgid "Divider with image and color (light)"
 msgstr "جدا شده با تصویر و رنگ (روشن)"
 
+#: inc/patterns/general-divider-dark.php:6
+msgid "Divider with image and color (dark)"
+msgstr "جدا کننده با تصویر و رنگ (تیره)"
+
 #: inc/patterns/footer-title-tagline-social.php:6
 msgid "Footer with title, tagline, and social links on a dark background"
 msgstr "پاورقی با عنوان، معرفی کوتاه و پیوند‌های شبکه‌های اجتماعی روی پس‌زمینه تیره"
@@ -530,175 +842,10 @@ msgstr "پاورقی با کوئری، تصویر شاخص، عنوان و نق�
 msgid "Footer with navigation and citation"
 msgstr "پاورقی با ناوبری و نقل قول"
 
-#: inc/patterns/page-about-media-right.php:6
-msgid "About page with media on the right"
-msgstr "برگه درباره‌ما با رسانه در سمت راست"
-
-#: inc/patterns/page-about-media-left.php:17
-msgid "Stilton"
-msgstr "ستیلیتون"
-
-#: inc/patterns/page-about-media-left.php:17
-msgid "Doug"
-msgstr "خمیر"
-
-#: inc/patterns/query-simple-blog.php:6
-msgid "Simple blog posts"
-msgstr "نوشته ساده وب‌لاگ"
-
-#: inc/patterns/query-large-titles.php:6
-msgid "Large post titles"
-msgstr "عنوان نوشته‌های بزرگ"
-
-#: inc/patterns/query-irregular-grid.php:6
-msgid "Irregular grid of posts"
-msgstr "شبکه غیرمعمول نوشته‌ها"
-
-#: inc/patterns/page-about-media-right.php:9
-msgid "An image of a bird flying"
-msgstr "تصویر پرنده‌ای درحال پرواز"
-
-#: inc/patterns/page-about-large-image-and-buttons.php:25
-msgid "Support my studio"
-msgstr "حمایت از استودیو من"
-
-#: inc/patterns/page-about-large-image-and-buttons.php:17
-msgid "Purchase my work"
-msgstr "خرید کار‌های من"
-
-#: inc/patterns/hidden-bird.php:9 inc/patterns/hidden-heading-and-bird.php:10
-msgid "Heading and bird image"
-msgstr "عنوان و تصویر پرنده"
-
-#: inc/patterns/hidden-404.php:12
-msgid "This page could not be found. Maybe try a search?"
-msgstr "این برگه پیدا نشد. می‌خواهید جستجو کنید؟"
-
-#: inc/patterns/header-with-tagline.php:6
-msgid "Header with tagline"
-msgstr "سربرگ با معرفی کوتاه"
-
-#: inc/patterns/header-title-navigation-social.php:6
-msgid "Title, navigation, and social links header"
-msgstr "عنوان، ناوبری و سربرگ پیوند‌های شبکه‌های اجتماعی"
-
-#: inc/patterns/header-title-and-button.php:6
-msgid "Title and button header"
-msgstr "عنوان و سربرگ دکمه"
-
-#: inc/patterns/header-text-only-with-tagline-black-background.php:6
-msgid "Text-only header with tagline and black background"
-msgstr "سربرگ متنی با معرفی کوتاه و پس‌زمینه تیره"
-
-#: inc/patterns/query-text-grid.php:6
-msgid "Text-based grid of posts"
-msgstr "شبکه نوشته‌ها براساس متن"
-
-#: inc/patterns/page-about-media-left.php:9
-#: inc/patterns/page-sidebar-poster.php:26
-msgid "Image of a bird on a branch"
-msgstr "تصویر پرنده روی شاخه درخت"
-
-#: inc/patterns/page-about-media-left.php:6
-msgid "About page with media on the left"
-msgstr "صفحه درباره‌ما با تصویر در سمت چپ"
-
-#: inc/patterns/page-about-links.php:21
-msgid "A podcast about birds"
-msgstr "پادکست درمورد پرنده‌ها"
-
-#: inc/patterns/header-logo-navigation-social-black-background.php:6
-msgid "Logo, navigation, and social links header with black background"
-msgstr "آرم، ناوبری و سربرگ پیوند‌های شبکه‌های اجتماعی با پس‌زمینه تیره"
-
-#: inc/patterns/header-logo-navigation-offset-tagline.php:6
-msgid "Logo, navigation, and offset tagline Header"
-msgstr "آرم، ناوبری و سربرگ آفست معرفی کوتاه"
-
-#: inc/patterns/header-logo-navigation-gray-background.php:6
-msgid "Logo and navigation header with gray background"
-msgstr "آرم، سربرگ ناوبری با پس‌زمینه خاکستری"
-
-#: inc/patterns/header-centered-logo.php:6
-msgid "Header with centered logo"
-msgstr "سربرگ با آرم وسط‌چین"
-
-#: inc/patterns/general-two-images-text.php:42
-#: inc/patterns/general-wide-image-intro-buttons.php:35
-#: inc/patterns/page-layout-image-text-and-video.php:30
-msgid "Buy Tickets"
-msgstr "خرید بلیط"
-
-#: inc/patterns/header-text-only-salmon-background.php:6
-msgid "Text-only header with salmon background"
-msgstr "سربرگ متنی با پس‌زمینه سالمون"
-
-#: inc/patterns/header-text-only-green-background.php:6
-msgid "Text-only header with green background"
-msgstr "سربرگ متنی با پس‌زمینه سبز"
-
-#: inc/patterns/header-stacked.php:6
-msgid "Logo and navigation header"
-msgstr "آرم و ناوبری سربرگ"
-
-#: inc/patterns/header-small-dark.php:6
-msgid "Small header with dark background"
-msgstr "سربرگ کوچک با پس‌زمینه تیره"
-
-#: inc/patterns/general-video-header-details.php:6
-msgid "Video with header and details"
-msgstr "ویدیو با سربرگ و جزئیات"
-
-#: inc/patterns/general-two-images-text.php:25
-msgid "SCREENING"
-msgstr "صفحه نمایش"
-
-#: inc/patterns/general-two-images-text.php:11
-msgid "Illustration of a bird sitting on a branch."
-msgstr "تصویر پرنده روی شاخه درخت"
-
-#: inc/patterns/general-two-images-text.php:6
-msgid "Two images with text"
-msgstr "دو تصویر با متن"
-
-#: inc/patterns/general-subscribe.php:16
-msgid "Join our mailing list"
-msgstr "در خبرنامه ما عضو شوید"
-
-#: inc/patterns/general-subscribe.php:6
-msgid "Subscribe callout"
-msgstr "فراخوانی اشتراک"
-
-#: inc/patterns/general-list-events.php:11
-msgid "Speaker Series"
-msgstr "سری بلندگو"
-
-#: inc/patterns/general-layered-images-with-duotone.php:10
-#: inc/patterns/page-sidebar-blog-posts-right.php:58
-msgid "Illustration of a flying bird."
-msgstr "تصویر پرنده‌ای درحال پرواز"
-
-#: inc/patterns/general-layered-images-with-duotone.php:9
-#: inc/patterns/header-image-background-overlay.php:11
-msgid "Painting of ducks in the water."
-msgstr "نقاشی اردک‌ها در آب."
-
-#: inc/patterns/general-layered-images-with-duotone.php:6
-msgid "Layered images with duotone"
-msgstr "تصاویر لایه‌بندی شده با duotone"
-
-#: inc/patterns/general-large-list-names.php:11
-#: inc/patterns/page-sidebar-poster.php:32
-msgid "An icon representing binoculars."
-msgstr "آیکون دوربین دوچشمی"
-
-#: inc/patterns/general-image-with-caption.php:15
-msgid "A beautiful bird featuring a surprising set of color feathers."
-msgstr "پرنده‌ای زیبا با پر‌های رنگین"
-
-#: inc/patterns/general-divider-dark.php:6
-msgid "Divider with image and color (dark)"
-msgstr "جدا کننده با تصویر و رنگ (تیره)"
+#: inc/patterns/footer-navigation-copyright.php:20
+#: inc/patterns/footer-social-copyright.php:24
+msgid "© Site Title"
+msgstr "© عنوان سایت"
 
 #: inc/patterns/footer-navigation-copyright.php:6
 msgid "Footer with navigation and copyright"
@@ -706,7 +853,7 @@ msgstr "پاورقی با ناوبری و کپی‌رایت"
 
 #: inc/patterns/footer-logo.php:6
 msgid "Footer with logo and citation"
-msgstr "پاورقی با آرم و نقل قول"
+msgstr "پاورقی با لوگو و نقل قول"
 
 #: inc/patterns/footer-default.php:6
 msgid "Default footer"
@@ -715,6 +862,14 @@ msgstr "پاورقی پیش‌فرض"
 #: inc/patterns/footer-dark.php:6
 msgid "Dark footer with title and citation"
 msgstr "پاورقی تیره با عنوان و نقل قول"
+
+#: inc/patterns/footer-blog.php:50 inc/patterns/footer-dark.php:18
+#: inc/patterns/footer-default.php:18 inc/patterns/footer-logo.php:18
+#: inc/patterns/footer-navigation.php:20
+#: inc/patterns/footer-query-images-title-citation.php:35
+#: inc/patterns/footer-query-title-citation.php:33
+msgid "https://wordpress.org"
+msgstr "https://wordpress.org"
 
 #. Translators: WordPress link.
 #: inc/patterns/footer-blog.php:49 inc/patterns/footer-dark.php:17
@@ -725,12 +880,22 @@ msgstr "پاورقی تیره با عنوان و نقل قول"
 msgid "Proudly powered by %s"
 msgstr "با افتخار، ایجاد شده با %s"
 
-#: inc/patterns/general-two-images-text.php:17
-#: inc/patterns/general-wide-image-intro-buttons.php:10
-#: inc/patterns/header-large-dark.php:29 inc/patterns/header-small-dark.php:25
-#: inc/patterns/hidden-bird.php:12 inc/patterns/hidden-heading-and-bird.php:19
-msgid "Illustration of a bird flying."
-msgstr "تصویر پرنده‌ای درحال پرواز"
+#: inc/patterns/footer-blog.php:31
+#: inc/patterns/page-sidebar-blog-posts-right.php:74
+msgid "Categories"
+msgstr "دسته‌ها"
+
+#: inc/patterns/footer-blog.php:23 inc/patterns/general-featured-posts.php:10
+msgid "Latest posts"
+msgstr "تازه‌ترین نوشته‌ها"
+
+#: inc/patterns/footer-blog.php:6
+msgid "Blog footer"
+msgstr "پاورقی بلاگ"
+
+#: inc/patterns/footer-about-title-logo.php:17 inc/patterns/footer-blog.php:17
+msgid "We are a rogue collective of bird watchers. We’ve been known to sneak through fences, climb perimeter walls, and generally trespass in order to observe the rarest of birds."
+msgstr "ما یک جمع از تماشاگران پرنده هستیم. ما شناخته شده‌ایم که یواشکی از نرده‌ها عبور می‌کنیم، از دیوارهای محیطی بالا می‌رویم، و به طور کلی برای مشاهده نادرترین پرندگان تخطی می‌کنیم."
 
 #: inc/patterns/footer-about-title-logo.php:13 inc/patterns/footer-blog.php:13
 msgid "About us"
@@ -738,7 +903,7 @@ msgstr "درباره‌ما"
 
 #: inc/patterns/footer-about-title-logo.php:6
 msgid "Footer with text, title, and logo"
-msgstr "پاورقی با متن، عنوان و آرم"
+msgstr "پاورقی با متن، عنوان و لوگو"
 
 #: inc/block-patterns.php:21
 msgid "Pages"
@@ -748,91 +913,32 @@ msgstr "برگه‌ها"
 msgid "Query"
 msgstr "کوئری"
 
+#: inc/block-patterns.php:19
+msgid "Headers"
+msgstr "سربرگ‌ها"
+
 #: inc/block-patterns.php:18
 msgid "Footers"
 msgstr "پاورقی"
 
-#: inc/patterns/page-sidebar-poster.php:44
-msgid "February, 12 2021"
-msgstr "24 بهمن 1399"
-
-#: inc/patterns/general-list-events.php:73
-msgid "May 18th, 2022, 7 PM"
-msgstr "28 اردیبهشت 1400 ساعت 7 ب.ظ"
-
-#: inc/patterns/general-list-events.php:97
-msgid "May 20th, 2022, 6 PM"
-msgstr "30 اردیبهشت 1400 ساعت 6 ب.ظ"
-
-#: inc/patterns/general-list-events.php:25
-msgid "May 14th, 2022, 6 PM"
-msgstr "24 اردیبهشت 1400 ساعت 6 ب.ظ"
-
-#: inc/patterns/general-list-events.php:49
-msgid "May 16th, 2022, 6 PM"
-msgstr "26 اردیبهشت 1400 ساعت 6 ب.ظ"
-
-#: inc/patterns/general-large-list-names.php:21
-msgid "Jesús Rodriguez, Doug Stilton, Emery Driscoll, Megan Perry, Rowan Price, Angelo Tso, Edward Stilton, Amy Jensen, Boston Bell, Shay Ford, Lee Cunningham, Evelynn Ray, Landen Reese, Ewan Hart, Jenna Chan, Phoenix Murray, Mel Saunders, Aldo Davidson, Zain Hall."
-msgstr "Jesús Rodriguez, Doug Stilton, Emery Driscoll, Megan Perry, Rowan Price, Angelo Tso, Edward Stilton, Amy Jensen, Boston Bell, Shay Ford, Lee Cunningham, Evelynn Ray, Landen Reese, Ewan Hart, Jenna Chan, Phoenix Murray, Mel Saunders, Aldo Davidson, Zain Hall."
-
-#: inc/patterns/page-about-simple-dark.php:6
-msgid "Simple dark about page"
-msgstr "برگه ساده و تیره درباره‌ما"
-
-#: inc/patterns/general-list-events.php:103
-msgid "Emery Driscoll"
-msgstr "Emery Driscoll"
-
-#: inc/patterns/general-list-events.php:79
-msgid "Amy Jensen"
-msgstr "Amy Jensen"
-
-#: inc/patterns/general-list-events.php:61
-#: inc/patterns/general-list-events.php:109
-msgid "The Swell Theater<br>120 River Rd.<br>Rainfall, NH"
-msgstr "The Swell Theater<br>120 River Rd.<br>Rainfall, NH"
-
-#: inc/patterns/general-list-events.php:55
-msgid "Doug Stilton"
-msgstr "Doug Stilton"
-
-#: inc/patterns/general-list-events.php:37
-#: inc/patterns/general-list-events.php:85
-msgid "The Vintagé Theater<br>245 Arden Rd.<br>Gardenville, NH"
-msgstr "The Vintagé Theater<br>245 Arden Rd.<br>Gardenville, NH"
-
-#: inc/patterns/general-list-events.php:31
-msgid "Jesús Rodriguez"
-msgstr "Jesús Rodriguez"
-
-#: inc/patterns/page-sidebar-poster.php:56
-msgid "The Grand Theater<br>154 Eastern Avenue<br>Maryland NY, 12345"
-msgstr "The Grand Theater<br>154 Eastern Avenue<br>Maryland NY, 12345"
-
-#: inc/patterns/page-about-simple-dark.php:18
-msgid "Jesús<br>Rodriguez"
-msgstr "Jesús<br>Rodriguez"
-
-#: inc/patterns/page-about-media-right.php:16
-msgid "Emery<br>Driscoll"
-msgstr "Emery<br>Driscoll"
-
-#: inc/patterns/general-video-header-details.php:35
-msgid "Jesús Rodriguez<br>Doug Stilton<br>Emery Driscoll<br>Megan Perry<br>Rowan Price"
-msgstr "Jesús Rodriguez<br>Doug Stilton<br>Emery Driscoll<br>Megan Perry<br>Rowan Price"
+#: inc/block-patterns.php:17
+msgid "Featured"
+msgstr "ویژه"
 
 #. Theme URI of the theme
+#: style.css
 #, gp-priority: low
 msgid "https://wordpress.org/themes/twentytwentytwo/"
 msgstr "https://wordpress.org/themes/twentytwentytwo/"
 
 #. Author URI of the theme
+#: style.css
 #, gp-priority: low
 msgid "https://wordpress.org/"
 msgstr "https://wordpress.org/"
 
 #. Author of the theme
+#: style.css
 #, gp-priority: low
 msgid "the WordPress team"
 msgstr "تیم وردپرس"
