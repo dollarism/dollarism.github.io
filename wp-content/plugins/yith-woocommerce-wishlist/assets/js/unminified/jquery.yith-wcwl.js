@@ -1,7 +1,7 @@
 /**
  * Main YITH WooCommerce Wishlist JS
  *
- * @author YITH
+ * @author YITH <plugins@yithemes.com>
  * @package YITH WooCommerce Wishlist
  * @version 3.0.0
  */
@@ -534,6 +534,8 @@ jQuery( function( $ ){
 
         t.on( 'yith_wcwl_reload_fragments', load_fragments );
 
+        t.on( 'yith_wcwl_reload_after_ajax', init_handling_after_ajax );
+
         t.on( 'yith_infs_added_elem', function( ev, elem ){
             load_fragments( {
                 container: elem,
@@ -594,6 +596,14 @@ jQuery( function( $ ){
             return false;
         }
     });
+
+	// Move the Add to Wishlist button under the gallery
+	$( document ).ready(function() {
+		if( yith_wcwl_l10n.yith_wcwl_button_position === 'thumbnails' ) {
+			$( '.woocommerce-product-gallery + div.yith-wcwl-add-to-wishlist' ).appendTo( '.woocommerce-product-gallery' );
+		}
+	});
+
 
     /* === INIT FUNCTIONS === */
 
@@ -1549,6 +1559,10 @@ jQuery( function( $ ){
             else{
                 try {
                     $.prettyPhoto.close();
+
+                    if ( yith_wcwl_l10n.redirect_after_ask_estimate ) {
+                        window.location.replace( yith_wcwl_l10n.ask_estimate_redirect_url );
+                    }
                 }
                 catch( e ){ /* do nothing, no popup to close */ }
             }

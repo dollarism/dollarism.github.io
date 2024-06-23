@@ -2,7 +2,7 @@
 /**
  * Wishlist Item class
  *
- * @author YITH
+ * @author YITH <plugins@yithemes.com>
  * @package YITH\Wishlist\Classes\Wishlists
  * @version 3.0.0
  */
@@ -242,7 +242,19 @@ if ( ! class_exists( 'YITH_WCWL_Wishlist_Item' ) ) {
 		 * @return int Quantity
 		 */
 		public function get_quantity( $context = 'view' ) {
-			return max( 1, (int) $this->get_prop( 'quantity', $context ) );
+			/**
+			 * APPLY_FILTERS: yith_wcwl_min_item_quantity
+			 *
+			 * Filter the minimum wishlist item quantity.
+			 *
+			 * @param int Minimum quantity
+			 *
+			 * @return int
+			 */
+			$min_quantity = apply_filters( 'yith_wcwl_min_item_quantity', 1 );
+			$quantity     = (int) $this->get_prop( 'quantity', $context );
+
+			return max( $min_quantity, $quantity );
 		}
 
 		/**
@@ -673,6 +685,7 @@ if ( ! class_exists( 'YITH_WCWL_Wishlist_Item' ) ) {
 		 * @param string $offset Offset.
 		 * @param mixed  $value  Value.
 		 */
+		#[\ReturnTypeWillChange]
 		public function offsetSet( $offset, $value ) {
 			$offset = $this->map_legacy_offsets( $offset );
 
@@ -689,6 +702,7 @@ if ( ! class_exists( 'YITH_WCWL_Wishlist_Item' ) ) {
 		 *
 		 * @param string $offset Offset.
 		 */
+		#[\ReturnTypeWillChange]
 		public function offsetUnset( $offset ) {
 			$offset = $this->map_legacy_offsets( $offset );
 
@@ -707,6 +721,7 @@ if ( ! class_exists( 'YITH_WCWL_Wishlist_Item' ) ) {
 		 * @param string $offset Offset.
 		 * @return bool
 		 */
+		#[\ReturnTypeWillChange]
 		public function offsetExists( $offset ) {
 			$offset = $this->map_legacy_offsets( $offset );
 
@@ -724,6 +739,7 @@ if ( ! class_exists( 'YITH_WCWL_Wishlist_Item' ) ) {
 		 * @param string $offset Offset.
 		 * @return mixed
 		 */
+		#[\ReturnTypeWillChange]
 		public function offsetGet( $offset ) {
 			$offset = $this->map_legacy_offsets( $offset );
 

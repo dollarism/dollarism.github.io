@@ -4,14 +4,20 @@ import { Attributes } from '../../types';
 import { Headlights } from './headers/Headlights';
 import { HeadlightsMuted } from './headers/HeadlightsMuted';
 import { HeadlightsMutedAlt } from './headers/HeadlightsMutedAlt';
+import { PillString } from './headers/PillString';
 import { SimpleString } from './headers/SimpleString';
+import { StringSmall } from './headers/StringSmall';
+import { UnsupportedTheme } from './misc/Unsupported';
 
 type HeaderSelectProps = {
     attributes: Attributes;
     onClick: (slug: string) => void;
 };
+
+const unsupportedWithCssVars = ['headlightsMutedAlt'];
+
 export const HeaderSelect = ({ attributes, onClick }: HeaderSelectProps) => {
-    const { headerType, ...attributesWithoutHeaderType }: Partial<Attributes> =
+    const { headerType, ...attributesWithoutHeaderType }: Attributes =
         attributes;
     const { bgColor } = attributes;
     const types = {
@@ -20,7 +26,10 @@ export const HeaderSelect = ({ attributes, onClick }: HeaderSelectProps) => {
         headlightsMuted: __('Headlights muted', 'code-block-pro'),
         headlightsMutedAlt: __('Headlights muted alt', 'code-block-pro'),
         simpleString: __('Simple string', 'code-block-pro'),
+        stringSmall: __('String muted', 'code-block-pro'),
+        pillString: __('Pill string', 'code-block-pro'),
     };
+    const isUnsupported = bgColor?.startsWith('var(');
 
     return (
         <div className="code-block-pro-editor">
@@ -36,8 +45,14 @@ export const HeaderSelect = ({ attributes, onClick }: HeaderSelectProps) => {
                             : type
                     }
                     help={
-                        ['simpleString'].includes(slug)
-                            ? __('Update text in Settings', 'code-block-pro')
+                        ['simpleString', 'pillString', 'stringSmall'].includes(
+                            slug,
+                        )
+                            ? // Settings refers to the panel that can be expanded
+                              __(
+                                  'Set the text at the top of this panel.',
+                                  'code-block-pro',
+                              )
                             : undefined
                     }
                     key={slug}>
@@ -57,14 +72,22 @@ export const HeaderSelect = ({ attributes, onClick }: HeaderSelectProps) => {
                             />
                         </span>
                     </button>
+                    {isUnsupported && unsupportedWithCssVars.includes(slug) && (
+                        <UnsupportedTheme />
+                    )}
                 </BaseControl>
             ))}
         </div>
     );
 };
 
-export const HeaderType = (attributes: Partial<Attributes>) => {
-    const { headerType } = attributes;
+export const HeaderType = (attributes: Attributes) => {
+    const { headerType, bgColor } = attributes;
+    const isACustomTheme = bgColor?.startsWith('var(');
+    if (isACustomTheme && unsupportedWithCssVars.includes(headerType ?? '')) {
+        return null;
+    }
+
     if (headerType === 'headlights') {
         return <Headlights {...attributes} />;
     }
@@ -76,6 +99,12 @@ export const HeaderType = (attributes: Partial<Attributes>) => {
     }
     if (headerType === 'simpleString') {
         return <SimpleString {...attributes} />;
+    }
+    if (headerType === 'stringSmall') {
+        return <StringSmall {...attributes} />;
+    }
+    if (headerType === 'pillString') {
+        return <PillString {...attributes} />;
     }
     return null;
 };

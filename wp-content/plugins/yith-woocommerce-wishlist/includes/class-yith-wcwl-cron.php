@@ -2,7 +2,7 @@
 /**
  * Wishlist Cron Handler
  *
- * @author YITH
+ * @author YITH <plugins@yithemes.com>
  * @package YITH\Wishlist\Classes
  * @version 3.0.0
  */
@@ -124,7 +124,7 @@ if ( ! class_exists( 'YITH_WCWL_Cron' ) ) {
  * @return \YITH_WCWL_Cron
  * @since 3.0.0
  */
-function YITH_WCWL_Cron() { // phpcs:ignore WordPress.NamingConventions.ValidFunctionName.FunctionNameInvalid
+function YITH_WCWL_Cron() { // phpcs:ignore WordPress.NamingConventions.ValidFunctionName.FunctionNameInvalid, Universal.Files.SeparateFunctionsFromOO
 	if ( defined( 'YITH_WCWL_PREMIUM' ) ) {
 		$instance = YITH_WCWL_Cron_Premium::get_instance();
 	} elseif ( defined( 'YITH_WCWL_EXTENDED' ) ) {

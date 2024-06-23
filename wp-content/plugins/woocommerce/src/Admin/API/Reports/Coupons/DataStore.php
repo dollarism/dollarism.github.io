@@ -7,11 +7,11 @@ namespace Automattic\WooCommerce\Admin\API\Reports\Coupons;
 
 defined( 'ABSPATH' ) || exit;
 
-use \Automattic\WooCommerce\Admin\API\Reports\DataStore as ReportsDataStore;
-use \Automattic\WooCommerce\Admin\API\Reports\DataStoreInterface;
-use \Automattic\WooCommerce\Admin\API\Reports\TimeInterval;
-use \Automattic\WooCommerce\Admin\API\Reports\SqlQuery;
-use \Automattic\WooCommerce\Admin\API\Reports\Cache as ReportsCache;
+use Automattic\WooCommerce\Admin\API\Reports\DataStore as ReportsDataStore;
+use Automattic\WooCommerce\Admin\API\Reports\DataStoreInterface;
+use Automattic\WooCommerce\Admin\API\Reports\TimeInterval;
+use Automattic\WooCommerce\Admin\API\Reports\SqlQuery;
+use Automattic\WooCommerce\Admin\API\Reports\Cache as ReportsCache;
 
 /**
  * API\Reports\Coupons\DataStore.
@@ -62,12 +62,19 @@ class DataStore extends ReportsDataStore implements DataStoreInterface {
 		);
 	}
 
+	// This method was already available as non-final, marking it as final now would make it backwards-incompatible.
+	// phpcs:disable WooCommerce.Functions.InternalInjectionMethod.MissingFinal
+
 	/**
 	 * Set up all the hooks for maintaining and populating table data.
+	 *
+	 * @internal
 	 */
 	public static function init() {
 		add_action( 'woocommerce_analytics_delete_order_stats', array( __CLASS__, 'sync_on_order_delete' ), 5 );
 	}
+
+	// phpcs:enable WooCommerce.Functions.InternalInjectionMethod.MissingFinal
 
 	/**
 	 * Returns an array of ids of included coupons, based on query arguments from the user.
@@ -339,6 +346,11 @@ class DataStore extends ReportsDataStore implements DataStoreInterface {
 	 */
 	public static function get_coupon_id( \WC_Order_Item_Coupon $coupon_item ) {
 		// First attempt to get coupon ID from order item data.
+		$coupon_info = $coupon_item->get_meta( 'coupon_info', true );
+		if ( $coupon_info ) {
+			return json_decode( $coupon_info, true )[0];
+		}
+
 		$coupon_data = $coupon_item->get_meta( 'coupon_data', true );
 
 		// Normal checkout orders should have this data.

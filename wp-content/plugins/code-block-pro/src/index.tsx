@@ -1,23 +1,14 @@
-import { useBlockProps as blockProps } from '@wordpress/block-editor';
-import { createBlock, registerBlockType } from '@wordpress/blocks';
+import { registerBlockType } from '@wordpress/blocks';
 import { addFilter } from '@wordpress/hooks';
 import { __ } from '@wordpress/i18n';
-import classnames from 'classnames';
-import { Lang } from 'shiki';
+import { Editor } from './Editor';
 import blockConfig from './block.json';
-import { Edit } from './editor/Edit';
 import { BlockFilter } from './editor/components/BlockFilter';
-import { FooterType } from './editor/components/FooterSelect';
-import { HeaderType } from './editor/components/HeaderSelect';
-import { SidebarControls } from './editor/controls/Sidebar';
-import { ToolbarControls } from './editor/controls/Toolbar';
 import './editor/editor.css';
+import { transformToCBP, transformFromCBP } from './editor/transforms';
 import { BlockOutput } from './front/BlockOutput';
-import { CopyButton } from './front/CopyButton';
 import { blockIcon } from './icons';
 import { Attributes } from './types';
-import { fontFamilyLong, maybeClamp } from './util/fonts';
-import { getMainAlias } from './util/languages';
 
 registerBlockType<Attributes>(blockConfig.name, {
     ...blockConfig,
@@ -35,6 +26,7 @@ registerBlockType<Attributes>(blockConfig.name, {
         fontFamily: { type: 'string' },
         lineHeight: { type: 'string' },
         clampFonts: { type: 'boolean' },
+        editorHeight: { type: 'string' },
         lineNumbers: { type: 'boolean' },
         headerType: { type: 'string' },
         headerString: { type: 'string' },
@@ -43,9 +35,16 @@ registerBlockType<Attributes>(blockConfig.name, {
         footerString: { type: 'string' },
         footerLink: { type: 'string' },
         footerLinkTarget: { type: 'boolean' },
+        enableMaxHeight: { type: 'boolean' },
+        seeMoreType: { type: 'string' },
+        seeMoreString: { type: 'string' },
+        seeMoreAfterLine: { type: 'string' },
+        seeMoreTransition: { type: 'boolean' },
         startingLineNumber: { type: 'string' },
         lineNumbersWidth: { type: 'number' },
+        highestLineNumber: { type: 'number' },
         enableHighlighting: { type: 'boolean' },
+        highlightingHover: { type: 'boolean' },
         lineHighlights: { type: 'string' },
         lineHighlightColor: { type: 'string' },
         enableBlurring: { type: 'boolean' },
@@ -55,6 +54,18 @@ registerBlockType<Attributes>(blockConfig.name, {
         renderType: { type: 'string', default: 'code' },
         label: { type: 'string', default: '' },
         copyButton: { type: 'boolean' },
+        copyButtonType: { type: 'string' },
+        copyButtonString: {
+            type: 'string',
+            default: __('Copy', 'code-block-pro'),
+        },
+        copyButtonStringCopied: {
+            type: 'string',
+            default: __('Copied!', 'code-block-pro'),
+        },
+        useDecodeURI: { type: 'boolean', default: false },
+        tabSize: { type: 'number', default: 2 },
+        useTabs: { type: 'boolean' },
     },
     // Need to add these here to avoid TS type errors
     supports: {
@@ -63,61 +74,7 @@ registerBlockType<Attributes>(blockConfig.name, {
     },
     title: __('Code Pro', 'code-block-pro'),
     edit: ({ attributes, setAttributes }) => (
-        <>
-            <SidebarControls
-                attributes={attributes}
-                setAttributes={setAttributes}
-            />
-            <ToolbarControls
-                attributes={attributes}
-                setAttributes={setAttributes}
-            />
-            <div
-                {...blockProps({
-                    className: classnames('code-block-pro-editor', {
-                        'padding-disabled': attributes.disablePadding,
-                        'padding-bottom-disabled':
-                            attributes?.footerType &&
-                            attributes?.footerType !== 'none',
-                        'cbp-has-line-numbers': attributes.lineNumbers,
-                        'cbp-blur-enabled': attributes.enableBlurring,
-                        'cbp-unblur-on-hover': attributes.removeBlurOnHover,
-                    }),
-                    style: {
-                        fontSize: maybeClamp(
-                            attributes.fontSize,
-                            attributes.clampFonts,
-                        ),
-                        '--cbp-line-number-color': attributes?.lineNumbers
-                            ? attributes.textColor
-                            : undefined,
-                        '--cbp-line-number-start':
-                            Number(attributes?.startingLineNumber) > 1
-                                ? attributes.startingLineNumber
-                                : undefined,
-                        '--cbp-line-number-width': attributes.lineNumbersWidth
-                            ? `${attributes.lineNumbersWidth}px`
-                            : undefined,
-                        '--cbp-line-highlight-color':
-                            attributes?.enableHighlighting
-                                ? attributes.lineHighlightColor
-                                : undefined,
-                        '--cbp-line-height': attributes.lineHeight,
-                        fontFamily: fontFamilyLong(attributes.fontFamily),
-                        lineHeight: maybeClamp(
-                            attributes.lineHeight,
-                            attributes.clampFonts,
-                        ),
-                    },
-                })}>
-                <HeaderType {...attributes} />
-                {attributes.copyButton && (
-                    <CopyButton attributes={attributes} />
-                )}
-                <Edit attributes={attributes} setAttributes={setAttributes} />
-                <FooterType {...attributes} />
-            </div>
-        </>
+        <Editor attributes={attributes} setAttributes={setAttributes} />
     ),
     save: ({ attributes }) => <BlockOutput attributes={attributes} />,
     transforms: {
@@ -125,20 +82,14 @@ registerBlockType<Attributes>(blockConfig.name, {
             {
                 type: 'block',
                 blocks: ['core/code', 'syntaxhighlighter/code'],
-                transform: (attrs) => {
-                    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-                    // @ts-ignore-next-line - Why is this reading the block generic?
-                    const { content, language } = attrs;
-                    const decode = (value: string) => {
-                        const txt = document.createElement('textarea');
-                        txt.innerHTML = value;
-                        return txt.value;
-                    };
-                    return createBlock(blockConfig.name, {
-                        code: content ? decode(content) : undefined,
-                        language: getMainAlias(language) as Lang,
-                    });
-                },
+                transform: transformToCBP,
+            },
+        ],
+        to: [
+            {
+                type: 'block',
+                blocks: ['core/code'],
+                transform: transformFromCBP,
             },
         ],
     },

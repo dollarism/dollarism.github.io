@@ -2,7 +2,7 @@
 /**
  * Wishlist class
  *
- * @author YITH
+ * @author YITH <plugins@yithemes.com>
  * @package YITH\Wishlist\Classes\Wishlists
  * @version 3.0.0
  */
@@ -234,7 +234,7 @@ if ( ! class_exists( 'YITH_WCWL_Wishlist' ) ) {
 			 *
 			 * @return bool
 			 */
-			if ( is_user_logged_in() && current_user_can( 'manage_woocommerce' ) && apply_filters( 'yith_wcwl_admin_can', true, $capability, $current_user, $this ) ) {
+			if ( is_user_logged_in() && current_user_can( 'manage_woocommerce' ) && apply_filters( 'yith_wcwl_admin_can', true, $capability, $current_user, $this ) ) { // phpcs:ignore WordPress.WP.Capabilities.Unknown
 				return true;
 			}
 

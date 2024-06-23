@@ -7,10 +7,10 @@ namespace Automattic\WooCommerce\Admin\API\Reports\Categories;
 
 defined( 'ABSPATH' ) || exit;
 
-use \Automattic\WooCommerce\Admin\API\Reports\DataStore as ReportsDataStore;
-use \Automattic\WooCommerce\Admin\API\Reports\DataStoreInterface;
-use \Automattic\WooCommerce\Admin\API\Reports\TimeInterval;
-use \Automattic\WooCommerce\Admin\API\Reports\SqlQuery;
+use Automattic\WooCommerce\Admin\API\Reports\DataStore as ReportsDataStore;
+use Automattic\WooCommerce\Admin\API\Reports\DataStoreInterface;
+use Automattic\WooCommerce\Admin\API\Reports\TimeInterval;
+use Automattic\WooCommerce\Admin\API\Reports\SqlQuery;
 
 /**
  * API\Reports\Categories\DataStore.
@@ -162,7 +162,7 @@ class DataStore extends ReportsDataStore implements DataStoreInterface {
 	 * Returns an array of ids of included categories, based on query arguments from the user.
 	 *
 	 * @param array $query_args Parameters supplied by the user.
-	 * @return string
+	 * @return array
 	 */
 	protected function get_included_categories_array( $query_args ) {
 		if ( isset( $query_args['category_includes'] ) && is_array( $query_args['category_includes'] ) && count( $query_args['category_includes'] ) > 0 ) {

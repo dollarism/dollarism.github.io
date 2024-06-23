@@ -1,7 +1,8 @@
 <?php
 defined('ABSPATH') || defined('DUPXABSPATH') || exit;
 
-use Duplicator\Installer\Utils\Utils;
+use Duplicator\Installer\Utils\InstallerUpsell;
+use Duplicator\Installer\Utils\LinkManager;
 ?>
 
 If no passwords were set on the installer or archive file then users will initially see step one of the installer.  The installer has two operating views
@@ -32,7 +33,9 @@ other details about the archive file.   Below is an overview of the various stat
 
 <small class="hlp-lite-only">
     Note: Duplicator Lite supports only single WordPress sites, while
-    <a href="<?php echo Utils::getCampainUrl("lite_section_help") ?>" target="_blank">Duplicator Pro</a> supports single and multisite websites.
+    <a href="<?php echo InstallerUpsell::getCampaignUrl('installer', "Help section - Get Pro for Multisite"); ?>" target="_blank">
+        Duplicator Pro
+    </a> supports single and multisite websites.
 </small>
 <br/><br/>
 
@@ -154,17 +157,16 @@ The archive tab shows various details about the archive file and site details re
 install modes are currently supported:
 <ul>
     <li>
-        <b><a href="https://snapcreek.com/duplicator/docs/quick-start/#quick-040-q" target="_blank">Classic Install:</a></b>
+        <b><a href="<?php echo LinkManager::getDocUrl('classic-install', 'install', 'Classic Install'); ?>" target="_blank">Classic Install:</a></b>
         With this mode users can install to an empty directory like a new WordPress install does.
-
     </li>
     <li>
-        <b><a href="https://snapcreek.com/duplicator/docs/quick-start/#quick-043-q" target="_blank">Overwrite Install:</a></b>
+        <b><a href="<?php echo LinkManager::getDocUrl('overwrite-install', 'install', 'Overwrite Install'); ?>" target="_blank">Overwrite Install:</a></b>
         This mode allows users to quickly overwrite an existing WordPress site in a few clicks.
     </li>
     <li>
         <sup class="hlp-pro-lbl">Pro</sup>
-        <b><a href="https://snapcreek.com/duplicator/docs/quick-start/#quick-045-q" target="_blank">Import Install:</a></b> 
+        <b><a href="<?php echo LinkManager::getDocUrl('import-install', 'install', 'Import Install'); ?>" target="_blank">Import Install:</a></b> 
         Drag and drop or use a URL for super-fast installs.  This Pro-only feature will import both Pro and Lite archives.
         <ul>
             <li><b>Import File:</b>  Drag and drop an existing Duplicator Lite or Pro archive and quickly replace the existing WordPress site</li>
@@ -220,7 +222,8 @@ two options you can use to perform the database setup:
             <br/><br/>
 
             <b>Skip Database Extraction</b><br/>
-            This option requires that you manually run your own SQL import to an existing database before running the installer. When this action is selected the
+            This option requires that you manually run your own SQL import to an existing database before running the installer. 
+            When this action is selected the
             dup-database__[hash].sql file found inside the dup-installer folder of the archive.zip file will NOT be processed. The database you're connecting to
             should already be a valid WordPress installed database.  This option is viable when you need to perform custom SQL work or advanced installs.
             <br/><br/>
@@ -256,8 +259,11 @@ two options you can use to perform the database setup:
     </tr>
     <tr>
         <td class="col-opt">User</td>
-        <td>The name of MySQL/MariaDB database server user. This is a special account that has privileges to access a database and can read from or write to that database.
-            <i>This is <b>not</b> the WordPress administrator account</i>.</td>
+        <td>
+            The name of MySQL/MariaDB database server user. 
+            This is a special account that has privileges to access a database and can read from or write to that database.
+            <i>This is <b>not</b> the WordPress administrator account</i>.
+        </td>
     </tr>
     <tr>
         <td class="col-opt">Password</td>
@@ -300,7 +306,8 @@ two options you can use to perform the database setup:
             - Your host does not use <a href="http://cpanel.com" target="_blank">cPanel software</a>. <br/>
             - Your host has disabled cPanel API access. <br/>
             - Your host has configured cPanel to work differently (please contact your host). <br/>
-            - View a list of valid cPanel <a href='https://snapcreek.com/wordpress-hosting' target='_blank'>Supported Hosts</a>.
+            <?php $url = LinkManager::getDocUrl('what-host-providers-are-recommended-for-duplicator', 'install', 'cpanel issues'); ?>
+            - View a list of valid cPanel <a href='<?php echo DUPX_U::esc_attr($url); ?>' target='_blank'>Supported Hosts</a>.
         </td>
     </tr>
 </table>

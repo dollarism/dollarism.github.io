@@ -2,7 +2,7 @@
 /**
  * Plugin ajax file
  *
- * @package WooWallet
+ * @package StandaleneTech
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -53,6 +53,8 @@ if ( ! class_exists( 'Woo_Wallet_Ajax' ) ) {
 			add_action( 'wp_ajax_terawallet_do_ajax_transaction_export', array( $this, 'terawallet_do_ajax_transaction_export' ) );
 
 			add_action( 'wp_ajax_lock_unlock_terawallet', array( $this, 'lock_unlock_terawallet' ) );
+
+			add_action( 'wp_ajax_get_edit_wallet_balance_template', array( $this, 'edit_wallet_balance_template' ) );
 		}
 		/**
 		 * Lock / Unlock user wallet
@@ -101,6 +103,10 @@ if ( ! class_exists( 'Woo_Wallet_Ajax' ) ) {
 			$exporter = new TeraWallet_CSV_Exporter();
 
 			$exporter->set_step( $step );
+
+			if ( ! empty( $_POST['export_type'] ) ) {
+				$exporter->set_export_type( wp_unslash( $_POST['export_type'] ) ); // phpcs:ignore WordPress.Security.ValidatedSanitizedInput.InputNotSanitized
+			}
 
 			if ( ! empty( $_POST['selected_columns'] ) ) {
 				$exporter->set_columns_to_export( wp_unslash( $_POST['selected_columns'] ) ); // phpcs:ignore WordPress.Security.ValidatedSanitizedInput.InputNotSanitized
@@ -151,6 +157,10 @@ if ( ! class_exists( 'Woo_Wallet_Ajax' ) ) {
 		 */
 		public function terawallet_export_user_search() {
 			check_ajax_referer( 'search-user', 'security' );
+			// Check permissions again and make sure we have what we need.
+			if ( ! get_wallet_user_capability() ) {
+				wp_die( -1 );
+			}
 			$term    = isset( $_POST['term'] ) ? sanitize_text_field( wp_unslash( $_POST['term'] ) ) : '';
 			$return  = array();
 			$blog_id = isset( $_POST['site_id'] ) ? sanitize_text_field( wp_unslash( $_POST['site_id'] ) ) : get_current_blog_id();
@@ -181,7 +191,7 @@ if ( ! class_exists( 'Woo_Wallet_Ajax' ) ) {
 		 */
 		public function recalculate_order_cashback_after_calculate_totals( $and_taxes, $order ) {
 			$cashback_amount = woo_wallet()->cashback->calculate_cashback( false, $order->get_id(), true );
-			$transaction_id  = get_post_meta( $order->get_id(), '_general_cashback_transaction_id', true );
+			$transaction_id  = $order->get_meta( '_general_cashback_transaction_id' );
 			if ( $transaction_id ) {
 				update_wallet_transaction( $transaction_id, $order->get_customer_id(), array( 'amount' => $cashback_amount ), array( '%f' ) );
 			}
@@ -198,13 +208,13 @@ if ( ! class_exists( 'Woo_Wallet_Ajax' ) ) {
 			$order_id               = absint( filter_input( INPUT_POST, 'order_id' ) );
 			$order                  = wc_get_order( $order_id );
 			$partial_payment_amount = get_order_partial_payment_amount( $order_id );
-			$transaction_id         = woo_wallet()->wallet->credit( $order->get_customer_id(), $partial_payment_amount, __( 'Wallet refund #', 'woo-wallet' ) . $order->get_order_number() );
+			$transaction_id         = woo_wallet()->wallet->credit( $order->get_customer_id(), $partial_payment_amount, __( 'Wallet refund #', 'woo-wallet' ) . $order->get_order_number(), array( 'currency' => $order->get_currency( 'edit' ) ) );
 			if ( $transaction_id ) {
 				$response['success'] = true;
 				/* translators: wallet amount */
 				$order->add_order_note( sprintf( __( '%s refunded to customer wallet', 'woo-wallet' ), wc_price( $partial_payment_amount, woo_wallet_wc_price_args( $order->get_customer_id() ) ) ) );
-				update_post_meta( $order_id, '_woo_wallet_partial_payment_refunded', true );
-				update_post_meta( $order_id, '_partial_payment_refund_id', $transaction_id );
+				WOO_Wallet_Helper::update_order_meta_data( $order, '_woo_wallet_partial_payment_refunded', true, false );
+				WOO_Wallet_Helper::update_order_meta_data( $order, '_partial_payment_refund_id', $transaction_id );
 				do_action( 'woo_wallet_partial_order_refunded', $order_id, $transaction_id );
 			}
 			wp_send_json( $response );
@@ -225,9 +235,9 @@ if ( ! class_exists( 'Woo_Wallet_Ajax' ) ) {
 			$refund_amount          = isset( $_POST['refund_amount'] ) ? wc_format_decimal( sanitize_text_field( wp_unslash( $_POST['refund_amount'] ) ), wc_get_price_decimals() ) : 0;
 			$refunded_amount        = isset( $_POST['refunded_amount'] ) ? wc_format_decimal( sanitize_text_field( wp_unslash( $_POST['refunded_amount'] ) ), wc_get_price_decimals() ) : 0;
 			$refund_reason          = isset( $_POST['refund_reason'] ) ? sanitize_text_field( wp_unslash( $_POST['refund_reason'] ) ) : '';
-			$line_item_qtys         = isset( $_POST['line_item_qtys'] ) ? array_map( 'intval', json_decode( sanitize_text_field( wp_unslash( $_POST['line_item_qtys'] ) ), true ) ) : array();
-			$line_item_totals       = isset( $_POST['line_item_totals'] ) ? array_map( 'floatval', json_decode( sanitize_text_field( wp_unslash( $_POST['line_item_totals'] ) ), true ) ) : array();
-			$line_item_tax_totals   = isset( $_POST['line_item_tax_totals'] ) ? array_map( 'floatval', json_decode( sanitize_text_field( wp_unslash( $_POST['line_item_tax_totals'] ) ), true ) ) : array();
+			$line_item_qtys         = isset( $_POST['line_item_qtys'] ) ? json_decode( sanitize_text_field( wp_unslash( $_POST['line_item_qtys'] ) ), true ) : array();
+			$line_item_totals       = isset( $_POST['line_item_totals'] ) ? json_decode( sanitize_text_field( wp_unslash( $_POST['line_item_totals'] ) ), true ) : array();
+			$line_item_tax_totals   = isset( $_POST['line_item_tax_totals'] ) ? json_decode( sanitize_text_field( wp_unslash( $_POST['line_item_tax_totals'] ) ), true ) : array();
 			$api_refund             = isset( $_POST['api_refund'] ) && 'true' === $_POST['api_refund'];
 			$restock_refunded_items = isset( $_POST['restock_refunded_items'] ) && 'true' === $_POST['restock_refunded_items'];
 			$refund                 = false;
@@ -264,7 +274,7 @@ if ( ! class_exists( 'Woo_Wallet_Ajax' ) ) {
 				foreach ( $line_item_tax_totals as $item_id => $tax_totals ) {
 					$line_items[ $item_id ]['refund_tax'] = array_filter( array_map( 'wc_format_decimal', $tax_totals ) );
 				}
-
+				$refund_reason = $refund_reason ? $refund_reason : __( 'Wallet refund #', 'woo-wallet' ) . $order->get_order_number();
 				// Create the refund object.
 				$refund = wc_create_refund(
 					array(
@@ -277,7 +287,7 @@ if ( ! class_exists( 'Woo_Wallet_Ajax' ) ) {
 					)
 				);
 				if ( ! is_wp_error( $refund ) ) {
-					$transaction_id = woo_wallet()->wallet->credit( $order->get_customer_id(), $refund_amount, $refund_reason );
+					$transaction_id = woo_wallet()->wallet->credit( $order->get_customer_id(), $refund_amount, $refund_reason, array( 'currency' => $order->get_currency( 'edit' ) ) );
 					if ( ! $transaction_id ) {
 						throw new Exception( __( 'Refund not credited to customer', 'woo-wallet' ) );
 					} else {
@@ -354,7 +364,7 @@ if ( ! class_exists( 'Woo_Wallet_Ajax' ) ) {
 		 */
 		public function woo_wallet_partial_payment_update_session() {
 			if ( isset( $_POST['checked'] ) && 'true' === $_POST['checked'] ) { // phpcs:ignore WordPress.Security.NonceVerification.Missing
-				update_wallet_partial_payment_session( true );
+				update_wallet_partial_payment_session( woo_wallet()->wallet->get_wallet_balance( get_current_user_id(), 'edit' ) );
 			} else {
 				update_wallet_partial_payment_session();
 			}
@@ -370,7 +380,7 @@ if ( ! class_exists( 'Woo_Wallet_Ajax' ) ) {
 				wp_send_json_error( __( 'You have no permission to do that', 'woo-wallet' ) );
 			}
 
-			if ( isset( $_POST['nonce'] ) && ! wp_verify_nonce( sanitize_text_field( wp_unslash( $_POST['nonce'] ) ), 'woo_wallet_admin' ) ) {
+			if ( ! isset( $_POST['nonce'] ) || ! wp_verify_nonce( sanitize_text_field( wp_unslash( $_POST['nonce'] ) ), 'woo_wallet_admin' ) ) {
 				wp_send_json_error( __( 'Invalid nonce', 'woo-wallet' ) );
 			}
 			update_option( '_woo_wallet_promotion_dismissed', true );
@@ -413,10 +423,10 @@ if ( ! class_exists( 'Woo_Wallet_Ajax' ) ) {
 						'woo_wallet_transactons_datatable_row_data',
 						array(
 							'id'      => $transaction->transaction_id,
-							'credit'  => 'credit' === $transaction->type ? wc_price( apply_filters( 'woo_wallet_amount', $transaction->amount, $transaction->currency, $transaction->user_id ), woo_wallet_wc_price_args( $transaction->user_id ) ) : ' - ',
-							'debit'   => 'debit' === $transaction->type ? wc_price( apply_filters( 'woo_wallet_amount', $transaction->amount, $transaction->currency, $transaction->user_id ), woo_wallet_wc_price_args( $transaction->user_id ) ) : ' - ',
-							'details' => $transaction->details,
+							'amount'  => '<mark class="' . esc_attr( $transaction->type ) . '">' . wc_price( apply_filters( 'woo_wallet_amount', $transaction->amount, $transaction->currency, $transaction->user_id ), woo_wallet_wc_price_args( $transaction->user_id ) ) . '</mark>',
+							'details' => wp_kses_post( $transaction->details ),
 							'date'    => wc_string_to_datetime( $transaction->date )->date_i18n( wc_date_format() ),
+							'type'    => esc_html( ucfirst( $transaction->type ) ),
 						),
 						$transaction
 					);
@@ -424,7 +434,19 @@ if ( ! class_exists( 'Woo_Wallet_Ajax' ) ) {
 			}
 			wp_send_json( $response );
 		}
-
+		/**
+		 * Return edit wallet template for thickbox.
+		 *
+		 * @return void
+		 */
+		public function edit_wallet_balance_template() {
+			check_ajax_referer( 'woo-wallet-edit-balance-template', 'security' );
+			$user_id = isset( $_REQUEST['user_id'] ) ? absint( $_REQUEST['user_id'] ) : 0;
+			ob_start();
+			woo_wallet()->get_template( 'admin/edit-balance.php', array( 'user_id' => $user_id ) );
+			echo ob_get_clean(); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+			wp_die();
+		}
 	}
 
 }

@@ -2,7 +2,7 @@
 /**
  * Main class
  *
- * @author YITH
+ * @author YITH <plugins@yithemes.com>
  * @package YITH\Wishlist\Classes
  * @version 3.0.0
  */
@@ -25,6 +25,41 @@ if ( ! class_exists( 'YITH_WCWL' ) ) {
 		 * @since 2.0.0
 		 */
 		protected static $instance;
+
+		/**
+		 * Admin class
+		 *
+		 * @var YITH_WCWL_Admin
+		 */
+		protected $wcwl_admin;
+
+		/**
+		 * Frontend class
+		 *
+		 * @var YITH_WCWL_Frontend
+		 */
+		protected $wcwl_frontend;
+
+		/**
+		 * Cron class
+		 *
+		 * @var YITH_WCWL_Cron
+		 */
+		protected $wcwl_cron;
+
+		/**
+		 * Session class
+		 *
+		 * @var YITH_WCWL_Session
+		 */
+		protected $wcwl_session;
+
+		/**
+		 * Emails
+		 *
+		 * @var array
+		 */
+		public $emails = array();
 
 		/**
 		 * Last operation token
@@ -59,7 +94,6 @@ if ( ! class_exists( 'YITH_WCWL' ) ) {
 		/**
 		 * Constructor.
 		 *
-		 * @return \YITH_WCWL
 		 * @since 1.0.0
 		 */
 		public function __construct() {
@@ -90,6 +124,8 @@ if ( ! class_exists( 'YITH_WCWL' ) ) {
 
 			// Polylang integration.
 			add_filter( 'pll_translation_url', array( $this, 'get_pll_wishlist_url' ), 10, 1 );
+
+			add_action( 'before_woocommerce_init', array( $this, 'declare_wc_features_support' ) );
 		}
 
 		/* === PLUGIN FW LOADER === */
@@ -211,7 +247,7 @@ if ( ! class_exists( 'YITH_WCWL' ) ) {
 			/**
 			 * DO_ACTION: yith_wcwl_adding_to_wishlist
 			 *
-			 * Allows to fire some action when a product to a wishlist.
+			 * Allows to fire some action when a product is added to a wishlist.
 			 *
 			 * @param int $prod_id     Product ID
 			 * @param int $wishlist_id Wishlist ID
@@ -229,17 +265,17 @@ if ( ! class_exists( 'YITH_WCWL' ) ) {
 				 *
 				 * @return string
 				 */
-				throw new YITH_WCWL_Exception( apply_filters( 'yith_wcwl_user_cannot_add_to_wishlist_message', __( 'The item cannot be added to this wishlist', 'yith-woocommerce-wishlist' ) ), 1 );
+				throw new YITH_WCWL_Exception( esc_html( apply_filters( 'yith_wcwl_user_cannot_add_to_wishlist_message', __( 'The item cannot be added to this wishlist', 'yith-woocommerce-wishlist' ) ) ), 0 );
 			}
 
 			if ( ! $prod_id ) {
-				throw new YITH_WCWL_Exception( __( 'An error occurred while adding the products to the wishlist.', 'yith-woocommerce-wishlist' ), 0 );
+				throw new YITH_WCWL_Exception( esc_html__( 'An error occurred while adding the products to the wishlist.', 'yith-woocommerce-wishlist' ), 0 );
 			}
 
 			$wishlist = 'new' === $wishlist_id ? $this->add_wishlist( $atts ) : YITH_WCWL_Wishlist_Factory::get_wishlist( $wishlist_id, 'edit' );
 
 			if ( ! $wishlist instanceof YITH_WCWL_Wishlist || ! $wishlist->current_user_can( 'add_to_wishlist' ) ) {
-				throw new YITH_WCWL_Exception( __( 'An error occurred while adding the products to the wishlist.', 'yith-woocommerce-wishlist' ), 0 );
+				throw new YITH_WCWL_Exception( esc_html__( 'An error occurred while adding the products to the wishlist.', 'yith-woocommerce-wishlist' ), 0 );
 			}
 
 			$this->last_operation_token = $wishlist->get_token();
@@ -254,7 +290,7 @@ if ( ! class_exists( 'YITH_WCWL' ) ) {
 				 *
 				 * @return string
 				 */
-				throw new YITH_WCWL_Exception( apply_filters( 'yith_wcwl_product_already_in_wishlist_message', get_option( 'yith_wcwl_already_in_wishlist_text' ) ), 1 );
+				throw new YITH_WCWL_Exception( esc_html( apply_filters( 'yith_wcwl_product_already_in_wishlist_message', get_option( 'yith_wcwl_already_in_wishlist_text' ) ) ), 1 );
 			}
 
 			$item = new YITH_WCWL_Wishlist_Item();
@@ -336,7 +372,7 @@ if ( ! class_exists( 'YITH_WCWL' ) ) {
 				 *
 				 * @return string
 				 */
-				throw new YITH_WCWL_Exception( apply_filters( 'yith_wcwl_unable_to_remove_product_message', __( 'Error. Unable to remove the product from the wishlist.', 'yith-woocommerce-wishlist' ) ), 0 );
+				throw new YITH_WCWL_Exception( esc_html( apply_filters( 'yith_wcwl_unable_to_remove_product_message', __( 'Error. Unable to remove the product from the wishlist.', 'yith-woocommerce-wishlist' ) ) ), 0 );
 			}
 
 			/**
@@ -362,7 +398,7 @@ if ( ! class_exists( 'YITH_WCWL' ) ) {
 			 * @return bool
 			 */
 			if ( apply_filters( 'yith_wcwl_allow_remove_after_add_to_cart', ! $wishlist instanceof YITH_WCWL_Wishlist || ! $wishlist->current_user_can( 'remove_from_wishlist' ), $wishlist ) ) {
-				throw new YITH_WCWL_Exception( apply_filters( 'yith_wcwl_unable_to_remove_product_message', __( 'Error. Unable to remove the product from the wishlist.', 'yith-woocommerce-wishlist' ) ), 0 );
+				throw new YITH_WCWL_Exception( esc_html( apply_filters( 'yith_wcwl_unable_to_remove_product_message', __( 'Error. Unable to remove the product from the wishlist.', 'yith-woocommerce-wishlist' ) ) ), 0 );
 			}
 
 			$wishlist->remove_product( $prod_id );
@@ -1071,6 +1107,17 @@ if ( ! class_exists( 'YITH_WCWL' ) ) {
 
 			return $url;
 		}
+
+		/**
+		 * Declare support for WooCommerce features.
+		 *
+		 * @since 3.22.0
+		 */
+		public function declare_wc_features_support() {
+			if ( class_exists( '\Automattic\WooCommerce\Utilities\FeaturesUtil' ) ) {
+				\Automattic\WooCommerce\Utilities\FeaturesUtil::declare_compatibility( 'custom_order_tables', YITH_WCWL_INIT, true );
+			}
+		}
 	}
 }
 
@@ -1080,7 +1127,7 @@ if ( ! class_exists( 'YITH_WCWL' ) ) {
  * @return \YITH_WCWL|\YITH_WCWL_Premium
  * @since 2.0.0
  */
-function YITH_WCWL() { // phpcs:ignore WordPress.NamingConventions.ValidFunctionName.FunctionNameInvalid
+function YITH_WCWL() { // phpcs:ignore WordPress.NamingConventions.ValidFunctionName.FunctionNameInvalid, Universal.Files.SeparateFunctionsFromOO
 	if ( defined( 'YITH_WCWL_PREMIUM' ) ) {
 		$instance = YITH_WCWL_Premium::get_instance();
 	} elseif ( defined( 'YITH_WCWL_EXTENDED' ) ) {

@@ -2,7 +2,7 @@
 /**
  * Wishlist Session Handler
  *
- * @author YITH
+ * @author YITH <plugins@yithemes.com>
  * @package YITH\Wishlist\Classes
  * @version 3.0.0
  */
@@ -396,6 +396,6 @@ if ( ! class_exists( 'YITH_WCWL_Session' ) ) {
  * @return \YITH_WCWL_Session
  * @since 3.0.0
  */
-function YITH_WCWL_Session() { // phpcs:ignore WordPress.NamingConventions.ValidFunctionName.FunctionNameInvalid
+function YITH_WCWL_Session() { // phpcs:ignore WordPress.NamingConventions.ValidFunctionName.FunctionNameInvalid, Universal.Files.SeparateFunctionsFromOO
 	return YITH_WCWL_Session::get_instance();
 }

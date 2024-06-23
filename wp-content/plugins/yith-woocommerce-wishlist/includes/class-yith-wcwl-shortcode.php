@@ -2,7 +2,7 @@
 /**
  * Shortcodes class
  *
- * @author YITH
+ * @author YITH <plugins@yithemes.com>
  * @package YITH\Wishlist\Classes
  * @version 3.0.0
  */
@@ -169,8 +169,10 @@ if ( ! class_exists( 'YITH_WCWL_Shortcode' ) ) {
 			include_once YITH_WCWL_INC . 'widgets/elementor/class-yith-wcwl-elementor-add-to-wishlist.php';
 			include_once YITH_WCWL_INC . 'widgets/elementor/class-yith-wcwl-elementor-wishlist.php';
 
+			$register_widget_hook = version_compare( ELEMENTOR_VERSION, '3.5.0', '>=' ) ? 'elementor/widgets/register' : 'elementor/widgets/widgets_registered';
+
 			// register widgets.
-			add_action( 'elementor/widgets/widgets_registered', array( 'YITH_WCWL_Shortcode', 'register_elementor_widgets' ) );
+			add_action( $register_widget_hook, array( 'YITH_WCWL_Shortcode', 'register_elementor_widgets' ) );
 		}
 
 		/**
@@ -179,8 +181,15 @@ if ( ! class_exists( 'YITH_WCWL_Shortcode' ) ) {
 		 * @return void
 		 */
 		public static function register_elementor_widgets() {
-			\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new YITH_WCWL_Elementor_Add_To_Wishlist() );
-			\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new YITH_WCWL_Elementor_Wishlist() );
+			$widgets_manager = \Elementor\Plugin::instance()->widgets_manager;
+
+			if ( is_callable( array( $widgets_manager, 'register' ) ) ) {
+				$widgets_manager->register( new YITH_WCWL_Elementor_Add_To_Wishlist() );
+				$widgets_manager->register( new YITH_WCWL_Elementor_Wishlist() );
+			} else {
+				$widgets_manager->register_widget_type( new YITH_WCWL_Elementor_Add_To_Wishlist() );
+				$widgets_manager->register_widget_type( new YITH_WCWL_Elementor_Wishlist() );
+			}
 		}
 
 		/* === SHORTCODES == */
@@ -194,7 +203,7 @@ if ( ! class_exists( 'YITH_WCWL_Shortcode' ) ) {
 		 *
 		 * @since 1.0.0
 		 */
-		public static function wishlist( $atts, $content = null ) {
+		public static function wishlist( $atts, $content = null ) { // phpcs:ignore Generic.CodeAnalysis.UnusedFunctionParameter
 			global $yith_wcwl_is_wishlist, $yith_wcwl_wishlist_token;
 
 			$atts = shortcode_atts(
@@ -636,12 +645,13 @@ if ( ! class_exists( 'YITH_WCWL_Shortcode' ) ) {
 		 *
 		 * @since 1.0.0
 		 */
-		public static function add_to_wishlist( $atts, $content = null ) {
-			global $product;
+		public static function add_to_wishlist( $atts, $content = null ) { // phpcs:ignore Generic.CodeAnalysis.UnusedFunctionParameter
+			global $post, $product;
 
 			// product object.
 			$current_product = ( isset( $atts['product_id'] ) ) ? wc_get_product( $atts['product_id'] ) : false;
-			$current_product = $current_product ? $current_product : $product;
+			$current_product = $current_product ? $current_product : ( $product instanceof WC_Product ? $product : false );
+			$current_product = $current_product ? $current_product : ( $post instanceof WP_Post ? wc_get_product( $post->ID ) : false );
 
 			if ( ! $current_product || ! $current_product instanceof WC_Product ) {
 				return '';
@@ -828,7 +838,12 @@ if ( ! class_exists( 'YITH_WCWL_Shortcode' ) ) {
 
 			$atts = shortcode_atts(
 				$additional_params,
-				$atts
+				is_array( $atts ) ? array_filter(
+					$atts,
+					function ( $item ) {
+						return ! empty( $item ) || is_bool( $item );
+					}
+				) : array()
 			);
 
 			// add no-icon class when item is shown without icon.
@@ -920,7 +935,6 @@ if ( ! class_exists( 'YITH_WCWL_Shortcode' ) ) {
 			 */
 			return apply_filters( 'yith_wcwl_add_to_wishlisth_button_html', $template, $wishlist_url, $product_type, $exists, $atts );
 		}
-
 	}
 }
 

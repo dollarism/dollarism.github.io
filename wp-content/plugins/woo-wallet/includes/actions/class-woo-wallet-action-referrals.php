@@ -23,6 +23,7 @@ class Action_Referrals extends WooWalletAction {
 		$this->init_settings();
 		// Actions.
 		add_action( 'wp_loaded', array( $this, 'load_woo_wallet_referral' ) );
+		add_action( 'user_register', array( $this, 'woo_wallet_referring_signup' ) );
 	}
 
 	/**
@@ -149,7 +150,6 @@ class Action_Referrals extends WooWalletAction {
 			add_filter( 'woo_wallet_endpoint_actions', array( $this, 'woo_wallet_endpoint_actions' ) );
 			$this->init_referrals();
 			add_action( 'wp', array( $this, 'init_referral_visit' ), 105 );
-			add_action( 'user_register', array( $this, 'woo_wallet_referring_signup' ) );
 			add_action( 'woocommerce_order_status_changed', array( $this, 'woo_wallet_credit_referring_signup' ), 100 );
 		}
 	}
@@ -163,7 +163,7 @@ class Action_Referrals extends WooWalletAction {
 	public function add_referral_nav_menu( $nav_menu, $is_rendred_from_myaccount ) {
 		$nav_menu['referrals'] = array(
 			'title' => apply_filters( 'woo_wallet_account_referrals_menu_title', __( 'Referrals', 'woo-wallet' ) ),
-			'url'   => $is_rendred_from_myaccount ? esc_url( wc_get_endpoint_url( get_option( 'woocommerce_woo_wallet_endpoint', 'woo-wallet' ), 'referrals', wc_get_page_permalink( 'myaccount' ) ) ) : add_query_arg( 'wallet_action', 'referrals' ),
+			'url'   => $is_rendred_from_myaccount ? esc_url( wc_get_endpoint_url( get_option( 'woocommerce_woo_wallet_endpoint', 'my-wallet' ), 'referrals', wc_get_page_permalink( 'myaccount' ) ) ) : add_query_arg( 'wallet_action', 'referrals' ),
 			'icon'  => 'dashicons dashicons-groups',
 		);
 		return $nav_menu;
@@ -279,7 +279,7 @@ class Action_Referrals extends WooWalletAction {
 	 */
 	public function woo_wallet_referring_signup( $user_id ) {
 		$referral_user = $this->get_referral_user();
-		if ( $this->get_referral_user() ) {
+		if ( $this->is_enabled() && $this->get_referral_user() ) {
 			$limit = $this->settings['referring_signups_limit_duration'];
 			if ( $limit ) {
 				$woo_wallet_referral_signup_count = get_transient( 'woo_wallet_referral_signup_' . $referral_user->ID ) ? get_transient( 'woo_wallet_referral_signup_' . $referral_user->ID ) : 0;

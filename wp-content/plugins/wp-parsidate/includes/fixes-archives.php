@@ -69,7 +69,7 @@ function echo_yarchive( $year, $format, $before, $count, $show_post_count, $r ) 
 	$url = get_year_link( $year );
 
 	if ( 'post' !== $r['post_type'] ) {
-		$url = add_query_arg( 'post_type', $r['post_type'], $url );
+		$url = esc_url( add_query_arg( 'post_type', $r['post_type'], $url ) );
 	}
 
 	echo get_archives_link( $url, fix_number( $year ), $format, $before, $count );
@@ -98,7 +98,7 @@ function echo_marchive( $old_date, $format, $before, $count, $show_post_count, $
 	$url = get_month_link( $year, $month );
 
 	if ( 'post' !== $r['post_type'] ) {
-		$url = add_query_arg( 'post_type', $r['post_type'], $url );
+		$url = esc_url( add_query_arg( 'post_type', $r['post_type'], $url ) );
 	}
 
 	echo get_archives_link( $url, $persian_month_names[ intval( $month ) ] . ' ' . fix_number( $year ), $format, $before, $count );

@@ -2,7 +2,7 @@
 /**
  * Wishlist Factory class
  *
- * @author YITH
+ * @author YITH <plugins@yithemes.com>
  * @package YITH\Wishlist\Classes\Wishlists
  * @version 3.0.0
  */
@@ -31,6 +31,9 @@ if ( ! class_exists( 'YITH_WCWL_Wishlist_Factory' ) ) {
 			}
 
 			try {
+				if ( is_array( $wishlist_id ) ) {
+					$wishlist_id = $wishlist_id[0];
+				}
 				return new YITH_WCWL_Wishlist( $wishlist_id );
 			} catch ( Exception $e ) {
 				wc_caught_exception( $e, __FUNCTION__, func_get_args() );

@@ -1,16 +1,18 @@
 <?php
 
+use Duplicator\Libs\Snap\SnapOS;
+
 defined('ABSPATH') || defined('DUPXABSPATH') || exit;
 /**
  * Lightweight abstraction layer for common simple database routines
  *
  * Standard: PSR-2
+ *
  * @link http://www.php-fig.org/psr/psr-2
  *
- * @package Duplicator
+ * @package    Duplicator
  * @subpackage classes/utilities
- * @copyright (c) 2017, Snapcreek LLC
- *
+ * @copyright  (c) 2017, Snapcreek LLC
  */
 // Exit if accessed directly
 if (!defined('DUPLICATOR_VERSION')) {
@@ -19,8 +21,12 @@ if (!defined('DUPLICATOR_VERSION')) {
 
 class DUP_DB extends wpdb
 {
+    const BUILD_MODE_MYSQLDUMP         = 'MYSQLDUMP';
+    const BUILD_MODE_PHP_SINGLE_THREAD = 'PHP';
+
     const MAX_TABLE_COUNT_IN_PACKET                 = 100;
     public static $remove_placeholder_escape_exists = null;
+
     public static function init()
     {
         global $wpdb;
@@ -44,6 +50,29 @@ class DUP_DB extends wpdb
             return null;
         }
     }
+
+     /**
+     * Return the value of lower_case_table_names
+     *
+     * @see https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_lower_case_table_names
+     *
+     * @return int
+     */
+    public static function getLowerCaseTableNames()
+    {
+        if (($result = self::getVariable("lower_case_table_names")) === null) {
+            if (SnapOS::isOSX()) {
+                return 2;
+            } elseif (SnapOS::isWindows()) {
+                return 1;
+            } else {
+                return 0;
+            }
+        }
+
+        return (int) $result;
+    }
+
 
     /**
      * Gets the MySQL database version number
@@ -108,7 +137,7 @@ class DUP_DB extends wpdb
     {
         $package_mysqldump = DUP_Settings::Get('package_mysqldump');
         $mysqlDumpPath     = DUP_DB::getMySqlDumpPath();
-        return ($mysqlDumpPath && $package_mysqldump) ? 'MYSQLDUMP' : 'PHP';
+        return ($mysqlDumpPath && $package_mysqldump) ? self::BUILD_MODE_MYSQLDUMP : self::BUILD_MODE_PHP_SINGLE_THREAD;
     }
 
     /**
@@ -178,6 +207,7 @@ class DUP_DB extends wpdb
      * Get Sql query to create table which is given.
      *
      * @param string $table Table name
+     *
      * @return string mysql query create table
      */
     private static function getCreateTableQuery($table)
@@ -251,8 +281,8 @@ class DUP_DB extends wpdb
      * Returns list of MySQL engines used by $tablesToInclude in the current DB
      *
      * @param string[] $tablesToInclude tables to check the engines for
+     *
      * @return string[]
-     * @throws Exception
      */
     public static function getTableEngineList($tablesToInclude)
     {
@@ -282,7 +312,7 @@ class DUP_DB extends wpdb
      * @param bool      $removePlaceholderEscape    Patch for how the default WP function works.
      *
      * @return boolean|string
-     * @also see: https://make.wordpress.org/core/2017/10/31/changed-behaviour-of-esc_sql-in-wordpress-4-8-3/
+     * @also   see: https://make.wordpress.org/core/2017/10/31/changed-behaviour-of-esc_sql-in-wordpress-4-8-3/
      */
     public static function escSQL($sql, $removePlaceholderEscape = false)
     {
@@ -295,25 +325,20 @@ class DUP_DB extends wpdb
         }
     }
 
-     /**
-     * this function escape sql string without add and remove remove_placeholder_escape
-     * doesn't work on array
+    /**
+     * This function escape sql string without add and remove remove_placeholder_escape
+     * Don't use esc_sql wordpress function
      *
-     * @global type $wpdb
-     * @param mixed $sql
+     * @param null|scalar $value input value
+     *
      * @return string
      */
     public static function escValueToQueryString($value)
     {
-        global $wpdb;
         if (is_null($value)) {
             return 'NULL';
         }
-
-        if ($wpdb->use_mysqli) {
-            return '"' . mysqli_real_escape_string($wpdb->dbh, $value) . '"';
-        } else {
-            return '"' . mysql_real_escape_string($value, $wpdb->dbh) . '"';
-        }
+        global $wpdb;
+        return '"' . mysqli_real_escape_string($wpdb->dbh, (string) $value) . '"';
     }
 }

@@ -2,7 +2,7 @@
 /**
  * Wishlist page template - Standard Layout
  *
- * @author YITH
+ * @author YITH <plugins@yithemes.com>
  * @package YITH\Wishlist\Templates\Wishlist\View
  * @version 3.0.0
  */
@@ -57,14 +57,14 @@ if ( ! defined( 'YITH_WCWL' ) ) {
 	<thead>
 	<tr>
 		<?php if ( $show_cb ) : ?>
-			<?php $column_count ++; ?>
+			<?php ++$column_count; ?>
 			<th class="product-checkbox">
 				<input type="checkbox" value="" name="" id="bulk_add_to_cart"/>
 			</th>
 		<?php endif; ?>
 
 		<?php if ( $show_remove_product ) : ?>
-			<?php $column_count ++; ?>
+			<?php ++$column_count; ?>
 			<th class="product-remove">
 				<span class="nobr">
 					<?php
@@ -105,7 +105,7 @@ if ( ! defined( 'YITH_WCWL' ) ) {
 		</th>
 
 		<?php if ( $show_price || $show_price_variations ) : ?>
-			<?php $column_count ++; ?>
+			<?php ++$column_count; ?>
 			<th class="product-price">
 				<span class="nobr">
 					<?php
@@ -126,7 +126,7 @@ if ( ! defined( 'YITH_WCWL' ) ) {
 		<?php endif; ?>
 
 		<?php if ( $show_quantity ) : ?>
-			<?php $column_count ++; ?>
+			<?php ++$column_count; ?>
 			<th class="product-quantity">
 				<span class="nobr">
 					<?php
@@ -147,7 +147,7 @@ if ( ! defined( 'YITH_WCWL' ) ) {
 		<?php endif; ?>
 
 		<?php if ( $show_stock_status ) : ?>
-			<?php $column_count ++; ?>
+			<?php ++$column_count; ?>
 			<th class="product-stock-status">
 				<span class="nobr">
 					<?php
@@ -168,7 +168,7 @@ if ( ! defined( 'YITH_WCWL' ) ) {
 		<?php endif; ?>
 
 		<?php if ( $show_last_column ) : ?>
-			<?php $column_count ++; ?>
+			<?php ++$column_count; ?>
 			<th class="product-add-to-cart">
 				<span class="nobr">
 					<?php
@@ -189,7 +189,7 @@ if ( ! defined( 'YITH_WCWL' ) ) {
 		<?php endif; ?>
 
 		<?php if ( $enable_drag_n_drop ) : ?>
-			<?php $column_count ++; ?>
+			<?php ++$column_count; ?>
 			<th class="product-arrange">
 				<span class="nobr">
 					<?php
@@ -428,7 +428,20 @@ if ( ! defined( 'YITH_WCWL' ) ) {
 							 *
 							 * @return string
 							 */
-							echo 'out-of-stock' === $item->get_stock_status() ? '<span class="wishlist-out-of-stock">' . esc_html( apply_filters( 'yith_wcwl_out_of_stock_label', __( 'Out of stock', 'yith-woocommerce-wishlist' ) ) ) . '</span>' : '<span class="wishlist-in-stock">' . esc_html( apply_filters( 'yith_wcwl_in_stock_label', __( 'In Stock', 'yith-woocommerce-wishlist' ) ) ) . '</span>';
+							$stock_status_html = 'out-of-stock' === $item->get_stock_status() ? '<span class="wishlist-out-of-stock">' . esc_html( apply_filters( 'yith_wcwl_out_of_stock_label', __( 'Out of stock', 'yith-woocommerce-wishlist' ) ) ) . '</span>' : '<span class="wishlist-in-stock">' . esc_html( apply_filters( 'yith_wcwl_in_stock_label', __( 'In Stock', 'yith-woocommerce-wishlist' ) ) ) . '</span>';
+
+							/**
+							 * APPLY_FILTERS: yith_wcwl_stock_status
+							 *
+							 * Filters the HTML for the stock status label.
+							 *
+							 * @param string                  $stock_status_html Stock status HTML.
+							 * @param YITH_WCWL_Wishlist_Item $item              Wishlist item object.
+							 * @param YITH_WCWL_Wishlist      $wishlist          Wishlist object.
+							 *
+							 * @return string
+							 */
+							echo wp_kses_post( apply_filters( 'yith_wcwl_stock_status', $stock_status_html, $item, $wishlist ) );
 							?>
 
 							<?php
@@ -541,7 +554,7 @@ if ( ! defined( 'YITH_WCWL' ) ) {
 											}
 											?>
 											<option value="<?php echo esc_attr( $wl->get_token() ); ?>">
-												<?php echo sprintf( '%s - %s', esc_html( $wl->get_formatted_name() ), esc_html( $wl->get_formatted_privacy() ) ); ?>
+												<?php printf( '%s - %s', esc_html( $wl->get_formatted_name() ), esc_html( $wl->get_formatted_privacy() ) ); ?>
 											</option>
 											<?php
 										endforeach;

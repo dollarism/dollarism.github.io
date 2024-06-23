@@ -21,6 +21,20 @@ class WC_Shipping_Flat_Rate extends WC_Shipping_Method {
 	protected $fee_cost = '';
 
 	/**
+	 * Shipping method cost.
+	 *
+	 * @var string
+	 */
+	public $cost;
+
+	/**
+	 * Shipping method type.
+	 *
+	 * @var string
+	 */
+	public $type;
+
+	/**
 	 * Constructor.
 	 *
 	 * @param int $instance_id Shipping method instance ID.
@@ -93,6 +107,9 @@ class WC_Shipping_Flat_Rate extends WC_Shipping_Method {
 
 		// Remove whitespace from string.
 		$sum = preg_replace( '/\s+/', '', $sum );
+
+		// Removed thousand separator.
+		$sum = str_replace( wc_get_price_thousand_separator(), '', $sum );
 
 		// Remove locale from string.
 		$sum = str_replace( $decimals, '.', $sum );

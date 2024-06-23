@@ -73,7 +73,7 @@ function wpp_activation_notice() {
 			echo sprintf(
 				__( '<div class="updated wpp-message"><p>ParsiDate activated, you may need to configure it to work properly. <a href="%s">Go to configuration page</a> &ndash; <a href="%s">Dismiss</a></p></div>', 'wp-parsidate' ),
 				admin_url( 'admin.php?page=wp-parsi-settings' ),
-				add_query_arg( 'wpp-action', 'dismiss-notice' )
+				esc_url( add_query_arg( 'wpp-action', 'dismiss-notice' ) )
 			);
 		}
 	}

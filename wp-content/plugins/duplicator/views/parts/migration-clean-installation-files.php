@@ -1,9 +1,11 @@
 <?php
 
+
 defined('ABSPATH') || defined('DUPXABSPATH') || exit;
 
 use Duplicator\Core\MigrationMng;
-use Duplicator\Utils\CachesPurge\CachesPurge;
+use Duplicator\Installer\Utils\LinkManager;
+use Duplicator\Views\AdminNotices;
 
 ?>
 <div class="dpro-diagnostic-action-installer">
@@ -50,7 +52,7 @@ use Duplicator\Utils\CachesPurge\CachesPurge;
         </p>
         <?php
     } else {
-        delete_option(DUP_UI_Notice::OPTION_KEY_MIGRATION_SUCCESS_NOTICE);
+        delete_option(AdminNotices::OPTION_KEY_MIGRATION_SUCCESS_NOTICE);
     }
     ?>
     <div style="font-style: italic; max-width:900px; padding:10px 0 25px 0;">
@@ -65,12 +67,14 @@ use Duplicator\Utils\CachesPurge\CachesPurge;
             );
             ?><br>
             <?php
-            _e(
-                'For more details please visit '
-                . 'the FAQ link <a href="https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-295-q" target="_blank">'
-                . 'Which files need to be removed after an install?'
-                . '</a>',
-                'duplicator'
+            printf(
+                _x(
+                    'For more details please visit the FAQ link %1$sWhich files need to be removed after an install?%2$s',
+                    '%1$s and %2$s are <a> tags',
+                    'duplicator'
+                ),
+                '<a href="' . esc_url(LinkManager::getDocUrl('which-files-need-to-be-removed-after-an-install', 'migration-notice')) . '" target="_blank">',
+                '</a>'
             );
             ?>
         </p>
@@ -79,11 +83,14 @@ use Duplicator\Utils\CachesPurge\CachesPurge;
             <?php
             _e('The Duplicator team has worked many years to make moving a WordPress site a much easier process. ', 'duplicator');
             echo '<br/>';
-            _e(
-                'Show your support with a '
-                . '<a href="https://wordpress.org/support/plugin/duplicator/reviews/?filter=5" '
-                . 'target="_blank">5 star review</a>! We would be thrilled if you could!',
-                'duplicator'
+            printf(
+                esc_html_x(
+                    'Show your support with a %1$s5 star review%2$s! We would be thrilled if you could!',
+                    '%1$s and %2$s are <a> tags',
+                    'duplicator'
+                ),
+                '<a href="' . esc_url(\Duplicator\Core\Notifications\Review::getReviewUrl()) . '" target="_blank">',
+                '</a>'
             );
             ?>
         </p>

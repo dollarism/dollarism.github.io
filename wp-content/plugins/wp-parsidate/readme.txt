@@ -3,8 +3,8 @@ Contributors: lord_viper, man4toman, parselearn, yazdaniwp, saeedfard, iehsanir
 Donate link: https://wp-parsi.com/support/
 Tags: shamsi, wp-parsi, wpparsi, persian, parsi, farsi, jalali, date, calendar, i18n, l10n, iran, iranian, parsidate, rtl, gutenberg, acf,woocommerce
 Requires at least: 5.3
-Tested up to: 5.8.2
-Stable tag: 4.0.1
+Tested up to: 6.1.1
+Stable tag: 4.0.2
 
 Persian date support for WordPress
 
@@ -46,6 +46,9 @@ List of some features:
 5. Persian date type in ACF
 
 == Changelog ==
+
+= 4.0.2 =
+* Fix security vulnerability reported with 'add_query_arg()' function
 
 = 4.0.1 =
 * Fix showing English number in admin and frontend

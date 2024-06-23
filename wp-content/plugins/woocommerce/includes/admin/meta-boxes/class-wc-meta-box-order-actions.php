@@ -8,6 +8,7 @@
  * @version     2.1.0
  */
 
+use Automattic\WooCommerce\Internal\Admin\Orders\PageController;
 use Automattic\WooCommerce\Utilities\OrderUtil;
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -97,11 +98,12 @@ class WC_Meta_Box_Order_Actions {
 	 */
 	private static function get_trash_or_delete_order_link( int $order_id ): string {
 		if ( OrderUtil::custom_orders_table_usage_is_enabled() ) {
-			$order_list_url  = admin_url( 'admin.php?page=wc-orders' );
+			$order_type      = wc_get_order( $order_id )->get_type();
+			$order_list_url  = wc_get_container()->get( PageController::class )->get_base_page_url( $order_type );
 			$trash_order_url = add_query_arg(
 				array(
 					'action'           => 'trash',
-					'order'            => array( $order_id ),
+					'id'            => array( $order_id ),
 					'_wp_http_referer' => $order_list_url,
 				),
 				$order_list_url
@@ -197,7 +199,7 @@ class WC_Meta_Box_Order_Actions {
 	 */
 	private static function get_available_order_actions_for_order( $order ) {
 		$actions = array(
-			'send_order_details'              => __( 'Email invoice / order details to customer', 'woocommerce' ),
+			'send_order_details'              => __( 'Send order details to customer', 'woocommerce' ),
 			'send_order_details_admin'        => __( 'Resend new order notification', 'woocommerce' ),
 			'regenerate_download_permissions' => __( 'Regenerate download permissions', 'woocommerce' ),
 		);

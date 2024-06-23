@@ -5,7 +5,7 @@
  * @version 1.0.0
  *
  * @author Subrata Mal
- * @package WooWallet
+ * @package StandaleneTech
  */
 
 if ( ! class_exists( 'Woo_Wallet_Settings_API' ) ) :
@@ -172,7 +172,7 @@ if ( ! class_exists( 'Woo_Wallet_Settings_API' ) ) :
 		public function get_field_description( $args ) {
 			if ( ! empty( $args['desc'] ) ) {
 				?>
-				<p class="description"><?php echo esc_html( $args['desc'] ); ?></p>
+				<p class="description"><?php echo $args['desc']; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
 				<?php
 			}
 		}
@@ -191,7 +191,7 @@ if ( ! class_exists( 'Woo_Wallet_Settings_API' ) ) :
 			?>
 			<input type="<?php echo esc_attr( $type ); ?>" class="<?php echo esc_attr( $size ); ?>-text" id="<?php echo esc_attr( $args['section'] ); ?>[<?php echo esc_attr( $args['id'] ); ?>]" name="<?php echo esc_attr( $args['section'] ); ?>[<?php echo esc_attr( $args['id'] ); ?>]" value="<?php echo esc_attr( $value ); ?>" placeholder="<?php echo esc_attr( $placeholder ); ?>" />
 			<?php
-			echo esc_html( $this->get_field_description( $args ) );
+			$this->get_field_description( $args );
 		}
 
 		/**
@@ -325,7 +325,7 @@ if ( ! class_exists( 'Woo_Wallet_Settings_API' ) ) :
 			foreach ( $args['options'] as $key => $label ) {
 				if ( $multiple ) {
 					?>
-					<option value="<?php echo esc_attr( $key ); ?>" <?php selected( in_array( $key, (array) $value, true ), true ); ?>><?php echo esc_html( $label ); ?></option>
+					<option value="<?php echo esc_attr( $key ); ?>" <?php selected( in_array( $key, (array) $value ), true ); ?>><?php echo esc_html( $label ); ?></option>
 					<?php
 				} else {
 					?>
@@ -536,13 +536,13 @@ if ( ! class_exists( 'Woo_Wallet_Settings_API' ) ) :
 		 */
 		public function show_navigation() {
 			$count = count( $this->settings_sections );
+			// Don't show the navigation if only one section exists.
+			if ( 1 === $count ) {
+				return;
+			}
 			?>
 			<h2 class="nav-tab-wrapper">
 				<?php
-				// Don't show the navigation if only one section exists.
-				if ( 1 === $count ) {
-					return;
-				}
 				foreach ( $this->settings_sections as $tab ) {
 					if ( ! isset( $tab['icon'] ) || empty( $tab['icon'] ) ) {
 						$tab['icon'] = 'dashicons-admin-generic';

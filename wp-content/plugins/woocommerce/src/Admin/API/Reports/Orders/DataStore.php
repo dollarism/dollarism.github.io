@@ -7,17 +7,29 @@ namespace Automattic\WooCommerce\Admin\API\Reports\Orders;
 
 defined( 'ABSPATH' ) || exit;
 
-use \Automattic\WooCommerce\Admin\API\Reports\DataStore as ReportsDataStore;
-use \Automattic\WooCommerce\Admin\API\Reports\DataStoreInterface;
-use \Automattic\WooCommerce\Admin\API\Reports\SqlQuery;
-use \Automattic\WooCommerce\Admin\API\Reports\Cache;
-use \Automattic\WooCommerce\Admin\API\Reports\TimeInterval;
+use Automattic\WooCommerce\Internal\Traits\OrderAttributionMeta;
+use Automattic\WooCommerce\Internal\DataStores\Orders\OrdersTableDataStore;
+use Automattic\WooCommerce\Utilities\OrderUtil;
+use Automattic\WooCommerce\Admin\API\Reports\DataStore as ReportsDataStore;
+use Automattic\WooCommerce\Admin\API\Reports\DataStoreInterface;
+use Automattic\WooCommerce\Admin\API\Reports\SqlQuery;
+use Automattic\WooCommerce\Admin\API\Reports\Cache;
+use Automattic\WooCommerce\Admin\API\Reports\TimeInterval;
 
 
 /**
  * API\Reports\Orders\DataStore.
  */
 class DataStore extends ReportsDataStore implements DataStoreInterface {
+	use OrderAttributionMeta;
+
+	/**
+	 * Dynamically sets the date column name based on configuration
+	 */
+	public function __construct() {
+		$this->date_column_name = get_option( 'woocommerce_date_type', 'date_paid' );
+		parent::__construct();
+	}
 
 	/**
 	 * Table used to get the data.
@@ -67,6 +79,8 @@ class DataStore extends ReportsDataStore implements DataStoreInterface {
 		$this->report_columns = array(
 			'order_id'         => "DISTINCT {$table_name}.order_id",
 			'parent_id'        => "{$table_name}.parent_id",
+			// Add 'date' field based on date type setting.
+			'date'             => "{$table_name}.{$this->date_column_name} AS date",
 			'date_created'     => "{$table_name}.date_created",
 			'date_created_gmt' => "{$table_name}.date_created_gmt",
 			'status'           => "REPLACE({$table_name}.status, 'wc-', '') as status",
@@ -118,7 +132,7 @@ class DataStore extends ReportsDataStore implements DataStoreInterface {
 
 		if ( $query_args['customer_type'] ) {
 			$returning_customer = 'returning' === $query_args['customer_type'] ? 1 : 0;
-			$where_subquery[]   = "{$order_stats_lookup_table}.returning_customer = ${returning_customer}";
+			$where_subquery[]   = "{$order_stats_lookup_table}.returning_customer = {$returning_customer}";
 		}
 
 		$refund_subquery = $this->get_refund_subquery( $query_args );
@@ -181,7 +195,7 @@ class DataStore extends ReportsDataStore implements DataStoreInterface {
 			$where_subquery[] = "{$order_tax_lookup_table}.tax_rate_id NOT IN ({$excluded_tax_rates}) OR {$order_tax_lookup_table}.tax_rate_id IS NULL";
 		}
 
-		$attribute_subqueries = $this->get_attribute_subqueries( $query_args, $order_stats_lookup_table );
+		$attribute_subqueries = $this->get_attribute_subqueries( $query_args );
 		if ( $attribute_subqueries['join'] && $attribute_subqueries['where'] ) {
 			$this->subquery->add_sql_clause( 'join', "JOIN {$order_product_lookup_table} ON {$order_stats_lookup_table}.order_id = {$order_product_lookup_table}.order_id" );
 
@@ -207,14 +221,12 @@ class DataStore extends ReportsDataStore implements DataStoreInterface {
 	public function get_data( $query_args ) {
 		global $wpdb;
 
-		$table_name = self::get_db_table_name();
-
 		// These defaults are only partially applied when used via REST API, as that has its own defaults.
 		$defaults   = array(
 			'per_page'          => get_option( 'posts_per_page' ),
 			'page'              => 1,
 			'order'             => 'DESC',
-			'orderby'           => 'date_created',
+			'orderby'           => $this->date_column_name,
 			'before'            => TimeInterval::default_before(),
 			'after'             => TimeInterval::default_after(),
 			'fields'            => '*',
@@ -256,7 +268,7 @@ class DataStore extends ReportsDataStore implements DataStoreInterface {
 			$this->add_sql_query_params( $query_args );
 			/* phpcs:disable WordPress.DB.PreparedSQL.InterpolatedNotPrepared */
 			$db_records_count = (int) $wpdb->get_var(
-				"SELECT COUNT(*) FROM (
+				"SELECT COUNT( DISTINCT tt.order_id ) FROM (
 					{$this->subquery->get_query_statement()}
 				) AS tt"
 			);
@@ -317,7 +329,7 @@ class DataStore extends ReportsDataStore implements DataStoreInterface {
 	 */
 	protected function normalize_order_by( $order_by ) {
 		if ( 'date' === $order_by ) {
-			return 'date_created';
+			return $this->date_column_name;
 		}
 
 		return $order_by;
@@ -330,13 +342,14 @@ class DataStore extends ReportsDataStore implements DataStoreInterface {
 	 * @param array $query_args  Query parameters.
 	 */
 	protected function include_extended_info( &$orders_data, $query_args ) {
-		$mapped_orders    = $this->map_array_by_key( $orders_data, 'order_id' );
-		$related_orders   = $this->get_orders_with_parent_id( $mapped_orders );
-		$order_ids        = array_merge( array_keys( $mapped_orders ), array_keys( $related_orders ) );
-		$products         = $this->get_products_by_order_ids( $order_ids );
-		$coupons          = $this->get_coupons_by_order_ids( array_keys( $mapped_orders ) );
-		$customers        = $this->get_customers_by_orders( $orders_data );
-		$mapped_customers = $this->map_array_by_key( $customers, 'customer_id' );
+		$mapped_orders      = $this->map_array_by_key( $orders_data, 'order_id' );
+		$related_orders     = $this->get_orders_with_parent_id( $mapped_orders );
+		$order_ids          = array_merge( array_keys( $mapped_orders ), array_keys( $related_orders ) );
+		$products           = $this->get_products_by_order_ids( $order_ids );
+		$coupons            = $this->get_coupons_by_order_ids( array_keys( $mapped_orders ) );
+		$order_attributions = $this->get_order_attributions_by_order_ids( array_keys( $mapped_orders ) );
+		$customers          = $this->get_customers_by_orders( $orders_data );
+		$mapped_customers   = $this->map_array_by_key( $customers, 'customer_id' );
 
 		$mapped_data = array();
 		foreach ( $products as $product ) {
@@ -376,7 +389,7 @@ class DataStore extends ReportsDataStore implements DataStoreInterface {
 
 		foreach ( $coupons as $coupon ) {
 			if ( ! isset( $mapped_data[ $coupon['order_id'] ] ) ) {
-				$mapped_data[ $product['order_id'] ]['coupons'] = array();
+				$mapped_data[ $coupon['order_id'] ]['coupons'] = array();
 			}
 
 			$mapped_data[ $coupon['order_id'] ]['coupons'][] = array(
@@ -386,15 +399,22 @@ class DataStore extends ReportsDataStore implements DataStoreInterface {
 		}
 
 		foreach ( $orders_data as $key => $order_data ) {
-			$defaults                             = array(
-				'products' => array(),
-				'coupons'  => array(),
-				'customer' => array(),
+			$defaults = array(
+				'products'    => array(),
+				'coupons'     => array(),
+				'customer'    => array(),
+				'attribution' => array(),
 			);
-			$orders_data[ $key ]['extended_info'] = isset( $mapped_data[ $order_data['order_id'] ] ) ? array_merge( $defaults, $mapped_data[ $order_data['order_id'] ] ) : $defaults;
+			$order_id = $order_data['order_id'];
+
+			$orders_data[ $key ]['extended_info'] = isset( $mapped_data[ $order_id ] ) ? array_merge( $defaults, $mapped_data[ $order_id ] ) : $defaults;
 			if ( $order_data['customer_id'] && isset( $mapped_customers[ $order_data['customer_id'] ] ) ) {
 				$orders_data[ $key ]['extended_info']['customer'] = $mapped_customers[ $order_data['customer_id'] ];
 			}
+
+			$source_type = $order_attributions[ $order_id ]['_wc_order_attribution_source_type'] ?? '';
+			$utm_source  = $order_attributions[ $order_id ]['_wc_order_attribution_utm_source'] ?? '';
+			$orders_data[ $key ]['extended_info']['attribution']['origin'] = $this->get_origin_label( $source_type, $utm_source );
 		}
 	}
 
@@ -524,6 +544,52 @@ class DataStore extends ReportsDataStore implements DataStoreInterface {
 		/* phpcs:enable */
 
 		return $coupons;
+	}
+
+	/**
+	 * Get order attributions data from order IDs.
+	 *
+	 * @param array $order_ids Array of order IDs.
+	 * @return array
+	 */
+	protected function get_order_attributions_by_order_ids( $order_ids ) {
+		global $wpdb;
+		$order_meta_table   = OrdersTableDataStore::get_meta_table_name();
+		$included_order_ids = implode( ',', array_map( 'absint', $order_ids ) );
+
+		if ( OrderUtil::custom_orders_table_usage_is_enabled() ) {
+			/* phpcs:disable WordPress.DB.PreparedSQL.InterpolatedNotPrepared */
+			$order_attributions_meta = $wpdb->get_results(
+				"SELECT order_id, meta_key, meta_value
+					FROM $order_meta_table
+					WHERE order_id IN ({$included_order_ids})
+					AND meta_key IN ( '_wc_order_attribution_source_type', '_wc_order_attribution_utm_source' )
+					",
+				ARRAY_A
+			);
+			/* phpcs:enable */
+		} else {
+			/* phpcs:disable WordPress.DB.PreparedSQL.InterpolatedNotPrepared */
+			$order_attributions_meta = $wpdb->get_results(
+				"SELECT post_id as order_id, meta_key, meta_value
+					FROM $wpdb->postmeta
+					WHERE post_id IN ({$included_order_ids})
+					AND meta_key IN ( '_wc_order_attribution_source_type', '_wc_order_attribution_utm_source' )
+					",
+				ARRAY_A
+			);
+			/* phpcs:enable */
+		}
+
+		$order_attributions = array();
+		foreach ( $order_attributions_meta as $meta ) {
+			if ( ! isset( $order_attributions[ $meta['order_id'] ] ) ) {
+				$order_attributions[ $meta['order_id'] ] = array();
+			}
+			$order_attributions[ $meta['order_id'] ][ $meta['meta_key'] ] = $meta['meta_value'];
+		}
+
+		return $order_attributions;
 	}
 
 	/**

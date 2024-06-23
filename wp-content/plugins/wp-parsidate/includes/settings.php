@@ -650,14 +650,14 @@ function wpp_render_settings() {
             <?php
             foreach ( wpp_get_tabs() as $tab_id => $tab_name ) {
 
-                $tab_url = add_query_arg( array(
+                $tab_url = esc_url( add_query_arg( array(
                         'settings-updated' => false,
                         'tab'              => $tab_id
-                ) );
+                ) ) );
 
                 $active = $active_tab == $tab_id ? ' nav-tab-active' : '';
 
-                echo '<a href="' . esc_url( $tab_url ) . '" title="' . esc_attr( strip_tags($tab_name) ) . '" class="nav-tab' . $active . '">';
+                echo '<a href="' . $tab_url . '" title="' . esc_attr( strip_tags($tab_name) ) . '" class="nav-tab' . $active . '">';
                 echo $tab_name;
                 echo '</a>';
             }

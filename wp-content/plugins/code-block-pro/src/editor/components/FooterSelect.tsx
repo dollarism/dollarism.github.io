@@ -9,8 +9,7 @@ type FooterSelectProps = {
     onClick: (slug: string) => void;
 };
 export const FooterSelect = ({ attributes, onClick }: FooterSelectProps) => {
-    const { footerType, ...attributesWithoutFooterType }: Partial<Attributes> =
-        attributes;
+    const { footerType, ...attributesWithoutFooterType } = attributes;
     const { bgColor } = attributes;
     const types = {
         none: __('None', 'code-block-pro'),
@@ -32,8 +31,12 @@ export const FooterSelect = ({ attributes, onClick }: FooterSelectProps) => {
                             : type
                     }
                     help={
-                        ['simpleStringEnd', 'SimpleStringStart'].includes(slug)
-                            ? __('Update text in Settings', 'code-block-pro')
+                        ['simpleStringEnd', 'simpleStringStart'].includes(slug)
+                            ? // Settings refers to the panel that can be expanded
+                              __(
+                                  'Set the text at the top of this panel.',
+                                  'code-block-pro',
+                              )
                             : undefined
                     }
                     key={slug}>
@@ -59,13 +62,14 @@ export const FooterSelect = ({ attributes, onClick }: FooterSelectProps) => {
     );
 };
 
-export const FooterType = (attributes: Partial<Attributes>) => {
-    const { footerType } = attributes;
+export const FooterType = (props: Attributes) => {
+    const { footerType } = props;
     if (footerType === 'simpleStringEnd') {
-        return <SimpleStringEnd {...attributes} />;
+        return <SimpleStringEnd {...props} />;
     }
     if (footerType === 'simpleStringStart') {
-        return <SimpleStringStart {...attributes} />;
+        return <SimpleStringStart {...props} />;
     }
+
     return null;
 };

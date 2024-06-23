@@ -3,9 +3,8 @@
 /**
  * Interface that collects the functions of initial duplicator Bootstrap
  *
- * @package Duplicator
+ * @package   Duplicator
  * @copyright (c) 2021, Snapcreek LLC
- *
  */
 
 namespace Duplicator\Installer\Core;
@@ -21,7 +20,7 @@ class Bootstrap
 {
     const ARCHIVE_PREFIX      = 'dup-archive__';
     const ARCHIVE_EXTENSION   = '.txt';
-    const MINIMUM_PHP_VERSION = '5.3.8';
+    const MINIMUM_PHP_VERSION = '5.6.20';
 
     /**
      * this variable becomes false after the installer is initialized by skipping the shutdown function defined in the boot class
@@ -118,7 +117,7 @@ class Bootstrap
      */
     public static function phpIni()
     {
-        /** Absolute path to the Installer directory. - necessary for php protection */
+        /* Absolute path to the Installer directory. - necessary for php protection */
         if (!defined('KB_IN_BYTES')) {
             define('KB_IN_BYTES', 1024);
         }
