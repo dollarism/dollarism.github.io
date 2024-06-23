@@ -146,12 +146,13 @@ $table_prefix = 'wp_';
 
  */
 
-define( 'WP_DEBUG', false );
+define( 'WP_DEBUG', true );
+define( 'WP_DEBUG_LOG', true );
+define( 'WP_DEBUG_DISPLAY', false );
 
-
+define('WP_HOME', 'http://127.0.0.1/dollarism.github.io/');
 define( 'WP_SITEURL', 'http://127.0.0.1/dollarism.github.io/' );
 /* That's all, stop editing! Happy publishing. */
-
 
 /** Absolute path to the WordPress directory. */
 
