@@ -1,0 +1,164 @@
+/* Off Canvas Navigation */
+.off-canvas-navigation {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 300px;
+  height: 100%;
+  overflow: auto;
+  z-index: 160;
+  visibility: hidden;
+  will-change: transform;
+  background-color: gray('900');
+  transition: all .5s;
+  transform: translate(300px,0);
+
+  .off-canvas-open & {
+    visibility: visible;
+    transform: translate(0,0);
+  }
+
+  .admin-bar & {
+    top: 32px;
+
+    @include media-breakpoint-down(sm) {
+      top: 0;
+      padding-top: 46px;
+    }
+  }
+
+  // Cart Counter & Link
+  .off-canvas-cart {
+    padding: 12px 20px 24px;
+    border-bottom: 1px solid lighten(gray('900'), 5%);
+
+    .cart-icon-link {
+      color: $white;
+      display: flex;
+      align-items: center;
+      line-height: 1;
+      text-transform: uppercase;
+
+      .bag-icon {
+
+        svg {
+          width: 32px;
+          height: 32px;
+          fill: $white;
+        }
+      }
+
+      .studiare-cart-number {
+        background-color: color('blue');
+        min-width: 15px;
+        height: 15px;
+        line-height: 15px;
+        font-size: 11px;
+        border-radius: 3px;
+        margin-top: -20px;
+        margin-left: 8px;
+        text-align: center;
+      }
+    }
+  }
+
+  // Search Form
+  .search-form-wrapper {
+    padding: 24px 20px 12px;
+
+    .search-field {
+      background-color: rgba($black, 0.3);
+      border-color: transparent;
+      color: gray('600');
+
+      @include input-placeholder{
+        color: gray('600');
+      }
+    }
+  }
+
+}
+
+/* Mobile Menu */
+.off-canvas-main {
+  padding: 12px 20px;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  .mobile-menu {
+
+    li {
+      position: relative;
+      display: block;
+
+      &>a {
+        font-size: 18px;
+        padding: 6px 0;
+      }
+
+    }
+
+    a {
+      display: inline-block;
+      color: $white;
+    }
+
+    ul {
+      padding-left: 1em;
+      border-left: 1px solid lighten(gray('900'), 8%);
+
+      a {
+        font-size: 14px;
+        color: gray('500');
+      }
+    }
+  }
+}
+
+/* OffCanvas Footer */
+.off-canvas-footer {
+  margin-top: 12px;
+  margin-bottom: 30px;
+  padding: 24px 20px;
+  border-top: 1px solid lighten(gray('900'), 5%);
+}
+
+.wrap {
+  transition: all .5s;
+  transform: translate(0,0);
+
+  .off-canvas-open & {
+    transform: translate(-300px,0) !important;
+  }
+}
+
+/* Off Canvas Overay */
+.off-canvas-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 150;
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  background-color: rgba(gray('600'), 0.1);
+  box-shadow: inset -37px 0px 72px -6px rgba(0,0,0,0.1);
+  transform: translate(0,0);
+  transition: all 0.5s;
+
+  .off-canvas-open & {
+    pointer-events: auto;
+    visibility: visible;
+    opacity: 1;
+    transform: translate(-300px,0);
+  }
+
+}

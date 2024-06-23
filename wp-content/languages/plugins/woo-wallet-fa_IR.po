@@ -1,0 +1,1465 @@
+# Translation of Plugins - TeraWallet &#8211; For WooCommerce - Stable (latest release) in Persian
+# This file is distributed under the same license as the Plugins - TeraWallet &#8211; For WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-12-24 08:21:15+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: fa\n"
+"Project-Id-Version: Plugins - TeraWallet &#8211; For WooCommerce - Stable (latest release)\n"
+
+#: includes/export/class-terawallet-csv-exporter.php:46
+msgid "Added by"
+msgstr "اضافه شده توسط"
+
+#: templates/no-access.php:24
+msgid "Your wallet account is locked please contact site owner for more details."
+msgstr "حساب کیف پول شما مسدود شده است لطفاً با مدیر وب‌سایت برای جزئیات بیشتر تماس بگیرید."
+
+#. translators: wallet amount
+#: templates/emails/low-wallet-balance.php:32
+#: templates/emails/plain/low-wallet-balance.php:31
+msgid "Please recharge you wallet now to avoid any disruption."
+msgstr "لطفاً همین حالا کیف پول خود را دوباره شارژ کنید تا از هرگونه اختلال جلوگیری کنید."
+
+#. translators: wallet amount
+#: templates/emails/low-wallet-balance.php:31
+#: templates/emails/plain/low-wallet-balance.php:29
+msgid "Current Balance: %s"
+msgstr "موجودی فعلی: %s"
+
+#. translators: wallet amount
+#. translators: blogname
+#: templates/emails/low-wallet-balance.php:30
+#: templates/emails/plain/low-wallet-balance.php:26
+msgid "Your %s wallet balance is low."
+msgstr "در حال حاضر موجودی  کیف پول شما %s کسری دارد."
+
+#: templates/admin/html-exporter.php:70
+msgid "Generate CSV"
+msgstr "تولید CSV"
+
+#: templates/admin/html-exporter.php:59
+msgid "To date"
+msgstr "تا تاریخ"
+
+#: templates/admin/html-exporter.php:51
+msgid "From date"
+msgstr "از تاریخ"
+
+#: templates/admin/html-exporter.php:46
+msgid "Export all users"
+msgstr "برون‌بری همۀ کاربران"
+
+#: templates/admin/html-exporter.php:43
+msgid "Which users should be exported?"
+msgstr "باید کدام کاربران برون‌بری شوند؟"
+
+#: templates/admin/html-exporter.php:32
+msgid "Export all columns"
+msgstr "برون‌بری همه ستون‌ها"
+
+#: templates/admin/html-exporter.php:29
+msgid "Which columns should be exported?"
+msgstr "باید کدام ستون‌ها برون‌بری شوند؟"
+
+#: templates/admin/html-exporter.php:22
+msgid "This tool allows you to generate and download a CSV file containing a list of all transactions."
+msgstr "این ابزار به شما امکان می‌دهد یک پروندۀ CSV حاوی لیستی از تمام معاملات را ایجاد و بارگیری کنید."
+
+#: templates/admin/html-exporter.php:21
+msgid "Export transactions to a CSV file"
+msgstr "برون‌بری تراکنش‌ها به یک پروندۀ CSV"
+
+#: templates/admin/html-exporter.php:16
+msgid "Export Transactions"
+msgstr "برون‌بری تراکنش‌ها"
+
+#: includes/export/class-terawallet-csv-exporter.php:43
+msgid "Currency"
+msgstr "واحد پولی"
+
+#: includes/export/class-terawallet-csv-exporter.php:40
+msgid "User ID"
+msgstr "شناسۀ کاربر"
+
+#: includes/emails/class-woo-wallet-email-low-wallet-balance.php:133
+msgid "A minimum balance on which customers will be notified to recharge again the wallet."
+msgstr "حداقل موجودی که به مشتریان اطلاع داده می‌شود تا دوباره کیف پول را شارژ کنند."
+
+#: includes/emails/class-woo-wallet-email-low-wallet-balance.php:130
+msgid "Threshold for low wallet balance"
+msgstr "آستانۀ موجودی کم کیف پول"
+
+#: includes/emails/class-woo-wallet-email-low-wallet-balance.php:45
+msgid "Please recharge your wallet for continue using."
+msgstr "لطفاً برای ادامۀ استفاده، کیف پول خود را شارژ کنید."
+
+#: includes/emails/class-woo-wallet-email-low-wallet-balance.php:35
+msgid "Your {site_title} wallet balance is low."
+msgstr "موجودی کیف پول شما در {site_title} کم است."
+
+#: includes/emails/class-woo-wallet-email-low-wallet-balance.php:17
+msgid "If the wallet balance reaches the lower limit set by admin for notification then the customer will get the notification for low wallet balance."
+msgstr "اگر موجودی کیف پول به حد پایین تعیین شده توسط مدیر برای اعلان برسد، مشتری اعلان موجودی کم کیف پول را دریافت می کند."
+
+#: includes/emails/class-woo-wallet-email-low-wallet-balance.php:16
+msgid "Low Wallet Balance"
+msgstr "حد پایین موجودی"
+
+#: includes/class-woo-wallet-admin.php:399
+#: includes/class-woo-wallet-admin.php:412
+msgid "Export"
+msgstr "برون‌بری"
+
+#: includes/class-woo-wallet-admin.php:125
+#: includes/class-woo-wallet-ajax.php:85
+msgid "Lock"
+msgstr "مسدودسازی"
+
+#: includes/class-woo-wallet-admin.php:123
+#: includes/class-woo-wallet-ajax.php:74
+msgid "Unlock"
+msgstr "رفع مسدودی"
+
+#: includes/class-woo-wallet-admin.php:118
+msgid "Lock / Unlock"
+msgstr "مسدودسازی/رفع مسدودی"
+
+#: includes/class-woo-wallet-admin.php:107
+msgid "Wallet Management"
+msgstr "مدیریت کیف پول"
+
+#: includes/admin/class-woo-wallet-transaction-details.php:47
+msgid "Created By"
+msgstr "ایجاد شده توسط"
+
+#: includes/actions/class-woo-wallet-action-referrals.php:92
+msgid "Minimum Order Amount"
+msgstr "حداقل مبلغ سفارش"
+
+#: includes/actions/class-woo-wallet-action-referrals.php:94
+msgid "Enter the minimum order amount for referral credit."
+msgstr "حداقل مبلغ سفارش را برای اعتبار ارجاع وارد کنید."
+
+#. translators: user display name and email
+#: includes/class-woo-wallet-admin.php:466
+msgid "Adjust Balance: %1$s (%2$s)"
+msgstr "تنظیم موجودی: %1$s (%2$s)"
+
+#: includes/class-woo-wallet-frontend.php:248
+msgid "No matching records found"
+msgstr "هیچ رکوردی منطبقی یافت نشد"
+
+#. translators: max length
+#: includes/class-woo-wallet-frontend.php:238
+msgid "(filtered from %1s total entries)"
+msgstr "(فیلتر شده از مجموع %1s مورد)"
+
+#. translators: %s: wallet top-up
+#: includes/class-woo-wallet-admin.php:160
+msgid "%s wallet top-up this month"
+msgstr "%s کیف پول برتر این ماه"
+
+#: includes/actions/class-woo-wallet-action-referrals.php:87
+msgid "Enter amount which will be credited to the user wallet for referring a user."
+msgstr "مبلغ مورد نیاز برای مراجعه به کاربر را به کیف پول کاربر وارد کنید."
+
+#: includes/class-woo-wallet-frontend.php:252
+msgid "Search by date:"
+msgstr "جستجو بر اساس تاریخ:"
+
+#: includes/class-woo-wallet-frontend.php:253
+msgid "yyyy-mm-dd"
+msgstr "yyyy-mm-dd"
+
+#: includes/class-woo-wallet-frontend.php:251
+msgid "Processing..."
+msgstr "در حال پردازش..."
+
+#: includes/class-woo-wallet-admin.php:198
+msgid "Display wallet icon and amount instead of menu navigation label?"
+msgstr "آیا بجای برچسب پیمایش، آیکن و میزان اعتبار نمایش داده شود؟"
+
+#: includes/admin/class-woo-wallet-balance-details.php:345
+msgid "You are about to delete transaction records from database for selected users."
+msgstr "شما در حال حذف سوابق معامله از پایگاه داده برای کاربران انتخاب شده هستید."
+
+#: includes/admin/class-woo-wallet-balance-details.php:39
+msgid "cb"
+msgstr "cb"
+
+#: includes/admin/class-woo-wallet-balance-details.php:325
+msgid "Delete Log"
+msgstr "حذف گزارشات"
+
+#: templates/woo-wallet-referrals.php:37 templates/woo-wallet-referrals.php:136
+msgid "Copy to clipboard"
+msgstr "کپی به کلیپ بورد"
+
+#: templates/woo-wallet-referrals.php:131
+msgid "Copied"
+msgstr "رونوشت‌برداری شد"
+
+#: templates/woo-wallet-referrals.php:38
+msgid "Copy"
+msgstr "رونوشت"
+
+#: includes/admin/class-woo-wallet-balance-details.php:177
+msgid "No role"
+msgstr "بدون نقش"
+
+#. translators: Total user
+#: includes/admin/class-woo-wallet-balance-details.php:154
+msgctxt "users"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "همه <span class=\"count\">(%s)</span>"
+
+#: includes/admin/class-woo-wallet-balance-details.php:56
+msgid "No users found."
+msgstr "کاربری پیدا نشد."
+
+#: includes/admin/class-woo-wallet-transaction-details.php:83
+msgid "No transactions found."
+msgstr "تراکنشی پیدا نشد."
+
+#. translators: User role name with count
+#: includes/admin/class-woo-wallet-balance-details.php:165
+#: includes/admin/class-woo-wallet-balance-details.php:179
+msgid "%1$s <span class=\"count\">(%2$s)</span>"
+msgstr "%1$s <span class=\"count\">(%2$s)</span>"
+
+#. translators: Max transfer amount
+#: includes/class-woo-wallet-frontend.php:445
+msgid "Minimum transfer amount is %s"
+msgstr "حداقل مبلغ انتقال %s است"
+
+#: includes/class-woo-wallet-settings.php:159
+msgid "Minimum Transfer Amount"
+msgstr "حداقل مقدار جهت انتقال"
+
+#: includes/class-woo-wallet-settings.php:160
+msgid "Enter minimum transfer amount"
+msgstr "حداقل مقدار جهت انتقال را وارد کنید"
+
+#. Plugin Name of the plugin
+#: includes/class-woo-wallet-actions.php:115
+#: includes/class-woo-wallet-admin.php:230
+#: includes/class-woo-wallet-admin.php:255
+#: includes/class-woo-wallet-admin.php:817
+#: includes/class-woo-wallet-admin.php:824
+#: includes/class-woo-wallet-admin.php:999
+#: includes/class-woo-wallet-extensions.php:64
+#: includes/class-woo-wallet-settings.php:58
+msgid "TeraWallet"
+msgstr "کیف پول"
+
+#: includes/actions/class-woo-wallet-action-referrals.php:56
+#: includes/actions/class-woo-wallet-action-referrals.php:100
+msgid "Limit"
+msgstr "محدودیت"
+
+#: includes/actions/class-woo-wallet-action-referrals.php:61
+#: includes/actions/class-woo-wallet-action-referrals.php:105
+msgid "No Limit"
+msgstr "بدون محدودیت"
+
+#: includes/actions/class-woo-wallet-action-referrals.php:75
+msgid "Balance credited for referring a visitor"
+msgstr "اختصاص اعتبار برای هر بازدید کاربر"
+
+#: includes/actions/class-woo-wallet-action-referrals.php:123
+msgid "Referral Links"
+msgstr "لینکهای ارجاع"
+
+#: includes/actions/class-woo-wallet-action-referrals.php:129
+msgid "Referral Format"
+msgstr "فرمتهای ارجاع"
+
+#: includes/actions/class-woo-wallet-action-referrals.php:134
+msgid "Numeric referral ID"
+msgstr "شناسه ارجاعی عددی"
+
+#: includes/actions/class-woo-wallet-action-referrals.php:135
+msgid "Usernames as referral ID"
+msgstr "نام کاربری بعنوان شناسه ارجاع"
+
+#: templates/woo-wallet-referrals.php:33
+msgid "Your referral URL is:"
+msgstr "آدرس ارجاع شما:"
+
+#: templates/woo-wallet-referrals.php:42
+msgid "Statistics"
+msgstr "آمار"
+
+#: templates/woo-wallet-referrals.php:49
+msgid "Total Earnings"
+msgstr "درآمد کل"
+
+#: includes/actions/class-woo-wallet-action-referrals.php:39
+msgid "Enable credit for referrals."
+msgstr "اعتبار را برای ارجاعات فعال کنید."
+
+#: includes/actions/class-woo-wallet-action-referrals.php:119
+msgid "Balance credited for referring a new member"
+msgstr "اختصاص اعتبار برای اعضای جدید"
+
+#: includes/actions/class-woo-wallet-action-referrals.php:64
+#: includes/actions/class-woo-wallet-action-referrals.php:108
+msgid "Per Month"
+msgstr "در ماه"
+
+#: includes/actions/class-woo-wallet-action-referrals.php:63
+#: includes/actions/class-woo-wallet-action-referrals.php:107
+msgid "Per Week"
+msgstr "در هفته"
+
+#: includes/actions/class-woo-wallet-action-referrals.php:62
+#: includes/actions/class-woo-wallet-action-referrals.php:106
+msgid "Per Day"
+msgstr "در روز"
+
+#: includes/class-woo-wallet-frontend.php:239
+msgid "Showing 0 to 0 of 0 entries"
+msgstr "نمایش 0 تا 0 از 0 ورودی"
+
+#: includes/class-woo-wallet-admin.php:1080
+msgid "Learn More"
+msgstr "بیشتر بدانید"
+
+#: includes/class-woo-wallet-ajax.php:370
+msgid "You have no permission to do that"
+msgstr "شما اجازه ندارید این کار را انجام دهید"
+
+#: includes/class-woo-wallet-admin.php:1078
+msgid "Obtain Superpowers to get the best out of TeraWallet"
+msgstr "بدست آوردن ابرقدرتها برای گرفتن بهترین نتیجه از کیف پول TeraWallet"
+
+#: includes/class-woo-wallet-admin.php:1079
+msgid "Use superpowers to stand above the crowd. our high-octane add-ons are designed to boost your store wallet features."
+msgstr "از ابرقدرت ها استفاده کنید تا در بالای جمعیت قرار گیرند. افزونه های دارای اکتان بالا ما طراحی شده اند تا ویژگی های کیف پول خود را افزایش دهند."
+
+#: includes/class-woo-wallet-ajax.php:374
+msgid "Invalid nonce"
+msgstr "غیر معتبر"
+
+#. translators: user_email
+#: includes/class-woo-wallet-frontend.php:423
+msgid "Wallet funds received from %s"
+msgstr "وجوه نقد کیف پول دریافت شده از %s"
+
+#. translators: user_email
+#: includes/class-woo-wallet-frontend.php:425
+msgid "Wallet funds transfer to %s"
+msgstr "وجوه نقد کیف پول انتقال یافته به %s"
+
+#: includes/class-woo-wallet-admin.php:1042
+msgid "Recalculate order cashback"
+msgstr "بازپرداخت سفارش نقدی"
+
+#: includes/class-woo-wallet-widgets.php:18
+msgid "TeraWallet top-up form for your site."
+msgstr "فرم TeraWallet برای سایت شما اضافه شده است."
+
+#: includes/class-woo-wallet-widgets.php:21
+msgctxt "Wallet Top-up widget"
+msgid "Wallet Top-up"
+msgstr "اضافه کردن کیف پول"
+
+#: includes/class-woo-wallet-widgets.php:75
+msgid "Title:"
+msgstr "عنوان:"
+
+#: includes/marketplace/wcfmmp/class-woo-wallet-wcfmmp-gateway.php:42
+msgid "Commission received for commission id #"
+msgstr "حق کمیسیون برای شناسه کمیسیون دریافت شد #"
+
+#: includes/marketplace/wcfmmp/class-woo-wallet-wcfmmp.php:57
+msgid "Wallet Charge"
+msgstr "شاژ کیف پول"
+
+#: includes/marketplace/wcfmmp/class-woo-wallet-wcfmmp.php:76
+msgid "Fixed Charge"
+msgstr "شارژ ثابت"
+
+#: includes/marketplace/wcfmmp/class-woo-wallet-wcfmmp.php:94
+msgid "Tax for withdrawal charge, calculate in percent."
+msgstr "مالیات برای هزینه اخذ، درصدی محاسبه می شود."
+
+#: includes/marketplace/wcfmmp/class-woo-wallet-wcfmmp.php:86
+msgid "Charge Tax"
+msgstr "مالیات شارژ"
+
+#: includes/marketplace/wcfmmp/class-woo-wallet-wcfmmp.php:66
+msgid "Percent Charge(%)"
+msgstr "شارژ درصدی (%)"
+
+#: includes/marketplace/dokan/class-woo-wallet-dokan.php:143
+msgid "Withdrawal request #"
+msgstr "درخواست بازپرداخت #"
+
+#: includes/marketplace/wc-merketplace/class-woo-wallet-wcmp-gateway.php:68
+msgid "Minimum threshold amount to withdrawal commission is "
+msgstr "کمترین میزان مبلغ برای برداشت کمیسیون هست "
+
+#: includes/class-woo-wallet-settings.php:120
+msgid "Product image"
+msgstr "تصویر محصول"
+
+#: includes/class-woo-wallet-settings-api.php:424
+#: includes/class-woo-wallet-settings-api.php:425
+msgid "Select"
+msgstr "انتخاب"
+
+#: includes/actions/class-woo-wallet-action-daily-visits.php:42
+msgid "Exclude user role"
+msgstr "حذف نقش کاربر"
+
+#: includes/actions/class-woo-wallet-action-daily-visits.php:43
+msgid "This option lets you limit which user role you want to exclude."
+msgstr "این گزینه به شما اجازه می دهد که نقش مورد نظر کاربر را حذف کنید."
+
+#: includes/class-woo-wallet-admin.php:1021
+msgid "Refunded"
+msgstr "بازپرداخت"
+
+#. translators: wallet amount
+#: includes/class-woo-wallet-ajax.php:205
+msgid "%s refunded to customer wallet"
+msgstr "%s بازپرداخت به کیف پول مشتری"
+
+#: includes/class-woo-wallet-settings.php:115
+msgid "Rechargeable Product Image"
+msgstr "تصویر محصول قابل شارژ"
+
+#: includes/class-woo-wallet-settings.php:116
+msgid "Choose wallet rechargeable product image"
+msgstr "انتخاب تصویر محصول قابل شارژ"
+
+#: includes/class-woo-wallet-settings.php:119
+#: includes/class-woo-wallet-settings.php:121
+msgid "Set product image"
+msgstr "تنظیم تصویر محصول"
+
+#: includes/api/class-wc-rest-woo-wallet-controller.php:184
+#: includes/api/Controllers/Version3/class-wc-rest-wallet-controller.php:168
+msgid "Sorry, you are not allowed to create resources."
+msgstr "با عرض پوزش، شما مجاز به ایجاد منابع نیستید."
+
+#: includes/api/class-wc-rest-woo-wallet-controller.php:70
+#: includes/api/Controllers/Version3/class-wc-rest-wallet-controller.php:68
+msgid "Wallet transaction type."
+msgstr "نوع تراکنش کیف پول."
+
+#: includes/api/class-wc-rest-woo-wallet-controller.php:74
+#: includes/api/Controllers/Version3/class-wc-rest-wallet-controller.php:72
+msgid "Wallet transaction amount."
+msgstr "مبلغ تراکنش کیف پول."
+
+#: includes/api/class-wc-rest-woo-wallet-controller.php:79
+#: includes/api/Controllers/Version3/class-wc-rest-wallet-controller.php:77
+msgid "Wallet transaction details."
+msgstr "جزئیات تراکنش کیف پول."
+
+#: includes/api/class-wc-rest-woo-wallet-controller.php:171
+#: includes/api/Controllers/Version3/class-wc-rest-wallet-controller.php:154
+msgid "Sorry, you cannot list resources."
+msgstr "متأسفیم، شما نمی توانید منابع را لیست کنید."
+
+#: includes/class-woo-wallet-admin.php:319
+msgid "Manage"
+msgstr "مدیریت"
+
+#: includes/actions/class-woo-wallet-action-daily-visits.php:14
+msgid "Set credit for daily visits"
+msgstr "تنظیم افزایش اعتبار به ازای بازدید روزانه"
+
+#: includes/abstracts/abstract-woo-wallet-actions.php:80
+msgid "Your settings have been saved."
+msgstr "تنظیمات شما ذخیره شد."
+
+#: includes/abstracts/abstract-woo-wallet-actions.php:86
+msgid "Return to actions"
+msgstr "بازگشت به عملیات"
+
+#: includes/actions/class-woo-wallet-action-daily-visits.php:13
+msgid "Daily visits"
+msgstr "بازدید روزانه"
+
+#: includes/actions/class-woo-wallet-action-daily-visits.php:37
+#: includes/actions/class-woo-wallet-action-referrals.php:51
+msgid "Enter amount which will be credited to the user wallet for daily visits."
+msgstr "مقدار مبلغی را که برای بازدیدکنندگان روزانه به کیف پول کاربر اضافه می شود وارد کنید."
+
+#: includes/actions/class-woo-wallet-action-daily-visits.php:53
+#: includes/actions/class-woo-wallet-action-new-registration.php:45
+#: includes/actions/class-woo-wallet-action-product-review.php:50
+#: includes/actions/class-woo-wallet-action-referrals.php:74
+#: includes/actions/class-woo-wallet-action-referrals.php:118
+msgid "Wallet transaction description that will display as transaction note."
+msgstr "توضیحات مبادله کیف پول که به عنوان یادداشت معاملات نمایش داده خواهد شد."
+
+#: includes/actions/class-woo-wallet-action-daily-visits.php:54
+msgid "Balance credited visiting site."
+msgstr "تعادل اعتبار بازدید سایت."
+
+#: includes/actions/class-woo-wallet-action-new-registration.php:13
+msgid "New user registration"
+msgstr "ثبت نام کاربر جدید"
+
+#: includes/actions/class-woo-wallet-action-new-registration.php:14
+msgid "Set credit upon new user registration"
+msgstr "اختصاص اعتبار برای ثبت نام کاربر جدید"
+
+#: includes/actions/class-woo-wallet-action-new-registration.php:32
+msgid "Enable auto credit upon user registration"
+msgstr "فعال کردن اعتبار خودکار برای ثبت نام کاربر"
+
+#: includes/actions/class-woo-wallet-action-new-registration.php:38
+msgid "Enter amount which will be credited to the user wallet after registration."
+msgstr "مقدار اعتباری که قصد دارید پس از ثبت نام به کاربر اختصاص داده شود را وارد کنید."
+
+#: includes/actions/class-woo-wallet-action-new-registration.php:46
+msgid "Balance credited for becoming a member."
+msgstr "اختصاص اعتبار برای تبدیل شدن به یک عضو."
+
+#: includes/actions/class-woo-wallet-action-referrals.php:20
+#: includes/actions/class-woo-wallet-action-referrals.php:165
+msgid "Referrals"
+msgstr "ارجاعات"
+
+#: includes/actions/class-woo-wallet-action-referrals.php:21
+msgid "Set credit ruls for referrals"
+msgstr "اختصاص اعتبار برای ارجاعات"
+
+#: includes/actions/class-woo-wallet-action-referrals.php:43
+#: templates/woo-wallet-referrals.php:47
+msgid "Referring Visitors"
+msgstr "بازدیدکنندگان"
+
+#: includes/actions/class-woo-wallet-action-referrals.php:79
+#: templates/woo-wallet-referrals.php:48
+msgid "Referring Signups"
+msgstr "ثبت نام"
+
+#: includes/class-woo-wallet-admin.php:288
+msgid "Wallet actions"
+msgstr "اقدامات کیف پول"
+
+#: includes/class-woo-wallet-admin.php:291
+msgid "Integrated wallet actions are listed below. If active those actions will be triggered with respective WordPress hook."
+msgstr "اقدامات یکپارچه کیف پول در زیر فهرست شده است. اگر آنها را فعال کنید باعث می شود با قلاب وردپرس مطابقت داشته باشد."
+
+#: includes/class-woo-wallet-admin.php:296
+msgid "Action"
+msgstr "عمل"
+
+#: includes/class-woo-wallet-admin.php:307
+msgid "Enabled"
+msgstr "فعال است"
+
+#: includes/class-woo-wallet-admin.php:307
+msgid "Yes"
+msgstr "بلی"
+
+#: includes/class-woo-wallet-admin.php:309
+msgid "Disabled"
+msgstr "غیر فعال است"
+
+#: includes/class-woo-wallet-admin.php:321
+msgid "Setup"
+msgstr "نصب و اجرا"
+
+#: includes/actions/class-woo-wallet-action-product-review.php:19
+msgid "WooCommerce product review"
+msgstr "بررسی محصول ووکامرس"
+
+#: includes/actions/class-woo-wallet-action-daily-visits.php:31
+msgid "Enable credit for daily visits."
+msgstr "اعتبار را برای بازدیدهای روزانه فعال کنید."
+
+#: includes/actions/class-woo-wallet-action-product-review.php:20
+msgid "Set credit for WooCommerce product review"
+msgstr "اختصاص اعتبار برای بررسی هر محصول ووکامرس"
+
+#: includes/actions/class-woo-wallet-action-product-review.php:37
+msgid "Enable credit for WooCommerce product review"
+msgstr "فعال کردن اعتبار برای بررسی هر محصول ووکامرس"
+
+#: includes/actions/class-woo-wallet-action-product-review.php:43
+msgid "Enter amount which will be credited to the user wallet for reviewing a WooCommerce product."
+msgstr "مقداری را که برای بررسی محصول ووکامرس به کیف پول کاربر وارد می شود را وارد کنید."
+
+#: includes/actions/class-woo-wallet-action-product-review.php:51
+msgid "Balance credited for reviewing a WooCommerce product."
+msgstr "اختصاص اعتبار برای بررسی هر محصول ووکامرس."
+
+#: includes/class-woo-wallet-admin.php:988
+msgid "View details"
+msgstr "مشاهده جزئیات"
+
+#: includes/class-woo-wallet-extensions.php:37
+#: includes/class-woo-wallet-extensions.php:90
+msgid "Extensions"
+msgstr "افزودنی ها"
+
+#: includes/class-woo-wallet-settings.php:178
+msgid "Enter transfer charge amount"
+msgstr "میزان کمیسیون انتقال را وارد نمایید"
+
+#: includes/class-woo-wallet-settings.php:177
+msgid "Transfer charge Amount"
+msgstr "مثزان شارژ انتقالی"
+
+#. translators: wallet amount
+#: includes/class-woo-wallet-frontend.php:575
+msgid "Upon placing this order a cashback of %s will be credited to your wallet."
+msgstr "به محض نهایی کردن این سفارش، مبلغ %s تحت عنوان هدیه خرید به کیف پول شما در سایت واریز خواهد شد."
+
+#: includes/class-woo-wallet-settings.php:166
+msgid "Transfer charge type"
+msgstr "نوع انتقال شارژ"
+
+#: includes/class-woo-wallet-settings.php:201
+msgid "Pending payment"
+msgstr "در انتظار پرداخت"
+
+#: includes/marketplace/dokan/class-woo-wallet-dokan.php:233
+msgid "0.00"
+msgstr "0.00"
+
+#: includes/marketplace/dokan/class-woo-wallet-dokan.php:196
+msgid "Cashback Options"
+msgstr "گزینه های بازگشت نقدی"
+
+#: includes/class-woo-wallet-settings.php:204
+msgid "Completed"
+msgstr "تکمیل شده"
+
+#: includes/class-woo-wallet-settings.php:195
+msgid "Process cashback"
+msgstr "پردازش اعتبار بازگشتی"
+
+#: includes/class-woo-wallet-settings.php:196
+msgid "Select order status to process cashback"
+msgstr "انتخاب وضعیت سفارش جهت پردازش اعتبار بازگشتی"
+
+#: includes/class-woo-wallet-settings.php:202
+msgid "On hold"
+msgstr "در حال اجرا"
+
+#: includes/class-woo-wallet-settings.php:203
+msgid "Processing"
+msgstr "در حال پردازش"
+
+#: includes/marketplace/dokan/class-woo-wallet-dokan.php:197
+msgid "Set product cashback options"
+msgstr "تنظیمات بازگشت نقدی محصول"
+
+#: includes/class-woo-wallet-admin.php:394
+#: includes/class-woo-wallet-frontend.php:250
+msgid "Searching…"
+msgstr "در حال جستجو …"
+
+#: includes/class-woo-wallet-admin.php:973
+msgid "Wallet Balance"
+msgstr "موجودی کیف پول"
+
+#. Description of the plugin
+msgid "The leading wallet plugin for WooCommerce with partial payment, refunds, cashbacks and what not!"
+msgstr "افزونه کیف پول پیشنهادی برای ووکامرس با پرداخت جزئی، بازپرداخت، هزینه های بازپرداخت و غیره!"
+
+#: includes/class-woo-wallet-frontend.php:244
+msgid "Previous"
+msgstr "قبلی"
+
+#: includes/class-woo-wallet-frontend.php:243
+msgid "Next"
+msgstr "بعدی"
+
+#: includes/class-woo-wallet-frontend.php:242
+msgid "Last"
+msgstr "آخرین"
+
+#: includes/class-woo-wallet-frontend.php:241
+msgid "First"
+msgstr "اولین"
+
+#: includes/api/class-wc-rest-woo-wallet-controller.php:48
+#: includes/api/class-wc-rest-woo-wallet-controller.php:95
+#: includes/api/class-woo-wallet-rest-controller.php:49
+#: includes/api/class-woo-wallet-rest-controller.php:77
+msgid "Unique identifier for the resource."
+msgstr "شناسه منحصر به فرد برای منبع."
+
+#: includes/class-woo-wallet-ajax.php:201
+#: includes/class-woo-wallet-payment-method.php:184
+msgid "Wallet refund #"
+msgstr "بازپرداخت کیف پول #"
+
+#: includes/class-woo-wallet-frontend.php:232
+msgid "No transactions available"
+msgstr "هیچ تراکنشی پیدا نشد"
+
+#: includes/class-woo-wallet-frontend.php:246
+msgid "Please enter a valid email address"
+msgstr "لطفا یک ایمیل معتبر وارد کنید"
+
+#: includes/class-woo-wallet-admin.php:393
+#: includes/class-woo-wallet-frontend.php:247
+msgid "No results found"
+msgstr "نتیجه ای یافت نشد"
+
+#: includes/class-woo-wallet-admin.php:392
+#: includes/class-woo-wallet-frontend.php:249
+msgid "Please enter 3 or more characters"
+msgstr "لطفا 3 یا بیشتر از 3 کاراکتر وارد نمایید"
+
+#. translators: menu length
+#: includes/class-woo-wallet-frontend.php:234
+msgid "Show %s entries"
+msgstr "نمایش %s مورد"
+
+#: includes/class-woo-wallet-payment-method.php:69
+msgid "This controls the title which the user sees during checkout."
+msgstr "این قسمت عنوانی را که کاربر در هنگام پرداخت می بیند کنترل می کند."
+
+#: templates/wc-endpoint-wallet.php:86
+msgid "(Email)"
+msgstr "(ایمیل)"
+
+#. translators: wallet amount
+#: includes/class-woo-wallet-wallet.php:205
+msgid "%s paid through wallet"
+msgstr "%s پرداخت از طریق کیف پول"
+
+#. translators: Order number
+#: includes/class-woo-wallet-wallet.php:224
+msgid "Your order with ID #%s has been cancelled and hence your wallet amount has been refunded!"
+msgstr "سفارش شما با شناسه #%s لغو شده است و از این رو مقدار کیف پول شما بازپرداخت شده است!"
+
+#. translators: wallet amount
+#: includes/class-woo-wallet-wallet.php:226
+msgid "Wallet amount %s has been credited to customer upon cancellation"
+msgstr "مبلغ %s پس از لغو به کیف پول مشتری منتقل شد"
+
+#. translators: Order number
+#: includes/class-woo-wallet-wallet.php:236
+msgid "Cashback for #%s has been debited upon cancellation"
+msgstr "بازگشت نقدی برای #%s پس از لغو اعمال شد"
+
+#: includes/class-woo-wallet-wallet.php:153
+msgid "Wallet credit through purchase #"
+msgstr "اعتبار کیف پول از طریق خرید #"
+
+#: includes/class-woo-wallet-wallet.php:172
+msgid "Wallet credit through cashback #"
+msgstr "اعتبار کیف پول از طریق بازگشت نقدی #"
+
+#: includes/marketplace/wc-merketplace/class-woo-wallet-wcmp-gateway.php:80
+msgid "Commission received for commission id "
+msgstr "حق کمیسیون برای شناسه کمیسیون دریافت شد "
+
+#: includes/class-woo-wallet-admin.php:375
+msgid "to customer wallet"
+msgstr "به کیف پول مشتری"
+
+#: includes/class-woo-wallet-payment-method.php:159
+#: includes/class-woo-wallet-wallet.php:202
+msgid "For order payment #"
+msgstr "برای پرداخت سفارش #"
+
+#: includes/class-woo-wallet-settings.php:90
+msgid "Credit Options"
+msgstr "گزینه های اعتباری"
+
+#. translators: 1: user_login, 2: user_email
+#: includes/class-woo-wallet-ajax.php:169
+#: includes/class-woo-wallet-ajax.php:324
+#: includes/class-woo-wallet-ajax.php:343
+msgctxt "user autocomplete result"
+msgid "%1$s (%2$s)"
+msgstr "%1$s (%2$s)"
+
+#: includes/class-woo-wallet-admin.php:232
+#: includes/class-woo-wallet-admin.php:234
+msgid "Woo Wallet"
+msgstr "کیف پول ووکامرس"
+
+#: includes/class-woo-wallet-frontend.php:452
+msgid "Invalid user"
+msgstr "کاربر غیر معتبر"
+
+#: includes/class-woo-wallet-frontend.php:469
+msgid "Amount transferred successfully!"
+msgstr "مقدار مورد نظر با موفقیت منتقل شد!"
+
+#: includes/class-woo-wallet-settings.php:152
+msgid "Allow Wallet Transfer"
+msgstr "اجازه انتقال اعتبار کیف پول"
+
+#: includes/class-woo-wallet-frontend.php:458
+msgid "Entered amount is greater than current wallet amount."
+msgstr "مبلغ وارد شده بیشتر از موجودی فعلی کیف پول است."
+
+#: includes/class-woo-wallet-settings.php:153
+msgid "If checked user will be able to transfer fund to another user."
+msgstr "با این گزینه کاربر میتواند اعتبار کیف پول خود را به کاربر دیگری منتقل کند."
+
+#: templates/wc-endpoint-wallet.php:84
+msgid "Select whom to transfer"
+msgstr "انتخاب کسی که اعتبار را دریافت میکند"
+
+#: templates/wc-endpoint-wallet.php:97
+msgid "What's this for"
+msgstr "این برای چیست"
+
+#: templates/wc-endpoint-wallet.php:102
+msgid "Proceed to transfer"
+msgstr "اقدام به انتقال"
+
+#: templates/wc-endpoint-wallet.php:34
+msgid "Wallet transfer"
+msgstr "انتقال موجودی کیف پول"
+
+#: includes/class-woo-wallet-admin.php:374
+#: includes/class-woo-wallet-admin.php:1023
+msgid "Refund"
+msgstr "بازپرداخت"
+
+#: templates/emails/plain/user-new-transaction.php:27
+#: templates/emails/plain/user-new-transaction.php:30
+#: templates/emails/user-new-transaction.php:30
+#: templates/emails/user-new-transaction.php:33
+msgid "Thank you for using your wallet."
+msgstr "برای استفاده از کیف پول خود از شما تشکر میکنیم."
+
+#: templates/emails/plain/user-new-transaction.php:27
+#: templates/emails/user-new-transaction.php:30
+msgid "has been credited to your wallet."
+msgstr "به کیف پول شما اضافه شد."
+
+#. translators: Minimum topup amount
+#: includes/class-woo-wallet-frontend.php:376
+msgid "The minimum amount needed for wallet top up is %s"
+msgstr "حداقل مبلغ مورد نیاز برای افزایش اعتبار کیف پول %s است"
+
+#. translators: Maximum topup amount
+#: includes/class-woo-wallet-frontend.php:383
+msgid "Wallet top up amount should be less than %s"
+msgstr "مبلغ افزایش کیف پول باید کمتر از %s باشد"
+
+#: includes/class-woo-wallet-settings.php:129
+msgid "Minimum Topup Amount"
+msgstr "حداقل مبلغ افزایشی"
+
+#: includes/class-woo-wallet-settings.php:136
+msgid "Maximum Topup Amount"
+msgstr "حداکثر مبلغ افزایشی"
+
+#: templates/emails/plain/user-new-transaction.php:27
+#: templates/emails/plain/user-new-transaction.php:30
+#: templates/emails/user-new-transaction.php:30
+#: templates/emails/user-new-transaction.php:33
+msgid "Current wallet balance is"
+msgstr "موجودی فعلی کیف پول"
+
+#: templates/wc-endpoint-wallet.php:62
+msgid "Balance"
+msgstr "موجودی"
+
+#: includes/abstracts/abstract-woo-wallet-actions.php:82
+#: includes/class-woo-wallet-frontend.php:396
+#: includes/class-woo-wallet-frontend.php:475
+msgid "Cheatin&#8217; huh?"
+msgstr "تقلب می‌کنید، آره؟"
+
+#: templates/wc-endpoint-wallet-transactions.php:25
+msgid "Current balance :"
+msgstr "موجودی فعلی:"
+
+#: includes/class-woo-wallet-settings.php:130
+msgid "The minimum amount needed for wallet top up"
+msgstr "حداقل مبلغ مورد نیاز برای افزایش کیف پول را وارد کنید"
+
+#: includes/class-woo-wallet-settings.php:137
+msgid "The maximum amount needed for wallet top up"
+msgstr "حداکثر مبلغ مورد نیاز برای افزایش کیف پول را وارد کنید"
+
+#: includes/class-woo-wallet-payment-method.php:130
+msgid "Payment error: "
+msgstr "خطای پرداخت: "
+
+#: includes/class-woo-wallet-payment-method.php:130
+msgid "Your wallet balance is low. Please add %s to proceed with this transaction."
+msgstr "میزان موجودی کیف پول شما کم است. برای انجام این تراکنش لطفا میزان %s را به کیف پول خود اضافه کنید."
+
+#: includes/class-woo-wallet-frontend.php:739
+msgid "Coupon code applied successfully as cashback."
+msgstr "کوپن با موفقیت به صورت بازگشت نقدی اعمال شد."
+
+#. translators: coupon code
+#: includes/class-woo-wallet-frontend.php:756
+msgid "Cashback: %s"
+msgstr "بازگشت نقدی: %s"
+
+#: includes/class-woo-wallet-settings.php:224
+msgid "Product category wise"
+msgstr "دسته بندی محصول"
+
+#: includes/class-woo-wallet-settings.php:252
+msgid "Minimum Cart Amount"
+msgstr "حداقل مقدار سبد خرید"
+
+#: includes/class-woo-wallet-settings.php:266
+msgid "Allow Minimum cashback"
+msgstr "اجازه حداقل بازگشت نقدی"
+
+#: includes/class-woo-wallet-settings.php:253
+msgid "Enter applicable minimum cart amount for cashback"
+msgstr "مبلغ کمترین مبلغ خرید را برای بازگشت نقدی را وارد کنید"
+
+#: includes/class-woo-wallet-settings.php:267
+msgid "If checked minimum cashback amount will be applied on product category cashback calculation."
+msgstr "اگر این گزینه فعال باشد، حداقل مقدار بازگشت نقدی برای محاسبه بازگشت نقدی دسته بندی محصول اعمال خواهد شد."
+
+#: includes/class-woo-wallet-admin.php:861
+#: includes/class-woo-wallet-frontend.php:172
+msgid "Wallet Transactions"
+msgstr "تراکنش های کیف پول"
+
+#: includes/class-woo-wallet-admin.php:873
+msgid "Wallet endpoints"
+msgstr "نقطه پایان کیف پول"
+
+#: includes/class-woo-wallet-admin.php:875
+msgid "Endpoints are appended to your page URLs to handle specific actions on the accounts pages. They should be unique and can be left blank to disable the endpoint."
+msgstr "نقطه پایانی به URL های صفحه شما افزوده می شود تا اقدامات خاصی را در صفحات حساب ها انجام دهد. آنها باید منحصر به فرد باشند و می توانند برای خنثی کردن نقطه پایان خالی باشند."
+
+#: includes/class-woo-wallet-admin.php:854
+msgid "Endpoint for the \"My account &rarr; My Wallet\" page."
+msgstr "نقطه پایانی برای صفحه «حساب کاربری &rarr; کیف پول»"
+
+#: includes/class-woo-wallet-admin.php:862
+msgid "Endpoint for the \"My account &rarr; View wallet transactions\" page."
+msgstr "نقطه پایانی برای صفحه «حساب کاربری &rarr; مشاهده تراکنش های کیف پول»"
+
+#: includes/class-woo-wallet-settings.php:259
+msgid "Maximum Cashback Amount"
+msgstr "حداکثر مبلغ بازگشت نقدی"
+
+#: includes/class-woo-wallet-settings.php:260
+msgid "Enter maximum cashback amount"
+msgstr "مقدار حداکثر بازگشت نقدی را وارد کنید"
+
+#: includes/class-woo-wallet-settings.php:422
+msgid "Mini wallet display location"
+msgstr "مکان نمایش کیف پول کوچک"
+
+#: includes/class-woo-wallet-admin.php:503
+msgid "Select payment type"
+msgstr "نوع پرداخت را انتخاب کنید"
+
+#: includes/class-woo-wallet-admin.php:480
+msgid "Enter Amount"
+msgstr "مبلغ مورد نظر را وارد کنید"
+
+#: includes/class-woo-wallet-admin.php:789
+msgid "Apply as cashback"
+msgstr "اعمال بعنوان بازگشت نقدی"
+
+#: includes/class-woo-wallet-admin.php:790
+msgid "Check this box if the coupon should apply as cashback."
+msgstr "اگر میخواهید کوپن بعنوان بازگشت نقدی اعمال شود، این گزینه را انتخاب کنید."
+
+#: includes/class-woo-wallet-admin.php:825
+msgid "Thanks :)"
+msgstr "با تشکر"
+
+#: includes/class-woo-wallet-wallet.php:183
+msgid "Wallet credit through cashback by applying coupon"
+msgstr "با استفاده از کوپن، اعتبار کیف پول را از طریق نقدی دریافت می کنید"
+
+#: includes/class-woo-wallet-frontend.php:695
+#: includes/class-woo-wallet-frontend.php:720
+msgid " Cashback"
+msgstr "بازپرداخت نقدی"
+
+#. translators: Plugin name
+#: includes/class-woo-wallet-admin.php:823
+msgid "If you like %1$s please leave us a %2$s rating. A huge thanks in advance!"
+msgstr "اگر %1$s را دوست دارید لطفا امتیاز %2$s به ما دهید. پیشاپیش از شما ممنونیم!"
+
+#: includes/class-woo-wallet-admin.php:436
+msgid "Search Users"
+msgstr "جستجوی کاربران"
+
+#: includes/class-woo-wallet-settings.php:146
+msgid "Auto deduct wallet balance for partial payment"
+msgstr "کاهش خودکار موجودی کیف پول برای پرداخت های جزئی"
+
+#: includes/class-woo-wallet-settings.php:387
+msgid "Rechargeable Product Tax status"
+msgstr "وضعیت مالیات محصول قابل شارژ"
+
+#: includes/class-woo-wallet-settings.php:388
+#: includes/class-woo-wallet-settings.php:399
+msgid "Define whether or not the rechargeable Product is taxable."
+msgstr "تعریف کنید که آیا محصول قابل شارژ قابل مالیات پذیر است یا خیر."
+
+#: includes/class-woo-wallet-settings.php:398
+msgid "Rechargeable Product Tax class"
+msgstr "کلاس مالیات محصول قابل شارژ"
+
+#: includes/class-woo-wallet-settings.php:402
+msgid "Choose a tax class for rechargeable product. Tax classes are used to apply different tax rates specific to certain types of product."
+msgstr "یک کلاس مالیاتی برای محصول قابل شارژ را انتخاب کنید کلاس های مالیاتی برای اعمال نرخ های مختلف مالیاتی خاص برای نوع خاصی از محصول استفاده می شود."
+
+#: includes/class-woo-wallet-settings.php:147
+msgid "If a purchase requires more balance than you have in your wallet, then if checked the wallet balance will be deduct first and the rest of the amount will need to be paid."
+msgstr "با انتخاب این گزینه در صورتی که خرید به مبلغ بیشتری از آنچه در کیف پول دارید نیاز داشت، ابتدا مبلغ از کیف پول کسر و بقیه مبلغ پرداخت می شود."
+
+#: includes/class-woo-wallet-settings.php:391
+msgid "Taxable"
+msgstr "مشمول مالیات"
+
+#: includes/class-woo-wallet-settings.php:392
+msgctxt "Tax status"
+msgid "None"
+msgstr "هیچکدام"
+
+#: includes/class-woo-wallet.php:230
+msgid "View Wallet settings"
+msgstr "نمایش تنظیمات کیف پول"
+
+#: includes/class-woo-wallet-payment-method.php:108
+msgid " | Current Balance: <strong>%s</strong>"
+msgstr " | اعتبار فعلی: <strong>%s</strong>"
+
+#: includes/marketplace/wc-merketplace/class-woo-wallet-wcmp-gateway.php:30
+#: includes/marketplace/wcfmmp/class-woo-wallet-wcfmmp-gateway.php:50
+msgid "New transaction has been initiated"
+msgstr "تراکنش جدید آغاز شده است"
+
+#: includes/marketplace/wc-merketplace/class-woo-wallet-wcmp-gateway.php:47
+msgid "Invalid payment method"
+msgstr "روش پرداخت غیر معتبر"
+
+#: templates/wc-endpoint-wallet.php:39
+msgid "Transactions"
+msgstr "تراکنش ها"
+
+#: templates/wc-endpoint-wallet.php:29
+msgid "Wallet topup"
+msgstr "افرایش مبلغ کیف پول"
+
+#: templates/wc-endpoint-wallet.php:128
+msgid "No transactions found"
+msgstr "هیچ تراکنشی پیدا نشد"
+
+#: includes/admin/class-woo-wallet-balance-details.php:45
+#: includes/admin/class-woo-wallet-transaction-details.php:49
+#: includes/class-woo-wallet-frontend.php:201
+#: includes/export/class-terawallet-csv-exporter.php:39
+msgid "ID"
+msgstr "شناسه"
+
+#: includes/admin/class-woo-wallet-balance-details.php:40
+msgid "Username"
+msgstr "نام کاربری"
+
+#: includes/admin/class-woo-wallet-balance-details.php:42
+#: includes/export/class-terawallet-csv-exporter.php:41
+msgid "Email"
+msgstr "ایمیل"
+
+#: includes/admin/class-woo-wallet-transaction-details.php:44
+#: includes/class-woo-wallet-admin.php:484
+#: includes/export/class-terawallet-csv-exporter.php:42
+msgid "Type"
+msgstr "نوع"
+
+#: includes/class-woo-wallet-admin.php:669
+#: includes/class-woo-wallet-admin.php:721
+#: includes/class-woo-wallet-admin.php:898
+#: includes/class-woo-wallet-admin.php:922
+#: includes/class-woo-wallet-settings.php:170
+#: includes/class-woo-wallet-settings.php:238
+#: includes/class-woo-wallet-settings.php:283
+#: includes/marketplace/dokan/class-woo-wallet-dokan.php:214
+msgid "Percentage"
+msgstr "درصدی"
+
+#: includes/class-woo-wallet-admin.php:670
+#: includes/class-woo-wallet-admin.php:722
+#: includes/class-woo-wallet-admin.php:899
+#: includes/class-woo-wallet-admin.php:923
+#: includes/class-woo-wallet-settings.php:171
+#: includes/class-woo-wallet-settings.php:239
+#: includes/class-woo-wallet-settings.php:284
+#: includes/marketplace/dokan/class-woo-wallet-dokan.php:215
+msgid "Fixed"
+msgstr "ثابت"
+
+#: includes/admin/class-woo-wallet-transaction-details.php:48
+#: includes/class-woo-wallet-frontend.php:221
+#: includes/export/class-terawallet-csv-exporter.php:47
+msgid "Date"
+msgstr "تاریخ"
+
+#: includes/admin/class-woo-wallet-transaction-details.php:46
+#: includes/class-woo-wallet-frontend.php:216
+#: includes/export/class-terawallet-csv-exporter.php:45
+msgid "Details"
+msgstr "جزییات"
+
+#. translators: WooCommerce currency
+#: includes/actions/class-woo-wallet-action-daily-visits.php:35
+#: includes/actions/class-woo-wallet-action-new-registration.php:36
+#: includes/actions/class-woo-wallet-action-product-review.php:41
+#: includes/actions/class-woo-wallet-action-referrals.php:49
+#: includes/actions/class-woo-wallet-action-referrals.php:85
+#: includes/admin/class-woo-wallet-balance-details.php:197
+#: includes/admin/class-woo-wallet-transaction-details.php:45
+#: includes/class-woo-wallet-admin.php:477
+#: includes/export/class-terawallet-csv-exporter.php:44
+#: templates/wc-endpoint-wallet.php:93
+msgid "Amount"
+msgstr "مقدار"
+
+#: includes/class-woo-wallet-admin.php:432
+msgid "Users wallet details"
+msgstr "جزییات کیف پول کاربر"
+
+#: includes/class-woo-wallet-payment-method.php:49
+#: includes/marketplace/dokan/class-woo-wallet-dokan.php:88
+#: includes/marketplace/wc-merketplace/class-woo-wallet-wcmp.php:37
+#: includes/marketplace/wc-merketplace/class-woo-wallet-wcmp.php:42
+#: includes/marketplace/wcfmmp/class-woo-wallet-wcfmmp-gateway.php:24
+msgid "Wallet"
+msgstr "کیف پول"
+
+#: includes/admin/class-woo-wallet-balance-details.php:43
+msgid "Remaining balance"
+msgstr "اعتبار باقی مانده"
+
+#: includes/admin/class-woo-wallet-balance-details.php:44
+#: includes/class-woo-wallet-admin.php:236
+msgid "Actions"
+msgstr "عملیات"
+
+#: includes/class-woo-wallet-admin.php:533
+msgid "Transaction details"
+msgstr "جزئیات تراکنش ها"
+
+#: includes/class-woo-wallet-admin.php:588
+msgid "Please enter amount"
+msgstr "لطفا مقدار مورد نظر را وارد کنید"
+
+#: includes/class-woo-wallet-admin.php:666
+#: includes/class-woo-wallet-admin.php:719
+#: includes/class-woo-wallet-admin.php:896
+#: includes/class-woo-wallet-admin.php:919
+#: includes/class-woo-wallet-settings.php:234
+#: includes/marketplace/dokan/class-woo-wallet-dokan.php:207
+msgid "Cashback type"
+msgstr "نوع بازگشت نقدی"
+
+#: includes/class-woo-wallet-admin.php:667
+#: includes/class-woo-wallet-settings.php:235
+msgid "Select cashback type percentage or fixed"
+msgstr "نوع درصدی یا ثابت بازگشت نقدی را انتخاب کنید"
+
+#: includes/class-woo-wallet-admin.php:681
+#: includes/class-woo-wallet-admin.php:738
+#: includes/class-woo-wallet-admin.php:903
+#: includes/class-woo-wallet-admin.php:928
+#: includes/class-woo-wallet-settings.php:245
+#: includes/marketplace/dokan/class-woo-wallet-dokan.php:224
+msgid "Cashback Amount"
+msgstr "مبلغ بازگشت نقدی"
+
+#: includes/class-woo-wallet-admin.php:682
+#: includes/class-woo-wallet-settings.php:246
+msgid "Enter cashback amount"
+msgstr "میزان بازگشت نقدی را وارد کنید"
+
+#: includes/class-woo-wallet-frontend.php:610
+msgid "Via wallet"
+msgstr "با کیف پول"
+
+#: includes/class-woo-wallet-admin.php:853
+#: includes/class-woo-wallet-admin.php:961
+#: includes/class-woo-wallet-frontend.php:169
+#: includes/class-woo-wallet-frontend.php:287
+#: templates/wc-endpoint-wallet.php:50
+msgid "My Wallet"
+msgstr "کیف پول من"
+
+#: includes/class-woo-wallet-ajax.php:240
+msgid "Invalid refund amount"
+msgstr "مقدار بازپرداخت غیر معتبر"
+
+#: includes/class-woo-wallet-ajax.php:282
+#: includes/class-woo-wallet-payment-method.php:187
+msgid "Refund not credited to customer"
+msgstr "بازپرداخت به حساب مشتری واریز نشد"
+
+#: includes/class-woo-wallet-frontend.php:288
+msgid "Account details"
+msgstr "جزئیات حساب کاربری"
+
+#: includes/class-woo-wallet-frontend.php:289
+msgid "Logout"
+msgstr "خروج"
+
+#: includes/class-woo-wallet-payment-method.php:61
+msgid "Enable wallet payments"
+msgstr "فعال کردن پرداخت با کیف پول"
+
+#: includes/class-woo-wallet-payment-method.php:67
+msgid "Title"
+msgstr "عنوان"
+
+#: includes/class-woo-wallet-payment-method.php:76
+msgid "Payment method description that the customer will see on your checkout."
+msgstr "توضیحات روش پرداختی که مشتری در صفحه پرداخت مشاهده خواهد کرد."
+
+#: includes/class-woo-wallet-payment-method.php:77
+#: includes/class-woo-wallet-payment-method.php:84
+msgid "Pay with wallet."
+msgstr "پرداخت با کیف پول."
+
+#: includes/class-woo-wallet-payment-method.php:81
+msgid "Instructions"
+msgstr "دستورالعمل ها"
+
+#: includes/class-woo-wallet-payment-method.php:83
+msgid "Instructions that will be added to the thank you page."
+msgstr "دستورالعمل هایی که به صفحه تشکر از شما اضافه خواهند شد."
+
+#: includes/class-woo-wallet-settings-api.php:405
+#: includes/class-woo-wallet-settings-api.php:423
+msgid "Choose File"
+msgstr "انتخاب فایل"
+
+#: includes/class-woo-wallet-settings.php:31
+#: includes/class-woo-wallet-settings.php:315 includes/class-woo-wallet.php:230
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: includes/class-woo-wallet-settings.php:85
+msgid "General"
+msgstr "عمومی"
+
+#: includes/class-woo-wallet-settings.php:108
+msgid "Rechargeable Product Title"
+msgstr "عنوان محصول قابل شارژ"
+
+#: includes/class-woo-wallet-settings.php:109
+msgid "Enter wallet rechargeable product title"
+msgstr "عنوان محصول قابل شارژ کیف پول را وارد کنید"
+
+#: includes/class-woo-wallet-settings.php:223
+msgid "Product wise"
+msgstr "محصول"
+
+#: includes/class-woo-wallet-settings.php:273
+msgid "Payment gateway charge"
+msgstr "هزینه پرداخت"
+
+#: includes/class-woo-wallet-settings.php:279
+msgid "Charge type"
+msgstr "نوع شارژ"
+
+#: includes/class-woo-wallet-settings.php:280
+msgid "Select gateway charge type percentage or fixed"
+msgstr "نوع درصدی یا ثابت هزینه روش پرداخت را انتخاب کنید"
+
+#: includes/class-woo-wallet-settings.php:334
+#: includes/class-woo-wallet-settings.php:361
+msgid "(no title)"
+msgstr "(بدون عنوان)"
+
+#: includes/emails/class-woo-wallet-email-new-transaction.php:19
+msgid "New wallet transaction"
+msgstr "تراکنش جدید کیف پول"
+
+#: includes/emails/class-woo-wallet-email-new-transaction.php:20
+msgid "New wallet transaction emails are sent to user when a wallet transaction received."
+msgstr "ایمیل های تراکنش های جدید کیف پول زمانیکه تراکنشی از کیف پول دریافت شود به کاربر ارسال خواهد شد."
+
+#: includes/emails/class-woo-wallet-email-low-wallet-balance.php:126
+#: includes/emails/class-woo-wallet-email-new-transaction.php:142
+msgid "Enable this email notification"
+msgstr "این اطلاع رسانی ایمیل را فعال کنید"
+
+#: includes/emails/class-woo-wallet-email-low-wallet-balance.php:137
+#: includes/emails/class-woo-wallet-email-new-transaction.php:146
+msgid "Subject"
+msgstr "موضوع"
+
+#. translators: %s: list of placeholders
+#: includes/emails/class-woo-wallet-email-low-wallet-balance.php:141
+#: includes/emails/class-woo-wallet-email-low-wallet-balance.php:150
+#: includes/emails/class-woo-wallet-email-new-transaction.php:150
+#: includes/emails/class-woo-wallet-email-new-transaction.php:159
+msgid "Available placeholders: %s"
+msgstr "متغیرهایی موجود: %s"
+
+#: includes/emails/class-woo-wallet-email-low-wallet-balance.php:146
+#: includes/emails/class-woo-wallet-email-new-transaction.php:155
+msgid "Email heading"
+msgstr "عنوان ایمیل"
+
+#: includes/emails/class-woo-wallet-email-low-wallet-balance.php:155
+#: includes/emails/class-woo-wallet-email-new-transaction.php:164
+msgid "Email type"
+msgstr "نوع ایمیل"
+
+#: includes/emails/class-woo-wallet-email-low-wallet-balance.php:157
+#: includes/emails/class-woo-wallet-email-new-transaction.php:166
+msgid "Choose which format of email to send."
+msgstr "فرمت ایمیل ارسالی را انتخاب کنید."
+
+#: templates/emails/plain/user-new-transaction.php:30
+#: templates/emails/user-new-transaction.php:33
+msgid "has been debited from your wallet."
+msgstr "از کیف پول شما پرداخت شد."
+
+#: includes/class-woo-wallet-admin.php:110
+#: includes/class-woo-wallet-frontend.php:847 templates/mini-wallet.php:23
+msgid "Current wallet balance"
+msgstr "اعتبار فعلی کیف پول"
+
+#: includes/class-woo-wallet-widgets.php:54 templates/wc-endpoint-wallet.php:71
+msgid "Enter amount"
+msgstr "مقدار مورد نظر را وارد کنید"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/woo-wallet/"
+msgstr "https://wordpress.org/plugins/woo-wallet/"
+
+#: includes/actions/class-woo-wallet-action-daily-visits.php:29
+#: includes/actions/class-woo-wallet-action-new-registration.php:30
+#: includes/actions/class-woo-wallet-action-product-review.php:35
+#: includes/actions/class-woo-wallet-action-referrals.php:37
+#: includes/class-woo-wallet-payment-method.php:60
+#: includes/emails/class-woo-wallet-email-low-wallet-balance.php:124
+#: includes/emails/class-woo-wallet-email-new-transaction.php:140
+msgid "Enable/Disable"
+msgstr "فعال/غیرفعال"
+
+#: includes/actions/class-woo-wallet-action-daily-visits.php:51
+#: includes/actions/class-woo-wallet-action-new-registration.php:43
+#: includes/actions/class-woo-wallet-action-product-review.php:48
+#: includes/actions/class-woo-wallet-action-referrals.php:72
+#: includes/actions/class-woo-wallet-action-referrals.php:116
+#: includes/admin/class-woo-wallet-balance-details.php:198
+#: includes/class-woo-wallet-admin.php:297
+#: includes/class-woo-wallet-admin.php:508
+#: includes/class-woo-wallet-payment-method.php:74
+msgid "Description"
+msgstr "توضیحات"
+
+#: includes/admin/class-woo-wallet-balance-details.php:41
+#: includes/admin/class-woo-wallet-transaction-details.php:43
+msgid "Name"
+msgstr "نام"
+
+#: includes/class-woo-wallet-payment-method.php:70
+msgid "Wallet payment"
+msgstr "پرداخت کیف پول"
+
+#: includes/class-woo-wallet-settings.php:167
+msgid "Select transfer charge type percentage or fixed"
+msgstr "نوع شارژ ثابت یا درصدی را جهت انتقال انتخاب نمایید"
+
+#: includes/class-woo-wallet-settings.php:189
+msgid "Cashback Reward Program"
+msgstr "برنامه پاداش نقدی"
+
+#: includes/class-woo-wallet-settings.php:216
+msgid "Cashback Rule"
+msgstr "اعمال بازگشت نقدی در"
+
+#: includes/class-woo-wallet-settings.php:217
+msgid "Select Cashback Rule cart or product wise"
+msgstr "بازگشت نقدی در کدام مورد اعمال شود"
+
+#: includes/class-woo-wallet-settings.php:222
+msgid "Cart wise"
+msgstr "سبد خرید"
+
+#: includes/emails/class-woo-wallet-email-new-transaction.php:40
+msgid "Your {site_title} wallet transaction from {transaction_date}"
+msgstr "تراکنش های سایت {site_title} از {transaction_date}"
+
+#: includes/class-woo-wallet-widgets.php:55 templates/wc-endpoint-wallet.php:78
+msgid "Add"
+msgstr "افزودن"
+
+#: includes/admin/class-woo-wallet-balance-details.php:323
+#: includes/admin/class-woo-wallet-transaction-details.php:130
+#: includes/class-woo-wallet-admin.php:490
+#: includes/class-woo-wallet-frontend.php:206
+msgid "Credit"
+msgstr "افرایش مبلغ"
+
+#: includes/admin/class-woo-wallet-balance-details.php:324
+#: includes/admin/class-woo-wallet-transaction-details.php:130
+#: includes/class-woo-wallet-admin.php:491
+#: includes/class-woo-wallet-frontend.php:211
+msgid "Debit"
+msgstr "کسر مبلغ"
+
+#: includes/class-woo-wallet-admin.php:511
+msgid "Enter Description"
+msgstr "توضیحات خود را وارد کنید"
+
+#: includes/class-woo-wallet-admin.php:645
+#: includes/class-woo-wallet-admin.php:770
+msgid "Cashback"
+msgstr "بازگشت نقدی"
+
+#: includes/class-woo-wallet-settings.php:339
+msgid "Enter gateway charge amount for "
+msgstr "مقدار هزینه روش پرداخت را وارد کنید "
+
+#: includes/class-woo-wallet-settings.php:366
+msgid "Allow this gateway for recharge wallet"
+msgstr "این درگاه را برای شارژ کیف پول مجاز کنید"
+
+#: includes/class-woo-wallet-payment-method.php:50
+msgid "Have your customers pay with wallet."
+msgstr "به مشتریان خود اجازه دهید تا با کیف پولشان پرداخت کنند."
+
+#: includes/emails/class-woo-wallet-email-new-transaction.php:50
+msgid "Thank you for using wallet"
+msgstr "از شما برای استفاده از کیف پول سپاسگزاریم"
+
+#: includes/class-woo-wallet-settings.php:274
+msgid "Charge customer when they add balance to their wallet?"
+msgstr "زمانیکه مشتری کیف پول خود را شارژ می کند آن را شارژ می کنید؟"
+
+#: includes/class-woo-wallet-admin.php:469
+#: includes/class-woo-wallet-admin.php:536
+msgid "Current wallet balance: "
+msgstr "اعتبار فعلی کیف پول: "
+
+#: includes/class-woo-wallet-settings.php:190
+msgid "Run cashback reward program on your store"
+msgstr "به مشتریان برای خریدهای بعدی جایزه بدهید"
+
+#: includes/class-woo-wallet-frontend.php:540
+msgid "You can not add another product while your cart contains with wallet rechargeable product."
+msgstr "در زمان شارژ کیف پول مجاز به خرید محصولات نمیباشید."
+
+#: templates/woo-wallet-partial-payment.php:43
+#: templates/woo-wallet-partial-payment.php:47
+msgid "Pay by wallet"
+msgstr "پرداخت با کیف پول"

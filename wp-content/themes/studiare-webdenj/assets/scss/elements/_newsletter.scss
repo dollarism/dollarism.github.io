@@ -1,0 +1,47 @@
+.newsletter-form {
+  position: relative;
+  display: flex;
+
+  &:before {
+    content: "\f003";
+    font-family: 'FontAwesome';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 46px;
+    pointer-events: none;
+    color: gray('600');
+    font-size: 16px;
+    text-align: center;
+    z-index: 1;
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form-control {
+    position: relative;
+    width: 100%;
+    line-height: 1;
+    padding-left: 44px;
+    border-radius: 0;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+
+
+  }
+
+  input[type=submit] {
+    border-radius: 0;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    //position: absolute;
+    //right: 0;
+    //top: 0;
+    height: 100%;
+    //font-size: 0 !important;
+    box-shadow: none;
+  }
+}

@@ -1,0 +1,143 @@
+
+
+// Hide bbpress breadcrumb
+.bbp-breadcrumb,
+.bbp-search-form {
+  display: none;
+}
+
+#bbpress-forums ul.bbp-forums {
+  border: 0;
+  font-size: 100%;
+}
+
+.bbpress  {
+
+  #bbpress-forums {
+    font-size: 100%;
+
+    #bbp-search-form {
+      margin-bottom: 30px;
+
+      #bbp_search {
+        width: 300px;
+      }
+    }
+
+    ul.odd,
+    ul.even {
+      background: $white !important;
+      border-right: 1px solid $border-color;
+      border-left: 1px solid $border-color;
+    }
+
+    .bbp-header {
+      background: gray('800');
+      color: $white;
+      padding: 20px 30px;
+      line-height: 1.5;
+      font-size: 14px;
+
+      a {
+        color: $white;
+      }
+    }
+
+    .bbp-reply-header {
+      padding: 15px 30px;
+    }
+
+    li.bbp-body {
+
+      ul {
+        padding: 20px 30px !important;
+        border-top: 0;
+        border-bottom: 1px solid $border-color;
+      }
+
+    }
+
+    ul.bbp-replies {
+      font-size: 15px;
+    }
+
+    .bbp-template-notice {
+      border-radius: 0;
+      border: 0;
+      padding: 5px 15px;
+      line-height: 30px;
+      font-size: 13px;
+      margin-top: 0;
+
+      &.info {
+        background: #d9edf7;
+        color: #31708f;
+      }
+    }
+
+    fieldset.bbp-form {
+      background-color: $white;
+      padding: 30px;
+      border-radius: $border-radius;
+    }
+
+    .bbp-forum-info {
+      line-height: 1.5;
+      .bbp-forum-title {
+        font-size: 17px;
+        font-weight: 500;
+      }
+
+      .bbp-forum-content {
+        font-size: 15px;
+      }
+    }
+
+    .bbp-author-avatar .avatar.avatar-14 {
+      display: none;
+    }
+
+    .bbp-author-name {
+      font-size: 15px;
+      color: color('blue');
+
+      &:hover {
+        color: gray('600');
+      }
+    }
+
+    .bbp-forum-freshness {
+      line-height: 1.5;
+    }
+
+    .bbp-footer {
+      background: 0;
+      border: 0;
+      font-size: 14px;
+    }
+
+    p.bbp-topic-meta {
+      font-size: 15px;
+    }
+
+    .bbp-topic-title {
+
+      .bbp-topic-permalink {
+        font-size: 17px;
+      }
+    }
+  }
+
+  // Single
+  &.single-forum {
+
+    #bbpress-forums {
+
+      .bbp-topics {
+        font-size: 100%;
+        border: 0;
+      }
+    }
+  }
+}
+

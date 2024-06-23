@@ -1,0 +1,156 @@
+.login-form-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1040;
+  opacity: 0;
+  background-color: $modal-backdrop-bg;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+  outline: 0;
+  opacity: 0;
+  transition: all 0.15s linear;
+  visibility: hidden;
+
+  .modal-login-open & {
+    visibility: visible;
+    opacity: 1;
+
+    .login-form-overlay {
+      opacity: 0.8;
+    }
+  }
+
+
+}
+
+.login-form-modal {
+  position: relative;
+  width: auto;
+  margin: $modal-dialog-margin;
+  z-index: 1040;
+  transition: all 0.15s linear;
+  opacity: 0;
+  visibility: hidden;
+
+  .modal-login-open & {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  @include media-breakpoint-up(sm) {
+    max-width: $modal-md;
+    margin: 10vh auto 0 auto;
+  }
+
+
+  .login-form-modal-inner {
+    display: flex;
+    overflow: hidden;
+    background-color: $modal-content-bg;
+    @include border-radius($modal-content-border-radius);
+    @include box-shadow($modal-content-box-shadow-xs);
+  }
+
+  .login-form-modal-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .close {
+      position: absolute;
+      top: 35px;
+      right: 30px;
+
+      svg {
+        width: 26px;
+        fill: #666;
+      }
+    }
+
+    .login-title {
+      font-size: 28px;
+      margin-bottom: 0;
+      background-color: #f6f6f6;
+      padding: 35px 40px;
+    }
+
+    .login-form-content {
+      padding: 40px;
+
+      .form-row {
+        margin-bottom: 15px;
+      }
+    }
+
+    .login-form-remember {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 5px 0 15px 0;
+    }
+
+    .or-use-login {
+      font-size: 14px;
+      text-transform: uppercase;
+      color: gray('500');
+      margin-top: 20px;
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &:before,
+      &:after {
+        content: "";
+        -webkit-box-flex: 1;
+        -ms-flex: 1 0 0px;
+        flex: 1 0 0;
+        border-bottom: 1px solid $border-color;
+      }
+
+      &:before {
+        margin-right: 15px;
+      }
+
+      &:after {
+        margin-left: 15px;
+      }
+    }
+  }
+
+  .form-row-username,
+  .form-row-password {
+    position: relative;
+
+    i.material-icons {
+      position: absolute;
+      bottom: 15px;
+      font-size: 22px;
+      left: 12px;
+      color: #ccc;
+    }
+
+    input {
+      height: 50px;
+      padding-left: 46px;
+    }
+  }
+
+  .button {
+    min-width: 140px;
+  }
+
+}

@@ -1,0 +1,184 @@
+$widget-margin: 1.75rem;
+$widget-inner-padding: 1.75rem;
+
+.main-sidebar-holder {
+
+  .widget {
+    background-color: $white;
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+    padding: $widget-inner-padding;
+    margin-bottom: $widget-margin;
+
+    .widget-title {
+      position: relative;
+      font-size: 18px;
+      line-height: 1;
+      margin-bottom: 15px;
+
+      &:after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 2px;
+        background-color: #f4f4f4;
+        margin-top: 0.75em;
+      }
+
+      &:before {
+        display: block;
+        content: '';
+        position: absolute;
+        left: -$widget-inner-padding;
+        top: 0;
+        width: 2px;
+        height: 24px;
+        background-color: color('orange');
+      }
+    }
+  }
+
+}
+
+.widget ul,
+.widget ol {
+  list-style: none;
+  margin: 0;
+}
+
+.widget li > ol,
+.widget li > ul {
+  margin-left: 10px;
+  list-style: disc;
+  list-style-position: inside;
+  margin-top: 5px;
+}
+
+/* List Style Widgets */
+
+.widget_archive li,
+.widget_categories li,
+.widget_links li,
+.widget_meta li,
+.widget_nav_menu li,
+.widget_pages li,
+.widget_recent_comments li,
+.widget_recent_entries li,
+.widget_contacts li,
+.widget_product_categories li {
+  //line-height: 1.5;
+  padding: 7px 0;
+  border-bottom: 1px solid #eee;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+.widget_categories li li:last-child,
+.widget_nav_menu li li:last-child,
+.widget_pages li li:last-child {
+  padding-bottom: 0;
+}
+
+/* Recent Posts Widget */
+
+.widget_recent_entries .post-date {
+  display: block;
+  color: #aaaaaa;
+}
+
+/* RSS Widget */
+
+.rsswidget img {
+  margin-top: -4px;
+}
+
+.rssSummary {
+  margin: 9px 0;
+}
+
+.rss-date {
+  display: block;
+}
+
+.widget_rss li {
+  margin-bottom: 18px;
+}
+
+.widget_rss li:last-child {
+  margin-bottom: 0;
+}
+
+/* Text Widget */
+
+.widget_text > div > :last-child {
+  //margin-bottom: 0;
+}
+
+/* Contact Infos */
+.widget_contacts {
+
+  ul {
+
+    li {
+      display: flex;
+      align-items: center;
+
+      .contact-info-icon {
+        display: inline-flex;
+        margin-right: 12px;
+        text-align: center;
+
+        i {
+          font-size: 22px;
+        }
+      }
+    }
+  }
+}
+
+/* Search Form */
+.search-form {
+  position: relative;
+
+  input[type='search'] {
+    width: 100%;
+    padding-right: 42px;
+  }
+
+  .search-submit {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    outline: 0;
+
+    svg {
+      width: 32px;
+      height: 32px;
+      fill: gray('600');
+    }
+  }
+}
+
+/* Widget Tag Cloud */
+.widget_tag_cloud {
+
+  .tag-cloud-link {
+    font-size: 14px !important;
+    background-color: color('blue');
+    border-radius: $border-radius;
+    color: $white;
+    line-height: 1;
+    padding: 6px 10px;
+    display: inline-block;
+    margin: 0 5px 5px 0;
+  }
+}

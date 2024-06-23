@@ -1,0 +1,25 @@
+$enable-shadows: true;
+
+// Container Widths
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1230px
+) !default;
+
+$orange:    #f9a134;
+$blue:      #1e83f0;
+$primary:   #2e3e77;
+$teal:      #8bca48;
+
+// States
+$danger:    #e0717c;
+
+// Borders
+$border-radius: 4px;
+$border-color: #e5e5e5;
+
+
+// Default Values
+$baseline: 16px;

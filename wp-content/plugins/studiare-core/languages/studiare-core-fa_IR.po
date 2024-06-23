@@ -1,0 +1,686 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Studiare Core\n"
+"POT-Creation-Date: 2020-11-01 10:35+0330\n"
+"PO-Revision-Date: 2020-11-01 10:44+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: studiare-core.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/ajax-woo-products/ajax.php:55 inc/ajax-woo-thumb-products/ajax.php:55
+msgid "No item found"
+msgstr "موردی یافت نشد"
+
+#: inc/elementor/elementor.php:38
+msgid "عناصر قالب استادیار"
+msgstr "عناصر قالب استادیار"
+
+#: inc/elementor/widgets/widget-ajax-search.php:14
+#: inc/elementor/widgets/widget-ajax-search.php:30
+msgid "Search"
+msgstr "جستجو"
+
+#: inc/elementor/widgets/widget-ajax-search.php:45
+msgctxt "placeholder"
+msgid "چی می خوای یاد بگیری...؟!"
+msgstr "چی می خوای یاد بگیری...؟!"
+
+#: inc/elementor/widgets/widget-blog-carousel.php:13
+msgid "Carousel Latest Blog"
+msgstr "کروسل بلاگ"
+
+#: inc/elementor/widgets/widget-blog-carousel.php:27
+#: inc/elementor/widgets/widget-blog-metro.php:27
+#: inc/elementor/widgets/widget-blog-podcast.php:27
+#: inc/elementor/widgets/widget-blog-video.php:27
+#: inc/elementor/widgets/widget-blog.php:27
+msgid "Blog"
+msgstr "بلاگ"
+
+#: inc/elementor/widgets/widget-blog-carousel.php:35
+#: inc/elementor/widgets/widget-blog-podcast.php:35
+#: inc/elementor/widgets/widget-blog-video.php:35
+#: inc/elementor/widgets/widget-blog.php:35
+#: inc/elementor/widgets/widget-download.php:65
+#: inc/elementor/widgets/widget-products-carousel.php:106
+#: inc/elementor/widgets/widget-products-swiper.php:106
+#: inc/elementor/widgets/widget-products.php:69
+msgid "Number of Items"
+msgstr "تعداد آیتم ها"
+
+#: inc/elementor/widgets/widget-blog-carousel.php:53
+#: inc/elementor/widgets/widget-blog.php:53
+#: inc/elementor/widgets/widget-products-carousel.php:38
+#: inc/elementor/widgets/widget-products-swiper.php:38
+#: inc/elementor/widgets/widget-products.php:38
+#: inc/elementor/widgets/widget-testimonials.php:107
+msgid "Columns"
+msgstr "ستون ها"
+
+#: inc/elementor/widgets/widget-blog-carousel.php:57
+#: inc/elementor/widgets/widget-products-carousel.php:42
+#: inc/elementor/widgets/widget-products-swiper.php:42
+msgid "4 ستونه"
+msgstr "4 ستونه"
+
+#: inc/elementor/widgets/widget-blog-carousel.php:58
+#: inc/elementor/widgets/widget-products-carousel.php:43
+#: inc/elementor/widgets/widget-products-swiper.php:43
+#: inc/elementor/widgets/widget-testimonials.php:111
+msgid "3 ستونه"
+msgstr ""
+
+#: inc/elementor/widgets/widget-blog-carousel.php:59
+#: inc/elementor/widgets/widget-products-carousel.php:44
+#: inc/elementor/widgets/widget-products-swiper.php:44
+#: inc/elementor/widgets/widget-testimonials.php:112
+msgid "2 ستونه"
+msgstr ""
+
+#: inc/elementor/widgets/widget-blog-carousel.php:67
+#: inc/elementor/widgets/widget-products-carousel.php:52
+#: inc/elementor/widgets/widget-products-swiper.php:52
+#: inc/elementor/widgets/widget-testimonials.php:121
+msgid "صفحه گذاری اسلایدر"
+msgstr ""
+
+#: inc/elementor/widgets/widget-blog-carousel.php:77
+#: inc/elementor/widgets/widget-products-carousel.php:62
+#: inc/elementor/widgets/widget-products-swiper.php:62
+#: inc/elementor/widgets/widget-testimonials.php:131
+msgid "فلش های ناوبری"
+msgstr ""
+
+#: inc/elementor/widgets/widget-blog-carousel.php:87
+#: inc/elementor/widgets/widget-products-carousel.php:72
+#: inc/elementor/widgets/widget-products-swiper.php:72
+#: inc/elementor/widgets/widget-testimonials.php:141
+msgid "حلقه کروسل"
+msgstr ""
+
+#: inc/elementor/widgets/widget-blog-carousel.php:97
+#: inc/elementor/widgets/widget-products-carousel.php:82
+#: inc/elementor/widgets/widget-products-swiper.php:82
+#: inc/elementor/widgets/widget-testimonials.php:151
+msgid "اجرای خودکار اسلایدر"
+msgstr ""
+
+#: inc/elementor/widgets/widget-blog-carousel.php:108
+#: inc/elementor/widgets/widget-blog-metro.php:36
+#: inc/elementor/widgets/widget-blog-podcast.php:55
+#: inc/elementor/widgets/widget-blog-video.php:55
+#: inc/elementor/widgets/widget-blog.php:71
+#: inc/elementor/widgets/widget-download.php:39
+#: inc/elementor/widgets/widget-products-carousel.php:92
+#: inc/elementor/widgets/widget-products-swiper.php:92
+#: inc/elementor/widgets/widget-products.php:55
+msgid "Category"
+msgstr "دسته بندی"
+
+#: inc/elementor/widgets/widget-blog-carousel.php:110
+#: inc/elementor/widgets/widget-blog-metro.php:38
+#: inc/elementor/widgets/widget-blog-podcast.php:57
+#: inc/elementor/widgets/widget-blog-video.php:57
+#: inc/elementor/widgets/widget-blog.php:73
+#: inc/elementor/widgets/widget-download.php:41
+#: inc/elementor/widgets/widget-products-carousel.php:94
+#: inc/elementor/widgets/widget-products-swiper.php:94
+#: inc/elementor/widgets/widget-products.php:57
+msgid "Select a category"
+msgstr "یک دسته بندی انتخاب کنید"
+
+#: inc/elementor/widgets/widget-blog-carousel.php:122
+#: inc/elementor/widgets/widget-blog-podcast.php:69
+#: inc/elementor/widgets/widget-blog-video.php:69
+#: inc/elementor/widgets/widget-blog.php:85
+msgid "Order"
+msgstr "مرتب سازی"
+
+#: inc/elementor/widgets/widget-blog-carousel.php:126
+#: inc/elementor/widgets/widget-blog-podcast.php:73
+#: inc/elementor/widgets/widget-blog-video.php:73
+#: inc/elementor/widgets/widget-blog.php:89
+#: inc/elementor/widgets/widget-download.php:87
+#: inc/elementor/widgets/widget-products-carousel.php:128
+#: inc/elementor/widgets/widget-products-swiper.php:128
+#: inc/elementor/widgets/widget-products.php:91
+msgid "Ascending"
+msgstr "صعودی"
+
+#: inc/elementor/widgets/widget-blog-carousel.php:127
+#: inc/elementor/widgets/widget-blog-podcast.php:74
+#: inc/elementor/widgets/widget-blog-video.php:74
+#: inc/elementor/widgets/widget-blog.php:90
+#: inc/elementor/widgets/widget-download.php:88
+#: inc/elementor/widgets/widget-products-carousel.php:129
+#: inc/elementor/widgets/widget-products-swiper.php:129
+#: inc/elementor/widgets/widget-products.php:92
+msgid "Descending"
+msgstr "نزولی"
+
+#: inc/elementor/widgets/widget-blog-metro.php:13
+msgid "Blog Metro"
+msgstr "بلاگ استایل کاشی"
+
+#: inc/elementor/widgets/widget-blog-podcast.php:13
+msgid "Latest Blog Podcasts"
+msgstr "آخرین پادکست ها"
+
+#: inc/elementor/widgets/widget-blog-video.php:13
+msgid "Latest Blog Videos"
+msgstr "آخرین ویدئوها"
+
+#: inc/elementor/widgets/widget-blog.php:13
+msgid "Latest Blog"
+msgstr "نوشته های بلاگ"
+
+#: inc/elementor/widgets/widget-blog.php:57
+#: inc/elementor/widgets/widget-products.php:42
+msgid "Column 1"
+msgstr "1 ستونه"
+
+#: inc/elementor/widgets/widget-blog.php:58
+#: inc/elementor/widgets/widget-products.php:43
+msgid "Column 2"
+msgstr "2 ستونه"
+
+#: inc/elementor/widgets/widget-blog.php:59
+#: inc/elementor/widgets/widget-products.php:44
+msgid "Column 3"
+msgstr "3 ستونه"
+
+#: inc/elementor/widgets/widget-blog.php:60
+#: inc/elementor/widgets/widget-products.php:45
+msgid "Column 4"
+msgstr "4 ستوته"
+
+#: inc/elementor/widgets/widget-blog.php:61
+#: inc/elementor/widgets/widget-products.php:46
+msgid "Column 6"
+msgstr "6 ستونه"
+
+#: inc/elementor/widgets/widget-blog.php:62
+#: inc/elementor/widgets/widget-products.php:47
+msgid "Column 12"
+msgstr "12 ستونه"
+
+#: inc/elementor/widgets/widget-download.php:14
+#: inc/elementor/widgets/widget-download.php:30
+msgid "Download"
+msgstr "دوره ها با فیلتر دسته بندی"
+
+#: inc/elementor/widgets/widget-download.php:53
+msgid "Filter"
+msgstr "فیلتر"
+
+#: inc/elementor/widgets/widget-download.php:55
+msgid "Yes"
+msgstr "بله"
+
+#: inc/elementor/widgets/widget-download.php:56
+msgid "No"
+msgstr "خیر"
+
+#: inc/elementor/widgets/widget-download.php:83
+#: inc/elementor/widgets/widget-products-carousel.php:124
+#: inc/elementor/widgets/widget-products-swiper.php:124
+#: inc/elementor/widgets/widget-products.php:87
+msgid "order"
+msgstr "مرتب سازی"
+
+#: inc/elementor/widgets/widget-download.php:107
+msgid "All Items"
+msgstr "همه دوره ها"
+
+#: inc/elementor/widgets/widget-lessons.php:14
+#: inc/elementor/widgets/widget-lessons.php:84
+msgid "درس ها"
+msgstr "عنصر ارائه دروس"
+
+#: inc/elementor/widgets/widget-lessons.php:31
+msgid "تنظیمات فصل"
+msgstr ""
+
+#: inc/elementor/widgets/widget-lessons.php:39
+msgid "آیکون فصل(اختیاری)"
+msgstr ""
+
+#: inc/elementor/widgets/widget-lessons.php:50
+msgid "عنوان فصل دوره"
+msgstr ""
+
+#: inc/elementor/widgets/widget-lessons.php:59
+msgid "زیرنویس عنوان فصل دوره"
+msgstr ""
+
+#: inc/elementor/widgets/widget-lessons.php:69
+msgid "قابلیت باز و بسته شدن؟"
+msgstr ""
+
+#: inc/elementor/widgets/widget-lessons.php:71
+msgctxt "pelleh"
+msgid "بله"
+msgstr ""
+
+#: inc/elementor/widgets/widget-lessons.php:72
+msgctxt "pelleh"
+msgid "خیر"
+msgstr ""
+
+#: inc/elementor/widgets/widget-lessons.php:96
+msgid "دوره خصوصی است؟"
+msgstr ""
+
+#: inc/elementor/widgets/widget-lessons.php:100
+msgid "بله"
+msgstr ""
+
+#: inc/elementor/widgets/widget-lessons.php:101
+msgid "خیر"
+msgstr ""
+
+#: inc/elementor/widgets/widget-lessons.php:110
+msgid "عنوان درس"
+msgstr ""
+
+#: inc/elementor/widgets/widget-lessons.php:119
+msgid "زیرنویس عنوان"
+msgstr ""
+
+#: inc/elementor/widgets/widget-lessons.php:128
+msgid "آیکون درس"
+msgstr ""
+
+#: inc/elementor/widgets/widget-lessons.php:137
+msgid "لیبل درس"
+msgstr ""
+
+#: inc/elementor/widgets/widget-lessons.php:141
+msgid "رایگان"
+msgstr ""
+
+#: inc/elementor/widgets/widget-lessons.php:142
+msgid "ویدئو"
+msgstr ""
+
+#: inc/elementor/widgets/widget-lessons.php:143
+msgid "آزمون"
+msgstr ""
+
+#: inc/elementor/widgets/widget-lessons.php:144
+msgid "کوئیز"
+msgstr ""
+
+#: inc/elementor/widgets/widget-lessons.php:145
+msgid "مقاله"
+msgstr ""
+
+#: inc/elementor/widgets/widget-lessons.php:146
+msgid "تمرین"
+msgstr ""
+
+#: inc/elementor/widgets/widget-lessons.php:147
+msgid "فایل ضمیمه"
+msgstr ""
+
+#: inc/elementor/widgets/widget-lessons.php:148
+msgid "صوت"
+msgstr ""
+
+#: inc/elementor/widgets/widget-lessons.php:157
+msgid "پیشنمایش ویدئویی"
+msgstr ""
+
+#: inc/elementor/widgets/widget-lessons.php:165
+msgid "لینک فایل خصوصی درس"
+msgstr ""
+
+#: inc/elementor/widgets/widget-lessons.php:173
+msgid "محتوای دوره"
+msgstr ""
+
+#: inc/elementor/widgets/widget-lessons.php:182
+msgid "لیست دروس"
+msgstr ""
+
+#: inc/elementor/widgets/widget-lessons.php:257
+msgid "Preview"
+msgstr "پیشنمایش"
+
+#: inc/elementor/widgets/widget-lessons.php:295
+msgid "در دسترس"
+msgstr ""
+
+#: inc/elementor/widgets/widget-lessons.php:298
+msgid "Private"
+msgstr "خصوصی"
+
+#: inc/elementor/widgets/widget-lessons.php:317
+msgid ""
+"This lesson is private, for full access to all lessons you need to buy this "
+"course."
+msgstr ""
+"این بخش خصوصی می باشد. برای دسترسی کامل به دروس این دوره باید این دوره را "
+"خریداری نمایید."
+
+#: inc/elementor/widgets/widget-products-carousel.php:14
+#: inc/elementor/widgets/widget-products-carousel.php:30
+#: inc/elementor/widgets/widget-products-swiper.php:30
+msgid "Carousel Products"
+msgstr "کروسل دوره ها"
+
+#: inc/elementor/widgets/widget-products-swiper.php:14
+msgid "3D Slider Products"
+msgstr ""
+
+#: inc/elementor/widgets/widget-products.php:14
+#: inc/elementor/widgets/widget-products.php:30
+msgid "Products"
+msgstr "دوره ها"
+
+#: inc/elementor/widgets/widget-team.php:13
+msgid "Team"
+msgstr ""
+
+#: inc/elementor/widgets/widget-team.php:27
+msgid "team"
+msgstr ""
+
+#: inc/elementor/widgets/widget-team.php:35
+msgid "Choose photo"
+msgstr "انتخاب عکس"
+
+#: inc/elementor/widgets/widget-team.php:46
+#: inc/elementor/widgets/widget-testimonials.php:51
+msgid "Name"
+msgstr "نام"
+
+#: inc/elementor/widgets/widget-team.php:48
+msgid "John Doe"
+msgstr "جان دو"
+
+#: inc/elementor/widgets/widget-team.php:54
+#: inc/elementor/widgets/widget-testimonials.php:60
+msgid "Designation"
+msgstr ""
+
+#: inc/elementor/widgets/widget-team.php:56
+msgid "App Developer"
+msgstr ""
+
+#: inc/elementor/widgets/widget-team.php:64
+msgid "Social Icon"
+msgstr ""
+
+#: inc/elementor/widgets/widget-team.php:72
+msgid "Socia URL"
+msgstr ""
+
+#: inc/elementor/widgets/widget-team.php:81
+msgid "social profile"
+msgstr ""
+
+#: inc/elementor/widgets/widget-testimonials.php:14
+#: inc/elementor/widgets/widget-testimonials.php:30
+msgid "Testimonials"
+msgstr "نظرات مشتریان"
+
+#: inc/elementor/widgets/widget-testimonials.php:40
+msgid "Choose Photo"
+msgstr "انتخاب عکس"
+
+#: inc/elementor/widgets/widget-testimonials.php:68
+msgid "Testimonial"
+msgstr "نظر مشتری"
+
+#: inc/elementor/widgets/widget-testimonials.php:76
+msgid "ویدئوی نظر مشتری"
+msgstr ""
+
+#: inc/elementor/widgets/widget-testimonials.php:84
+msgid "Testimonial List"
+msgstr "لیست نظرات مشتری"
+
+#: inc/elementor/widgets/widget-testimonials.php:98
+msgid "تنظیمات کروسل"
+msgstr ""
+
+#: inc/elementor/widgets/widget-testimonials.php:113
+msgid "1 ستونه"
+msgstr "1 ستونه"
+
+#: inc/widgets/widget-product-details.php:15
+msgid "Tijarah Product Details Here"
+msgstr ""
+
+#: inc/widgets/widget-product-details.php:19
+msgid "Tijarah : Product Details"
+msgstr ""
+
+#: inc/widgets/widget-product-details.php:99
+msgid "Sales"
+msgstr ""
+
+#: inc/widgets/widget-product-details.php:103
+msgid "Ratings"
+msgstr ""
+
+#: inc/widgets/widget-product-details.php:109
+msgid "Views"
+msgstr ""
+
+#: inc/widgets/widget-product-details.php:141
+#: inc/widgets/widget-product-specs.php:120
+#: inc/widgets/widget-recent-posts.php:119
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/widget-product-details.php:146
+msgid "Price:"
+msgstr ""
+
+#: inc/widgets/widget-product-details.php:151
+msgid "Product Thumbnail :"
+msgstr ""
+
+#: inc/widgets/widget-product-details.php:156
+msgid "Rating Stars:"
+msgstr ""
+
+#: inc/widgets/widget-product-details.php:161
+msgid "Total Sales and Ratings:"
+msgstr ""
+
+#: inc/widgets/widget-product-details.php:166
+msgid "Total Views:"
+msgstr ""
+
+#: inc/widgets/widget-product-specs.php:12
+msgid "Tijarah Product Specification Here"
+msgstr ""
+
+#: inc/widgets/widget-product-specs.php:16
+msgid "Tijarah : Product Specification"
+msgstr ""
+
+#: inc/widgets/widget-product-specs.php:45
+msgid "Last Update:"
+msgstr ""
+
+#: inc/widgets/widget-product-specs.php:51
+msgid "Relased:"
+msgstr ""
+
+#: inc/widgets/widget-product-specs.php:83
+msgid "Tags:"
+msgstr ""
+
+#: inc/widgets/widget-product-specs.php:92
+msgid "No Tags Found!"
+msgstr ""
+
+#: inc/widgets/widget-product-specs.php:125
+msgid "Update Date:"
+msgstr ""
+
+#: inc/widgets/widget-product-specs.php:130
+msgid "Relased Date:"
+msgstr ""
+
+#: inc/widgets/widget-product-specs.php:134
+msgid ""
+"All other specification will come from feature fields of the product single "
+"page"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts.php:14
+msgid "Tijarah Blog Recent Post Here"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts.php:18
+msgid "Tijarah : Recent Post"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts.php:37
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/widgets/widget-recent-posts.php:124
+msgid "No. of Item of posts to show:"
+msgstr ""
+
+#: includes/post-types/teacher/class-studiare-teacher.php:47
+msgctxt "Post Type General Name"
+msgid "Teachers"
+msgstr "مدرسین"
+
+#: includes/post-types/teacher/class-studiare-teacher.php:48
+msgctxt "Post Type Singular Name"
+msgid "Teacher"
+msgstr "مدرس"
+
+#: includes/post-types/teacher/class-studiare-teacher.php:49
+msgid "Teachers"
+msgstr ""
+
+#: includes/post-types/teacher/class-studiare-teacher.php:50
+msgid "Parent Teacher:"
+msgstr ""
+
+#: includes/post-types/teacher/class-studiare-teacher.php:51
+msgid "All Teachers"
+msgstr "همه مدرسین"
+
+#: includes/post-types/teacher/class-studiare-teacher.php:52
+msgid "View Teacher"
+msgstr "مشاهده مدرس"
+
+#: includes/post-types/teacher/class-studiare-teacher.php:53
+msgid "Add New Teacher"
+msgstr ""
+
+#: includes/post-types/teacher/class-studiare-teacher.php:54
+msgid "Add New"
+msgstr "افزودن جدید"
+
+#: includes/post-types/teacher/class-studiare-teacher.php:55
+msgid "Edit Teacher"
+msgstr ""
+
+#: includes/post-types/teacher/class-studiare-teacher.php:56
+msgid "Update Teacher"
+msgstr ""
+
+#: includes/post-types/teacher/class-studiare-teacher.php:57
+msgid "Search Teacher"
+msgstr ""
+
+#: includes/post-types/teacher/class-studiare-teacher.php:58
+msgid "Not found"
+msgstr ""
+
+#: includes/post-types/teacher/class-studiare-teacher.php:59
+msgid "Not found in Trash"
+msgstr ""
+
+#: includes/post-types/teacher/class-studiare-teacher.php:68
+msgid "teacher"
+msgstr "مدرس"
+
+#: includes/post-types/teacher/class-studiare-teacher.php:69
+msgid "Teacher Post Type"
+msgstr ""
+
+#: includes/post-types/teacher/class-studiare-teacher.php:99
+msgid "Teacher Details"
+msgstr ""
+
+#: includes/post-types/teacher/class-studiare-teacher.php:107
+msgid "Job Title"
+msgstr ""
+
+#: includes/post-types/teacher/class-studiare-teacher.php:114
+msgid "Facebook"
+msgstr ""
+
+#: includes/post-types/teacher/class-studiare-teacher.php:120
+msgid "Twitter"
+msgstr ""
+
+#: includes/post-types/teacher/class-studiare-teacher.php:126
+msgid "Google +"
+msgstr ""
+
+#: includes/post-types/teacher/class-studiare-teacher.php:132
+msgid "LinkedIn"
+msgstr ""
+
+#: includes/post-types/teacher/class-studiare-teacher.php:138
+msgid "Youtube"
+msgstr ""
+
+#: includes/post-types/teacher/class-studiare-teacher.php:148
+msgid "Title"
+msgstr ""
+
+#: includes/post-types/teacher/class-studiare-teacher.php:149
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/post-types/teacher/class-studiare-teacher.php:178
+msgid "None"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Studiare Core"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.codebean.co/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Studiare core needed for Studiare theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "وردپرس من"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.esmeth.com/"
+msgstr ""

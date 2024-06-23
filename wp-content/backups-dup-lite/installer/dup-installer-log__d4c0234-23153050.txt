@@ -1,0 +1,1861 @@
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-0 START @ 03:49:50
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: WINNT                                 |WINNT
+PHP VERSION_________: 8.2.12                                |8.2.12
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 8.2.12 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12
+DOC ROOT____________: "C:/xampp/htdocs/dollarism.github.io"
+REQUEST URL_________: "http://127.0.0.1/dollarism.github.io"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[blogname]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+TEMPLATE____________: "base"
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "C:/xampp/htdocs/dollarism.github.io"
+URL_NEW_____________: "http://127.0.0.1/dollarism.github.io"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "C:/xampp/htdocs/dollarism.github.io/dollarism_[HASH]_20240623153050_archive.zip"
+ARCHIVE SIZE________: 159.35MB
+CREATED_____________: 2024-06-23 15:30:50
+WP VERSION__________: 6.1.6
+DUP VERSION_________: 1.5.1
+LICENSE_____________: Free version
+DB VERSION__________: 10.4.32
+DB FILE SIZE________: 53.91MB
+DB TABLES___________: 75
+DB ROWS_____________: 5671
+URL HOME____________: http://127.0.0.1/Ostad
+URL CORE____________: http://127.0.0.1/Ostad
+URL CONTENT_________: http://127.0.0.1/Ostad/wp-content
+URL UPLOAD__________: http://127.0.0.1/Ostad/wp-content/uploads
+URL PLUGINS_________: http://127.0.0.1/Ostad/wp-content/plugins
+URL MU PLUGINS______: http://127.0.0.1/Ostad/wp-content/mu-plugins
+URL THEMES__________: http://127.0.0.1/Ostad/wp-content/themes
+PATH HOME___________: C:/xampp/htdocs/Ostad
+PATH ABS____________: C:/xampp/htdocs/Ostad
+PATH WPCONFIG_______: C:/xampp/htdocs/Ostad
+PATH WPCONTENT______: C:/xampp/htdocs/Ostad/wp-content
+PATH UPLOADS________: C:/xampp/htdocs/Ostad/wp-content/uploads
+PATH PLUGINS________: C:/xampp/htdocs/Ostad/wp-content/plugins
+PATH MUPLUGINS______: C:/xampp/htdocs/Ostad/wp-content/mu-plugins
+PATH THEMES_________: C:/xampp/htdocs/Ostad/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "127.0.0.1/Ostad/"
+
+PLUGINS
+PLUGIN [SLUG:breadcrumb-navxt/breadcrumb-navxt.php             ][ON:true ]  Breadcrumb NavXT
+PLUGIN [SLUG:classic-widgets/classic-widgets.php               ][ON:true ]  Classic Widgets
+PLUGIN [SLUG:code-block-pro/code-block-pro.php                 ][ON:true ]  Code Block Pro
+PLUGIN [SLUG:contact-form-7/wp-contact-form-7.php              ][ON:true ]  Contact Form 7
+PLUGIN [SLUG:duplicator/duplicator.php                         ][ON:true ]  Duplicator
+PLUGIN [SLUG:elementor/elementor.php                           ][ON:true ]  Elementor
+PLUGIN [SLUG:mailchimp-for-wp/mailchimp-for-wp.php             ][ON:true ]  MC4WP: Mailchimp for WordPress
+PLUGIN [SLUG:portfolio-post-type/portfolio-post-type.php       ][ON:true ]  Portfolio Post Type
+PLUGIN [SLUG:revslider/revslider.php                           ][ON:true ]  Slider Revolution
+PLUGIN [SLUG:studiare-core/studiare-core.php                   ][ON:true ]  Studiare Core
+PLUGIN [SLUG:woo-wallet/woo-wallet.php                         ][ON:true ]  TeraWallet
+PLUGIN [SLUG:woocommerce/woocommerce.php                       ][ON:true ]  WooCommerce
+PLUGIN [SLUG:wp-parsidate/wp-parsidate.php                     ][ON:true ]  WP-Parsidate
+PLUGIN [SLUG:yith-woocommerce-wishlist/init.php                ][ON:true ]  YITH WooCommerce Wishlist
+
+********************************************************************************
+LOG-TIME[C:\xampp\htdocs\dollarism.github.io\dup-installer\ctrls\ctrl.base.php:227][DELTA:   2.19564]  MESSAGE:END RENDER PAGE
+[PHP ERR][E_DEPRECATED] MSG:Creation of dynamic property DUPX_ArchiveConfig::$brand is deprecated [CODE:8192|FILE:C:\xampp\htdocs\dollarism.github.io\dup-installer\classes\config\class.archive.config.php|LINE:102]
+LOG-TIME[C:\xampp\htdocs\dollarism.github.io\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+[PHP ERR][E_DEPRECATED] MSG:Creation of dynamic property DUPX_ArchiveConfig::$brand is deprecated [CODE:8192|FILE:C:\xampp\htdocs\dollarism.github.io\dup-installer\classes\config\class.archive.config.php|LINE:102]
+LOG-TIME[C:\xampp\htdocs\dollarism.github.io\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[C:\xampp\htdocs\dollarism.github.io\dup-installer\ctrls\ctrl.base.php:227][DELTA:   2.10626]  MESSAGE:END RENDER PAGE
+[PHP ERR][E_DEPRECATED] MSG:Creation of dynamic property DUPX_ArchiveConfig::$brand is deprecated [CODE:8192|FILE:C:\xampp\htdocs\dollarism.github.io\dup-installer\classes\config\class.archive.config.php|LINE:102]
+LOG-TIME[C:\xampp\htdocs\dollarism.github.io\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00010]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/dollarism.github.io"
+--------------------------------------
+LOG-TIME[DELTA:   0.04863]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00039]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00013]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.00811]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.02845]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00053]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+[PHP ERR][E_DEPRECATED] MSG:Creation of dynamic property DUPX_DB_Functions::$timeStart is deprecated [CODE:8192|FILE:C:\xampp\htdocs\dollarism.github.io\dup-installer\classes\database\class.db.functions.php|LINE:61]
+[PHP ERR][E_DEPRECATED] MSG:Creation of dynamic property DUPX_Validation_database_service::$supportedCharsetList is deprecated [CODE:8192|FILE:C:\xampp\htdocs\dollarism.github.io\dup-installer\classes\validation\class.validation.database.service.php|LINE:84]
+[PHP ERR][E_DEPRECATED] MSG:Creation of dynamic property DUPX_Validation_database_service::$supportedCollates is deprecated [CODE:8192|FILE:C:\xampp\htdocs\dollarism.github.io\dup-installer\classes\validation\class.validation.database.service.php|LINE:85]
+LOG-TIME[DELTA:   0.00370]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00090]  MESSAGE:TEST "Database Version" RESULT: passed
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+
+DATABASE SELECT EXCEPTION:  Unknown database 'dollar'
+	FILE:C:\xampp\htdocs\dollarism.github.io\dup-installer\classes\validation\class.validation.database.service.php[123]
+	TRACE:
+#0 C:\xampp\htdocs\dollarism.github.io\dup-installer\classes\validation\class.validation.database.service.php(123): mysqli_select_db(Object(mysqli), 'dollar')
+#1 C:\xampp\htdocs\dollarism.github.io\dup-installer\classes\validation\database-tests\class.validation.test.db.create.php(41): DUPX_Validation_database_service->databaseExists()
+#2 C:\xampp\htdocs\dollarism.github.io\dup-installer\classes\validation\class.validation.abstract.item.php(45): DUPX_Validation_test_db_create->runTest()
+#3 C:\xampp\htdocs\dollarism.github.io\dup-installer\classes\validation\class.validation.manager.php(229): DUPX_Validation_abstract_item->test(true)
+#4 C:\xampp\htdocs\dollarism.github.io\dup-installer\classes\validation\class.validation.manager.php(202): DUPX_Validation_manager->runTests()
+#5 C:\xampp\htdocs\dollarism.github.io\dup-installer\ctrls\classes\class.ctrl.ajax.php(168): DUPX_Validation_manager->getValidateData()
+#6 C:\xampp\htdocs\dollarism.github.io\dup-installer\ctrls\classes\class.ctrl.ajax.php(93): DUPX_Ctrl_ajax::actions('validate')
+#7 C:\xampp\htdocs\dollarism.github.io\dup-installer\main.installer.php(56): DUPX_Ctrl_ajax::controller()
+#8 {main}
+
+LOG-TIME[DELTA:   0.00105]  MESSAGE:TEST "Create New Database" RESULT: passed
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00026]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00014]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00014]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: skip
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+LOG-TIME[DELTA:   0.00061]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.05852]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00037]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+[PHP ERR][E_DEPRECATED] MSG:Creation of dynamic property DUPX_Validation_test_db_supported_default_charset::$usedCharset is deprecated [CODE:8192|FILE:C:\xampp\htdocs\dollarism.github.io\dup-installer\classes\validation\database-tests\class.validation.test.db.supported.default.charset.php|LINE:42]
+[PHP ERR][E_DEPRECATED] MSG:Creation of dynamic property DUPX_Validation_test_db_supported_default_charset::$usedCollate is deprecated [CODE:8192|FILE:C:\xampp\htdocs\dollarism.github.io\dup-installer\classes\validation\database-tests\class.validation.test.db.supported.default.charset.php|LINE:43]
+LOG-TIME[DELTA:   0.00072]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00034]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: passed
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: skip
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00010]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00274]  MESSAGE:TEST "Database cleanup" RESULT: passed
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+[PHP ERR][E_DEPRECATED] MSG:Creation of dynamic property DUPX_ArchiveConfig::$brand is deprecated [CODE:8192|FILE:C:\xampp\htdocs\dollarism.github.io\dup-installer\classes\config\class.archive.config.php|LINE:102]
+LOG-TIME[C:\xampp\htdocs\dollarism.github.io\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+[PHP ERR][E_DEPRECATED] MSG:Creation of dynamic property DUPX_DB_Functions::$timeStart is deprecated [CODE:8192|FILE:C:\xampp\htdocs\dollarism.github.io\dup-installer\classes\database\class.db.functions.php|LINE:61]
+[PHP ERR][E_DEPRECATED] MSG:Creation of dynamic property DUPX_Validation_database_service::$supportedCharsetList is deprecated [CODE:8192|FILE:C:\xampp\htdocs\dollarism.github.io\dup-installer\classes\validation\class.validation.database.service.php|LINE:84]
+[PHP ERR][E_DEPRECATED] MSG:Creation of dynamic property DUPX_Validation_database_service::$supportedCollates is deprecated [CODE:8192|FILE:C:\xampp\htdocs\dollarism.github.io\dup-installer\classes\validation\class.validation.database.service.php|LINE:85]
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+[PHP ERR][E_DEPRECATED] MSG:Creation of dynamic property DUPX_ArchiveConfig::$brand is deprecated [CODE:8192|FILE:C:\xampp\htdocs\dollarism.github.io\dup-installer\classes\config\class.archive.config.php|LINE:102]
+LOG-TIME[C:\xampp\htdocs\dollarism.github.io\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+[PHP ERR][E_DEPRECATED] MSG:Creation of dynamic property DUPX_ArchiveConfig::$brand is deprecated [CODE:8192|FILE:C:\xampp\htdocs\dollarism.github.io\dup-installer\classes\config\class.archive.config.php|LINE:102]
+LOG-TIME[C:\xampp\htdocs\dollarism.github.io\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/dollarism.github.io"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-1 START @ 03:50:29
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "دلاریسم"
+HOME URL NEW________: "http://127.0.0.1/dollarism.github.io"
+SITE URL NEW________: "http://127.0.0.1/dollarism.github.io/"
+CONTENT URL NEW_____: "http://127.0.0.1/dollarism.github.io/wp-content"
+UPLOAD URL NEW______: "http://127.0.0.1/dollarism.github.io/wp-content/uploads"
+PLUGINS URL NEW_____: "http://127.0.0.1/dollarism.github.io/wp-content/plugins"
+MUPLUGINS URL NEW___: "http://127.0.0.1/dollarism.github.io/wp-content/mu-plugins"
+HOME PATH NEW_______: "C:/xampp/htdocs/dollarism.github.io"
+SITE PATH NEW_______: "C:/xampp/htdocs/dollarism.github.io/"
+CONTENT PATH NEW____: "C:/xampp/htdocs/dollarism.github.io/wp-content"
+UPLOAD PATH NEW_____: "C:/xampp/htdocs/dollarism.github.io/wp-content/uploads"
+PLUGINS PATH NEW____: "C:/xampp/htdocs/dollarism.github.io/wp-content/plugins"
+MUPLUGINS PATH NEW__: "C:/xampp/htdocs/dollarism.github.io/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: false
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: false
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "C:/xampp/htdocs/dollarism.github.io/dup-installer"
+	FILE: "C:/xampp/htdocs/dollarism.github.io/dollarism_[HASH]_20240623153050_installer-backup.php"
+	FILE: "C:/xampp/htdocs/dollarism.github.io/dollarism_[HASH]_20240623153050_archive.zip"
+	FILE: "C:/xampp/htdocs/dollarism.github.io/installer.php"
+	FILE: "C:/xampp/htdocs/dollarism.github.io/dup-installer-bootlog__d4c0234-23153050.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "dollarism_[HASH]_20240623153050_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> START
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+CHUNK COMPLETE - RUNTIME: 5.0113 sec. - Files processed: 5,312 of 18,323
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+[PHP ERR][E_DEPRECATED] MSG:Creation of dynamic property DUPX_ArchiveConfig::$brand is deprecated [CODE:8192|FILE:C:\xampp\htdocs\dollarism.github.io\dup-installer\classes\config\class.archive.config.php|LINE:102]
+LOG-TIME[C:\xampp\htdocs\dollarism.github.io\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 5312
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/dollarism.github.io"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0085 sec. - Files processed: 9,011 of 18,323
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+[PHP ERR][E_DEPRECATED] MSG:Creation of dynamic property DUPX_ArchiveConfig::$brand is deprecated [CODE:8192|FILE:C:\xampp\htdocs\dollarism.github.io\dup-installer\classes\config\class.archive.config.php|LINE:102]
+LOG-TIME[C:\xampp\htdocs\dollarism.github.io\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 9011
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/dollarism.github.io"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0083 sec. - Files processed: 12,543 of 18,323
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+[PHP ERR][E_DEPRECATED] MSG:Creation of dynamic property DUPX_ArchiveConfig::$brand is deprecated [CODE:8192|FILE:C:\xampp\htdocs\dollarism.github.io\dup-installer\classes\config\class.archive.config.php|LINE:102]
+LOG-TIME[C:\xampp\htdocs\dollarism.github.io\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 12543
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/dollarism.github.io"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0070 sec. - Files processed: 16,309 of 18,323
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+[PHP ERR][E_DEPRECATED] MSG:Creation of dynamic property DUPX_ArchiveConfig::$brand is deprecated [CODE:8192|FILE:C:\xampp\htdocs\dollarism.github.io\dup-installer\classes\config\class.archive.config.php|LINE:102]
+LOG-TIME[C:\xampp\htdocs\dollarism.github.io\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 16309
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/dollarism.github.io"
+--------------------------------------
+FILE EXTRACTION: done processing last file in list of 18928
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+
+EXTRACTION COMPLETE @ 03:50:54 - RUNTIME: 24.4813 sec. - Files processed: 18,323 of 18,323
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+[PHP ERR][E_DEPRECATED] MSG:Creation of dynamic property DUPX_ArchiveConfig::$brand is deprecated [CODE:8192|FILE:C:\xampp\htdocs\dollarism.github.io\dup-installer\classes\config\class.archive.config.php|LINE:102]
+LOG-TIME[C:\xampp\htdocs\dollarism.github.io\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 wp_
+
+
+
+********************************************************************************
+* DUPLICATOR LITE: INSTALL-LOG
+* STEP-2 START @ 03:50:54
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "create"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "wp_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8mb4"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "wp_actionscheduler_actions"______________________[ROWS:      57] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_actions]
+TABLE "wp_actionscheduler_claims"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_claims]
+TABLE "wp_actionscheduler_groups"_______________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_groups]
+TABLE "wp_actionscheduler_logs"_________________________[ROWS:     169] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_logs]
+TABLE "wp_commentmeta"__________________________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wp_commentmeta]
+TABLE "wp_comments"_____________________________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wp_comments]
+TABLE "wp_duplicator_packages"__________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_duplicator_packages]
+TABLE "wp_e_events"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_e_events]
+TABLE "wp_links"________________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_links]
+TABLE "wp_masterslider_options"_________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_masterslider_options]
+TABLE "wp_masterslider_sliders"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_masterslider_sliders]
+TABLE "wp_options"______________________________________[ROWS:     673] [EXTRACT|REPLACE] [INST NAME: wp_options]
+TABLE "wp_postmeta"_____________________________________[ROWS:    8863] [EXTRACT|REPLACE] [INST NAME: wp_postmeta]
+TABLE "wp_posts"________________________________________[ROWS:     854] [EXTRACT|REPLACE] [INST NAME: wp_posts]
+TABLE "wp_revslider_css"________________________________[ROWS:     109] [EXTRACT|REPLACE] [INST NAME: wp_revslider_css]
+TABLE "wp_revslider_css_bkp"____________________________[ROWS:      47] [EXTRACT|REPLACE] [INST NAME: wp_revslider_css_bkp]
+TABLE "wp_revslider_layer_animations"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_revslider_layer_animations]
+TABLE "wp_revslider_layer_animations_bkp"_______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_revslider_layer_animations_bkp]
+TABLE "wp_revslider_navigations"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_revslider_navigations]
+TABLE "wp_revslider_navigations_bkp"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_revslider_navigations_bkp]
+TABLE "wp_revslider_sliders"____________________________[ROWS:       8] [EXTRACT|REPLACE] [INST NAME: wp_revslider_sliders]
+TABLE "wp_revslider_sliders_bkp"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_revslider_sliders_bkp]
+TABLE "wp_revslider_slides"_____________________________[ROWS:      15] [EXTRACT|REPLACE] [INST NAME: wp_revslider_slides]
+TABLE "wp_revslider_slides_bkp"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_revslider_slides_bkp]
+TABLE "wp_revslider_static_slides"______________________[ROWS:       8] [EXTRACT|REPLACE] [INST NAME: wp_revslider_static_slides]
+TABLE "wp_revslider_static_slides_bkp"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_revslider_static_slides_bkp]
+TABLE "wp_termmeta"_____________________________________[ROWS:      35] [EXTRACT|REPLACE] [INST NAME: wp_termmeta]
+TABLE "wp_terms"________________________________________[ROWS:      79] [EXTRACT|REPLACE] [INST NAME: wp_terms]
+TABLE "wp_term_relationships"___________________________[ROWS:     168] [EXTRACT|REPLACE] [INST NAME: wp_term_relationships]
+TABLE "wp_term_taxonomy"________________________________[ROWS:      79] [EXTRACT|REPLACE] [INST NAME: wp_term_taxonomy]
+TABLE "wp_usermeta"_____________________________________[ROWS:      51] [EXTRACT|REPLACE] [INST NAME: wp_usermeta]
+TABLE "wp_users"________________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_users]
+TABLE "wp_wc_admin_notes"_______________________________[ROWS:      56] [EXTRACT|REPLACE] [INST NAME: wp_wc_admin_notes]
+TABLE "wp_wc_admin_note_actions"________________________[ROWS:      71] [EXTRACT|REPLACE] [INST NAME: wp_wc_admin_note_actions]
+TABLE "wp_wc_category_lookup"___________________________[ROWS:       9] [EXTRACT|REPLACE] [INST NAME: wp_wc_category_lookup]
+TABLE "wp_wc_customer_lookup"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_customer_lookup]
+TABLE "wp_wc_download_log"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_download_log]
+TABLE "wp_wc_order_coupon_lookup"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_order_coupon_lookup]
+TABLE "wp_wc_order_product_lookup"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_order_product_lookup]
+TABLE "wp_wc_order_stats"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_order_stats]
+TABLE "wp_wc_order_tax_lookup"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_order_tax_lookup]
+TABLE "wp_wc_product_attributes_lookup"_________________[ROWS:       8] [EXTRACT|REPLACE] [INST NAME: wp_wc_product_attributes_lookup]
+TABLE "wp_wc_product_download_directories"______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_product_download_directories]
+TABLE "wp_wc_product_meta_lookup"_______________________[ROWS:      15] [EXTRACT|REPLACE] [INST NAME: wp_wc_product_meta_lookup]
+TABLE "wp_wc_rate_limits"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_rate_limits]
+TABLE "wp_wc_reserved_stock"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_reserved_stock]
+TABLE "wp_wc_tax_rate_classes"__________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_wc_tax_rate_classes]
+TABLE "wp_wc_webhooks"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_webhooks]
+TABLE "wp_woocommerce_api_keys"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_api_keys]
+TABLE "wp_woocommerce_attribute_taxonomies"_____________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_attribute_taxonomies]
+TABLE "wp_woocommerce_downloadable_product_permissions"_[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_downloadable_product_permissions]
+TABLE "wp_woocommerce_log"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_log]
+TABLE "wp_woocommerce_order_itemmeta"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_order_itemmeta]
+TABLE "wp_woocommerce_order_items"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_order_items]
+TABLE "wp_woocommerce_payment_tokenmeta"________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_payment_tokenmeta]
+TABLE "wp_woocommerce_payment_tokens"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_payment_tokens]
+TABLE "wp_woocommerce_sessions"_________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_sessions]
+TABLE "wp_woocommerce_shipping_zones"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_shipping_zones]
+TABLE "wp_woocommerce_shipping_zone_locations"__________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_shipping_zone_locations]
+TABLE "wp_woocommerce_shipping_zone_methods"____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_shipping_zone_methods]
+TABLE "wp_woocommerce_tax_rates"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_tax_rates]
+TABLE "wp_woocommerce_tax_rate_locations"_______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_tax_rate_locations]
+TABLE "wp_woo_wallet_transactions"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woo_wallet_transactions]
+TABLE "wp_woo_wallet_transaction_meta"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woo_wallet_transaction_meta]
+TABLE "wp_wpast_answerable"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wpast_answerable]
+TABLE "wp_wpast_departments"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wpast_departments]
+TABLE "wp_wpast_fields"_________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wpast_fields]
+TABLE "wp_wpast_field_data"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wpast_field_data]
+TABLE "wp_wpast_pre_answers"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wpast_pre_answers]
+TABLE "wp_wpast_processes"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wpast_processes]
+TABLE "wp_wpast_replies"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wpast_replies]
+TABLE "wp_wpast_tickets"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wpast_tickets]
+TABLE "wp_wpast_tokens"_________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wpast_tokens]
+TABLE "wp_yith_wcwl"____________________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_yith_wcwl]
+TABLE "wp_yith_wcwl_lists"______________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_yith_wcwl_lists]
+********************************************************************************
+
+[PHP ERR][E_DEPRECATED] MSG:Creation of dynamic property DUPX_DB_Functions::$timeStart is deprecated [CODE:8192|FILE:C:\xampp\htdocs\dollarism.github.io\dup-installer\classes\database\class.db.functions.php|LINE:61]
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.32 -- Build Server: 10.4.32
+FILE SIZE:	dup-database__[HASH].sql (36.39MB)
+TIMEOUT:	5000
+MAXPACK:	104857600
+SQLMODE-GLOBAL:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`root`@`localhost`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+[PHP ERR][E_DEPRECATED] MSG:Creation of dynamic property DUPX_DBInstall::$thread_start_time is deprecated [CODE:8192|FILE:C:\xampp\htdocs\dollarism.github.io\dup-installer\ctrls\classes\class.ctrl.dbinstall.php|LINE:667]
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	677
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "wp_actionscheduler_actions"______________________[ROWS:    57]
+TABLE "wp_actionscheduler_claims"_______________________[ROWS:     0]
+TABLE "wp_actionscheduler_groups"_______________________[ROWS:     4]
+TABLE "wp_actionscheduler_logs"_________________________[ROWS:   169]
+TABLE "wp_commentmeta"__________________________________[ROWS:     3]
+TABLE "wp_comments"_____________________________________[ROWS:     3]
+TABLE "wp_duplicator_packages"__________________________[ROWS:     1]
+TABLE "wp_e_events"_____________________________________[ROWS:     0]
+TABLE "wp_links"________________________________________[ROWS:     0]
+TABLE "wp_masterslider_options"_________________________[ROWS:     2]
+TABLE "wp_masterslider_sliders"_________________________[ROWS:     0]
+TABLE "wp_options"______________________________________[ROWS:   673]
+TABLE "wp_postmeta"_____________________________________[ROWS:  8863]
+TABLE "wp_posts"________________________________________[ROWS:   854]
+TABLE "wp_revslider_css"________________________________[ROWS:   109]
+TABLE "wp_revslider_css_bkp"____________________________[ROWS:    47]
+TABLE "wp_revslider_layer_animations"___________________[ROWS:     0]
+TABLE "wp_revslider_layer_animations_bkp"_______________[ROWS:     0]
+TABLE "wp_revslider_navigations"________________________[ROWS:     0]
+TABLE "wp_revslider_navigations_bkp"____________________[ROWS:     0]
+TABLE "wp_revslider_sliders"____________________________[ROWS:     8]
+TABLE "wp_revslider_sliders_bkp"________________________[ROWS:     0]
+TABLE "wp_revslider_slides"_____________________________[ROWS:    15]
+TABLE "wp_revslider_slides_bkp"_________________________[ROWS:     0]
+TABLE "wp_revslider_static_slides"______________________[ROWS:     8]
+TABLE "wp_revslider_static_slides_bkp"__________________[ROWS:     0]
+TABLE "wp_term_relationships"___________________________[ROWS:   168]
+TABLE "wp_term_taxonomy"________________________________[ROWS:    79]
+TABLE "wp_termmeta"_____________________________________[ROWS:    35]
+TABLE "wp_terms"________________________________________[ROWS:    79]
+TABLE "wp_usermeta"_____________________________________[ROWS:    51]
+TABLE "wp_users"________________________________________[ROWS:     1]
+TABLE "wp_wc_admin_note_actions"________________________[ROWS:    71]
+TABLE "wp_wc_admin_notes"_______________________________[ROWS:    56]
+TABLE "wp_wc_category_lookup"___________________________[ROWS:     9]
+TABLE "wp_wc_customer_lookup"___________________________[ROWS:     0]
+TABLE "wp_wc_download_log"______________________________[ROWS:     0]
+TABLE "wp_wc_order_coupon_lookup"_______________________[ROWS:     0]
+TABLE "wp_wc_order_product_lookup"______________________[ROWS:     0]
+TABLE "wp_wc_order_stats"_______________________________[ROWS:     0]
+TABLE "wp_wc_order_tax_lookup"__________________________[ROWS:     0]
+TABLE "wp_wc_product_attributes_lookup"_________________[ROWS:     8]
+TABLE "wp_wc_product_download_directories"______________[ROWS:     0]
+TABLE "wp_wc_product_meta_lookup"_______________________[ROWS:    15]
+TABLE "wp_wc_rate_limits"_______________________________[ROWS:     0]
+TABLE "wp_wc_reserved_stock"____________________________[ROWS:     0]
+TABLE "wp_wc_tax_rate_classes"__________________________[ROWS:     2]
+TABLE "wp_wc_webhooks"__________________________________[ROWS:     0]
+TABLE "wp_woo_wallet_transaction_meta"__________________[ROWS:     0]
+TABLE "wp_woo_wallet_transactions"______________________[ROWS:     0]
+TABLE "wp_woocommerce_api_keys"_________________________[ROWS:     0]
+TABLE "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     2]
+TABLE "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0]
+TABLE "wp_woocommerce_log"______________________________[ROWS:     0]
+TABLE "wp_woocommerce_order_itemmeta"___________________[ROWS:     0]
+TABLE "wp_woocommerce_order_items"______________________[ROWS:     0]
+TABLE "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0]
+TABLE "wp_woocommerce_payment_tokens"___________________[ROWS:     0]
+TABLE "wp_woocommerce_sessions"_________________________[ROWS:     2]
+TABLE "wp_woocommerce_shipping_zone_locations"__________[ROWS:     0]
+TABLE "wp_woocommerce_shipping_zone_methods"____________[ROWS:     0]
+TABLE "wp_woocommerce_shipping_zones"___________________[ROWS:     0]
+TABLE "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0]
+TABLE "wp_woocommerce_tax_rates"________________________[ROWS:     0]
+TABLE "wp_wpast_answerable"_____________________________[ROWS:     0]
+TABLE "wp_wpast_departments"____________________________[ROWS:     0]
+TABLE "wp_wpast_field_data"_____________________________[ROWS:     0]
+TABLE "wp_wpast_fields"_________________________________[ROWS:     0]
+TABLE "wp_wpast_pre_answers"____________________________[ROWS:     0]
+TABLE "wp_wpast_processes"______________________________[ROWS:     0]
+TABLE "wp_wpast_replies"________________________________[ROWS:     0]
+TABLE "wp_wpast_tickets"________________________________[ROWS:     0]
+TABLE "wp_wpast_tokens"_________________________________[ROWS:     0]
+TABLE "wp_yith_wcwl"____________________________________[ROWS:     2]
+TABLE "wp_yith_wcwl_lists"______________________________[ROWS:     1]
+
+INSERT DATA RUNTIME: 10.3293 sec.
+STEP-2 COMPLETE @ 03:51:04 - RUNTIME: 10.3295 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+[PHP ERR][E_DEPRECATED] MSG:Creation of dynamic property DUPX_ArchiveConfig::$brand is deprecated [CODE:8192|FILE:C:\xampp\htdocs\dollarism.github.io\dup-installer\classes\config\class.archive.config.php|LINE:102]
+LOG-TIME[C:\xampp\htdocs\dollarism.github.io\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: C:/xampp/htdocs/Ostad REPLACE: C:/xampp/htdocs/dollarism.github.io/ [SCOPE: ALL]
+SEARCH ITEM[T:path |P:12] SEARCH: C:\xampp\htdocs\Ostad REPLACE: C:/xampp/htdocs/dollarism.github.io/ [SCOPE: ALL]
+SEARCH ITEM[T:path |P:12] SEARCH: C:/xampp/htdocs/Ostad REPLACE: C:/xampp/htdocs/dollarism.github.io [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: http://127.0.0.1/Ostad REPLACE: http://127.0.0.1/dollarism.github.io/ [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: http://127.0.0.1/Ostad REPLACE: http://127.0.0.1/dollarism.github.io [SCOPE: ALL]
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+[PHP ERR][E_DEPRECATED] MSG:Creation of dynamic property DUPX_DB_Functions::$timeStart is deprecated [CODE:8192|FILE:C:\xampp\htdocs\dollarism.github.io\dup-installer\classes\database\class.db.functions.php|LINE:61]
+
+
+********************************************************************************
+DUPLICATOR LITE: INSTALL-LOG
+STEP-3 START @ 03:51:04
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8mb4"
+CHARSET CLIENT:	"utf8mb4"
+********************************************************************************
+OPTIONS:
+SKIP PATH REPLACE_____: false
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 1], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = ], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = ]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 512M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+CLEAN OPTIONS [wp_options]
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+	`option_name` IN ("duplicator_ui_view_state","duplicator_package_active","duplicator_settings","duplicator_is_pro_enable_notice_dismissed")
+DATABASE OPTIONS DELETED [ROWS:   151]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     1]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:    57][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Ostad" ===========================> "C:/xampp/htdocs/dollarism.github.io"
+	SEARCH[urlnd]  2:"http://127.0.0.1/Ostad" ==========================> "http://127.0.0.1/dollarism.github.io"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_actions][0]
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Ostad" ===========================> "C:/xampp/htdocs/dollarism.github.io"
+	SEARCH[urlnd]  2:"http://127.0.0.1/Ostad" ==========================> "http://127.0.0.1/dollarism.github.io"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_groups][0]
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:   169][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Ostad" ===========================> "C:/xampp/htdocs/dollarism.github.io"
+	SEARCH[urlnd]  2:"http://127.0.0.1/Ostad" ==========================> "http://127.0.0.1/dollarism.github.io"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_logs][0]
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Ostad" ===========================> "C:/xampp/htdocs/dollarism.github.io"
+	SEARCH[urlnd]  2:"http://127.0.0.1/Ostad" ==========================> "http://127.0.0.1/dollarism.github.io"
+	CHUNK ACTION: CURRENT [search_replace][wp_commentmeta][0]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Ostad" ===========================> "C:/xampp/htdocs/dollarism.github.io"
+	SEARCH[urlnd]  2:"http://127.0.0.1/Ostad" ==========================> "http://127.0.0.1/dollarism.github.io"
+	CHUNK ACTION: CURRENT [search_replace][wp_comments][0]
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_events"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_masterslider_options"_________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Ostad" ===========================> "C:/xampp/htdocs/dollarism.github.io"
+	SEARCH[urlnd]  2:"http://127.0.0.1/Ostad" ==========================> "http://127.0.0.1/dollarism.github.io"
+	CHUNK ACTION: CURRENT [search_replace][wp_masterslider_options][0]
+
+EVALUATE TABLE: "wp_masterslider_sliders"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   522][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Ostad" ===========================> "C:/xampp/htdocs/dollarism.github.io"
+	SEARCH[urlnd]  2:"http://127.0.0.1/Ostad" ==========================> "http://127.0.0.1/dollarism.github.io"
+	CHUNK ACTION: CURRENT [search_replace][wp_options][0]
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  8863][PG:   9][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Ostad" ===========================> "C:/xampp/htdocs/dollarism.github.io"
+	SEARCH[urlnd]  2:"http://127.0.0.1/Ostad" ==========================> "http://127.0.0.1/dollarism.github.io"
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][2]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][3]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][4]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][5]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][6]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][7]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][8]
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   854][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Ostad" ===========================> "C:/xampp/htdocs/dollarism.github.io"
+	SEARCH[urlnd]  2:"http://127.0.0.1/Ostad" ==========================> "http://127.0.0.1/dollarism.github.io"
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][0]
+	
+STEP-3 CHUNK STOP @ 03:51:12 - RUNTIME: 7.1849 sec. 
+
+
+	AJAX ACTION [webupdate] SUCCESS
+	-------------------------
+
+	[PHP ERR][E_DEPRECATED] MSG:Creation of dynamic property DUPX_ArchiveConfig::$brand is deprecated [CODE:8192|FILE:C:\xampp\htdocs\dollarism.github.io\dup-installer\classes\config\class.archive.config.php|LINE:102]
+LOG-TIME[C:\xampp\htdocs\dollarism.github.io\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+[PHP ERR][E_DEPRECATED] MSG:Creation of dynamic property DUPX_DB_Functions::$timeStart is deprecated [CODE:8192|FILE:C:\xampp\htdocs\dollarism.github.io\dup-installer\classes\database\class.db.functions.php|LINE:61]
+
+EVALUATE TABLE: "wp_revslider_css"________________________________[ROWS:   109][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Ostad" ===========================> "C:/xampp/htdocs/dollarism.github.io"
+	SEARCH[urlnd]  2:"http://127.0.0.1/Ostad" ==========================> "http://127.0.0.1/dollarism.github.io"
+	CHUNK ACTION: CURRENT [search_replace][wp_revslider_css][0]
+
+EVALUATE TABLE: "wp_revslider_css_bkp"____________________________[ROWS:    47][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Ostad" ===========================> "C:/xampp/htdocs/dollarism.github.io"
+	SEARCH[urlnd]  2:"http://127.0.0.1/Ostad" ==========================> "http://127.0.0.1/dollarism.github.io"
+	CHUNK ACTION: CURRENT [search_replace][wp_revslider_css_bkp][0]
+
+EVALUATE TABLE: "wp_revslider_layer_animations"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_layer_animations_bkp"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_navigations"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_navigations_bkp"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_sliders"____________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Ostad" ===========================> "C:/xampp/htdocs/dollarism.github.io"
+	SEARCH[urlnd]  2:"http://127.0.0.1/Ostad" ==========================> "http://127.0.0.1/dollarism.github.io"
+	CHUNK ACTION: CURRENT [search_replace][wp_revslider_sliders][0]
+
+EVALUATE TABLE: "wp_revslider_sliders_bkp"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_slides"_____________________________[ROWS:    15][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Ostad" ===========================> "C:/xampp/htdocs/dollarism.github.io"
+	SEARCH[urlnd]  2:"http://127.0.0.1/Ostad" ==========================> "http://127.0.0.1/dollarism.github.io"
+	CHUNK ACTION: CURRENT [search_replace][wp_revslider_slides][0]
+
+EVALUATE TABLE: "wp_revslider_slides_bkp"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_static_slides"______________________[ROWS:     8][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Ostad" ===========================> "C:/xampp/htdocs/dollarism.github.io"
+	SEARCH[urlnd]  2:"http://127.0.0.1/Ostad" ==========================> "http://127.0.0.1/dollarism.github.io"
+	CHUNK ACTION: CURRENT [search_replace][wp_revslider_static_slides][0]
+
+EVALUATE TABLE: "wp_revslider_static_slides_bkp"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:    35][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Ostad" ===========================> "C:/xampp/htdocs/dollarism.github.io"
+	SEARCH[urlnd]  2:"http://127.0.0.1/Ostad" ==========================> "http://127.0.0.1/dollarism.github.io"
+	CHUNK ACTION: CURRENT [search_replace][wp_termmeta][0]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    79][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Ostad" ===========================> "C:/xampp/htdocs/dollarism.github.io"
+	SEARCH[urlnd]  2:"http://127.0.0.1/Ostad" ==========================> "http://127.0.0.1/dollarism.github.io"
+	CHUNK ACTION: CURRENT [search_replace][wp_terms][0]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:   168][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    79][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Ostad" ===========================> "C:/xampp/htdocs/dollarism.github.io"
+	SEARCH[urlnd]  2:"http://127.0.0.1/Ostad" ==========================> "http://127.0.0.1/dollarism.github.io"
+	CHUNK ACTION: CURRENT [search_replace][wp_term_taxonomy][0]
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    51][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Ostad" ===========================> "C:/xampp/htdocs/dollarism.github.io"
+	SEARCH[urlnd]  2:"http://127.0.0.1/Ostad" ==========================> "http://127.0.0.1/dollarism.github.io"
+	CHUNK ACTION: CURRENT [search_replace][wp_usermeta][0]
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Ostad" ===========================> "C:/xampp/htdocs/dollarism.github.io"
+	SEARCH[urlnd]  2:"http://127.0.0.1/Ostad" ==========================> "http://127.0.0.1/dollarism.github.io"
+	CHUNK ACTION: CURRENT [search_replace][wp_users][0]
+
+EVALUATE TABLE: "wp_wc_admin_notes"_______________________________[ROWS:    56][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Ostad" ===========================> "C:/xampp/htdocs/dollarism.github.io"
+	SEARCH[urlnd]  2:"http://127.0.0.1/Ostad" ==========================> "http://127.0.0.1/dollarism.github.io"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_admin_notes][0]
+
+EVALUATE TABLE: "wp_wc_admin_note_actions"________________________[ROWS:    71][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Ostad" ===========================> "C:/xampp/htdocs/dollarism.github.io"
+	SEARCH[urlnd]  2:"http://127.0.0.1/Ostad" ==========================> "http://127.0.0.1/dollarism.github.io"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_admin_note_actions][0]
+
+EVALUATE TABLE: "wp_wc_category_lookup"___________________________[ROWS:     9][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_customer_lookup"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_coupon_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_product_lookup"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_stats"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_tax_lookup"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_attributes_lookup"_________________[ROWS:     8][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Ostad" ===========================> "C:/xampp/htdocs/dollarism.github.io"
+	SEARCH[urlnd]  2:"http://127.0.0.1/Ostad" ==========================> "http://127.0.0.1/dollarism.github.io"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_product_attributes_lookup][0]
+
+EVALUATE TABLE: "wp_wc_product_download_directories"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_meta_lookup"_______________________[ROWS:    15][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Ostad" ===========================> "C:/xampp/htdocs/dollarism.github.io"
+	SEARCH[urlnd]  2:"http://127.0.0.1/Ostad" ==========================> "http://127.0.0.1/dollarism.github.io"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_product_meta_lookup][0]
+
+EVALUATE TABLE: "wp_wc_rate_limits"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_reserved_stock"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_tax_rate_classes"__________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Ostad" ===========================> "C:/xampp/htdocs/dollarism.github.io"
+	SEARCH[urlnd]  2:"http://127.0.0.1/Ostad" ==========================> "http://127.0.0.1/dollarism.github.io"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_tax_rate_classes][0]
+
+EVALUATE TABLE: "wp_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_api_keys"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Ostad" ===========================> "C:/xampp/htdocs/dollarism.github.io"
+	SEARCH[urlnd]  2:"http://127.0.0.1/Ostad" ==========================> "http://127.0.0.1/dollarism.github.io"
+	CHUNK ACTION: CURRENT [search_replace][wp_woocommerce_attribute_taxonomies][0]
+
+EVALUATE TABLE: "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_itemmeta"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_items"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_sessions"_________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Ostad" ===========================> "C:/xampp/htdocs/dollarism.github.io"
+	SEARCH[urlnd]  2:"http://127.0.0.1/Ostad" ==========================> "http://127.0.0.1/dollarism.github.io"
+	CHUNK ACTION: CURRENT [search_replace][wp_woocommerce_sessions][0]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zones"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_locations"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_methods"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rates"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woo_wallet_transactions"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woo_wallet_transaction_meta"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpast_answerable"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpast_departments"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpast_fields"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpast_field_data"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpast_pre_answers"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpast_processes"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpast_replies"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpast_tickets"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpast_tokens"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_yith_wcwl"____________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Ostad" ===========================> "C:/xampp/htdocs/dollarism.github.io"
+	SEARCH[urlnd]  2:"http://127.0.0.1/Ostad" ==========================> "http://127.0.0.1/dollarism.github.io"
+	CHUNK ACTION: CURRENT [search_replace][wp_yith_wcwl][0]
+
+EVALUATE TABLE: "wp_yith_wcwl_lists"______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Ostad" ===========================> "C:/xampp/htdocs/dollarism.github.io"
+	SEARCH[urlnd]  2:"http://127.0.0.1/Ostad" ==========================> "http://127.0.0.1/dollarism.github.io"
+	CHUNK ACTION: CURRENT [search_replace][wp_yith_wcwl_lists][0]
+--------------------------------------
+SCANNED:	Tables:75 	|	 Rows:11068 	|	 Cells:63073 
+UPDATED:	Tables:6 	|	 Rows:1834 	|	 Cells:2224 
+ERRORS:		0 
+RUNTIME:	7.786200 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:C:/xampp/htdocs/dollarism.github.io/wp-config.php
+New htaccess file created:C:/xampp/htdocs/dollarism.github.io/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE WP_SITEURL "http://127.0.0.1/dollarism.github.io/"
+	UPDATE DB_NAME ""dollar""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8mb4"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_DEBUG "false"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+Activated plugins listed here will be deactivated: Array
+(
+)
+
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+\n SKIP FOLDER PERMISSION AFTER EXTRACTION
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 03:51:12 - RUNTIME: 0.7329 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+[PHP ERR][E_DEPRECATED] MSG:Creation of dynamic property DUPX_ArchiveConfig::$brand is deprecated [CODE:8192|FILE:C:\xampp\htdocs\dollarism.github.io\dup-installer\classes\config\class.archive.config.php|LINE:102]
+LOG-TIME[C:\xampp\htdocs\dollarism.github.io\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+[PHP ERR][E_DEPRECATED] MSG:Creation of dynamic property DUPX_ArchiveConfig::$brand is deprecated [CODE:8192|FILE:C:\xampp\htdocs\dollarism.github.io\dup-installer\classes\config\class.archive.config.php|LINE:102]
+LOG-TIME[C:\xampp\htdocs\dollarism.github.io\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+[PHP ERR][E_DEPRECATED] MSG:Creation of dynamic property DUPX_ArchiveConfig::$brand is deprecated [CODE:8192|FILE:C:\xampp\htdocs\dollarism.github.io\dup-installer\classes\config\class.archive.config.php|LINE:102]
+LOG-TIME[C:\xampp\htdocs\dollarism.github.io\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[NOTICE] Warnings or notices on WordPress front-end tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: C:/xampp/htdocs/dollarism.github.io/index.php
+E_DEPRECATED Return type of mtekk\adminKit\setting\setting_base::jsonSerialize() should either be compatible with JsonSerializable::jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\breadcrumb-navxt\includes\adminKit\setting\class-mtekk_adminkit_setting_base.php[66]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\breadcrumb-navxt\includes\adminKit\setting\class-mtekk_adminkit_setting_absint.php[24]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\breadcrumb-navxt\includes\adminKit\class-mtekk_adminkit.php[31]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\breadcrumb-navxt\breadcrumb-navxt.php[49]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-settings.php[447]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-config.php[167]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\wp_test_script_d4c0234-23153050.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Using ${expr} (variable variables) in strings is deprecated, use {${expr}} instead
+	FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\elementor\data\v2\manager.php[281]
+	--- TRACE ---
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\elementor\includes\autoloader.php[294]
+	CLASS___: Elementor\Autoloader::load_classFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\elementor\includes\autoloader.php[330]
+	CLASS___: Elementor\Autoloader::autoloadFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\elementor\includes\plugin.php[870]
+	CLASS___: Elementor\Plugin->__construct FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\elementor\includes\plugin.php[614]
+	CLASS___: Elementor\Plugin::instance    FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\elementor\includes\plugin.php[886]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\elementor\elementor.php[53]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-settings.php[447]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-config.php[167]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\wp_test_script_d4c0234-23153050.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\SchemaController.php[66]
+	--- TRACE ---
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-php-autoloader.php[87]
+	CLASS___: Automattic\Jetpack\Autoloader\jp1f350034e6fc877bfe8832c1d640b6b1\PHP_Autoloader::load_classFILE: [-1]
+	FUNCTION: class_alias                   FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\deprecated.php[73]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-version-loader.php[89]
+	CLASS___: Automattic\Jetpack\Autoloader\jp1f350034e6fc877bfe8832c1d640b6b1\Version_Loader->load_filemapFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-autoloader-handler.php[124]
+	CLASS___: Automattic\Jetpack\Autoloader\jp1f350034e6fc877bfe8832c1d640b6b1\Autoloader_Handler->activate_autoloaderFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-autoloader.php[80]
+	CLASS___: Automattic\Jetpack\Autoloader\jp1f350034e6fc877bfe8832c1d640b6b1\Autoloader::initFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\vendor\autoload_packages.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Autoloader.php[37]
+	CLASS___: Automattic\WooCommerce\Autoloader::initFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[27]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-settings.php[447]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-config.php[167]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\wp_test_script_d4c0234-23153050.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\SchemaController.php[69]
+	--- TRACE ---
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-php-autoloader.php[87]
+	CLASS___: Automattic\Jetpack\Autoloader\jp1f350034e6fc877bfe8832c1d640b6b1\PHP_Autoloader::load_classFILE: [-1]
+	FUNCTION: class_alias                   FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\deprecated.php[73]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-version-loader.php[89]
+	CLASS___: Automattic\Jetpack\Autoloader\jp1f350034e6fc877bfe8832c1d640b6b1\Version_Loader->load_filemapFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-autoloader-handler.php[124]
+	CLASS___: Automattic\Jetpack\Autoloader\jp1f350034e6fc877bfe8832c1d640b6b1\Autoloader_Handler->activate_autoloaderFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-autoloader.php[80]
+	CLASS___: Automattic\Jetpack\Autoloader\jp1f350034e6fc877bfe8832c1d640b6b1\Autoloader::initFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\vendor\autoload_packages.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Autoloader.php[37]
+	CLASS___: Automattic\WooCommerce\Autoloader::initFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[27]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-settings.php[447]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-config.php[167]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\wp_test_script_d4c0234-23153050.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\RoutesController.php[86]
+	--- TRACE ---
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-php-autoloader.php[87]
+	CLASS___: Automattic\Jetpack\Autoloader\jp1f350034e6fc877bfe8832c1d640b6b1\PHP_Autoloader::load_classFILE: [-1]
+	FUNCTION: class_alias                   FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\deprecated.php[73]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-version-loader.php[89]
+	CLASS___: Automattic\Jetpack\Autoloader\jp1f350034e6fc877bfe8832c1d640b6b1\Version_Loader->load_filemapFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-autoloader-handler.php[124]
+	CLASS___: Automattic\Jetpack\Autoloader\jp1f350034e6fc877bfe8832c1d640b6b1\Autoloader_Handler->activate_autoloaderFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-autoloader.php[80]
+	CLASS___: Automattic\Jetpack\Autoloader\jp1f350034e6fc877bfe8832c1d640b6b1\Autoloader::initFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\vendor\autoload_packages.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Autoloader.php[37]
+	CLASS___: Automattic\WooCommerce\Autoloader::initFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[27]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-settings.php[447]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-config.php[167]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\wp_test_script_d4c0234-23153050.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\wc-core-functions.php[1705]
+	--- TRACE ---
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[449]
+	CLASS___: WooCommerce->includes         FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[177]
+	CLASS___: WooCommerce->__construct      FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[136]
+	CLASS___: WooCommerce::instance         FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[47]
+	FUNCTION: WC                            FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[62]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-settings.php[447]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-config.php[167]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\wp_test_script_d4c0234-23153050.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Creation of dynamic property WooCommerce::$api is deprecated
+	FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[556]
+	--- TRACE ---
+	CLASS___: WooCommerce->includes         FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[177]
+	CLASS___: WooCommerce->__construct      FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[136]
+	CLASS___: WooCommerce::instance         FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[47]
+	FUNCTION: WC                            FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[62]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-settings.php[447]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-config.php[167]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\wp_test_script_d4c0234-23153050.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DownloadPermissionsAdjuster.php[157]
+	--- TRACE ---
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-php-autoloader.php[87]
+	CLASS___: Automattic\Jetpack\Autoloader\jp1f350034e6fc877bfe8832c1d640b6b1\PHP_Autoloader::load_classFILE: [-1]
+	FUNCTION: class_exists                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\Definition.php[211]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\DefinitionAggregate.php[94]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\DefinitionAggregate->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[157]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[178]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Container.php[104]
+	CLASS___: Automattic\WooCommerce\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[226]
+	CLASS___: WooCommerce->init_hooks       FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[178]
+	CLASS___: WooCommerce->__construct      FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[136]
+	CLASS___: WooCommerce::instance         FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[47]
+	FUNCTION: WC                            FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[62]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-settings.php[447]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-config.php[167]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\wp_test_script_d4c0234-23153050.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DownloadPermissionsAdjuster.php[157]
+	--- TRACE ---
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-php-autoloader.php[87]
+	CLASS___: Automattic\Jetpack\Autoloader\jp1f350034e6fc877bfe8832c1d640b6b1\PHP_Autoloader::load_classFILE: [-1]
+	FUNCTION: class_exists                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\Definition.php[211]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\DefinitionAggregate.php[94]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\DefinitionAggregate->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[157]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[178]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Container.php[104]
+	CLASS___: Automattic\WooCommerce\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[226]
+	CLASS___: WooCommerce->init_hooks       FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[178]
+	CLASS___: WooCommerce->__construct      FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[136]
+	CLASS___: WooCommerce::instance         FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[47]
+	FUNCTION: WC                            FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[62]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-settings.php[447]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-config.php[167]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\wp_test_script_d4c0234-23153050.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DownloadPermissionsAdjuster.php[157]
+	--- TRACE ---
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-php-autoloader.php[87]
+	CLASS___: Automattic\Jetpack\Autoloader\jp1f350034e6fc877bfe8832c1d640b6b1\PHP_Autoloader::load_classFILE: [-1]
+	FUNCTION: class_exists                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\Definition.php[211]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\DefinitionAggregate.php[94]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\DefinitionAggregate->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[157]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[178]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Container.php[104]
+	CLASS___: Automattic\WooCommerce\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[226]
+	CLASS___: WooCommerce->init_hooks       FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[178]
+	CLASS___: WooCommerce->__construct      FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[136]
+	CLASS___: WooCommerce::instance         FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[47]
+	FUNCTION: WC                            FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[62]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-settings.php[447]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-config.php[167]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\wp_test_script_d4c0234-23153050.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DataStores\Orders\CustomOrdersTableController.php[148]
+	--- TRACE ---
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-php-autoloader.php[87]
+	CLASS___: Automattic\Jetpack\Autoloader\jp1f350034e6fc877bfe8832c1d640b6b1\PHP_Autoloader::load_classFILE: [-1]
+	FUNCTION: class_exists                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\Definition.php[211]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\DefinitionAggregate.php[94]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\DefinitionAggregate->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[157]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[178]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Container.php[104]
+	CLASS___: Automattic\WooCommerce\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[231]
+	CLASS___: WooCommerce->init_hooks       FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[178]
+	CLASS___: WooCommerce->__construct      FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[136]
+	CLASS___: WooCommerce::instance         FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[47]
+	FUNCTION: WC                            FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[62]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-settings.php[447]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-config.php[167]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\wp_test_script_d4c0234-23153050.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DataStores\Orders\CustomOrdersTableController.php[162]
+	--- TRACE ---
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-php-autoloader.php[87]
+	CLASS___: Automattic\Jetpack\Autoloader\jp1f350034e6fc877bfe8832c1d640b6b1\PHP_Autoloader::load_classFILE: [-1]
+	FUNCTION: class_exists                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\Definition.php[211]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\DefinitionAggregate.php[94]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\DefinitionAggregate->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[157]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[178]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Container.php[104]
+	CLASS___: Automattic\WooCommerce\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[231]
+	CLASS___: WooCommerce->init_hooks       FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[178]
+	CLASS___: WooCommerce->__construct      FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[136]
+	CLASS___: WooCommerce::instance         FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[47]
+	FUNCTION: WC                            FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[62]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-settings.php[447]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-config.php[167]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\wp_test_script_d4c0234-23153050.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Creation of dynamic property Automattic\WooCommerce\Database\Migrations\CustomOrderTable\PostToOrderTableMigrator::$table_names is deprecated
+	FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Database\Migrations\CustomOrderTable\PostToOrderTableMigrator.php[25]
+	--- TRACE ---
+	CLASS___: Automattic\WooCommerce\Database\Migrations\CustomOrderTable\PostToOrderTableMigrator->get_schema_configFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Database\Migrations\MetaToCustomTableMigrator.php[41]
+	CLASS___: Automattic\WooCommerce\Database\Migrations\MetaToCustomTableMigrator->__constructFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Database\Migrations\CustomOrderTable\PostsToOrdersMigrationController.php[44]
+	CLASS___: Automattic\WooCommerce\Database\Migrations\CustomOrderTable\PostsToOrdersMigrationController->__constructFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\Definition.php[29]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\Definition->resolveClassFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\Definition.php[212]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\DefinitionAggregate.php[94]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\DefinitionAggregate->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[157]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[178]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Argument\ArgumentResolverTrait.php[45]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\Vendor\League\Container\Argument\{closure}FILE: [-1]
+	FUNCTION: array_map                     FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Argument\ArgumentResolverTrait.php[19]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolveArgumentsFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\Definition.php[28]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\Definition->resolveClassFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\Definition.php[212]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\DefinitionAggregate.php[94]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\DefinitionAggregate->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[157]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Argument\ArgumentResolverTrait.php[45]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\Vendor\League\Container\Argument\{closure}FILE: [-1]
+	FUNCTION: array_map                     FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Argument\ArgumentResolverTrait.php[19]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolveArgumentsFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\Definition.php[28]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\Definition->resolveClassFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\Definition.php[212]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\DefinitionAggregate.php[94]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\DefinitionAggregate->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[157]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[178]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Container.php[104]
+	CLASS___: Automattic\WooCommerce\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[231]
+	CLASS___: WooCommerce->init_hooks       FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[178]
+	CLASS___: WooCommerce->__construct      FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[136]
+	CLASS___: WooCommerce::instance         FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[47]
+	FUNCTION: WC                            FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[62]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-settings.php[447]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-config.php[167]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\wp_test_script_d4c0234-23153050.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Creation of dynamic property Automattic\WooCommerce\Database\Migrations\CustomOrderTable\PostToOrderAddressTableMigrator::$table_names is deprecated
+	FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Database\Migrations\CustomOrderTable\PostToOrderAddressTableMigrator.php[42]
+	--- TRACE ---
+	CLASS___: Automattic\WooCommerce\Database\Migrations\CustomOrderTable\PostToOrderAddressTableMigrator->get_schema_configFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Database\Migrations\MetaToCustomTableMigrator.php[41]
+	CLASS___: Automattic\WooCommerce\Database\Migrations\MetaToCustomTableMigrator->__constructFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Database\Migrations\CustomOrderTable\PostToOrderAddressTableMigrator.php[31]
+	CLASS___: Automattic\WooCommerce\Database\Migrations\CustomOrderTable\PostToOrderAddressTableMigrator->__constructFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Database\Migrations\CustomOrderTable\PostsToOrdersMigrationController.php[45]
+	CLASS___: Automattic\WooCommerce\Database\Migrations\CustomOrderTable\PostsToOrdersMigrationController->__constructFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\Definition.php[29]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\Definition->resolveClassFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\Definition.php[212]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\DefinitionAggregate.php[94]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\DefinitionAggregate->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[157]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[178]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Argument\ArgumentResolverTrait.php[45]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\Vendor\League\Container\Argument\{closure}FILE: [-1]
+	FUNCTION: array_map                     FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Argument\ArgumentResolverTrait.php[19]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolveArgumentsFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\Definition.php[28]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\Definition->resolveClassFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\Definition.php[212]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\DefinitionAggregate.php[94]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\DefinitionAggregate->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[157]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Argument\ArgumentResolverTrait.php[45]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\Vendor\League\Container\Argument\{closure}FILE: [-1]
+	FUNCTION: array_map                     FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Argument\ArgumentResolverTrait.php[19]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolveArgumentsFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\Definition.php[28]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\Definition->resolveClassFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\Definition.php[212]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\DefinitionAggregate.php[94]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\DefinitionAggregate->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[157]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[178]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Container.php[104]
+	CLASS___: Automattic\WooCommerce\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[231]
+	CLASS___: WooCommerce->init_hooks       FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[178]
+	CLASS___: WooCommerce->__construct      FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[136]
+	CLASS___: WooCommerce::instance         FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[47]
+	FUNCTION: WC                            FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[62]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-settings.php[447]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-config.php[167]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\wp_test_script_d4c0234-23153050.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Creation of dynamic property Automattic\WooCommerce\Database\Migrations\CustomOrderTable\PostToOrderAddressTableMigrator::$table_names is deprecated
+	FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Database\Migrations\CustomOrderTable\PostToOrderAddressTableMigrator.php[42]
+	--- TRACE ---
+	CLASS___: Automattic\WooCommerce\Database\Migrations\CustomOrderTable\PostToOrderAddressTableMigrator->get_schema_configFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Database\Migrations\MetaToCustomTableMigrator.php[41]
+	CLASS___: Automattic\WooCommerce\Database\Migrations\MetaToCustomTableMigrator->__constructFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Database\Migrations\CustomOrderTable\PostToOrderAddressTableMigrator.php[31]
+	CLASS___: Automattic\WooCommerce\Database\Migrations\CustomOrderTable\PostToOrderAddressTableMigrator->__constructFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Database\Migrations\CustomOrderTable\PostsToOrdersMigrationController.php[46]
+	CLASS___: Automattic\WooCommerce\Database\Migrations\CustomOrderTable\PostsToOrdersMigrationController->__constructFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\Definition.php[29]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\Definition->resolveClassFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\Definition.php[212]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\DefinitionAggregate.php[94]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\DefinitionAggregate->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[157]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[178]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Argument\ArgumentResolverTrait.php[45]
+	CLASS___: Automattic\WooCommerce\Ve-----------------------
+[NOTICE] Warnings or notices on WordPress backend tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: C:/xampp/htdocs/dollarism.github.io//wp-login.php
+E_DEPRECATED Return type of mtekk\adminKit\setting\setting_base::jsonSerialize() should either be compatible with JsonSerializable::jsonSerialize(): mixed, or the #[\ReturnTypeWillChange] attribute should be used to temporarily suppress the notice
+	FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\breadcrumb-navxt\includes\adminKit\setting\class-mtekk_adminkit_setting_base.php[66]
+	--- TRACE ---
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\breadcrumb-navxt\includes\adminKit\setting\class-mtekk_adminkit_setting_absint.php[24]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\breadcrumb-navxt\includes\adminKit\class-mtekk_adminkit.php[31]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\breadcrumb-navxt\breadcrumb-navxt.php[49]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-settings.php[447]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-config.php[167]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\wp_test_script_d4c0234-23153050.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Using ${expr} (variable variables) in strings is deprecated, use {${expr}} instead
+	FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\elementor\data\v2\manager.php[281]
+	--- TRACE ---
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\elementor\includes\autoloader.php[294]
+	CLASS___: Elementor\Autoloader::load_classFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\elementor\includes\autoloader.php[330]
+	CLASS___: Elementor\Autoloader::autoloadFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\elementor\includes\plugin.php[870]
+	CLASS___: Elementor\Plugin->__construct FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\elementor\includes\plugin.php[614]
+	CLASS___: Elementor\Plugin::instance    FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\elementor\includes\plugin.php[886]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\elementor\elementor.php[53]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-settings.php[447]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-config.php[167]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\wp_test_script_d4c0234-23153050.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\SchemaController.php[66]
+	--- TRACE ---
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-php-autoloader.php[87]
+	CLASS___: Automattic\Jetpack\Autoloader\jp1f350034e6fc877bfe8832c1d640b6b1\PHP_Autoloader::load_classFILE: [-1]
+	FUNCTION: class_alias                   FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\deprecated.php[73]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-version-loader.php[89]
+	CLASS___: Automattic\Jetpack\Autoloader\jp1f350034e6fc877bfe8832c1d640b6b1\Version_Loader->load_filemapFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-autoloader-handler.php[124]
+	CLASS___: Automattic\Jetpack\Autoloader\jp1f350034e6fc877bfe8832c1d640b6b1\Autoloader_Handler->activate_autoloaderFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-autoloader.php[80]
+	CLASS___: Automattic\Jetpack\Autoloader\jp1f350034e6fc877bfe8832c1d640b6b1\Autoloader::initFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\vendor\autoload_packages.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Autoloader.php[37]
+	CLASS___: Automattic\WooCommerce\Autoloader::initFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[27]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-settings.php[447]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-config.php[167]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\wp_test_script_d4c0234-23153050.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\SchemaController.php[69]
+	--- TRACE ---
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-php-autoloader.php[87]
+	CLASS___: Automattic\Jetpack\Autoloader\jp1f350034e6fc877bfe8832c1d640b6b1\PHP_Autoloader::load_classFILE: [-1]
+	FUNCTION: class_alias                   FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\deprecated.php[73]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-version-loader.php[89]
+	CLASS___: Automattic\Jetpack\Autoloader\jp1f350034e6fc877bfe8832c1d640b6b1\Version_Loader->load_filemapFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-autoloader-handler.php[124]
+	CLASS___: Automattic\Jetpack\Autoloader\jp1f350034e6fc877bfe8832c1d640b6b1\Autoloader_Handler->activate_autoloaderFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-autoloader.php[80]
+	CLASS___: Automattic\Jetpack\Autoloader\jp1f350034e6fc877bfe8832c1d640b6b1\Autoloader::initFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\vendor\autoload_packages.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Autoloader.php[37]
+	CLASS___: Automattic\WooCommerce\Autoloader::initFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[27]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-settings.php[447]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-config.php[167]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\wp_test_script_d4c0234-23153050.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\RoutesController.php[86]
+	--- TRACE ---
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-php-autoloader.php[87]
+	CLASS___: Automattic\Jetpack\Autoloader\jp1f350034e6fc877bfe8832c1d640b6b1\PHP_Autoloader::load_classFILE: [-1]
+	FUNCTION: class_alias                   FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\StoreApi\deprecated.php[73]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-version-loader.php[89]
+	CLASS___: Automattic\Jetpack\Autoloader\jp1f350034e6fc877bfe8832c1d640b6b1\Version_Loader->load_filemapFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-autoloader-handler.php[124]
+	CLASS___: Automattic\Jetpack\Autoloader\jp1f350034e6fc877bfe8832c1d640b6b1\Autoloader_Handler->activate_autoloaderFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-autoloader.php[80]
+	CLASS___: Automattic\Jetpack\Autoloader\jp1f350034e6fc877bfe8832c1d640b6b1\Autoloader::initFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\vendor\autoload_packages.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Autoloader.php[37]
+	CLASS___: Automattic\WooCommerce\Autoloader::initFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[27]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-settings.php[447]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-config.php[167]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\wp_test_script_d4c0234-23153050.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\wc-core-functions.php[1705]
+	--- TRACE ---
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[449]
+	CLASS___: WooCommerce->includes         FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[177]
+	CLASS___: WooCommerce->__construct      FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[136]
+	CLASS___: WooCommerce::instance         FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[47]
+	FUNCTION: WC                            FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[62]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-settings.php[447]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-config.php[167]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\wp_test_script_d4c0234-23153050.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Creation of dynamic property WooCommerce::$api is deprecated
+	FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[556]
+	--- TRACE ---
+	CLASS___: WooCommerce->includes         FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[177]
+	CLASS___: WooCommerce->__construct      FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[136]
+	CLASS___: WooCommerce::instance         FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[47]
+	FUNCTION: WC                            FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[62]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-settings.php[447]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-config.php[167]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\wp_test_script_d4c0234-23153050.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DownloadPermissionsAdjuster.php[157]
+	--- TRACE ---
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-php-autoloader.php[87]
+	CLASS___: Automattic\Jetpack\Autoloader\jp1f350034e6fc877bfe8832c1d640b6b1\PHP_Autoloader::load_classFILE: [-1]
+	FUNCTION: class_exists                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\Definition.php[211]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\DefinitionAggregate.php[94]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\DefinitionAggregate->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[157]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[178]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Container.php[104]
+	CLASS___: Automattic\WooCommerce\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[226]
+	CLASS___: WooCommerce->init_hooks       FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[178]
+	CLASS___: WooCommerce->__construct      FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[136]
+	CLASS___: WooCommerce::instance         FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[47]
+	FUNCTION: WC                            FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[62]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-settings.php[447]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-config.php[167]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\wp_test_script_d4c0234-23153050.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DownloadPermissionsAdjuster.php[157]
+	--- TRACE ---
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-php-autoloader.php[87]
+	CLASS___: Automattic\Jetpack\Autoloader\jp1f350034e6fc877bfe8832c1d640b6b1\PHP_Autoloader::load_classFILE: [-1]
+	FUNCTION: class_exists                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\Definition.php[211]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\DefinitionAggregate.php[94]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\DefinitionAggregate->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[157]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[178]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Container.php[104]
+	CLASS___: Automattic\WooCommerce\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[226]
+	CLASS___: WooCommerce->init_hooks       FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[178]
+	CLASS___: WooCommerce->__construct      FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[136]
+	CLASS___: WooCommerce::instance         FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[47]
+	FUNCTION: WC                            FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[62]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-settings.php[447]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-config.php[167]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\wp_test_script_d4c0234-23153050.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DownloadPermissionsAdjuster.php[157]
+	--- TRACE ---
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-php-autoloader.php[87]
+	CLASS___: Automattic\Jetpack\Autoloader\jp1f350034e6fc877bfe8832c1d640b6b1\PHP_Autoloader::load_classFILE: [-1]
+	FUNCTION: class_exists                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\Definition.php[211]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\DefinitionAggregate.php[94]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\DefinitionAggregate->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[157]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[178]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Container.php[104]
+	CLASS___: Automattic\WooCommerce\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[226]
+	CLASS___: WooCommerce->init_hooks       FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[178]
+	CLASS___: WooCommerce->__construct      FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[136]
+	CLASS___: WooCommerce::instance         FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[47]
+	FUNCTION: WC                            FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[62]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-settings.php[447]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-config.php[167]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\wp_test_script_d4c0234-23153050.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DataStores\Orders\CustomOrdersTableController.php[148]
+	--- TRACE ---
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-php-autoloader.php[87]
+	CLASS___: Automattic\Jetpack\Autoloader\jp1f350034e6fc877bfe8832c1d640b6b1\PHP_Autoloader::load_classFILE: [-1]
+	FUNCTION: class_exists                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\Definition.php[211]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\DefinitionAggregate.php[94]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\DefinitionAggregate->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[157]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[178]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Container.php[104]
+	CLASS___: Automattic\WooCommerce\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[231]
+	CLASS___: WooCommerce->init_hooks       FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[178]
+	CLASS___: WooCommerce->__construct      FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[136]
+	CLASS___: WooCommerce::instance         FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[47]
+	FUNCTION: WC                            FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[62]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-settings.php[447]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-config.php[167]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\wp_test_script_d4c0234-23153050.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DataStores\Orders\CustomOrdersTableController.php[162]
+	--- TRACE ---
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-php-autoloader.php[87]
+	CLASS___: Automattic\Jetpack\Autoloader\jp1f350034e6fc877bfe8832c1d640b6b1\PHP_Autoloader::load_classFILE: [-1]
+	FUNCTION: class_exists                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\Definition.php[211]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\DefinitionAggregate.php[94]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\DefinitionAggregate->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[157]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[178]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Container.php[104]
+	CLASS___: Automattic\WooCommerce\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[231]
+	CLASS___: WooCommerce->init_hooks       FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[178]
+	CLASS___: WooCommerce->__construct      FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[136]
+	CLASS___: WooCommerce::instance         FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[47]
+	FUNCTION: WC                            FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[62]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-settings.php[447]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-config.php[167]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\wp_test_script_d4c0234-23153050.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Creation of dynamic property Automattic\WooCommerce\Database\Migrations\CustomOrderTable\PostToOrderTableMigrator::$table_names is deprecated
+	FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Database\Migrations\CustomOrderTable\PostToOrderTableMigrator.php[25]
+	--- TRACE ---
+	CLASS___: Automattic\WooCommerce\Database\Migrations\CustomOrderTable\PostToOrderTableMigrator->get_schema_configFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Database\Migrations\MetaToCustomTableMigrator.php[41]
+	CLASS___: Automattic\WooCommerce\Database\Migrations\MetaToCustomTableMigrator->__constructFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Database\Migrations\CustomOrderTable\PostsToOrdersMigrationController.php[44]
+	CLASS___: Automattic\WooCommerce\Database\Migrations\CustomOrderTable\PostsToOrdersMigrationController->__constructFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\Definition.php[29]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\Definition->resolveClassFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\Definition.php[212]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\DefinitionAggregate.php[94]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\DefinitionAggregate->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[157]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[178]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Argument\ArgumentResolverTrait.php[45]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\Vendor\League\Container\Argument\{closure}FILE: [-1]
+	FUNCTION: array_map                     FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Argument\ArgumentResolverTrait.php[19]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolveArgumentsFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\Definition.php[28]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\Definition->resolveClassFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\Definition.php[212]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\DefinitionAggregate.php[94]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\DefinitionAggregate->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[157]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Argument\ArgumentResolverTrait.php[45]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\Vendor\League\Container\Argument\{closure}FILE: [-1]
+	FUNCTION: array_map                     FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Argument\ArgumentResolverTrait.php[19]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolveArgumentsFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\Definition.php[28]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\Definition->resolveClassFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\Definition.php[212]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\DefinitionAggregate.php[94]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\DefinitionAggregate->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[157]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[178]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Container.php[104]
+	CLASS___: Automattic\WooCommerce\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[231]
+	CLASS___: WooCommerce->init_hooks       FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[178]
+	CLASS___: WooCommerce->__construct      FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[136]
+	CLASS___: WooCommerce::instance         FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[47]
+	FUNCTION: WC                            FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[62]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-settings.php[447]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-config.php[167]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\wp_test_script_d4c0234-23153050.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Creation of dynamic property Automattic\WooCommerce\Database\Migrations\CustomOrderTable\PostToOrderAddressTableMigrator::$table_names is deprecated
+	FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Database\Migrations\CustomOrderTable\PostToOrderAddressTableMigrator.php[42]
+	--- TRACE ---
+	CLASS___: Automattic\WooCommerce\Database\Migrations\CustomOrderTable\PostToOrderAddressTableMigrator->get_schema_configFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Database\Migrations\MetaToCustomTableMigrator.php[41]
+	CLASS___: Automattic\WooCommerce\Database\Migrations\MetaToCustomTableMigrator->__constructFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Database\Migrations\CustomOrderTable\PostToOrderAddressTableMigrator.php[31]
+	CLASS___: Automattic\WooCommerce\Database\Migrations\CustomOrderTable\PostToOrderAddressTableMigrator->__constructFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Database\Migrations\CustomOrderTable\PostsToOrdersMigrationController.php[45]
+	CLASS___: Automattic\WooCommerce\Database\Migrations\CustomOrderTable\PostsToOrdersMigrationController->__constructFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\Definition.php[29]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\Definition->resolveClassFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\Definition.php[212]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\DefinitionAggregate.php[94]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\DefinitionAggregate->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[157]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[178]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Argument\ArgumentResolverTrait.php[45]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\Vendor\League\Container\Argument\{closure}FILE: [-1]
+	FUNCTION: array_map                     FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Argument\ArgumentResolverTrait.php[19]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolveArgumentsFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\Definition.php[28]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\Definition->resolveClassFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\Definition.php[212]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\DefinitionAggregate.php[94]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\DefinitionAggregate->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[157]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Argument\ArgumentResolverTrait.php[45]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\Vendor\League\Container\Argument\{closure}FILE: [-1]
+	FUNCTION: array_map                     FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Argument\ArgumentResolverTrait.php[19]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolveArgumentsFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\Definition.php[28]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\Definition->resolveClassFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\Definition.php[212]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\DefinitionAggregate.php[94]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\DefinitionAggregate->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[157]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[178]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Container.php[104]
+	CLASS___: Automattic\WooCommerce\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[231]
+	CLASS___: WooCommerce->init_hooks       FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[178]
+	CLASS___: WooCommerce->__construct      FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\includes\class-woocommerce.php[136]
+	CLASS___: WooCommerce::instance         FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[47]
+	FUNCTION: WC                            FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\woocommerce.php[62]
+	FUNCTION: include_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-settings.php[447]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-config.php[167]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\dollarism.github.io\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\wp_test_script_d4c0234-23153050.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_DEPRECATED Creation of dynamic property Automattic\WooCommerce\Database\Migrations\CustomOrderTable\PostToOrderAddressTableMigrator::$table_names is deprecated
+	FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Database\Migrations\CustomOrderTable\PostToOrderAddressTableMigrator.php[42]
+	--- TRACE ---
+	CLASS___: Automattic\WooCommerce\Database\Migrations\CustomOrderTable\PostToOrderAddressTableMigrator->get_schema_configFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Database\Migrations\MetaToCustomTableMigrator.php[41]
+	CLASS___: Automattic\WooCommerce\Database\Migrations\MetaToCustomTableMigrator->__constructFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Database\Migrations\CustomOrderTable\PostToOrderAddressTableMigrator.php[31]
+	CLASS___: Automattic\WooCommerce\Database\Migrations\CustomOrderTable\PostToOrderAddressTableMigrator->__constructFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Database\Migrations\CustomOrderTable\PostsToOrdersMigrationController.php[46]
+	CLASS___: Automattic\WooCommerce\Database\Migrations\CustomOrderTable\PostsToOrdersMigrationController->__constructFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\Definition.php[29]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\Definition->resolveClassFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\Definition.php[212]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\DefinitionAggregate.php[94]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\DefinitionAggregate->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[157]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[178]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\ExtendedContainer->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Argument\ArgumentResolverTrait.php[45]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->Automattic\WooCommerce\Vendor\League\Container\Argument\{closure}FILE: [-1]
+	FUNCTION: array_map                     FILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Argument\ArgumentResolverTrait.php[19]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolveArgumentsFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\Definition.php[28]
+	CLASS___: Automattic\WooCommerce\Internal\DependencyManagement\Definition->resolveClassFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\Definition.php[212]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\Definition->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Definition\DefinitionAggregate.php[94]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Definition\DefinitionAggregate->resolveFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\lib\packages\League\Container\Container.php[157]
+	CLASS___: Automattic\WooCommerce\Vendor\League\Container\Container->getFILE: C:\xampp\htdocs\dollarism.github.io\wp-content\plugins\woocommerce\src\Internal\DependencyManagement\ExtendedContainer.php[117]
+	CLASS___: Automattic\WooCommerce\In====================================
+LOG-TIME[C:\xampp\htdocs\dollarism.github.io\dup-installer\ctrls\ctrl.base.php:227][DELTA:   0.07976]  MESSAGE:END RENDER PAGE
+[PHP ERR][E_DEPRECATED] MSG:Creation of dynamic property DUPX_ArchiveConfig::$brand is deprecated [CODE:8192|FILE:C:\xampp\htdocs\dollarism.github.io\dup-installer\classes\config\class.archive.config.php|LINE:102]

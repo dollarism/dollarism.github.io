@@ -1,0 +1,43 @@
+.product_list_widget {
+
+  li {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    @include clearfix;
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+
+    .wp-post-image {
+      overflow: hidden;
+      float: left;
+      margin-right: 15px;
+    }
+
+    a {
+      display: block;
+      line-height: 1.4;
+    }
+
+    .star-rating {
+      display: none;
+    }
+
+    > .amount {
+      color: color('orange');
+    }
+
+    del {
+      font-size: 13px;
+      color: gray('500');
+    }
+
+    ins {
+      background-color: transparent;
+      .amount {
+        color: color('orange');
+      }
+    }
+  }
+}

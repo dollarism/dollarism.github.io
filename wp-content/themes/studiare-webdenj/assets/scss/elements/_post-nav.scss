@@ -1,0 +1,56 @@
+.post-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.75rem;
+}
+
+.post-nav-btn {
+  max-width: 50%;
+}
+
+.post-nav-link {
+  display: block;
+  position: relative;
+  line-height: 1.5;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  span {
+    display: block;
+    color: gray('500');
+  }
+
+  strong {
+    font-weight: normal;
+  }
+
+  svg {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 16px;
+    height: 20px;
+    fill: gray('500');
+    transform: translateY(-50%);
+  }
+
+  &.prev {
+    padding-left: 32px;
+  }
+
+  &.next {
+    padding-right: 32px;
+
+    svg {
+      left: auto;
+      right: 0;
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    strong {
+      display: none;
+    }
+  }
+}

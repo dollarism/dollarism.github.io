@@ -1,0 +1,567 @@
+/* WooCommerce Layout */
+.course-wrapper-inner {
+  @include make-row();
+
+  .course-main-wrapper.shop-sidebar-left & {
+    flex-direction: row-reverse;
+  }
+
+  .courses-holder {
+    @include make-col-ready();
+
+    .course-main-wrapper.has-sidebar & {
+
+      @include media-breakpoint-up(lg) {
+        @include make-col(8);
+      }
+    }
+
+  }
+}
+
+/* Courses Holder */
+.courses-holder {
+
+  // Courses Top Bar (Search and switch layout)
+  .courses-top-bar {
+    background-color: $white;
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+    margin-bottom: rem(30px);
+    padding: rem(16px) rem(20px);
+
+    .courses-top-bar-inner {
+      display: flex;
+      align-items: center;
+
+      .courses-top-bar-left {
+        display: flex;
+        flex-grow: 1;
+        align-items: center;
+
+        .woocommerce-result-count {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .layout-switcher {
+      margin-right: rem(16px);
+
+      @include media-breakpoint-down(sm) {
+        display: none;
+      }
+
+      > a {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid $border-color;
+        border-radius: 2px;
+        padding: rem(8px) rem(10px);
+        margin-right: rem(5px);
+
+        &.active {
+          background-color: color('blue');
+          border-color: color('blue');
+
+          svg {
+            fill: $white;
+          }
+        }
+
+        svg {
+          fill: gray('700');
+          width: 20px;
+          height: 20px;
+          transition: all 0.2s ease-in-out;
+        }
+      }
+    }
+  }
+
+}
+
+.products {
+  @include make-row();
+  $post-inner-padding: 20px;
+
+  // Products Styling
+  .course-item {
+    margin-bottom: rem(30px);
+
+    .course-item-inner {
+      background-color: $white;
+      border: 1px solid $border-color;
+      border-radius: $border-radius;
+      transition: all 0.3s ease;
+
+      .course-thumbnail-holder {
+        img {
+          width: 100%;
+        }
+      }
+
+      .course-content-holder {
+
+        .course-content-main {
+          padding: $post-inner-padding;
+          overflow: hidden;
+
+          .course-title {
+            font-size: 18px;
+            line-height: 1.5;
+            margin-bottom: 10px;
+          }
+
+          .course-rating-teacher {
+            display: flex;
+            align-items: center;
+
+            .star-rating {
+              font-size: rem(13px);
+
+              .rating {
+                background-color: color('teal');
+                color: $white;
+                padding: 3px 6px;
+                margin-right: 8px;
+                border-radius: $border-radius;
+              }
+
+              .votes-number {
+                color: gray('500');
+                margin-right: 10px;
+              }
+
+              &.no-ratings {
+                .votes-number {
+                  display: none;
+                }
+              }
+            }
+
+            .course-loop-teacher {
+              display: inline-flex;
+              font-size: rem(13px);
+              color: color('blue');
+
+              &:hover {
+                color: gray('600');
+              }
+
+              &:before {
+                content: '';
+                display: inline-flex;
+                align-self: center;
+                margin-right: 10px;
+                width: 1px;
+                height: 18px;
+                background-color: gray('200');
+              }
+            }
+          }
+
+          .course-description {
+            margin-top: 10px;
+            font-size: rem(14px);
+            p {
+              margin-bottom: 0;
+            }
+          }
+        }
+
+        .course-content-bottom {
+          border-top: 1px solid $border-color;
+          padding: $post-inner-padding/2 $post-inner-padding;
+          font-size: rem(15px);
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          .course-students {
+            color: gray('600');
+            i {
+              margin-right: 8px;
+            }
+          }
+
+          .course-price {
+            color: color('orange');
+
+            .price-sale {
+              color: color('teal');
+            }
+          }
+        }
+      }
+    }
+
+    &:hover {
+      .course-item-inner {
+        box-shadow: 0 5px 20px rgba(0, 0, 0, .06);
+      }
+    }
+  }
+
+  &.list-view {
+    .course-item {
+
+      .course-item-inner {
+        display: flex;
+        align-items: center;
+
+        .course-thumbnail-holder {
+          max-width: 40%;
+          min-width: 40%;
+          flex-grow: 1;
+          flex-basis: auto;
+        }
+
+        .course-content-holder {
+          display: flex;
+          min-height: 100%;
+          flex-direction: column;
+          flex-grow: 1;
+
+          .course-content-bottom {
+            align-items: flex-end;
+          }
+        }
+
+        @include media-breakpoint-down(sm) {
+          flex-direction: column;
+
+          .course-thumbnail-holder {
+            max-width: 100%;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .course-item {
+    @include make-col-ready();
+  }
+
+  &.grid-view.courses-2-columns {
+
+    .course-item {
+      @include media-breakpoint-up(md) {
+        @include make-col(6);
+      }
+    }
+  }
+
+  &.grid-view.courses-3-columns {
+
+    .course-item {
+      @include media-breakpoint-up(md) {
+        @include make-col(6);
+      }
+      @include media-breakpoint-up(lg) {
+        @include make-col(4);
+      }
+    }
+  }
+
+  &.grid-view.courses-4-columns {
+
+    .course-item {
+      @include media-breakpoint-up(md) {
+        @include make-col(6);
+      }
+      @include media-breakpoint-up(lg) {
+        @include make-col(3);
+      }
+    }
+  }
+
+  &.grid-view {
+
+    .course-item {
+      .course-description {
+        display: none;
+      }
+    }
+  }
+
+  .no-product {
+    @include make-col-ready();
+    @include make-col(12);
+  }
+}
+
+// Inner Box Style
+.inner-box {
+  background-color: $white;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  padding: 30px;
+}
+
+.woocommerce-info {
+
+  .woocommerce-checkout & {
+    margin-bottom: 15px;
+  }
+
+}
+
+.checkout_coupon,
+.woocommerce-checkout .login {
+  background-color: $white;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  padding: 1.25rem;
+  max-width: 420px;
+}
+
+.checkout_coupon {
+  text-align: center;
+}
+
+/* WooCommerce Layout */
+.woocommerce-Message,
+.woocommerce-message {
+  display: flex;
+  background-color: #6DD09D;
+  color: #FFF;
+  line-height: 1.5;
+  list-style-type: none;
+  position: relative;
+  margin-bottom: 30px;
+  padding: 30px;
+
+  &:before {
+    font-family: 'FontAwesome';
+    text-transform: none;
+    line-height: 1;
+    content: "\f058";
+    font-size: 24px;
+    margin-right: 11px;
+    //margin-left: -2.25rem;
+  }
+
+  .button,
+  a {
+    background: none;
+    color: #FFF!important;
+    display: inline;
+    width: auto;
+    line-height: 19px;
+    border-bottom: 1px solid;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0;
+  }
+
+  .button {
+    border-bottom: 2px solid;
+    position: absolute;
+    right: 32px;
+  }
+}
+
+.woocommerce {
+
+  > .woocommerce-error {
+    background-color: #DE7878;
+    color: $white;
+    line-height: 1.5;
+    list-style-type: none;
+    position: relative;
+    margin: 0 0 30px;
+    padding: 30px;
+    display: flex;
+
+    &:before {
+      position: relative;
+      font-family: 'FontAwesome';
+      text-transform: none;
+      line-height: 1;
+      content: "\f071";
+      font-size: 24px;
+      margin-right: 11px;
+      top: -3px;
+    }
+
+    li {
+      margin-bottom: 0;
+      line-height: 19px;
+      width: 100%;
+
+      a {
+        background: none;
+        color: $white;
+        display: inline;
+        width: auto;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        line-height: 19px;
+        padding: 0;
+        border-bottom: 2px solid;
+        position: absolute;
+        right: 32px;
+      }
+    }
+  }
+}
+
+/* Shop Table */
+.shop_table {
+  width: 100%;
+  margin-bottom: 30px;
+
+  tr {
+    .product-quantity,
+    .amount {
+      font-weight: normal;
+    }
+
+    td {
+      font-size: 15px;
+    }
+  }
+
+  th.product-thumbnail {
+    width: 10px;
+  }
+
+  th.product-remove {
+    width: 30px;
+  }
+
+  thead {
+    text-align: left;
+
+    tr {
+      border-bottom: 1px solid #eaeaea;
+
+      th {
+        color: #7f7e83;
+        font-weight: 400;
+        padding: 0 5px 10px;
+
+        @include media-breakpoint-up(md) {
+          padding: 0 13px 10px;
+        }
+
+        &.product-thumbnail {
+          @include media-breakpoint-down(md) {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  tbody {
+
+    tr {
+      border-bottom: 1px solid #eaeaea;
+
+      th {
+        font-weight: normal;
+      }
+
+      td {
+        padding: 10px 5px;
+
+        @include media-breakpoint-up(md) {
+          padding: 30px 13px;
+        }
+
+        .woocommerce-checkout &,
+        .cart_totals & {
+          padding-top: 15px;
+          padding-bottom: 15px;
+        }
+      }
+
+      &:last-child {
+        border: 0;
+      }
+
+    }
+
+    .product-thumbnail {
+      img {
+        max-width: 80px;
+      }
+
+      &.product-thumbnail {
+        @include media-breakpoint-down(md) {
+          display: none;
+        }
+      }
+    }
+  }
+
+  .actions {
+    padding-left: 0;
+    padding-right: 0;
+    .footer_coupon {
+      display: flex;
+      justify-content: space-between;
+
+      @include media-breakpoint-down(md) {
+        flex-direction: column;
+        flex: 1;
+
+        .coupon {
+          margin-bottom: 20px;
+          display: flex;
+
+          .box {
+            flex: 1;
+          }
+        }
+      }
+
+      .coupon .form-control {
+        vertical-align: top;
+
+        @include media-breakpoint-up(md) {
+          width: auto;
+          display: inline-flex;
+          margin-bottom: 0;
+        }
+      }
+
+      .button {
+        justify-content: center;
+      }
+    }
+  }
+
+  tfoot {
+    tr {
+      border-bottom: 1px solid #eaeaea;
+      text-align: left;
+    }
+
+    th {
+      padding-left: 25px;
+      //font-weight: 400;
+
+      .woocommerce-checkout & {
+        padding-left: 15px;
+      }
+    }
+
+    td {
+      padding: 15px 5px;
+
+      @include media-breakpoint-up(sm) {
+        padding: 15px 13px;
+      }
+    }
+    &:last-child {
+      border: 0;
+    }
+  }
+
+}

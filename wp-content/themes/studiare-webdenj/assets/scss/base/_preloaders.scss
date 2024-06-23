@@ -1,0 +1,94 @@
+.studiare-preloader {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: $white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// Spinner Preloader
+.spinner {
+  width: 40px;
+  height: 40px;
+
+  position: relative;
+  margin: 100px auto;
+}
+
+.double-bounce1, .double-bounce2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: color('orange');
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.double-bounce2 {
+  animation-delay: -1.0s;
+}
+
+@keyframes sk-bounce {
+  0%, 100% {
+    transform: scale(0.0);
+  } 50% {
+      transform: scale(1.0);
+    }
+}
+
+// Cube Boxes
+.sk-cube-grid {
+  width: 40px;
+  height: 40px;
+  margin: 100px auto;
+}
+
+.sk-cube-grid .sk-cube {
+  width: 33%;
+  height: 33%;
+  background-color: color('orange');
+  float: left;
+  animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+}
+.sk-cube-grid .sk-cube1 {
+  animation-delay: 0.2s;
+}
+.sk-cube-grid .sk-cube2 {
+  animation-delay: 0.3s;
+}
+.sk-cube-grid .sk-cube3 {
+  animation-delay: 0.4s;
+}
+.sk-cube-grid .sk-cube4 {
+  animation-delay: 0.1s;
+}
+.sk-cube-grid .sk-cube5 {
+  animation-delay: 0.2s;
+}
+.sk-cube-grid .sk-cube6 {
+  animation-delay: 0.3s;
+}
+.sk-cube-grid .sk-cube7 {
+  animation-delay: 0s; }
+.sk-cube-grid .sk-cube8 {
+  animation-delay: 0.1s;
+}
+.sk-cube-grid .sk-cube9 {
+  animation-delay: 0.2s;
+}
+
+@keyframes sk-cubeGridScaleDelay {
+  0%, 70%, 100% {
+    transform: scale3D(1, 1, 1);
+  } 35% {
+      transform: scale3D(0, 0, 1);
+    }
+}

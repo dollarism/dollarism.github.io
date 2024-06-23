@@ -1,0 +1,147 @@
+// Checkout Form
+.woocommerce-checkout-main {
+  @include make-col-ready();
+  margin-top: 30px;
+
+  @include media-breakpoint-up(lg) {
+    @include make-col(8);
+  }
+}
+
+.woocommerce-checkout-side {
+  @include make-col-ready();
+  margin-top: 30px;
+
+  @include media-breakpoint-up(lg) {
+    @include make-col(4);
+  }
+}
+
+.woocommerce-checkout-review-order {
+
+  .shop_table {
+
+    tr {
+
+      th {
+        vertical-align: baseline;
+        &:last-child {
+          padding-right: 0;
+        }
+
+        &:first-child {
+          padding-left: 0;
+        }
+      }
+
+      td {
+        &:last-child {
+          padding-right: 0;
+        }
+        &:first-child {
+          padding-left: 0;
+        }
+      }
+
+      &.shipping {
+
+        td {
+          padding-left: 0;
+          padding-right: 0;
+        }
+
+        .shipping-title {
+          color: #495057;
+          margin-bottom: 10px;
+        }
+
+        #shipping_method {
+          margin: 0;
+          list-style-type: none;
+        }
+      }
+    }
+
+    .order-total {
+      .amount {
+        color: #495057;
+        font-size: 24px;
+      }
+    }
+  }
+}
+
+.woocommerce-billing-fields__field-wrapper {
+  @include make-row();
+
+  .form-row {
+    @include make-col-ready();
+  }
+
+  @include media-breakpoint-up(md) {
+    .form-row-first,
+    .form-row-last {
+      @include make-col(6);
+    }
+  }
+}
+
+.woocommerce-checkout-payment {
+
+  .payment_methods {
+    margin: 0;
+    list-style-type: none;
+
+    .payment_box {
+      background-color: #f7f7f7;
+      border-radius: 2px;
+      padding: 10px;
+      font-size: 12px;
+      margin: 10px 0;
+
+      p:last-child {
+        margin: 0;
+      }
+    }
+
+    .payment_method_paypal {
+      position: relative;
+
+      img {
+        display: none;
+      }
+
+      .about_paypal {
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 13px;
+        text-decoration: underline dotted;
+      }
+
+    }
+  }
+
+  .place-order {
+    .button {
+      width: 100%;
+      display: block;
+      margin-top: 20px;
+    }
+  }
+}
+
+#ship-to-different-address {
+  margin-bottom: 10px;
+}
+
+#customer_details {
+
+  .woocommerce-shipping-fields {
+
+    h3 {
+      padding-top: 20px;
+      margin-bottom: 25px;
+    }
+  }
+}

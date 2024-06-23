@@ -1,0 +1,40 @@
+.not-found {
+  display: flex;
+  align-items: center;
+
+  .not-found-icon-wrapper {
+    margin-right: 30px;
+
+    .not-found-icon {
+      width: 100px;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 3px solid gray('200');
+      font-size: 85px;
+      border-radius: 50%;
+    }
+
+    .error-page {
+      font-size: 165px;
+      font-family: monospace;
+      letter-spacing: -25px;
+      color: color('blue');
+      padding-right: 15px;
+      line-height: 1;
+    }
+  }
+
+  .not-found-content {
+    flex-grow: 1;
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,197 @@
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+  background-color: #eee;
+  clip: auto !important;
+  clip-path: none;
+  color: #444;
+  display: block;
+  font-size: 1em;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+  /* Above WP toolbar. */
+}
+
+.wp-caption,
+.wp-caption-text,
+.sticky,
+.gallery-caption,
+.alignright,
+.alignleft,
+.aligncenter,
+.bypostauthor {
+  color: inherit;
+}
+
+// Caption
+.wp-caption {
+  background: transparent;
+  border: none;
+  margin-bottom: 20px;
+  padding: 0;
+  max-width: 100%;
+}
+
+.alignleft {
+  float: left;
+  margin-top: 3px;
+  margin-bottom: 10px;
+  margin-right: 25px;
+}
+
+.alignright {
+  float: right;
+  margin-top: 3px;
+  margin-bottom: 10px;
+  margin-left: 25px;
+}
+
+.aligncenter {
+  clear: both;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.wp-caption .wp-caption-text,
+.wp-caption-dd {
+  line-height: 1.6;
+  font-style:italic;
+  padding: 5px 10px 5px 0;
+  opacity: 0.8;
+}
+
+// Gallery
+.gallery {
+  display: block;
+  margin: 0 -2px;
+  clear: both;
+  overflow: hidden;
+
+  &.gallery-columns-2 .gallery-item {
+    max-width: 50%;
+    @include media-breakpoint-up(sm) {
+      max-width: 50%;
+    }
+  }
+
+  &.gallery-columns-3 .gallery-item {
+    max-width: 50%;
+    @include media-breakpoint-up(sm) {
+      width: 33.33%;
+    }
+  }
+
+  &.gallery-columns-4 .gallery-item {
+    max-width: 50%;
+    @include media-breakpoint-up(sm) {
+      max-width: 50%;
+    }
+    @include media-breakpoint-up(md) {
+      max-width: 25%;
+    }
+  }
+
+  &.gallery-columns-5 .gallery-item {
+    max-width: 50%;
+    @include media-breakpoint-up(sm) {
+      max-width: 20%;
+    }
+  }
+
+  &.gallery-columns-6 .gallery-item {
+    max-width: 50%;
+    @include media-breakpoint-up(sm) {
+      max-width: 33.33%;
+    }
+    @include media-breakpoint-up(md) {
+      max-width: 16.66%;
+    }
+  }
+
+  &.gallery-columns-7 .gallery-item {
+    max-width: 50%;
+    @include media-breakpoint-up(sm) {
+      max-width: 25%;
+    }
+    @include media-breakpoint-up(md) {
+      max-width: 14.28%;
+    }
+  }
+
+  &.gallery-columns-8 .gallery-item {
+    max-width: 50%;
+    @include media-breakpoint-up(sm) {
+      max-width: 25%;
+    }
+    @include media-breakpoint-up(md) {
+      max-width: 12.5%;
+    }
+  }
+
+  &.gallery-columns-9 .gallery-item {
+    max-width: 50%;
+    @include media-breakpoint-up(sm) {
+      max-width: 25%;
+    }
+    @include media-breakpoint-up(md) {
+      max-width: 11.11%;
+    }
+  }
+
+
+  .gallery-item {
+    display: inline-block;
+    width: 100%;
+    padding: 0 2px;
+    margin: 0 0 1.5em;
+    vertical-align: top;
+    transition: opacity 0.2s ease-in-out;
+
+    &:hover {
+      opacity: 0.8;
+    }
+    img {
+      width: 100%;
+      display: block;
+      backface-visibility: hidden;
+    }
+    a {
+      line-height: 0;
+      display: block;
+      width: 100%;
+    }
+    .gallery-caption {
+      color: rgba(51, 51, 51, 0.7);
+      font-size: 12px;
+      line-height: 1.5;
+      padding: 0.5em 0;
+    }
+  }
+}
+
+.gallery-columns-5 .gallery-caption,
+.gallery-columns-6 .gallery-caption,
+.gallery-columns-7 .gallery-caption,
+.gallery-columns-8 .gallery-caption,
+.gallery-columns-9 .gallery-caption {
+  display: none;
+}

@@ -1,0 +1,156 @@
+.course-section {
+
+  .course-section-title {
+
+  }
+
+  .panel-group {
+
+    .course-panel-heading {
+      border-top: 1px solid gray('200');
+      display: flex;
+      align-items: center;
+      padding: 15px;
+      cursor: pointer;
+      transition: background-color 0.2s ease-out;
+
+      &:hover,
+      &.active {
+        background-color: gray('100');
+
+        .panel-heading-left .course-lesson-icon i {
+          color: color('orange');
+        }
+      }
+
+      .panel-heading-left {
+        display: flex;
+        align-items: center;
+        flex-grow: 1;
+
+        .course-lesson-icon {
+          line-height: 1;
+          margin-right: 15px;
+
+          i {
+            color: #d4d9dd;
+            font-size: 20px;
+            transition: color 0.2s ease-out;
+          }
+        }
+
+        .title {
+
+          h4 {
+            font-size: 16px;
+            margin: 0 0 8px;
+          }
+
+          > p {
+            font-size: 14px;
+            color: gray('500');
+            margin: 0;
+            line-height: 1;
+          }
+        }
+
+
+        .badge-item {
+          background-color: gray('200');
+          padding: 2px 6px;
+          display: inline-block;
+          font-size: 12px;
+          border-radius: 2px;
+          margin-left: 6px;
+          line-height: 1.2;
+          text-transform: capitalize;
+
+          &.video {
+            background-color: #65bded;
+            color: $white;
+          }
+
+          &.quiz {
+            background-color: #bd83ef;
+            color: $white;
+          }
+
+          &.lecture {
+            background-color: #68e8b7;
+            color: $white;
+          }
+
+          &.exam {
+            background-color: #e89369;
+            color: $white;
+          }
+
+          &.practice {
+            background-color: #eada68;
+            color: $white;
+          }
+
+          &.free {
+            background-color: #8be669;
+            color: $white;
+          }
+        }
+      }
+
+      .panel-heading-right {
+        display: flex;
+        justify-content: flex-end;
+      }
+
+      .private-lesson {
+        margin-left: 6px;
+        padding-right: 0;
+
+        @include media-breakpoint-down(sm) {
+          i {
+            margin-right: 0 !important;
+          }
+          span {
+            display: none;
+          }
+        }
+      }
+
+      .preview-button {
+        background-color: color('blue');
+        color: $white;
+        border-radius: 30px;
+
+        @include media-breakpoint-down(sm) {
+          display: none;
+        }
+      }
+
+      .private-lesson,
+      .preview-button {
+        font-size: 14px;
+        line-height: 1.4;
+        padding: 6px 10px;
+
+        i {
+          margin-right: 5px;
+        }
+      }
+    }
+
+    .panel-content {
+      max-height: 0;
+      overflow: hidden;
+      background-color: gray('100');
+      transition: max-height 0.2s ease-out;
+
+      .panel-content-inner {
+        padding: 0 15px 20px 15px;
+      }
+
+      a {
+        @extend .btn-link;
+      }
+    }
+  }
+}

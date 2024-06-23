@@ -1,0 +1,3016 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Studiare\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-21 02:56+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#. 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#. 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: vc_templates/cdb_course_categories.php:69
+#, php-format
+msgid "%s Course"
+msgid_plural "%s Courses"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/rating.php:38
+#, php-format
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/loop/rating.php:34
+#, php-format
+msgid "%s Votes"
+msgstr ""
+
+#: inc/templates/blog/single.php:6
+msgid ", "
+msgstr ""
+
+#: inc/lib/vc/cdb_blog_posts/map.php:27
+msgid "1 Column"
+msgstr ""
+
+#: comments.php:25
+#, php-format
+msgid "1 Comment"
+msgid_plural "%d Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/lib/vc/cdb_blog_posts/map.php:28
+#: inc/lib/vc/cdb_featured_courses/map.php:32
+msgid "2 Columns"
+msgstr ""
+
+#: inc/lib/vc/cdb_portfolio/map.php:37 inc/lib/vc/cdb_teachers_grid/map.php:21
+msgid "2 Items per Row"
+msgstr ""
+
+#: inc/lib/vc/cdb_clients/map.php:16
+msgid "2 Logos per Row"
+msgstr ""
+
+#: inc/lib/vc/cdb_blog_posts/map.php:29
+#: inc/lib/vc/cdb_featured_courses/map.php:31
+msgid "3 Columns"
+msgstr ""
+
+#: inc/lib/vc/cdb_portfolio/map.php:38 inc/lib/vc/cdb_teachers_grid/map.php:22
+msgid "3 Items per Row"
+msgstr ""
+
+#: inc/lib/vc/cdb_clients/map.php:17
+msgid "3 Logos per Row"
+msgstr ""
+
+#: inc/lib/vc/cdb_blog_posts/map.php:30
+#: inc/lib/vc/cdb_featured_courses/map.php:30
+msgid "4 Columns"
+msgstr ""
+
+#: inc/lib/vc/cdb_portfolio/map.php:39 inc/lib/vc/cdb_teachers_grid/map.php:23
+msgid "4 Items per Row"
+msgstr ""
+
+#: inc/lib/vc/cdb_clients/map.php:18
+msgid "4 Logos per Row"
+msgstr ""
+
+#: inc/lib/vc/cdb_portfolio/map.php:40 inc/lib/vc/cdb_teachers_grid/map.php:24
+msgid "5 Items per Row"
+msgstr ""
+
+#: inc/lib/vc/cdb_clients/map.php:19
+msgid "5 Logos per Row"
+msgstr ""
+
+#: inc/lib/vc/cdb_portfolio/map.php:41 inc/lib/vc/cdb_teachers_grid/map.php:25
+msgid "6 Items per Row"
+msgstr ""
+
+#: inc/lib/vc/cdb_clients/map.php:20
+msgid "6 Logos per Row"
+msgstr ""
+
+#: inc/lib/vc/cdb_google_map/map.php:32 inc/lib/vc/cdb_google_map/map.php:38
+msgid ""
+"<a href=\"http://www.latlong.net/convert-address-to-lat-long.html\">Here is "
+"a tool</a> where you can find Latitude & Longitude of your location"
+msgstr ""
+
+#: inc/templates/blog/single.php:75
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#. %2$s: plugin name in screen reader markup
+#: inc/tgm/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: inc/lib/vc/cdb_animated_counter/map.php:11
+msgid "Actual Value"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:64
+msgid "Add a review"
+msgstr ""
+
+#: inc/lib/vc/cdb_clients/map.php:44
+msgid "Add borders to logo items."
+msgstr ""
+
+#: inc/lib/vc/cdb_clients/map.php:83
+msgid "Add client infos"
+msgstr ""
+
+#: inc/lib/vc/cdb_clients/map.php:92
+msgid "Add logo image here."
+msgstr ""
+
+#: inc/codebean_options.php:211
+msgid "Add some spacing around your logo image"
+msgstr ""
+
+#: inc/codebean_actions.php:182
+msgid ""
+"Add widgets here to appear in your sidebar on blog posts and archive pages."
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:65
+msgid "Additional information"
+msgstr ""
+
+#: wp-events-manager/content-single-event.php:71
+msgid "Address"
+msgstr ""
+
+#: inc/widgets/contacts.php:96
+msgid "Address:"
+msgstr ""
+
+#: inc/lib/vc/cdb_button/map.php:56 inc/lib/vc/cdb_countdown_timer/map.php:46
+msgid "Align"
+msgstr ""
+
+#: vc_templates/cdb_portfolio.php:33
+#: inc/templates/portfolio/portfolio-cat.php:7
+msgid "All"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#. 1: dashboard link.
+#: inc/tgm/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/templates/footer-copyrights.php:22
+msgid "All rights reserved"
+msgstr ""
+
+#: inc/codebean_options.php:749 inc/codebean_options.php:959
+msgid "Allow Share"
+msgstr ""
+
+#: inc/lib/vc/cdb_course_categories/map.php:37
+msgid "Alphabetical Order"
+msgstr ""
+
+#. 1: plugin name, 2: error message.
+#: inc/tgm/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/lib/vc/cdb_animated_counter/map.php:5
+msgid "Animated Counter"
+msgstr ""
+
+#: woocommerce/cart/cart.php:137
+msgid "Apply coupon"
+msgstr ""
+
+#: inc/lib/vc/cdb_clients/map.php:31
+msgid "Apply default spacing"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/templates/portfolio/portfolio-cat.php:20
+#: inc/lib/vc/cdb_course_categories/map.php:40
+msgid "Ascending"
+msgstr ""
+
+#: 404.php:18
+msgid "At least not in this universe."
+msgstr ""
+
+#: woocommerce/cart/cart.php:90
+msgid "Available on backorder"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:89
+msgid "Average"
+msgstr ""
+
+#: woocommerce/content-single-product.php:120
+msgid "Average Rating"
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:53
+msgid "Awaiting product image"
+msgstr ""
+
+#: 404.php:19
+msgid "Back to home"
+msgstr ""
+
+#: inc/lib/vc/cdb_clients/map.php:53
+msgid "Background hover"
+msgstr ""
+
+#: woocommerce/single-product/rating.php:35
+#, php-format
+msgid "based on %s customer rating"
+msgid_plural "based on %s customer ratings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/lib/vc/cdb_pricing_table/map.php:14
+msgid "Basic Plan"
+msgstr ""
+
+#: inc/tgm/tgm-plugin-registration.php:78
+msgid "bbPress"
+msgstr ""
+
+#: comments.php:26
+msgid "Be the first to comment on this article."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:64
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:377
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/codebean_functions.php:134 inc/codebean_options.php:646
+msgid "Blog"
+msgstr ""
+
+#: inc/codebean_options.php:671
+msgid "Blog Grid Columns"
+msgstr ""
+
+#: inc/lib/vc/cdb_blog_posts/map.php:5
+msgid "Blog Posts"
+msgstr ""
+
+#: inc/codebean_options.php:660
+msgid "Blog Posts Layout"
+msgstr ""
+
+#: inc/lib/vc/cdb_blog_posts/map.php:11
+msgid "Blog Query"
+msgstr ""
+
+#: inc/codebean_options.php:653
+msgid "Blog Settings"
+msgstr ""
+
+#: inc/codebean_actions.php:180
+msgid "Blog Sidebar"
+msgstr ""
+
+#: inc/codebean_options.php:387
+msgid "Body"
+msgstr ""
+
+#: inc/codebean_functions.php:508
+msgid "Bold 700"
+msgstr ""
+
+#: inc/lib/vc/cdb_button/map.php:30
+msgid "Border"
+msgstr ""
+
+#: inc/lib/vc/cdb_icon_boxes/map.php:124
+msgid "Border radius"
+msgstr ""
+
+#: inc/lib/vc/cdb_icon_boxes/map.php:143
+msgid "Border Width"
+msgstr ""
+
+#: inc/codebean_actions.php:279 inc/tgm/tgm-plugin-registration.php:54
+msgid "Breadcrumb NavXT"
+msgstr ""
+
+#: inc/lib/vc/cdb_button/map.php:5
+msgid "Button"
+msgstr ""
+
+#: inc/lib/vc/cdb_button/map.php:40
+msgid "Button color."
+msgstr ""
+
+#: inc/codebean_options.php:232 inc/lib/vc/cdb_pricing_table/map.php:46
+msgid "Button Link"
+msgstr ""
+
+#: inc/codebean_options.php:225
+msgid "Button on header"
+msgstr ""
+
+#: inc/lib/vc/cdb_pricing_table/map.php:55
+msgid "Button Text"
+msgstr ""
+
+#: inc/codebean_functions.php:364
+msgid "Button text"
+msgstr ""
+
+#: inc/lib/vc/cdb_button/map.php:14
+msgid "Button with Text"
+msgstr ""
+
+#: inc/codebean_functions.php:527
+msgid "Capitalize"
+msgstr ""
+
+#: inc/lib/vc/cdb_gallery_carousel/map.php:29
+#: inc/lib/vc/cdb_gallery_carousel/map.php:37
+#: inc/lib/vc/cdb_gallery_carousel/map.php:45
+msgid "Carousel"
+msgstr ""
+
+#: inc/lib/vc/cdb_gallery_carousel/map.php:41
+msgid "Carousel Loop"
+msgstr ""
+
+#: inc/codebean_woocommerce.php:210
+msgid "Cart"
+msgstr ""
+
+#: inc/lib/vc/cdb_course_categories/map.php:16
+msgid "Categories Display"
+msgstr ""
+
+#: woocommerce/content-single-product.php:69
+msgid "Category"
+msgstr ""
+
+#: inc/lib/vc/cdb_portfolio/map.php:22
+msgid "Category Filter"
+msgstr ""
+
+#: inc/lib/vc/cdb_button/map.php:61
+msgid "Center"
+msgstr ""
+
+#: inc/lib/vc/cdb_countdown_timer/map.php:50
+msgid "center"
+msgstr ""
+
+#: inc/codebean_options.php:853 inc/codebean_options.php:863
+msgid "Centered"
+msgstr ""
+
+#: inc/codebean_functions.php:328
+msgid "Certifitcate"
+msgstr ""
+
+#: inc/codebean_woocommerce.php:58
+msgid "Choose a Teacher"
+msgstr ""
+
+#: inc/lib/vc/cdb_course_lessons/map.php:74
+msgid "Choose Badge"
+msgstr ""
+
+#: inc/codebean_options.php:927
+msgid "Choose columns for courses grid"
+msgstr ""
+
+#: inc/codebean_options.php:233
+msgid "Choose link you want to add on button"
+msgstr ""
+
+#: inc/codebean_options.php:755
+msgid "Choose social networks that visitors can share your blog post"
+msgstr ""
+
+#: inc/codebean_options.php:965
+msgid "Choose social networks that visitors can share your course"
+msgstr ""
+
+#: inc/codebean_options.php:661
+msgid "Choose the form you want to show blog posts"
+msgstr ""
+
+#: inc/codebean_options.php:782
+msgid "Choose your footer color scheme"
+msgstr ""
+
+#: inc/codebean_options.php:145 inc/lib/vc/cdb_icon_boxes/map.php:58
+msgid "Circle"
+msgstr ""
+
+#: inc/lib/vc/cdb_clients/map.php:82
+msgid "Client Logo"
+msgstr ""
+
+#: inc/lib/vc/cdb_clients/map.php:5
+msgid "Clients"
+msgstr ""
+
+#: inc/lib/vc/cdb_clients/map.php:12
+msgid "Clients per Row"
+msgstr ""
+
+#: inc/codebean_actions.php:272 inc/tgm/tgm-plugin-registration.php:48
+msgid "CMB2"
+msgstr ""
+
+#. Author of the theme
+msgid "CodeBean Team"
+msgstr ""
+
+#: inc/lib/vc/cdb_button/map.php:38
+msgid "Color"
+msgstr ""
+
+#: inc/lib/vc/cdb_animated_counter/map.php:26
+msgid "Color scheme"
+msgstr ""
+
+#: inc/lib/vc/cdb_blog_posts/map.php:22
+#: inc/lib/vc/cdb_featured_courses/map.php:25
+#: inc/lib/vc/cdb_portfolio/map.php:33 inc/lib/vc/cdb_teachers_grid/map.php:17
+msgid "Columns"
+msgstr ""
+
+#: comments.php:48
+msgid "Comments are closed"
+msgstr ""
+
+#: comments.php:54
+msgid "Comments are closed."
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:61
+msgid "Confirm new password"
+msgstr ""
+
+#: inc/widgets/contacts.php:71
+msgid "Contact"
+msgstr ""
+
+#: inc/codebean_actions.php:285 inc/tgm/tgm-plugin-registration.php:66
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/widgets/contacts.php:12
+msgid "Contacts widget"
+msgstr ""
+
+#: inc/lib/vc/cdb_pricing_table/map.php:62
+msgid "Content"
+msgstr ""
+
+#: inc/lib/vc/cdb_box_content/map.php:5
+msgid "Content Box"
+msgstr ""
+
+#: inc/lib/vc/cdb_pricing_table/map.php:64
+msgid "content content content"
+msgstr ""
+
+#: inc/codebean_options.php:844
+msgid "Copyrights"
+msgstr ""
+
+#: inc/codebean_options.php:850 inc/codebean_options.php:860
+msgid "Copyrights layout"
+msgstr ""
+
+#: inc/codebean_options.php:871
+msgid "Copyrights text"
+msgstr ""
+
+#: inc/lib/vc/cdb_countdown_timer/map.php:5
+msgid "Countdown timer"
+msgstr ""
+
+#: woocommerce/cart/cart.php:137
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:137
+msgid "Coupon:"
+msgstr ""
+
+#: inc/lib/vc/cdb_course_categories/map.php:7
+msgid "Course Categories"
+msgstr ""
+
+#: inc/codebean_functions.php:294
+msgid "Course Details"
+msgstr ""
+
+#: woocommerce/content-single-product-meta-side.php:47
+msgid "Course Features"
+msgstr ""
+
+#: inc/lib/vc/cdb_course_lessons/map.php:35
+msgid "Course lesson"
+msgstr ""
+
+#: inc/lib/vc/cdb_course_lessons/map.php:5
+msgid "Course Lessons"
+msgstr ""
+
+#: inc/codebean_options.php:898
+msgid "Course Settings"
+msgstr ""
+
+#: inc/codebean_options.php:973
+msgid "Course share text"
+msgstr ""
+
+#: inc/codebean_options.php:891
+msgid "Courses"
+msgstr ""
+
+#: inc/codebean_options.php:926
+msgid "Courses Columns"
+msgstr ""
+
+#: inc/codebean_options.php:939
+msgid "Courses per page"
+msgstr ""
+
+#: inc/lib/vc/cdb_portfolio/map.php:18
+msgid "Create WordPress loop, to populate content from your site."
+msgstr ""
+
+#: inc/lib/vc/cdb_blog_posts/map.php:18
+msgid "Create WordPress loop, to populate only blog posts from your site."
+msgstr ""
+
+#: inc/lib/vc/cdb_featured_courses/map.php:21
+msgid "Create WordPress loop, to populate products from your site."
+msgstr ""
+
+#: inc/lib/vc/cdb_blog_posts/map.php:43
+#: inc/lib/vc/cdb_course_lessons/map.php:24
+#: inc/lib/vc/cdb_events_list/map.php:25
+#: inc/lib/vc/cdb_featured_courses/map.php:46
+#: inc/lib/vc/cdb_gallery_carousel/map.php:90
+#: inc/lib/vc/cdb_google_map/map.php:73 inc/lib/vc/cdb_portfolio/map.php:55
+#: inc/lib/vc/cdb_pricing_table/map.php:75
+#: inc/lib/vc/cdb_teacher_detail/map.php:11
+#: inc/lib/vc/cdb_teachers_grid/map.php:38
+msgid "Css"
+msgstr ""
+
+#: inc/lib/vc/cdb_pricing_table/map.php:32
+msgid "Currency"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:53
+msgid "Current password (leave blank to leave unchanged)"
+msgstr ""
+
+#: inc/lib/vc/cdb_animated_counter/map.php:31
+msgid "Custom"
+msgstr ""
+
+#: inc/codebean_options.php:251
+msgid "Custom button link"
+msgstr ""
+
+#: inc/codebean_options.php:245
+msgid "Custom button text"
+msgstr ""
+
+#: inc/lib/vc/cdb_icon_boxes/map.php:83
+msgid "Custom Icon Size (px)"
+msgstr ""
+
+#: inc/lib/vc/cdb_icon_boxes/map.php:35
+msgid "Custom Image"
+msgstr ""
+
+#: inc/codebean_options.php:237 inc/lib/vc/cdb_gallery_carousel/map.php:53
+msgid "Custom link"
+msgstr ""
+
+#: inc/lib/vc/cdb_gallery_carousel/map.php:60
+msgid "Custom links"
+msgstr ""
+
+#: inc/lib/vc/cdb_animated_counter/map.php:38
+msgid "Custom text color"
+msgstr ""
+
+#: inc/codebean_options.php:275 inc/codebean_options.php:785
+#: inc/lib/vc/cdb_animated_counter/map.php:29
+msgid "Dark"
+msgstr ""
+
+#: inc/lib/vc/cdb_countdown_timer/map.php:11
+msgid "Date"
+msgstr ""
+
+#: inc/codebean_actions.php:136
+msgid "days"
+msgstr ""
+
+#: inc/templates/portfolio/portfolio-cat.php:19
+msgid "Default"
+msgstr ""
+
+#: inc/templates/portfolio/portfolio-cat.php:21
+#: inc/lib/vc/cdb_course_categories/map.php:41
+msgid "Descending"
+msgstr ""
+
+#: inc/lib/vc/cdb_clients/map.php:103
+msgid "Description"
+msgstr ""
+
+#: inc/lib/vc/cdb_animated_counter/map.php:55
+#: inc/lib/vc/cdb_blog_posts/map.php:45 inc/lib/vc/cdb_box_content/map.php:23
+#: inc/lib/vc/cdb_button/map.php:78 inc/lib/vc/cdb_clients/map.php:74
+#: inc/lib/vc/cdb_countdown_timer/map.php:65
+#: inc/lib/vc/cdb_course_lessons/map.php:26
+#: inc/lib/vc/cdb_events_list/map.php:27
+#: inc/lib/vc/cdb_featured_courses/map.php:48
+#: inc/lib/vc/cdb_gallery_carousel/map.php:92
+#: inc/lib/vc/cdb_google_map/map.php:75 inc/lib/vc/cdb_icon_boxes/map.php:233
+#: inc/lib/vc/cdb_portfolio/map.php:57 inc/lib/vc/cdb_pricing_table/map.php:77
+#: inc/lib/vc/cdb_section_heading/map.php:43
+#: inc/lib/vc/cdb_social_networks/map.php:42
+#: inc/lib/vc/cdb_teacher_detail/map.php:13
+#: inc/lib/vc/cdb_teachers_grid/map.php:40
+#: inc/lib/vc/cdb_testimonials/map.php:33
+msgid "Design options"
+msgstr ""
+
+#: woocommerce/content-single-product.php:172
+msgid "Detailed Rating"
+msgstr ""
+
+#: inc/codebean_functions.php:265
+msgid "Disable breadcrumbs"
+msgstr ""
+
+#: inc/codebean_functions.php:272
+msgid "Disable footer widgets"
+msgstr ""
+
+#: inc/lib/vc/cdb_google_map/map.php:62
+msgid "Disable map zoom on mouse wheel scroll"
+msgstr ""
+
+#: inc/codebean_functions.php:258
+msgid "Disable Page title"
+msgstr ""
+
+#: inc/codebean_functions.php:279
+msgid "Disable sub-footer"
+msgstr ""
+
+#: inc/codebean_functions.php:286
+msgid "Disable top-bar"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/codebean_options.php:714
+msgid "Display Article Navigation?"
+msgstr ""
+
+#: inc/codebean_options.php:707
+msgid "Display Author Info?"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:37
+msgid "Display name"
+msgstr ""
+
+#: inc/codebean_options.php:1022
+msgid "Display Portfolio Navigation?"
+msgstr ""
+
+#: inc/lib/vc/cdb_social_networks/map.php:17
+msgid "Display type"
+msgstr ""
+
+#: inc/codebean_options.php:715
+msgid "Displays article navigation after post content."
+msgstr ""
+
+#: inc/codebean_options.php:708
+msgid ""
+"Displays author information at the bottom. Will only be displayed if the "
+"author description is filled."
+msgstr ""
+
+#: inc/codebean_options.php:1023
+msgid "Displays portfolio item navigation after content."
+msgstr ""
+
+#: inc/codebean_functions.php:312
+msgid "Duration"
+msgstr ""
+
+#: inc/codebean_functions.php:313
+msgid "Duration of course in hours"
+msgstr ""
+
+#: inc/widgets/contacts.php:108
+msgid "E-mail:"
+msgstr ""
+
+#: inc/codebean_filters.php:104 inc/codebean_filters.php:265
+#: woocommerce/single-product-reviews.php:72
+msgid "Email"
+msgstr ""
+
+#: inc/codebean_options.php:306
+msgid "Email Address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:43
+#: woocommerce/myaccount/form-login.php:93
+msgid "Email address"
+msgstr ""
+
+#: inc/codebean_options.php:746
+msgid "Enable or disable sharing blog post on social networks"
+msgstr ""
+
+#: inc/codebean_options.php:956
+msgid "Enable or disable sharing course on social networks"
+msgstr ""
+
+#: inc/codebean_options.php:136 inc/codebean_options.php:142
+msgid "Enable Preloader"
+msgstr ""
+
+#: inc/lib/vc/cdb_gallery_carousel/map.php:43
+msgid "Enables loop mode for carousel"
+msgstr ""
+
+#: inc/lib/vc/cdb_testimonials/map.php:21
+msgid "Enables loop mode for slider"
+msgstr ""
+
+#: wp-events-manager/content-single-event.php:59
+msgid "End Time"
+msgstr ""
+
+#: inc/codebean_filters.php:264
+#, php-format
+msgid "Enjoy our funniest story: %s"
+msgstr ""
+
+#: inc/lib/vc/cdb_button/map.php:13
+msgid "Enter a button title."
+msgstr ""
+
+#: inc/codebean_options.php:155
+msgid "Enter here the secret api key you have created on Google APIs"
+msgstr ""
+
+#: inc/lib/vc/cdb_clients/map.php:62 inc/lib/vc/cdb_gallery_carousel/map.php:21
+#: inc/lib/vc/cdb_testimonials/map.php:70
+msgid ""
+"Enter image size. Example: \"thumbnail\", \"medium\", \"large\", \"full\" or "
+"other sizes defined by current theme. Alternatively enter image size in "
+"pixels: 200x100 (Width x Height). Leave empty to use \"thumbnail\" size."
+msgstr ""
+
+#: searchform.php:9
+msgid "Enter keyword..."
+msgstr ""
+
+#: inc/lib/vc/cdb_gallery_carousel/map.php:62
+msgid ""
+"Enter links for each slide (Note: divide links with linebreaks (Enter))."
+msgstr ""
+
+#: inc/lib/vc/cdb_google_map/map.php:21
+msgid "Enter map height in px"
+msgstr ""
+
+#: inc/lib/vc/cdb_google_map/map.php:14
+msgid "Enter map width in px or %"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:56
+msgid "Enter your full address to see shipping costs."
+msgstr ""
+
+#: inc/codebean_actions.php:215
+msgid "Events - Sidebar"
+msgstr ""
+
+#: inc/lib/vc/cdb_events_list/map.php:4
+msgid "Events List"
+msgstr ""
+
+#: inc/lib/vc/cdb_events_list/map.php:11
+msgid "Events per page"
+msgstr ""
+
+#: inc/codebean_options.php:767
+msgid "Every footer option is included here."
+msgstr ""
+
+#: inc/lib/vc/cdb_course_lessons/map.php:76
+msgid "Exam"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: inc/lib/vc/cdb_animated_counter/map.php:47
+#: inc/lib/vc/cdb_blog_posts/map.php:36 inc/lib/vc/cdb_box_content/map.php:15
+#: inc/lib/vc/cdb_button/map.php:70 inc/lib/vc/cdb_clients/map.php:66
+#: inc/lib/vc/cdb_clients/map.php:115 inc/lib/vc/cdb_countdown_timer/map.php:57
+#: inc/lib/vc/cdb_course_lessons/map.php:18
+#: inc/lib/vc/cdb_events_list/map.php:18
+#: inc/lib/vc/cdb_featured_courses/map.php:38
+#: inc/lib/vc/cdb_gallery_carousel/map.php:84
+#: inc/lib/vc/cdb_google_map/map.php:67 inc/lib/vc/cdb_icon_boxes/map.php:225
+#: inc/lib/vc/cdb_portfolio/map.php:48 inc/lib/vc/cdb_pricing_table/map.php:69
+#: inc/lib/vc/cdb_section_heading/map.php:35
+#: inc/lib/vc/cdb_social_networks/map.php:34
+#: inc/lib/vc/cdb_teachers_grid/map.php:32
+#: inc/lib/vc/cdb_testimonials/map.php:25
+#: inc/lib/vc/cdb_testimonials/map.php:80
+msgid "Extra class name"
+msgstr ""
+
+#: inc/codebean_functions.php:509
+msgid "Extra-Bold 800"
+msgstr ""
+
+#: inc/codebean_functions.php:503
+msgid "Extra-Light 200"
+msgstr ""
+
+#: inc/lib/vc/cdb_button/map.php:6
+msgid "Eye catching button"
+msgstr ""
+
+#: inc/codebean_options.php:124
+msgid "Favicon image"
+msgstr ""
+
+#: inc/codebean_options.php:131
+msgid "Favicon retina image"
+msgstr ""
+
+#: inc/widgets/contacts.php:104
+msgid "Fax:"
+msgstr ""
+
+#: inc/lib/vc/cdb_featured_courses/map.php:7
+msgid "Featured Courses"
+msgstr ""
+
+#: inc/lib/vc/cdb_button/map.php:29
+msgid "Filled"
+msgstr ""
+
+#: inc/templates/portfolio/portfolio-cat.php:5
+msgid "Filter Controls"
+msgstr ""
+
+#: inc/lib/vc/cdb_countdown_timer/map.php:14
+msgid "Final date in the format Y/m/d. For example 2017/12/12"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:27
+msgid "First name"
+msgstr ""
+
+#: inc/codebean_options.php:765
+msgid "Footer"
+msgstr ""
+
+#: inc/codebean_actions.php:193
+msgid "Footer "
+msgstr ""
+
+#: inc/codebean_options.php:793
+msgid "Footer background"
+msgstr ""
+
+#: inc/codebean_options.php:811
+msgid "Footer Columns"
+msgstr ""
+
+#: inc/codebean_options.php:781
+msgid "Footer text color"
+msgstr ""
+
+#: inc/codebean_options.php:774
+msgid "Footer Visibility"
+msgstr ""
+
+#: inc/codebean_options.php:803
+msgid "Footer Widgets"
+msgstr ""
+
+#: inc/codebean_options.php:678 inc/codebean_options.php:931
+#: inc/codebean_options.php:994
+msgid "Four Columns"
+msgstr ""
+
+#: inc/lib/vc/cdb_course_lessons/map.php:79
+msgid "Free"
+msgstr ""
+
+#: vc_templates/cdb_featured_courses.php:83 woocommerce/content-product.php:98
+msgid "Free Course!"
+msgstr ""
+
+#: inc/codebean_woocommerce.php:156 inc/codebean_woocommerce.php:158
+msgid "Free!"
+msgstr ""
+
+#: inc/lib/vc/cdb_button/map.php:63
+msgid "Full"
+msgstr ""
+
+#: inc/lib/vc/cdb_gallery_carousel/map.php:5
+msgid "Gallery Carosuel"
+msgstr ""
+
+#: inc/codebean_options.php:112
+msgid "General"
+msgstr ""
+
+#: inc/templates/header/header-main.php:63
+msgid "Get Started"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:88
+msgid "Good"
+msgstr ""
+
+#: inc/codebean_options.php:154
+msgid "Google API Key"
+msgstr ""
+
+#: inc/lib/vc/cdb_google_map/map.php:4
+msgid "Google Map"
+msgstr ""
+
+#: inc/codebean_options.php:665
+msgid "Grid View"
+msgstr ""
+
+#: inc/codebean_options.php:470
+msgid "H1"
+msgstr ""
+
+#: inc/codebean_options.php:499
+msgid "H2"
+msgstr ""
+
+#: inc/codebean_options.php:528
+msgid "H3"
+msgstr ""
+
+#: inc/codebean_options.php:557
+msgid "H4"
+msgstr ""
+
+#: inc/codebean_options.php:586
+msgid "H5"
+msgstr ""
+
+#: inc/codebean_options.php:615
+msgid "H6"
+msgstr ""
+
+#: inc/codebean_options.php:163
+msgid "Header"
+msgstr ""
+
+#: inc/codebean_options.php:177
+msgid "Header height"
+msgstr ""
+
+#: inc/codebean_options.php:170
+msgid "Header Layout"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3594
+#: inc/tgm/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: inc/lib/vc/cdb_course_categories/map.php:48
+msgid "Hide Empty"
+msgstr ""
+
+#: inc/codebean_actions.php:137
+msgid "hours"
+msgstr ""
+
+#: inc/lib/vc/cdb_clients/map.php:48
+msgid "Hover Style"
+msgstr ""
+
+#: inc/codebean_options.php:672
+msgid "How many columns you want in a row"
+msgstr ""
+
+#: inc/lib/vc/cdb_course_categories/map.php:28
+msgid "How many product categories to display?"
+msgstr ""
+
+#: inc/codebean_options.php:990
+msgid "How many projects you want to show per row"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://codebean.co"
+msgstr ""
+
+#. URI of the theme
+msgid "http://codebean.co/studiare/"
+msgstr ""
+
+#: inc/lib/vc/cdb_course_lessons/map.php:59
+#: inc/lib/vc/cdb_icon_boxes/map.php:27
+msgid "Icon"
+msgstr ""
+
+#: inc/lib/vc/cdb_icon_boxes/map.php:116
+msgid "Icon Background Color"
+msgstr ""
+
+#: inc/lib/vc/cdb_icon_boxes/map.php:118
+msgid "Icon Background Color (only for square and circle icon type)"
+msgstr ""
+
+#: inc/lib/vc/cdb_icon_boxes/map.php:135
+msgid "Icon Border Color"
+msgstr ""
+
+#: inc/lib/vc/cdb_icon_boxes/map.php:5
+msgid "Icon Boxes"
+msgstr ""
+
+#: inc/lib/vc/cdb_icon_boxes/map.php:110
+msgid "Icon Color"
+msgstr ""
+
+#: inc/lib/vc/cdb_icon_boxes/map.php:19
+msgid "Icon Font"
+msgstr ""
+
+#: inc/lib/vc/cdb_icon_boxes/map.php:89
+msgid "Icon Margin"
+msgstr ""
+
+#: inc/lib/vc/cdb_social_networks/map.php:21
+msgid "Icon Only"
+msgstr ""
+
+#: inc/lib/vc/cdb_icon_boxes/map.php:41
+msgid "Icon Position"
+msgstr ""
+
+#: inc/lib/vc/cdb_icon_boxes/map.php:65 inc/lib/vc/cdb_icon_boxes/map.php:79
+#: inc/lib/vc/cdb_icon_boxes/map.php:85 inc/lib/vc/cdb_icon_boxes/map.php:94
+#: inc/lib/vc/cdb_icon_boxes/map.php:106 inc/lib/vc/cdb_icon_boxes/map.php:112
+#: inc/lib/vc/cdb_icon_boxes/map.php:120 inc/lib/vc/cdb_icon_boxes/map.php:131
+#: inc/lib/vc/cdb_icon_boxes/map.php:139 inc/lib/vc/cdb_icon_boxes/map.php:147
+msgid "Icon Settings"
+msgstr ""
+
+#: inc/lib/vc/cdb_icon_boxes/map.php:69
+msgid "Icon Size"
+msgstr ""
+
+#: inc/lib/vc/cdb_icon_boxes/map.php:54
+msgid "Icon Style"
+msgstr ""
+
+#: inc/lib/vc/cdb_icon_boxes/map.php:16
+msgid "Icon Type"
+msgstr ""
+
+#: inc/lib/vc/cdb_gallery_carousel/map.php:27
+#: inc/lib/vc/cdb_testimonials/map.php:15
+msgid "If \"YES\" pagination control will be added"
+msgstr ""
+
+#: inc/lib/vc/cdb_gallery_carousel/map.php:35
+msgid "If \"YES\" prev/next control will be added"
+msgstr ""
+
+#: inc/lib/vc/cdb_course_lessons/map.php:46
+msgid ""
+"If this is video you can put video length or any other detail as short "
+"description"
+msgstr ""
+
+#: inc/lib/vc/cdb_animated_counter/map.php:49
+#: inc/lib/vc/cdb_blog_posts/map.php:39 inc/lib/vc/cdb_box_content/map.php:17
+#: inc/lib/vc/cdb_button/map.php:72 inc/lib/vc/cdb_clients/map.php:68
+#: inc/lib/vc/cdb_clients/map.php:117 inc/lib/vc/cdb_countdown_timer/map.php:59
+#: inc/lib/vc/cdb_course_lessons/map.php:20
+#: inc/lib/vc/cdb_events_list/map.php:21
+#: inc/lib/vc/cdb_featured_courses/map.php:41
+#: inc/lib/vc/cdb_gallery_carousel/map.php:86
+#: inc/lib/vc/cdb_icon_boxes/map.php:227 inc/lib/vc/cdb_portfolio/map.php:51
+#: inc/lib/vc/cdb_pricing_table/map.php:71
+#: inc/lib/vc/cdb_section_heading/map.php:37
+#: inc/lib/vc/cdb_social_networks/map.php:36
+#: inc/lib/vc/cdb_teachers_grid/map.php:34
+#: inc/lib/vc/cdb_testimonials/map.php:27
+#: inc/lib/vc/cdb_testimonials/map.php:82
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: inc/lib/vc/cdb_clients/map.php:89 inc/lib/vc/cdb_icon_boxes/map.php:20
+msgid "Image"
+msgstr ""
+
+#: inc/lib/vc/cdb_clients/map.php:37
+msgid "Image Borders"
+msgstr ""
+
+#: inc/lib/vc/cdb_clients/map.php:54
+msgid "Image Color"
+msgstr ""
+
+#: inc/lib/vc/cdb_gallery_carousel/map.php:18
+msgid "Image Size"
+msgstr ""
+
+#: inc/lib/vc/cdb_clients/map.php:60 inc/lib/vc/cdb_testimonials/map.php:68
+msgid "Image size"
+msgstr ""
+
+#: inc/lib/vc/cdb_gallery_carousel/map.php:11
+msgid "Images"
+msgstr ""
+
+#: inc/codebean_options.php:266
+msgid "Information about the header"
+msgstr ""
+
+#: inc/lib/vc/cdb_box_content/map.php:6
+msgid "Insert content block"
+msgstr ""
+
+#: inc/lib/vc/cdb_icon_boxes/map.php:6
+msgid "Insert icon box"
+msgstr ""
+
+#: inc/lib/vc/cdb_pricing_table/map.php:6
+msgid "Insert pricing table with icon"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#. %2$s: plugin name in screen reader markup
+#: inc/tgm/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#. 1: install status, 2: update status
+#: inc/tgm/class-tgm-plugin-activation.php:2427
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#. 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. %s: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/codebean_functions.php:349
+msgid "Intro Video URL"
+msgstr ""
+
+#: comments.php:26
+msgid "Join the discussion and tell us your opinion."
+msgstr ""
+
+#: inc/lib/vc/cdb_animated_counter/map.php:19
+msgid "Label"
+msgstr ""
+
+#: inc/codebean_functions.php:342
+msgid "Language"
+msgstr ""
+
+#: woocommerce/content-single-product-meta-side.php:58
+msgid "Language:"
+msgstr ""
+
+#: inc/lib/vc/cdb_button/map.php:48 inc/lib/vc/cdb_countdown_timer/map.php:23
+#: inc/lib/vc/cdb_icon_boxes/map.php:74
+msgid "Large"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:31
+msgid "Last name"
+msgstr ""
+
+#: inc/lib/vc/cdb_google_map/map.php:30
+msgid "Latitude"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:65
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: inc/lib/vc/cdb_course_lessons/map.php:78
+msgid "Lecture"
+msgstr ""
+
+#: inc/lib/vc/cdb_button/map.php:60 inc/lib/vc/cdb_icon_boxes/map.php:45
+msgid "Left"
+msgstr ""
+
+#: inc/lib/vc/cdb_countdown_timer/map.php:49
+msgid "left"
+msgstr ""
+
+#: inc/lib/vc/cdb_course_lessons/map.php:34
+msgid "Lesson"
+msgstr ""
+
+#: inc/lib/vc/cdb_course_lessons/map.php:71
+msgid "Lesson badge"
+msgstr ""
+
+#: inc/lib/vc/cdb_course_lessons/map.php:48
+msgid "Lesson subtitle"
+msgstr ""
+
+#: inc/lib/vc/cdb_course_lessons/map.php:41
+msgid "Lesson title"
+msgstr ""
+
+#: inc/codebean_functions.php:320
+msgid "Lessons"
+msgstr ""
+
+#: inc/codebean_options.php:276 inc/codebean_options.php:786
+#: inc/lib/vc/cdb_animated_counter/map.php:30
+msgid "Light"
+msgstr ""
+
+#: inc/codebean_functions.php:504
+msgid "Light 300"
+msgstr ""
+
+#: inc/lib/vc/cdb_countdown_timer/map.php:39
+#: inc/lib/vc/cdb_social_networks/map.php:28
+msgid "Light?"
+msgstr ""
+
+#: inc/lib/vc/cdb_gallery_carousel/map.php:52
+msgid "Lightbox"
+msgstr ""
+
+#: inc/lib/vc/cdb_button/map.php:31 inc/lib/vc/cdb_clients/map.php:109
+msgid "Link"
+msgstr ""
+
+#: inc/codebean_options.php:1085
+msgid "Link Target"
+msgstr ""
+
+#: inc/codebean_options.php:236
+msgid "Link to account"
+msgstr ""
+
+#: inc/codebean_options.php:664
+msgid "List View"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:56
+msgid "Log in"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:37
+msgid "Login"
+msgstr ""
+
+#: inc/codebean_options.php:190
+msgid "Logo image"
+msgstr ""
+
+#: inc/codebean_options.php:195
+msgid "Logo image maximum width (px)"
+msgstr ""
+
+#: inc/codebean_options.php:210
+msgid "Logo image padding"
+msgstr ""
+
+#: inc/lib/vc/cdb_google_map/map.php:36
+msgid "Longitude"
+msgstr ""
+
+#: inc/templates/login-modal.php:37 woocommerce/myaccount/form-login.php:62
+msgid "Lost your password?"
+msgstr ""
+
+#: inc/codebean_functions.php:529
+msgid "Lowercase"
+msgstr ""
+
+#: inc/codebean_actions.php:291 inc/tgm/tgm-plugin-registration.php:72
+msgid "MailChimp for WordPress"
+msgstr ""
+
+#: inc/codebean_actions.php:49
+msgid "Main Header Menu"
+msgstr ""
+
+#: inc/lib/vc/cdb_clients/map.php:111
+msgid "Make client logo clickable (Optional)."
+msgstr ""
+
+#: inc/lib/vc/cdb_google_map/map.php:18
+msgid "Map Height"
+msgstr ""
+
+#: inc/lib/vc/cdb_google_map/map.php:11
+msgid "Map Width"
+msgstr ""
+
+#: inc/lib/vc/cdb_google_map/map.php:42
+msgid "Map Zoom"
+msgstr ""
+
+#: inc/lib/vc/cdb_icon_boxes/map.php:92
+msgid "Margin should be set in a top right bottom left format"
+msgstr ""
+
+#: inc/lib/vc/cdb_button/map.php:49 inc/lib/vc/cdb_countdown_timer/map.php:22
+#: inc/lib/vc/cdb_icon_boxes/map.php:73
+msgid "Medium"
+msgstr ""
+
+#: inc/codebean_functions.php:506
+msgid "Medium 500"
+msgstr ""
+
+#: inc/codebean_options.php:416
+msgid "Menu"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/codebean_actions.php:138
+msgid "minutes"
+msgstr ""
+
+#: inc/codebean_options.php:324
+msgid "Mobile Navigation"
+msgstr ""
+
+#: inc/codebean_actions.php:50
+msgid "Mobile Side Menu"
+msgstr ""
+
+#: inc/templates/blog/single.php:80
+#, php-format
+msgid "More Posts by %s"
+msgstr ""
+
+#: inc/templates/header/header-main.php:61
+msgid "My Account"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:70
+#: inc/lib/vc/cdb_testimonials/map.php:49
+msgid "Name"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:57
+msgid "New password (leave blank to leave unchanged)"
+msgstr ""
+
+#: inc/codebean_options.php:1090
+msgid "New Window"
+msgstr ""
+
+#: inc/codebean_actions.php:238
+msgid "Newer"
+msgstr ""
+
+#: inc/templates/page-title.php:21 inc/templates/page-title.php:22
+msgid "News"
+msgstr ""
+
+#: inc/codebean_functions.php:568
+msgid "Next page"
+msgstr ""
+
+#: inc/codebean_options.php:750 inc/codebean_options.php:960
+#: inc/lib/vc/cdb_clients/map.php:41
+#: inc/lib/vc/cdb_course_categories/map.php:52
+#: inc/lib/vc/cdb_portfolio/map.php:26 inc/lib/vc/cdb_pricing_table/map.php:41
+msgid "No"
+msgstr ""
+
+#. 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/codebean_woocommerce.php:18
+msgid "No available seats"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/templates/not-found.php:6
+msgid "No Posts Found"
+msgstr ""
+
+#: woocommerce/loop/no-products-found.php:29
+msgid "No Products Found"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:84
+msgid "No products in the cart."
+msgstr ""
+
+#: woocommerce/loop/no-products-found.php:30
+msgid "No products were found matching your selection."
+msgstr ""
+
+#: inc/codebean_options.php:691 inc/codebean_options.php:910
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/lib/vc/cdb_clients/map.php:30
+msgid "No spacing"
+msgstr ""
+
+#: woocommerce/loop/rating.php:41
+msgid "No Votes"
+msgstr ""
+
+#: inc/codebean_functions.php:526 inc/codebean_options.php:1006
+#: inc/lib/vc/cdb_clients/map.php:52 inc/lib/vc/cdb_gallery_carousel/map.php:54
+msgid "None"
+msgstr ""
+
+#: inc/lib/vc/cdb_icon_boxes/map.php:57
+msgid "Normal"
+msgstr ""
+
+#: header.php:45
+#, php-format
+msgid "Not a member yet? %1$sSign Up%2$s"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:90
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/loop/rating.php:40
+msgid "Not yet rated"
+msgstr ""
+
+#: inc/lib/vc/cdb_portfolio/map.php:43
+msgid "Number of columns to show portfolio items."
+msgstr ""
+
+#: inc/lib/vc/cdb_teachers_grid/map.php:27
+msgid "Number of columns to show teacher items."
+msgstr ""
+
+#: inc/codebean_options.php:940
+msgid "Number of courses per page"
+msgstr ""
+
+#: inc/codebean_functions.php:321
+msgid "Number of lessons included on course"
+msgstr ""
+
+#: inc/codebean_options.php:1014
+msgid "Number of portfolio per page"
+msgstr ""
+
+#: inc/codebean_actions.php:248
+msgid "Older"
+msgstr ""
+
+#: inc/lib/vc/cdb_gallery_carousel/map.php:49
+msgid "On click action"
+msgstr ""
+
+#: inc/codebean_options.php:1004
+msgid "On Left"
+msgstr ""
+
+#: inc/codebean_options.php:1005
+msgid "On Right"
+msgstr ""
+
+#: inc/codebean_options.php:675
+msgid "One Column"
+msgstr ""
+
+#: inc/lib/vc/cdb_icon_boxes/map.php:137 inc/lib/vc/cdb_icon_boxes/map.php:145
+msgid "Only for Square and Circle Icon type"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:105
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: inc/lib/vc/cdb_teacher_detail/map.php:6
+msgid "Only on expert page"
+msgstr ""
+
+#: inc/lib/vc/cdb_gallery_carousel/map.php:71
+msgid "Open in new tab"
+msgstr ""
+
+#: inc/codebean_options.php:1086
+msgid "Open social links in new window or current window"
+msgstr ""
+
+#: inc/lib/vc/cdb_animated_counter/map.php:13
+msgid "Our final point. For ex.: 95"
+msgstr ""
+
+#: inc/codebean_functions.php:215
+msgid "Page not found"
+msgstr ""
+
+#: inc/codebean_functions.php:250
+msgid "Page Settings"
+msgstr ""
+
+#: inc/templates/blog/single.php:52
+msgid "Pages:"
+msgstr ""
+
+#: inc/lib/vc/cdb_course_categories/map.php:20
+msgid "Parent Categories + Subcategories"
+msgstr ""
+
+#: inc/lib/vc/cdb_course_categories/map.php:19
+msgid "Parent Categories Only"
+msgstr ""
+
+#: inc/lib/vc/cdb_clients/map.php:6
+msgid "Partners/clients logos"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:48
+#: woocommerce/myaccount/form-login.php:100
+msgid "Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:49
+msgid "Password change"
+msgstr ""
+
+#: inc/templates/login-modal.php:26
+msgid "Password:"
+msgstr ""
+
+#: inc/lib/vc/cdb_google_map/map.php:51
+msgid ""
+"Paste the style code here. Browse map styles in <a href=\"https://snazzymaps."
+"com/\"\">SnazzyMaps</a>."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:87
+msgid "Perfect"
+msgstr ""
+
+#: inc/codebean_options.php:301
+msgid "Phone Number"
+msgstr ""
+
+#: inc/widgets/contacts.php:100
+msgid "Phone:"
+msgstr ""
+
+#: inc/lib/vc/cdb_google_map/map.php:25
+msgid "Pin image"
+msgstr ""
+
+#: inc/codebean_options.php:872
+msgid ""
+"Place here text you want to see in the copyrights area. You can use "
+"shortocdes. Ex.: [social_networks]"
+msgstr ""
+
+#: inc/codebean_options.php:346
+msgid ""
+"Place here text you want to see in the mobile nav footer area. You can use "
+"shortocdes. Ex.: [social_buttons]"
+msgstr ""
+
+#: inc/codebean_options.php:974
+msgid "Place text before course share icons"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1019
+#: inc/tgm/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/lib/vc/cdb_icon_boxes/map.php:126
+msgid "Please insert border radius(Rounded corners) in px. For example: 4 "
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1206
+#: inc/tgm/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:394
+#: inc/tgm/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#. 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2473
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/codebean_options.php:982 inc/lib/vc/cdb_portfolio/map.php:4
+msgid "Portfolio"
+msgstr ""
+
+#: inc/codebean_options.php:1001
+msgid "Portfolio Filters"
+msgstr ""
+
+#: inc/lib/vc/cdb_portfolio/map.php:11
+msgid "Portfolio Items"
+msgstr ""
+
+#: inc/codebean_options.php:1013
+msgid "Portfolio per page"
+msgstr ""
+
+#: inc/tgm/tgm-plugin-registration.php:84
+msgid "Portfolio Post Type"
+msgstr ""
+
+#: inc/templates/blog/grid-postbit.php:40
+#: inc/templates/blog/list-postbit.php:39 inc/templates/blog/single.php:34
+msgid "Posted by"
+msgstr ""
+
+#: inc/lib/vc/cdb_course_lessons/map.php:80
+msgid "Practice"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: vc_templates/cdb_course_lesson.php:43
+msgid "Preview"
+msgstr ""
+
+#: inc/lib/vc/cdb_course_lessons/map.php:85
+msgid "Preview video"
+msgstr ""
+
+#: inc/codebean_functions.php:569
+msgid "Previous page"
+msgstr ""
+
+#: woocommerce/cart/cart.php:34 woocommerce/cart/cart.php:95
+#: woocommerce/single-product/price.php:29
+#: inc/lib/vc/cdb_pricing_table/map.php:26
+msgid "Price"
+msgstr ""
+
+#: inc/lib/vc/cdb_pricing_table/map.php:5
+msgid "Pricing Table"
+msgstr ""
+
+#: inc/codebean_options.php:360
+msgid "Primary Color"
+msgstr ""
+
+#: inc/codebean_filters.php:272
+msgid "Print"
+msgstr ""
+
+#: vc_templates/cdb_course_lesson.php:46
+#: inc/lib/vc/cdb_course_lessons/map.php:54
+msgid "Private"
+msgstr ""
+
+#: woocommerce/cart/cart.php:33 woocommerce/cart/cart.php:77
+msgid "Product"
+msgstr ""
+
+#: inc/lib/vc/cdb_featured_courses/map.php:13
+msgid "Products Query"
+msgstr ""
+
+#: inc/codebean_options.php:989
+msgid "Projects columns"
+msgstr ""
+
+#: inc/lib/vc/cdb_video_banner/map.php:14
+msgid "Put your youtube, vimeo link here."
+msgstr ""
+
+#: woocommerce/cart/cart.php:35 woocommerce/cart/cart.php:101
+msgid "Quantity"
+msgstr ""
+
+#: inc/lib/vc/cdb_course_lessons/map.php:77
+msgid "Quiz"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:86
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/loop/rating.php:37 woocommerce/single-product/rating.php:32
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: woocommerce/content-single-product.php:127
+msgid "Ratings"
+msgstr ""
+
+#: inc/templates/search-results.php:24
+msgid "Read More"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: inc/codebean_actions.php:266 inc/tgm/tgm-plugin-registration.php:13
+msgid "Redux Framework"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:77
+#: woocommerce/myaccount/form-login.php:110
+#: woocommerce/myaccount/form-login.php:110
+msgid "Register"
+msgstr ""
+
+#: inc/codebean_functions.php:505
+msgid "Regular 400"
+msgstr ""
+
+#: woocommerce/single-product/related.php:33
+msgid "Related Courses"
+msgstr ""
+
+#: inc/templates/login-modal.php:35 woocommerce/myaccount/form-login.php:60
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/cart/cart.php:58 woocommerce/cart/mini-cart.php:47
+msgid "Remove this item"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:393
+#: inc/tgm/class-tgm-plugin-activation.php:912
+#: inc/tgm/class-tgm-plugin-activation.php:2618
+#: inc/tgm/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: woocommerce/content-single-product.php:107
+msgid "Reviews"
+msgstr ""
+
+#: inc/tgm/tgm-plugin-registration.php:40
+msgid "Revolution Slider"
+msgstr ""
+
+#: inc/lib/vc/cdb_button/map.php:62 inc/lib/vc/cdb_icon_boxes/map.php:46
+msgid "Right"
+msgstr ""
+
+#: inc/lib/vc/cdb_countdown_timer/map.php:51
+msgid "right"
+msgstr ""
+
+#: inc/lib/vc/cdb_social_networks/map.php:20
+msgid "Rounded Icon"
+msgstr ""
+
+#: inc/codebean_options.php:1089
+msgid "Same Window"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:69
+msgid "Save changes"
+msgstr ""
+
+#: inc/codebean_options.php:883
+msgid "Scroll to top button"
+msgstr ""
+
+#: woocommerce/product-searchform.php:26
+msgid "Search courses&hellip;"
+msgstr ""
+
+#: searchform.php:7 searchform.php:11 bbpress/form-search.php:12
+#: bbpress/form-search.php:14 woocommerce/product-searchform.php:25
+msgid "Search for:"
+msgstr ""
+
+#: inc/codebean_options.php:331
+msgid "Search on mobile"
+msgstr ""
+
+#. 1: separator, 2: search phrase
+#: inc/codebean_functions.php:210
+msgid "Search Results"
+msgstr ""
+
+#: inc/codebean_options.php:369
+msgid "Secondary Color"
+msgstr ""
+
+#: inc/codebean_actions.php:139
+msgid "seconds"
+msgstr ""
+
+#: inc/lib/vc/cdb_section_heading/map.php:5
+msgid "Section Heading"
+msgstr ""
+
+#: inc/lib/vc/cdb_section_heading/map.php:17
+msgid "Section Subtitle"
+msgstr ""
+
+#: inc/lib/vc/cdb_course_lessons/map.php:12
+#: inc/lib/vc/cdb_section_heading/map.php:11
+msgid "Section Title"
+msgstr ""
+
+#: inc/lib/vc/cdb_section_heading/map.php:6
+msgid "Section title, subtitle and button"
+msgstr ""
+
+#: inc/lib/vc/cdb_button/map.php:58
+msgid "Select button alignment."
+msgstr ""
+
+#: inc/lib/vc/cdb_button/map.php:46
+msgid "Select button size."
+msgstr ""
+
+#: inc/lib/vc/cdb_button/map.php:27
+msgid "Select button style."
+msgstr ""
+
+#: inc/codebean_options.php:433
+msgid "Select custom font for menu"
+msgstr ""
+
+#: inc/codebean_options.php:460
+msgid "Select custom font for sub menu"
+msgstr ""
+
+#: inc/codebean_options.php:404
+msgid "Select custom font for your main body text."
+msgstr ""
+
+#: inc/lib/vc/cdb_clients/map.php:56
+msgid "Select hover effect style to apply for client logos."
+msgstr ""
+
+#: inc/lib/vc/cdb_icon_boxes/map.php:29
+msgid "Select icon from library."
+msgstr ""
+
+#: inc/lib/vc/cdb_testimonials/map.php:64
+msgid "Select image from media library."
+msgstr ""
+
+#: inc/lib/vc/cdb_gallery_carousel/map.php:14
+msgid "Select images from media library."
+msgstr ""
+
+#: inc/lib/vc/cdb_featured_courses/map.php:34
+msgid "Select number of columns to show products."
+msgstr ""
+
+#: inc/lib/vc/cdb_social_networks/map.php:23
+msgid "Select style of social network links."
+msgstr ""
+
+#: inc/codebean_functions.php:304
+msgid "Select teacher for this course"
+msgstr ""
+
+#: inc/codebean_functions.php:507
+msgid "Semi-Bold 600"
+msgstr ""
+
+#: inc/lib/vc/cdb_button/map.php:21
+msgid "Set a button link."
+msgstr ""
+
+#: inc/codebean_options.php:687
+msgid "Set blog sidebar position or hide it"
+msgstr ""
+
+#: inc/codebean_options.php:812
+msgid "Set columns layout for footer to split widgets."
+msgstr ""
+
+#: inc/lib/vc/cdb_icon_boxes/map.php:48
+msgid "Set icon position where you want it to show."
+msgstr ""
+
+#: inc/codebean_options.php:196
+msgid "Set maximum width for logo image in the header. In pixels"
+msgstr ""
+
+#: inc/lib/vc/cdb_clients/map.php:22
+msgid "Set number of columns for clients/partners logos."
+msgstr ""
+
+#: inc/lib/vc/cdb_blog_posts/map.php:32
+msgid "Set number of columns to separate blog posts."
+msgstr ""
+
+#: inc/codebean_options.php:906
+msgid "Set shop sidebar position or hide it"
+msgstr ""
+
+#: inc/lib/vc/cdb_clients/map.php:33
+msgid "Set spacing for logo columns."
+msgstr ""
+
+#: inc/lib/vc/cdb_gallery_carousel/map.php:56
+#: inc/lib/vc/cdb_gallery_carousel/map.php:67
+#: inc/lib/vc/cdb_gallery_carousel/map.php:80
+msgid "Settings"
+msgstr ""
+
+#: inc/lib/vc/cdb_icon_boxes/map.php:98
+msgid "Shape Size (px)"
+msgstr ""
+
+#: inc/codebean_options.php:955
+msgid "Share Course"
+msgstr ""
+
+#: inc/codebean_options.php:754 inc/codebean_options.php:964
+msgid "Share on:"
+msgstr ""
+
+#: inc/codebean_options.php:745
+msgid "Share Story"
+msgstr ""
+
+#: inc/codebean_options.php:739 inc/codebean_options.php:949
+msgid "Sharing Settings"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:31
+msgid "Ship to a different address?"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:27
+msgid "Shipping Details"
+msgstr ""
+
+#: inc/codebean_actions.php:204
+msgid "Shop - Sidebar"
+msgstr ""
+
+#: inc/codebean_options.php:338
+msgid "Shopping cart on mobile"
+msgstr ""
+
+#: inc/lib/vc/cdb_blog_posts/map.php:6
+msgid "Show blog posts"
+msgstr ""
+
+#: inc/lib/vc/cdb_pricing_table/map.php:37
+msgid "Show Button"
+msgstr ""
+
+#: inc/lib/vc/cdb_portfolio/map.php:28
+msgid "Show category filter above the portfolio items."
+msgstr ""
+
+#: inc/lib/vc/cdb_course_categories/map.php:8
+msgid "Show course categories grid"
+msgstr ""
+
+#: inc/lib/vc/cdb_course_lessons/map.php:7
+msgid "Show curriculum for course"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3594
+#: inc/tgm/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: inc/lib/vc/cdb_events_list/map.php:6
+msgid "Show events list"
+msgstr ""
+
+#: inc/lib/vc/cdb_featured_courses/map.php:8
+msgid "Show featured courses"
+msgstr ""
+
+#: inc/lib/vc/cdb_gallery_carousel/map.php:6
+msgid "Show gallery in carousel"
+msgstr ""
+
+#: inc/codebean_options.php:775
+msgid "Show or hide footer globally"
+msgstr ""
+
+#: inc/codebean_options.php:804
+msgid "Show or hide footer widgets"
+msgstr ""
+
+#: inc/lib/vc/cdb_gallery_carousel/map.php:25
+#: inc/lib/vc/cdb_testimonials/map.php:13
+msgid "Show Pagination"
+msgstr ""
+
+#: inc/lib/vc/cdb_portfolio/map.php:6
+msgid "Show portfolio items"
+msgstr ""
+
+#: inc/lib/vc/cdb_gallery_carousel/map.php:33
+msgid "Show Prev/Next Buttons"
+msgstr ""
+
+#: inc/lib/vc/cdb_teachers_grid/map.php:7
+msgid "Show teachers grid"
+msgstr ""
+
+#: inc/lib/vc/cdb_video_banner/map.php:6
+msgid "Show your video banner"
+msgstr ""
+
+#: inc/codebean_options.php:226
+msgid "Show/hide button on header right"
+msgstr ""
+
+#: inc/codebean_options.php:317
+msgid "Show/hide cart"
+msgstr ""
+
+#: inc/codebean_options.php:1002
+msgid "Show/hide portfolio filters on side"
+msgstr ""
+
+#: inc/codebean_options.php:311
+msgid "Show/hide search"
+msgstr ""
+
+#: inc/codebean_options.php:332
+msgid "Show/hide search form on mobile navigation"
+msgstr ""
+
+#: inc/codebean_options.php:339
+msgid "Show/hide shopping cart on mobile navigation"
+msgstr ""
+
+#: inc/lib/vc/cdb_animated_counter/map.php:6
+msgid "Shows animated counter with label"
+msgstr ""
+
+#: inc/lib/vc/cdb_countdown_timer/map.php:6
+msgid "Shows countdown timer"
+msgstr ""
+
+#: inc/lib/vc/cdb_google_map/map.php:6
+msgid "Shows Google map block"
+msgstr ""
+
+#: inc/codebean_options.php:695 inc/codebean_options.php:914
+msgid "Sidebar Left"
+msgstr ""
+
+#: inc/codebean_options.php:686 inc/codebean_options.php:905
+msgid "Sidebar Position"
+msgstr ""
+
+#: inc/codebean_options.php:699 inc/codebean_options.php:918
+msgid "Sidebar Right"
+msgstr ""
+
+#: header.php:40 inc/templates/login-modal.php:45
+msgid "Sign In"
+msgstr ""
+
+#: inc/lib/vc/cdb_button/map.php:44 inc/lib/vc/cdb_countdown_timer/map.php:18
+msgid "Size"
+msgstr ""
+
+#: inc/codebean_functions.php:335
+msgid "Skill Level"
+msgstr ""
+
+#: inc/lib/vc/cdb_testimonials/map.php:19
+msgid "Slider Loop"
+msgstr ""
+
+#: inc/lib/vc/cdb_button/map.php:50 inc/lib/vc/cdb_countdown_timer/map.php:21
+#: inc/lib/vc/cdb_icon_boxes/map.php:72
+msgid "Small"
+msgstr ""
+
+#: inc/lib/vc/cdb_clients/map.php:105
+msgid ""
+"Small description about the client/partner, this text area supports HTML too "
+"(shown on hover)."
+msgstr ""
+
+#: inc/lib/vc/cdb_social_networks/map.php:12
+msgid "Social network links"
+msgstr ""
+
+#: inc/codebean_options.php:1067 inc/lib/vc/cdb_social_networks/map.php:11
+msgid "Social Networks"
+msgstr ""
+
+#: inc/codebean_options.php:1078
+msgid "Social Networks Ordering"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/templates/not-found.php:7
+msgid "Sorry, no posts found for your query."
+msgstr ""
+
+#: inc/templates/portfolio/portfolio-cat.php:17
+msgid "Sort Control"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: inc/lib/vc/cdb_clients/map.php:26
+msgid "Spacing"
+msgstr ""
+
+#: inc/lib/vc/cdb_icon_boxes/map.php:59
+msgid "Square"
+msgstr ""
+
+#: inc/codebean_options.php:146
+msgid "Square Boxes"
+msgstr ""
+
+#: inc/lib/vc/cdb_countdown_timer/map.php:32
+msgid "Standard"
+msgstr ""
+
+#: woocommerce/content-single-product.php:183
+msgid "Stars"
+msgstr ""
+
+#: wp-events-manager/content-single-event.php:47
+msgid "Start Time"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#: woocommerce/content-single-product-meta-side.php:51
+msgid "Students"
+msgstr ""
+
+#. Name of the theme
+#: inc/lib/vc/cdb_animated_counter/map.php:7
+#: inc/lib/vc/cdb_blog_posts/map.php:7 inc/lib/vc/cdb_box_content/map.php:11
+#: inc/lib/vc/cdb_button/map.php:7 inc/lib/vc/cdb_clients/map.php:8
+#: inc/lib/vc/cdb_clients/map.php:85 inc/lib/vc/cdb_countdown_timer/map.php:7
+#: inc/lib/vc/cdb_course_categories/map.php:9
+#: inc/lib/vc/cdb_course_lessons/map.php:8
+#: inc/lib/vc/cdb_course_lessons/map.php:37
+#: inc/lib/vc/cdb_events_list/map.php:7
+#: inc/lib/vc/cdb_featured_courses/map.php:9
+#: inc/lib/vc/cdb_gallery_carousel/map.php:7
+#: inc/lib/vc/cdb_google_map/map.php:7 inc/lib/vc/cdb_icon_boxes/map.php:7
+#: inc/lib/vc/cdb_portfolio/map.php:7 inc/lib/vc/cdb_pricing_table/map.php:7
+#: inc/lib/vc/cdb_section_heading/map.php:7
+#: inc/lib/vc/cdb_social_networks/map.php:13
+#: inc/lib/vc/cdb_teacher_detail/map.php:7
+#: inc/lib/vc/cdb_teachers_grid/map.php:6 inc/lib/vc/cdb_testimonials/map.php:9
+#: inc/lib/vc/cdb_testimonials/map.php:45 inc/lib/vc/cdb_video_banner/map.php:7
+msgid "Studiare"
+msgstr ""
+
+#: inc/tgm/tgm-plugin-registration.php:25
+msgid "Studiare Core"
+msgstr ""
+
+#: inc/widgets/contacts.php:11
+msgid "Studiare: Contact Info"
+msgstr ""
+
+#: woocommerce/content-single-product-meta-side.php:79
+msgid "Study Level:"
+msgstr ""
+
+#: inc/lib/vc/cdb_button/map.php:25 inc/lib/vc/cdb_countdown_timer/map.php:29
+msgid "Style"
+msgstr ""
+
+#: inc/lib/vc/cdb_google_map/map.php:69
+msgid ""
+"Style particular content element differently - add a class name and refer to "
+"it in custom CSS."
+msgstr ""
+
+#: inc/codebean_options.php:353
+msgid "Styling"
+msgstr ""
+
+#: inc/codebean_options.php:443
+msgid "Sub Menu"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:75
+msgid "Submit"
+msgstr ""
+
+#: woocommerce/product-searchform.php:27
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: inc/lib/vc/cdb_pricing_table/map.php:19
+#: inc/lib/vc/cdb_video_banner/map.php:39
+msgid "Subtitle"
+msgstr ""
+
+#: inc/lib/vc/cdb_section_heading/map.php:29
+msgid "Subtitle color"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:74
+msgid "Subtotal"
+msgstr ""
+
+#: inc/codebean_functions.php:350
+msgid ""
+"Supports 3 types of video urls: Direct video link, Youtube link, Vimeo link."
+msgstr ""
+
+#: inc/lib/vc/cdb_course_lessons/map.php:67
+msgid "Tab Text"
+msgstr ""
+
+#: inc/templates/blog/single.php:61
+msgid "Tags:"
+msgstr ""
+
+#: inc/codebean_functions.php:303 woocommerce/content-single-product.php:55
+msgid "Teacher"
+msgstr ""
+
+#: inc/lib/vc/cdb_teacher_detail/map.php:4
+msgid "Teacher Details"
+msgstr ""
+
+#: inc/lib/vc/cdb_teachers_grid/map.php:11
+msgid "Teacher per page"
+msgstr ""
+
+#: inc/lib/vc/cdb_teachers_grid/map.php:4
+msgid "Teachers Grid"
+msgstr ""
+
+#: inc/lib/vc/cdb_testimonials/map.php:42
+msgid "Testimonial"
+msgstr ""
+
+#: inc/lib/vc/cdb_testimonials/map.php:6
+msgid "Testimonials"
+msgstr ""
+
+#: inc/lib/vc/cdb_icon_boxes/map.php:199 inc/lib/vc/cdb_testimonials/map.php:75
+msgid "Text"
+msgstr ""
+
+#: inc/lib/vc/cdb_icon_boxes/map.php:204
+msgid "Text Color"
+msgstr ""
+
+#: inc/lib/vc/cdb_icon_boxes/map.php:211
+msgid "Text Left Padding (px)"
+msgstr ""
+
+#: inc/codebean_options.php:877
+msgid "Text next to copyrights"
+msgstr ""
+
+#: inc/codebean_options.php:345
+msgid "Text or shortcode on mobile"
+msgstr ""
+
+#: inc/lib/vc/cdb_icon_boxes/map.php:218
+msgid "Text Right Padding (px)"
+msgstr ""
+
+#: inc/lib/vc/cdb_icon_boxes/map.php:169 inc/lib/vc/cdb_icon_boxes/map.php:178
+#: inc/lib/vc/cdb_icon_boxes/map.php:187 inc/lib/vc/cdb_icon_boxes/map.php:194
+#: inc/lib/vc/cdb_icon_boxes/map.php:207 inc/lib/vc/cdb_icon_boxes/map.php:214
+#: inc/lib/vc/cdb_icon_boxes/map.php:221
+msgid "Text Settings"
+msgstr ""
+
+#. %s: version number
+#: inc/tgm/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:353
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:395
+#: inc/tgm/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:371
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:365
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/codebean_options.php:31 inc/codebean_options.php:32
+msgid "Theme Settings"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:51
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:50 woocommerce/cart/cart-shipping.php:52
+msgid ""
+"There are no shipping methods available. Please ensure that your address has "
+"been entered correctly, or contact us if you need any help."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:359
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/codebean_functions.php:502
+msgid "Thin 100"
+msgstr ""
+
+#: inc/lib/vc/cdb_icon_boxes/map.php:78
+msgid "This attribute doesn't work when Icon Position is Top"
+msgstr ""
+
+#: inc/lib/vc/cdb_icon_boxes/map.php:63
+msgid ""
+"This attribute doesn't work when Icon Position is Top. In This case Icon "
+"Type is Normal"
+msgstr ""
+
+#: vc_templates/cdb_course_lesson.php:65
+msgid ""
+"This lesson is private, for full access to all lessons you need to buy this "
+"course."
+msgstr ""
+
+#: 404.php:17
+msgid "This page doesn’t exist"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: vc_templates/cdb_teacher_detail.php:47
+msgid "This post is missing thumbnail."
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:347
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:341
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/lib/vc/cdb_course_lessons/map.php:86
+msgid ""
+"This video will be opened in popup by clicking \"Preview\" button (just "
+"insert link to the video), it may be youtube or vimeo link."
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:38
+msgid ""
+"This will be how your name will be displayed in the account section and in "
+"reviews"
+msgstr ""
+
+#: inc/codebean_options.php:677 inc/codebean_options.php:930
+#: inc/codebean_options.php:993
+msgid "Three Columns"
+msgstr ""
+
+#: inc/lib/vc/cdb_button/map.php:11 inc/lib/vc/cdb_clients/map.php:96
+#: inc/lib/vc/cdb_icon_boxes/map.php:151
+#: inc/lib/vc/cdb_pricing_table/map.php:12
+#: inc/lib/vc/cdb_video_banner/map.php:19
+msgid "Title"
+msgstr ""
+
+#: inc/lib/vc/cdb_icon_boxes/map.php:191
+msgid "Title Color"
+msgstr ""
+
+#: inc/lib/vc/cdb_section_heading/map.php:23
+msgid "Title color"
+msgstr ""
+
+#: inc/lib/vc/cdb_clients/map.php:99
+msgid "Title of the client/partner (shown on hover)."
+msgstr ""
+
+#: inc/lib/vc/cdb_icon_boxes/map.php:158 inc/lib/vc/cdb_video_banner/map.php:26
+msgid "Title Tag"
+msgstr ""
+
+#: inc/lib/vc/cdb_icon_boxes/map.php:182
+msgid "Title Text Font Weight"
+msgstr ""
+
+#: inc/lib/vc/cdb_icon_boxes/map.php:173
+msgid "Title Text Transform"
+msgstr ""
+
+#: inc/widgets/contacts.php:92
+msgid "Title:"
+msgstr ""
+
+#. 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/lib/vc/cdb_icon_boxes/map.php:44
+msgid "Top"
+msgstr ""
+
+#: inc/codebean_options.php:265
+msgid "Top Bar"
+msgstr ""
+
+#: inc/codebean_options.php:258
+msgid "Top bar"
+msgstr ""
+
+#: inc/codebean_options.php:284
+msgid "Top bar background"
+msgstr ""
+
+#: inc/codebean_actions.php:51
+msgid "Top Bar Right Menu"
+msgstr ""
+
+#: inc/codebean_options.php:272
+msgid "Top bar text color"
+msgstr ""
+
+#: woocommerce/cart/cart.php:36 woocommerce/cart/cart.php:119
+msgid "Total"
+msgstr ""
+
+#: inc/lib/vc/cdb_countdown_timer/map.php:33
+msgid "Transparent"
+msgstr ""
+
+#: inc/codebean_options.php:676 inc/codebean_options.php:929
+#: inc/codebean_options.php:992
+msgid "Two Columns"
+msgstr ""
+
+#: inc/codebean_options.php:852 inc/codebean_options.php:862
+msgid "Two columns"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: inc/templates/header/header-main.php:82
+msgid "Type in keyword"
+msgstr ""
+
+#: inc/codebean_options.php:380
+msgid "Typography"
+msgstr ""
+
+#: inc/codebean_functions.php:510
+msgid "Ultra-bold 900"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#. %2$s: plugin name in screen reader markup
+#: inc/tgm/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/cart/cart.php:142
+msgid "Update cart"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#. 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. %s: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/codebean_options.php:122 inc/codebean_options.php:129
+msgid "Upload image: png, ico"
+msgstr ""
+
+#: inc/codebean_options.php:188
+msgid "Upload image: png, jpg or gif file"
+msgstr ""
+
+#: inc/codebean_functions.php:528
+msgid "Uppercase"
+msgstr ""
+
+#: inc/codebean_functions.php:357
+msgid "URL"
+msgstr ""
+
+#: inc/lib/vc/cdb_button/map.php:19 inc/lib/vc/cdb_icon_boxes/map.php:11
+msgid "URL (Link)"
+msgstr ""
+
+#: inc/lib/vc/cdb_testimonials/map.php:61
+msgid "User Avatar"
+msgstr ""
+
+#: inc/lib/vc/cdb_testimonials/map.php:51
+msgid "User name"
+msgstr ""
+
+#: inc/lib/vc/cdb_testimonials/map.php:55
+msgid "User Role"
+msgstr ""
+
+#: inc/lib/vc/cdb_testimonials/map.php:57
+msgid "User role"
+msgstr ""
+
+#: inc/lib/vc/cdb_testimonials/map.php:43
+msgid "User testimonial"
+msgstr ""
+
+#: inc/lib/vc/cdb_testimonials/map.php:7
+msgid "User testimonials slider or grid"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:86
+msgid "Username"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:44
+msgid "Username or email address"
+msgstr ""
+
+#: inc/templates/login-modal.php:21
+msgid "Username:"
+msgstr ""
+
+#: woocommerce/single-product/review.php:39
+msgid "verified owner"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:91
+msgid "Very poor"
+msgstr ""
+
+#: inc/lib/vc/cdb_course_lessons/map.php:75
+msgid "Video"
+msgstr ""
+
+#: inc/lib/vc/cdb_video_banner/map.php:5 inc/lib/vc/cdb_video_banner/map.php:46
+msgid "Video Banner"
+msgstr ""
+
+#: inc/lib/vc/cdb_video_banner/map.php:11
+msgid "Video Link"
+msgstr ""
+
+#: woocommerce/content-single-product.php:230
+msgid "View full profile"
+msgstr ""
+
+#: vc_templates/cdb_teacher_detail.php:37
+msgid "View teacher on"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"With Studiare, you can sell, market and create your online courses in one "
+"place. It is perfect for universities, teachers, and tutors, but can also be "
+"used by individuals and businesses."
+msgstr ""
+
+#: inc/tgm/tgm-plugin-registration.php:19
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/tgm/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/tgm/tgm-plugin-registration.php:60
+msgid "WP Events Manager"
+msgstr ""
+
+#: inc/tgm/tgm-plugin-registration.php:32
+msgid "WPBakery Page Builder"
+msgstr ""
+
+#: inc/lib/vc/cdb_clients/map.php:42
+#: inc/lib/vc/cdb_course_categories/map.php:51
+#: inc/lib/vc/cdb_portfolio/map.php:25 inc/lib/vc/cdb_pricing_table/map.php:40
+msgid "Yes"
+msgstr ""
+
+#: inc/lib/vc/cdb_gallery_carousel/map.php:74
+msgid "Yes, please"
+msgstr ""
+
+#: inc/codebean_functions.php:273
+msgid "You can disable footer widgets area for this page"
+msgstr ""
+
+#: inc/codebean_functions.php:280
+msgid "You can disable sub-footer for this page"
+msgstr ""
+
+#: inc/codebean_functions.php:287
+msgid "You can disable top-bar for this page"
+msgstr ""
+
+#: inc/codebean_functions.php:266
+msgid "You can hide breadcrumbs for this page"
+msgstr ""
+
+#: inc/codebean_functions.php:259
+msgid "You can hide page heading for this page"
+msgstr ""
+
+#: inc/codebean_options.php:878
+msgid "You can use shortcodes. Ex.: [social_networks]"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:81
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:29
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: inc/lib/vc/cdb_google_map/map.php:55
+msgid "Your Address"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:63
+msgid "Your order"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:85
+msgid "Your rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:95
+msgid "Your review"
+msgstr ""

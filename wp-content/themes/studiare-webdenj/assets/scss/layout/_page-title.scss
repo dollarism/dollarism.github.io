@@ -1,0 +1,28 @@
+.page-title {
+  background-color: gray('100');
+  padding-top: 40px;
+
+  .h2 {
+    font-size: 32px;
+    margin-bottom: 0;
+    line-height: 1.2;
+  }
+
+  .breadcrumbs,
+  .woocommerce-breadcrumb {
+    margin-top: 8px;
+  }
+}
+
+.woocommerce-breadcrumb,
+.breadcrumbs {
+  color: #8f8f8f;
+
+  a {
+    color: #8f8f8f;
+
+    &:hover {
+      color: #666;
+    }
+  }
+}

@@ -1,0 +1,130 @@
+/*
+Theme Name: studiare-webdenj
+Theme URI: https://webdenj.com/product/studiare-webdenj/
+Author: webdenj.com
+Author URI: https://webdenj.com/product/studiare-webdenj/
+Description: With Studiare, you can sell, market and create your online courses in one place. It is perfect for universities, teachers, and tutors, but can also be used by individuals and businesses.
+Version: 1.1.2
+License: GNU General Public License
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: classes, courses, education, education center, learning center, tutoring, teaching, study, studying, learning, lessons, instructor, teacher, mentor
+Text Domain: studiare
+
+CSS changes can be made in files in the /assets/css/ folder. This is a placeholder file required by WordPress, so do not delete it.
+
+*/
+
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 600;
+	src: url('fonts/woff/IRANSansX-Bold.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 500;
+	src: url('fonts/woff/IRANSansX-Medium.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 300;
+	src: url('fonts/woff/IRANSansX-Light.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 200;
+	src: url('fonts/woff/IRANSansX-Thin.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: normal;
+	src: url('fonts/woff/IRANSansX-Regular.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: 600;
+	src: url('fonts/yekan/woff/iranyekanwebboldfanum.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: 300;
+	src: url('fonts/yekan/woff/iranyekanweblightfanum.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+	font-family: iranyekan;
+	font-style: normal;
+	font-weight: normal;
+	src: url('fonts/yekan/woff/iranyekanwebregularfanum.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+/*
+Yekan Bakh Font
+*/
+
+@font-face {
+	font-family: Yekanbakh;
+	font-style: normal;
+	font-weight: 10;
+	src: url('fonts/bakh/woff/YekanBakh_FaNum_Hairline.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+	font-family: Yekanbakh;
+	font-style: normal;
+	font-weight: 100;
+	src: url('fonts/bakh/woff/YekanBakh_FaNum_Thin.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+
+@font-face {
+	font-family: Yekanbakh;
+	font-style: normal;
+	font-weight: 300;
+	src: url('fonts/bakh/woff/YekanBakh_FaNum_Light.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+	font-family: Yekanbakh;
+	font-style: normal;
+	font-weight: normal;
+	src: url('fonts/bakh/woff/YekanBakh_FaNum_Regular.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+	font-family: Yekanbakh;
+	font-style: normal;
+	font-weight: 500;
+	src: url('fonts/bakh/woff/YekanBakh_FaNum_Medium.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+	font-family: Yekanbakh;
+	font-style: normal;
+	font-weight: 600;
+	src: url('fonts/bakh/woff/YekanBakh_FaNum_Bold.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+	font-family: Yekanbakh;
+	font-style: normal;
+	font-weight: 800;
+	src: url('fonts/bakh/woff/YekanBakh_FaNum_Heavy.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+	font-family: Yekanbakh;
+	font-style: normal;
+	font-weight: 900;
+	src: url('fonts/bakh/woff/YekanBakh_FaNum_Fat.woff') format('woff');  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+

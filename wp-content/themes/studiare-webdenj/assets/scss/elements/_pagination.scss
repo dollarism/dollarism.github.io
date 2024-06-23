@@ -1,0 +1,60 @@
+ul.page-numbers {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  li {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    margin: 0 5px;
+    background-color: #f0f0f1;
+    border-radius: 50%;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  .page-numbers {
+    position: relative;
+    display: block;
+    min-width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+
+    &.current,
+    &:hover {
+      background-color: color('orange');
+      color: $white;
+    }
+  }
+}
+
+.page-numbers {
+
+  &.studiare_wp_link_pages {
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid $border-color;
+    text-align: center;
+
+    >* {
+      display: inline-block;
+      min-width: 40px;
+      height: 40px;
+      line-height: 40px;
+      border-radius: 50%;
+      background-color: #f0f0f1;
+    }
+
+    >.page-number {
+      background-color: color('orange');
+      color: $white;
+      margin: 0 5px;
+    }
+  }
+
+}

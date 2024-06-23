@@ -1,0 +1,84 @@
+.owl-dots {
+  padding-top: 18px;
+  text-align: center;
+
+  .gallery-carousel-inner & {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+
+  .owl-dot {
+    outline: 0 !important;
+
+    span {
+      width: 12px;
+      height: 12px;
+      display: block;
+      margin: 0 6px;
+      border-radius: 50%;
+      background-color: rgba(gray('600'), 0.25);
+      transform: scale(0.8);
+      transition: all 0.2s ease-in-out;
+    }
+
+    &.active,
+    &:hover {
+
+      span {
+        transform: scale(1);
+      }
+    }
+
+    &.active {
+      span {
+        background-color: color('orange');
+      }
+    }
+  }
+}
+
+.owl-carousel {
+  .owl-nav {
+
+    button.owl-prev,
+    button.owl-next {
+      position: absolute;
+      top: 50%;
+      margin-top: -20px;
+      font-size: 22px;
+      color: $white;
+      background-color: rgba(gray('900'), 0.8);
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      outline: 0 !important;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 250ms ease;
+      backface-visibility: hidden;
+    }
+
+    .owl-prev {
+      left: 0;
+    }
+
+    .owl-next {
+      right: 0;
+    }
+  }
+
+  &:hover {
+    .owl-nav {
+      button.owl-prev,
+      button.owl-next {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+  }
+}

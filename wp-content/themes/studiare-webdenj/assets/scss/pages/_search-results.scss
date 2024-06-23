@@ -1,0 +1,44 @@
+.search-results-wrapper {
+  @include make-row();
+
+  .search-results-main {
+    @include make-col-ready();
+
+    @include media-breakpoint-up(lg) {
+      @include make-col(8);
+    }
+
+    $post-margin: 1.75rem;
+    $post-inner-padding: 1.75rem;
+
+    .search-result-box {
+      background-color: $white;
+      border: 1px solid $border-color;
+      border-radius: $border-radius;
+      padding: $post-inner-padding;
+      margin-bottom: $post-margin;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+
+      .result-thumbnail {
+        display: flex;
+        margin-right: 24px;
+
+        a {
+          display: block;
+          width: 140px;
+          height: 140px;
+          border-radius: 50%;
+          overflow: hidden;
+        }
+      }
+
+      .search-content {
+        margin-right: 20px;
+        flex-grow: 1;
+      }
+    }
+  }
+
+}

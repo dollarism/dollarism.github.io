@@ -1,0 +1,73 @@
+body {
+  font-family: 'Nunito', Arial, sans-serif;
+  color: #7d7e7f;
+  font-size: 15px;
+  line-height: rem(28px);
+  overflow-x: hidden;
+
+  &.off-canvas-open,
+  &.modal-login-open {
+    overflow: hidden;
+  }
+}
+
+/* Hyperlinks */
+a {
+  color: #464749;
+  text-decoration: none;
+  transition: all 0.3s ease;
+
+  &:active,
+  &:hover {
+    outline: 0;
+  }
+
+  &:hover {
+    color: color('blue');
+    text-decoration: none;
+  }
+}
+
+@include input-placeholder {
+  color: #888;
+}
+
+.wrap {
+  position: relative;
+  background-color: #fff;
+  word-wrap: break-word;
+}
+
+.main-page-content.default-margin {
+  background-color: gray('100');
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.container,
+.vc-container {
+  @include make-container();
+  @include make-container-max-widths();
+}
+
+.row {
+  @include make-row();
+}
+
+.cdb-content-box {
+  background-color: $white;
+  padding: 30px;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+}
+
+.page {
+  .entry-content {
+    @include clearfix();
+  }
+}
+
+.gallery-entry-unit {
+  border-radius: $border-radius;
+  overflow: hidden;
+}

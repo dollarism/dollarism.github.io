@@ -1,0 +1,15 @@
+h1, h2, h3, h4, h5, h6 {
+  color: #464749;
+}
+
+h6 {
+  margin-bottom: 0;
+}
+
+.post-content p:last-of-type {
+  margin-bottom: 15px;
+}
+
+.highlight {
+  color: color('orange');
+}

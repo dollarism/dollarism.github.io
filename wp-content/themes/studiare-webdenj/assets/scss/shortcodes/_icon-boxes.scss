@@ -1,0 +1,85 @@
+/* Icon Boxes */
+.icon-box {
+
+  &.icon-box-top {
+    .icon-wrap {
+      margin-bottom: 20px;
+    }
+  }
+
+  &.icon-box-left,
+  &.icon-box-right {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  &.icon-box-left {
+    .icon-wrap {
+      margin-right: 24px
+    }
+  }
+
+  &.icon-box-right {
+    flex-direction: row-reverse;
+    text-align: right;
+
+    .icon-wrap {
+      margin-left: 24px;
+    }
+  }
+
+  &.style-circle,
+  &.style-square {
+
+    .icon-element {
+      .icon-element-inner {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+    &.icon-box-small {
+      .icon-element-inner {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+
+      }
+    }
+
+    &.icon-box-medium {
+      .icon-element-inner {
+        width: 56px;
+        height: 56px;
+        font-size: 24px;
+      }
+    }
+
+    &.icon-box-large {
+      .icon-element-inner {
+        width: 70px;
+        height: 70px;
+        font-size: 32px;
+      }
+    }
+
+  }
+
+  &.style-circle {
+    .icon-element-inner {
+      border-radius: 50%;
+    }
+  }
+
+
+  /* Contact Info */
+  &.contact-details {
+
+    .feature-content-text {
+      font-size: 18px;
+      line-height: 2;
+      margin-top: -10px;
+    }
+  }
+}

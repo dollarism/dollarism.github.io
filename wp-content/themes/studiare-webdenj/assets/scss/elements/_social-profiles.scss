@@ -1,0 +1,206 @@
+
+
+.studiare-social-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    display: inline-block;
+  }
+
+  &:not(.rounded) {
+    li {
+      margin: 5px 8px;
+    }
+  }
+
+  &.light {
+    li {
+
+      a {
+        color: $white;
+      }
+    }
+  }
+
+  &.rounded {
+
+    li {
+      margin: 3px;
+
+      a {
+        width: 36px;
+        height: 36px;
+        display: flex;
+        color: rgba($black, 0.6);
+        align-items: center;
+        justify-content: center;
+        border: 1px solid $border-color;
+        border-radius: 50%;
+
+        &:hover {
+          color: #fff;
+        }
+
+        &.facebook:hover {
+          background-color: #3b5998;
+          border-color: #3b5998;
+        }
+
+        &.email:hover {
+          background-color: gray('700');
+          border-color: gray('700');
+        }
+
+        &.google:hover,
+        &.google-plus:hover {
+          background-color: #dd4b39;
+          border-color: #dd4b39;
+        }
+
+        &.twitter:hover {
+          background-color: #1da1f2;
+          border-color: #1da1f2;
+        }
+
+        &.tumblr:hover {
+          background-color: #35465c;
+          border-color: #35465c;
+        }
+
+        &.pinterest:hover {
+          background-color: #bd081c;
+          border-color: #bd081c;
+        }
+
+        &.vkontakte:hover {
+          background-color: #45668e;
+          border-color: #45668e;
+        }
+
+        &.linkedin:hover {
+          background-color: #0077b5;
+          border-color: #0077b5;
+        }
+
+        &.dribbble:hover {
+          background-color: #ea4c89;
+          border-color: #ea4c89;
+        }
+
+        &.tripadvisor:hover {
+          background-color: #00af87;
+          border-color: #00af87;
+        }
+
+        &.yelp:hover {
+          background-color: #af0606;
+          border-color: #af0606;
+        }
+
+        &.snapchat.dark {
+          &:hover {
+            color: gray('700');
+            background-color: #fffc00;
+            border-color: #fffc00;
+          }
+        }
+
+        &.s-500px:hover {
+          background-color: #0099e5;
+          border-color: #0099e5;
+        }
+
+        &.github:hover {
+          background-color: #4078c0;
+          border-color: #4078c0;
+        }
+
+        &.xing:hover {
+          background-color: #026466;
+          border-color: #026466;
+        }
+
+        &.vine:hover {
+          background-color: #00b488;
+          border-color: #00b488;
+        }
+
+        &.houzz:hover {
+          background-color: #7ac142;
+          border-color: #7ac142;
+        }
+
+        &.skype:hover {
+          background-color: #00aff0;
+          border-color: #00aff0;
+        }
+
+        &.deviantart:hover {
+          background-color: #05cc47;
+          border-color: #05cc47;
+        }
+
+        &.flickr:hover {
+          background-color: #0063dc;
+          border-color: #0063dc;
+        }
+
+        &.youtube:hover,
+        &.youtube-play:hover{
+          background-color: #ff0000;
+          border-color: #ff0000;
+        }
+
+        &.vimeo:hover {
+          background-color: #1ab7ea;
+          border-color: #1ab7ea;
+        }
+
+        &.instagram:hover {
+          background-color: #405de6;
+          border-color: #405de6;
+        }
+
+        &.behance:hover {
+          background-color: #1769ff;
+          border-color: #1769ff;
+        }
+
+        &.foursquare:hover {
+          background-color: #f94877;
+          border-color: #f94877;
+        }
+
+        &.custom:hover {
+          background-color: color('orange');
+          border-color: color('orange');
+        }
+      }
+    }
+
+    &.light {
+
+      li {
+
+        a {
+          color: $white;
+          background-color: rgba($white, 0.05);
+          border-color: transparent;
+        }
+      }
+    }
+  }
+
+}
+
+// Post Share
+.post-share {
+  display: flex;
+  align-items: center;
+
+  .post-share-title {
+    margin-right: 6px;
+  }
+}
